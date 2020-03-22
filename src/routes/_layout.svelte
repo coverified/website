@@ -1,5 +1,6 @@
 <script>
     import Nav from '../components/Nav.svelte';
+    import Footer from '../components/Footer.svelte';
 
     export let segment;
 </script>
@@ -11,7 +12,6 @@
         background-color: white;
         padding: 2rem 1rem;
         margin: 0 auto;
-        box-sizing: border-box;
     }
 
     header {
@@ -27,3 +27,5 @@
 <main>
     <slot></slot>
 </main>
+
+<Footer/>
