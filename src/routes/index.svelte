@@ -38,3 +38,6 @@
 <h1 class="sr-only">CoVerified</h1>
 <img src="cover.jpg" alt="CoVerified" width="2560" height="1440" loading="lazy">
 
+<h2>
+	Aktuelle Nachrichten
+</h2>

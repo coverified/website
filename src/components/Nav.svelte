@@ -54,7 +54,7 @@
     <ul>
         <li>
             <a href='https://github.com/coverified/webcomponent#simple-integration' rel="noopener" target="_blank">
-            Integration
+            How to use
         </a>
         </li>
         <li>
