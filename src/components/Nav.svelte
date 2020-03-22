@@ -1,62 +1,62 @@
 <script>
-	export let segment;
+    export let segment;
 </script>
 
 <style>
-	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0;
-	}
+    nav {
+        font-weight: 300;
+        display: flex;
+        flex-direction: row;
+        max-width: 71.25rem;
+        margin: 0 auto;
+        padding: 0 2rem;
+        align-items: center;
+    }
 
-	ul {
-		max-width: 56rem;
-		margin: 0 auto;
-		padding: 0 2rem;
-	}
+    nav > a {
+        margin-right: auto;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1;
+    }
 
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
+    ul {
+        margin: 0;
+        padding: 0;
+    }
 
-	li {
-		display: block;
-		float: left;
-	}
+    /* clearfix */
+    ul::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
 
-	[aria-current] {
-		position: relative;
-		display: inline-block;
-	}
+    li {
+        display: block;
+        float: left;
+    }
 
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: #3753ff;
-		display: block;
-		bottom: -1px;
-	}
+    [aria-current] {
+        box-shadow: inset 0 -2px 0 #3753ff;
+    }
 
-	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-	}
+    a {
+        text-decoration: none;
+        padding: 1.25rem 1rem;
+        display: block;
+        line-height: 20px;
+    }
 </style>
 
 <nav>
-	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>Home</a></li>
-		<li><a href='https://github.com/coverified/webcomponent' rel="noopener" target="_blank">Tech Docs</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
+    <a href=".">CoVerified</a>
+    <ul>
+        <li><a href='https://github.com/coverified/webcomponent' rel="noopener" target="_blank">Tech Docs</a></li>
+        <li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
 
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-<!--		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>-->
-	</ul>
+        <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+             the blog data when we hover over the link or tap it on a touchscreen -->
+        <!--		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>-->
+    </ul>
 </nav>
