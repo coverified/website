@@ -32,6 +32,8 @@
 
 <svelte:head>
 	<title>CoVerified</title>
+	<meta name="description" content="CoVerified" />
 </svelte:head>
 
-<h1>CoVerified</h1>
+<h1 class="sr-only">CoVerified</h1>
+<img src="cover.jpg" alt="CoVerified" width="2560" height="1440" loading="lazy">

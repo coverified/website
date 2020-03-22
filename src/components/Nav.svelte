@@ -9,7 +9,7 @@
         flex-direction: row;
         max-width: 71.25rem;
         margin: 0 auto;
-        padding: 0 2rem;
+        padding: 0 1rem;
         align-items: center;
     }
 
@@ -53,7 +53,6 @@
     <a href=".">CoVerified</a>
     <ul>
         <li><a href='https://github.com/coverified/webcomponent' rel="noopener" target="_blank">Tech Docs</a></li>
-        <li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
 
         <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
              the blog data when we hover over the link or tap it on a touchscreen -->
