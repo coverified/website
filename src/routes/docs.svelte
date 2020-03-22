@@ -5,7 +5,7 @@
 <h1 id="corona-info">Technical documentation</h1>
 <h2 id="simple-integration">Simple Integration</h2>
 <p>It&#39;s as easy as adding </p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">async</span> <span class="hljs-attr">src</span>=<span class="hljs-string">'https://webinfowidget-webcomponent.netlify.com/build/embed.js'</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">async</span> <span class="hljs-attr">src</span>=<span class="hljs-string">'https://coverified-webcomponent.netlify.com/build/embed.js'</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
 <p>to your website. This will load our widget and place it on your website.</p>
 <p>We&#39;ll take care of updating the information with new, important and verified Data. 100% Fake-News free.</p>
