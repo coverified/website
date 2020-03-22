@@ -27,7 +27,7 @@
         height: 3px;
         position: absolute;
         left: 0;
-        top: 100%;
+        top: 0;
         background: linear-gradient(to right, #000000 33%, #de0000 33.001%, #de0000 66%, #ffcf00 66.001%);
     }
 </style>
