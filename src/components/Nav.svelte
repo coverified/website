@@ -6,12 +6,13 @@
 	nav {
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
-		padding: 0 1em;
+		padding: 0;
 	}
 
 	ul {
-		margin: 0;
-		padding: 0;
+		max-width: 56rem;
+		margin: 0 auto;
+		padding: 0 2rem;
 	}
 
 	/* clearfix */
@@ -36,7 +37,7 @@
 		content: '';
 		width: calc(100% - 1em);
 		height: 2px;
-		background-color: rgb(255,62,0);
+		background-color: #3753ff;
 		display: block;
 		bottom: -1px;
 	}

@@ -17,7 +17,6 @@
 
 	img {
 		width: 100%;
-		max-width: 400px;
 		margin: 0 0 1em 0;
 	}
 
@@ -33,14 +32,12 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+<!--	<title>TODO: name</title>-->
 </svelte:head>
 
-<h1>Great success!</h1>
+<!--<h1>TODO: name</h1>-->
 
 <figure>
-	<img alt='Borat' src='great-success.png'>
+	<img alt='TODO: name' src='cover.png'>
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
