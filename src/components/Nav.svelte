@@ -52,7 +52,7 @@
 <nav>
 	<ul>
 		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>Home</a></li>
-		<li><a aria-current='{segment === "docs" ? "page" : undefined}' href='docs'>Documentation</a></li>
+		<li><a href='https://github.com/coverified/webcomponent' rel="noopener" target="_blank">Tech Docs</a></li>
 		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
