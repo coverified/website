@@ -43,7 +43,7 @@
 
     a {
         text-decoration: none;
-        padding: 1.25rem 1rem;
+        padding: 1.25rem .75rem;
         display: block;
         line-height: 20px;
     }
@@ -52,7 +52,16 @@
 <nav>
     <a href=".">CoVerified</a>
     <ul>
-        <li><a href='https://github.com/coverified/webcomponent#simple-integration' rel="noopener" target="_blank">Integration</a></li>
+        <li>
+            <a href='https://github.com/coverified/webcomponent#simple-integration' rel="noopener" target="_blank">
+            Integration
+        </a>
+        </li>
+        <li>
+            <a href='https://github.com/coverified/' rel="noopener" target="_blank">
+                <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+            </a>
+        </li>
 
         <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
              the blog data when we hover over the link or tap it on a touchscreen -->
