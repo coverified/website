@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3bb6d470-7937-47b9-aa89-5f7d3f53bb84/deploy-status)](https://app.netlify.com/sites/webinfowidget-website/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bb6d470-7937-47b9-aa89-5f7d3f53bb84/deploy-status)](https://app.netlify.com/sites/coverified-website/deploys)
 
 <!--TODO: refactor/rewrite readme with infos that actually apply to the project-->
 

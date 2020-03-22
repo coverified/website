@@ -32,12 +32,7 @@
 </style>
 
 <svelte:head>
-<!--	<title>TODO: name</title>-->
+	<title>CoVerified</title>
 </svelte:head>
 
-<!--<h1>TODO: name</h1>-->
-
-<figure>
-	<img alt='TODO: name' src='cover.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
+<h1>CoVerified</h1>
