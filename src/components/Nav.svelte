@@ -52,7 +52,7 @@
 <nav>
     <a href=".">CoVerified</a>
     <ul>
-        <li><a href='https://github.com/coverified/webcomponent' rel="noopener" target="_blank">Tech Docs</a></li>
+        <li><a href='https://github.com/coverified/webcomponent#simple-integration' rel="noopener" target="_blank">Integration</a></li>
 
         <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
              the blog data when we hover over the link or tap it on a touchscreen -->
