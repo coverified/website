@@ -58,8 +58,8 @@
             </a>
         </li>
         <li>
-            <a href='https://github.com/coverified/webcomponent#simple-integration' rel="noopener" target="_blank">
-                How to use
+            <a rel=prefetch aria-current='{segment === "integration" ? "page" : undefined}' href='integration'>
+                Integration
             </a>
         </li>
         <li>
