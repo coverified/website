@@ -46,6 +46,19 @@ img {
 	height: auto;
 }
 
+.aspect--16by9 {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.aspect--16by9 > iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
 .icon {
 	display: inline-block;
 	width: 1em;

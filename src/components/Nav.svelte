@@ -38,7 +38,7 @@
     }
 
     [aria-current] {
-        box-shadow: inset 0 -2px 0 #3753ff;
+        box-shadow: inset 0 -3px 0 #3753ff;
     }
 
     a {
@@ -53,13 +53,20 @@
     <a href=".">CoVerified</a>
     <ul>
         <li>
+            <a rel=prefetch aria-current='{segment === "about" ? "page" : undefined}' href='about'>
+                About
+            </a>
+        </li>
+        <li>
             <a href='https://github.com/coverified/webcomponent#simple-integration' rel="noopener" target="_blank">
-            How to use
-        </a>
+                How to use
+            </a>
         </li>
         <li>
             <a href='https://github.com/coverified/' rel="noopener" target="_blank">
-                <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+                <svg class="icon icon-github">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
             </a>
         </li>
 
