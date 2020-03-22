@@ -6,6 +6,13 @@
 	About CoVerified
 </h1>
 
+<p>
+	The project was started during the #wirvsvirus hackathon. <br>
+	Read our project page over here: <a href="https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget" target="_blank" rel="noopener">
+		https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget
+	</a>
+</p>
+
 <h2>
 	Or elevator pitch
 </h2>
