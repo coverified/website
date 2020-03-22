@@ -25,12 +25,10 @@
 	     because `src/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>
 
-	<web-info-widget open="true"></web-info-widget>
-
 	<!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
 	%sapper.scripts%
-	<script async src='https://webinfowidget-webcomponent.netlify.com/build/web-info-widget.js'></script>
+	<script async src='https://webinfowidget-webcomponent.netlify.com/build/embed.js'></script>
 </body>
 </html>
