@@ -74,7 +74,7 @@ To start a production version of your app, run `yarn build && yarn start`. This 
 Run `yarn export` to create a static production build in the `__sapper__/export` dir.
 
 
-### Code of Conduct
+## Code of Conduct
 
 We'd like you to follow our [Code of Conduct](.github/CODE_OF_CONDUCT.md)
 
