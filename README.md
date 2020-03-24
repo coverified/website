@@ -1,40 +1,22 @@
+![CoVerified Cover Image](.github/cover.jpg)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3bb6d470-7937-47b9-aa89-5f7d3f53bb84/deploy-status)](https://app.netlify.com/sites/coverified-website/deploys)
 
-<!--TODO: refactor/rewrite readme with infos that actually apply to the project-->
+# [CoVerified](https://www.coverified.info/) Website
 
-# sapper-template
+*[CoVerified](https://www.coverified.info/) is a tool to show your websites users important and verified information about the COVID-19 outbreak*
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+## Contribute to fight the virus
 
-
-## Getting started
-
-
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
-
-```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
-```
-
-
-### Using GitHub templates
-
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
-
+We're using [Sapper](https://github.com/sveltejs/sapper) to build a fast and statically exported website
 
 ### Running the project
 
 However you get the code, you can install dependencies and run the project in development mode with:
 
 ```bash
-cd my-app
-npm install # or yarn
-npm run dev
+yarn
+yarn dev
 ```
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
@@ -87,29 +69,17 @@ Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as 
 
 ## Production mode and deployment
 
-To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
+To start a production version of your app, run `yarn build && yarn start`. This will disable live reloading, and activate the appropriate bundler plugins.
 
-You can deploy your application to any environment that supports Node 10 or above. As an example, to deploy to [ZEIT Now](https://zeit.co/now) when using `sapper export`, run these commands:
-
-```bash
-npm install -g now
-now
-```
-
-If your app can't be exported to a static site, you can use the [now-sapper](https://github.com/thgh/now-sapper) builder. You can find instructions on how to do so in its [README](https://github.com/thgh/now-sapper#basic-usage).
+Run `yarn export` to create a static production build in the `__sapper__/export` dir.
 
 
-## Using external components
+### Code of Conduct
 
-When using Svelte components installed from npm, such as [@sveltejs/svelte-virtual-list](https://github.com/sveltejs/svelte-virtual-list), Svelte needs the original component source (rather than any precompiled JavaScript that ships with the component). This allows the component to be rendered server-side, and also keeps your client-side app smaller.
+We'd like you to follow our [Code of Conduct](.github/CODE_OF_CONDUCT.md)
 
-Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can either modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or the `externals` option in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
+---
 
-```bash
-npm install -D @sveltejs/svelte-virtual-list
-```
+![WirVsVirus](.github/wirvsvirus.svg)
 
-
-## Bugs and feedback
-
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+This project was [initially started](https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget) during the [#wirvsvirus hackathon](https://twitter.com/hashtag/WirVsVirusHack)
