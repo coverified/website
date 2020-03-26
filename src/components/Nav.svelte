@@ -2,7 +2,7 @@
     export let segment;
 </script>
 
-<style>
+<style type="text/scss">
     nav {
         font-weight: 300;
         display: flex;
@@ -11,25 +11,24 @@
         margin: 0 auto;
         padding: 0 1rem;
         align-items: center;
-    }
 
-    nav > a {
-        margin-right: auto;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1;
+        > a {
+            margin-right: auto;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1;
+        }
     }
 
     ul {
         margin: 0;
         padding: 0;
-    }
 
-    /* clearfix */
-    ul::after {
-        content: '';
-        display: block;
-        clear: both;
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
     }
 
     li {

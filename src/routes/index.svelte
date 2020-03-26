@@ -1,4 +1,4 @@
-<style>
+<style type="text/scss">
     h1, figure, p {
         margin: 0 auto;
     }

@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
+import autoPreprocess from 'svelte-preprocess';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 
@@ -20,16 +21,25 @@ export default {
 		plugins: [
 			replace({
 				'process.browser': true,
-				'process.env.NODE_ENV': JSON.stringify(mode)
+				'process.env.NODE_ENV': JSON.stringify(mode),
 			}),
 			svelte({
 				dev,
 				hydratable: true,
-				emitCss: true
+				emitCss: true,
+				// pre-process styles
+				preprocess: autoPreprocess({
+					scss: true,
+					postcss: {
+						plugins: [
+							require('autoprefixer'),
+						],
+					},
+				}),
 			}),
 			resolve({
 				browser: true,
-				dedupe: ['svelte']
+				dedupe: ['svelte'],
 			}),
 			commonjs(),
 
@@ -39,19 +49,19 @@ export default {
 				exclude: ['node_modules/@babel/**'],
 				presets: [
 					['@babel/preset-env', {
-						targets: '> 0.25%, not dead'
+						targets: '> 0.25%, not dead',
 					}]
 				],
 				plugins: [
 					'@babel/plugin-syntax-dynamic-import',
 					['@babel/plugin-transform-runtime', {
-						useESModules: true
-					}]
-				]
+						useESModules: true,
+					}],
+				],
 			}),
 
 			!dev && terser({
-				module: true
+				module: true,
 			})
 		],
 
@@ -64,14 +74,23 @@ export default {
 		plugins: [
 			replace({
 				'process.browser': false,
-				'process.env.NODE_ENV': JSON.stringify(mode)
+				'process.env.NODE_ENV': JSON.stringify(mode),
 			}),
 			svelte({
 				generate: 'ssr',
-				dev
+				dev,
+				// pre-process styles
+				preprocess: autoPreprocess({
+					scss: true,
+					postcss: {
+						plugins: [
+							require('autoprefixer'),
+						],
+					},
+				}),
 			}),
 			resolve({
-				dedupe: ['svelte']
+				dedupe: ['svelte'],
 			}),
 			commonjs()
 		],
@@ -89,10 +108,10 @@ export default {
 			resolve(),
 			replace({
 				'process.browser': true,
-				'process.env.NODE_ENV': JSON.stringify(mode)
+				'process.env.NODE_ENV': JSON.stringify(mode),
 			}),
 			commonjs(),
-			!dev && terser()
+			!dev && terser(),
 		],
 
 		onwarn,

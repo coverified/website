@@ -5,7 +5,7 @@
     export let segment;
 </script>
 
-<style>
+<style type="text/scss">
     main {
         position: relative;
         max-width: 71.25rem;

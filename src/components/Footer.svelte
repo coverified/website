@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<style>
+<style type="text/scss">
     footer {
         max-width: 71.25rem;
         padding: 2rem 1rem;
