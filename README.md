@@ -31,7 +31,7 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 - always use variables for changing (eg. media queries) or configurable values (component props / css overrides)
 - define local variables on top and global variable on `:root` or `:host`
 - use namespaced variable names:
-    do:
+  - do:
     ```css
     :root {
         --color-primary: #ff00ff;
@@ -50,7 +50,7 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
         border-style: var(--btn-border-style);
     }
     ```
-    don't do:
+  - don't do:
     ```css
     .btn {
         --primary: #ff00ff;
