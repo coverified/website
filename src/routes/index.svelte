@@ -1,5 +1,6 @@
 <style type="text/scss">
-    h1, figure, p {
+    h1,
+    p {
         margin: 0 auto;
     }
 
@@ -7,10 +8,6 @@
         font-size: 2.8em;
         font-weight: 700;
         margin: 0 0 0.5em 0;
-    }
-
-    figure {
-        margin: 0 0 1em 0;
     }
 
     img {

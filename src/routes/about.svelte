@@ -24,6 +24,7 @@
 				src="https://www.youtube.com/embed/_afFn10f0to"
 				loading="lazy"
 				frameborder="0"
+				title="CoVerified elevator pitch"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
 	</div>
