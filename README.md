@@ -23,6 +23,43 @@ Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
+### Coding guidelines
+
+- use CSS custom properties for variables
+- use speaking variable names (rather longer and clear than short and meaningless)
+- always use variables for colors
+- always use variables for changing (eg. media queries) or configurable values (component props / css overrides)
+- define local variables on top and global variable on `:root` or `:host`
+- use namespaced variable names:
+    do:
+    ```css
+    :root {
+        --color-primary: #ff00ff;
+        --color-border: #ff00ff;
+    }
+  
+    .button {
+        --btn-bg-color: var(--btn-bg-color);
+        --btn-border-color: var(--color-border);
+        --btn-border-width: 1px;
+        --btn-border-style: solid;
+        
+        background-color: var(--btn-bg-color-primary);
+        border-color: var(--btn-border-color);
+        border-width: var(--btn-border-width);
+        border-style: var(--btn-border-style);
+    }
+    ```
+    don't do:
+    ```css
+    .btn {
+        --primary: #ff00ff;
+        --border: 1px solid #333;
+        
+        background: var(--primary);
+        border: var(--border);
+    }
+    ```
 
 ## Structure
 
