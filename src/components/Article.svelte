@@ -6,16 +6,10 @@
   article {
     color: var(--color-anthracite);
     padding: 1rem;
-    margin: 0 1rem 1rem 0;
-    @media (max-width: 480px) {
-      margin: 0 0 1rem 0;
-    }
+    margin: 0;
     border: 1px solid var(--color-light-grey);
     border-radius: 5px;
     box-shadow: 0 1px 6px -3px rgba(var(--color-light-grey), 0.2);
-    &:nth-child(3n + 3) {
-      margin: 0 0 1rem 0;
-    }
     > a {
       > h2 {
         font-weight: 700;

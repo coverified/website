@@ -34,7 +34,7 @@
   .news {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
-    justify-content: space-between;
+    grid-gap: 1rem;
     background-color: #fff;
     position: relative;
   }
