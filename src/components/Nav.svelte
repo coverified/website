@@ -13,15 +13,21 @@
     align-items: center;
 
     > a {
+      display: flex;
+      align-items: center;
+      color: var(--color-primary);
       margin-right: auto;
       font-weight: 700;
       font-size: 1.25rem;
-      line-height: 1.25rem;
+      line-height: 2.25rem;
       &:hover {
         color: #767676;
       }
-      &:active {
-        color: #3753ff;
+
+      > img {
+        width: 2rem;
+        height: auto;
+        margin-right: .625rem;
       }
     }
   }
@@ -43,19 +49,26 @@
   }
 
   [aria-current] {
-    box-shadow: inset 0 -3px 0 var(--color-primary);
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    color: var(--color-white);
+    padding: 0.75rem 2rem;
   }
 
   a {
     text-decoration: none;
-    padding: 1.25rem 0.75rem;
+    padding: 0.75rem 1.5625rem;
     display: block;
     line-height: 20px;
   }
 </style>
 
 <nav>
-  <a href=".">CoVerified</a>
+  <a href=".">
+    <img src="favicon-32x32.png" alt="CoVerified Logo">
+    CoVerified
+  </a>
   <ul>
     <li>
       <a

@@ -13,12 +13,12 @@
     --color-anthracite: #1c1c1c;
     --color-white: #fff;
     --color-border: #ececec;
+    --color-green: #3fb63f;
   }
   main {
     position: relative;
     max-width: 71.25rem;
     background-color: white;
-    padding: 2rem 1rem;
     margin: 0 auto;
   }
 

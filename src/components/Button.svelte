@@ -12,7 +12,7 @@
     --btn-primary-border-style: solid;
     --btn-primary-border-radius: 5px;
 
-    background-color: var(--btn-primary-bg-color-primary);
+    background-color: var(--btn-primary-bg-color);
     color: var(--btn-primary-text-color);
     padding: var(--btn-primary-padding);
     border-color: var(--btn-primary-border-color);
