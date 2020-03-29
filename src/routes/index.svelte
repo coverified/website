@@ -4,6 +4,10 @@
 </script>
 
 <style type="text/scss">
+  :root {
+    overflow-x: hidden;
+  }
+  
   h1 {
     font-size: 2.25rem;
     font-weight: 700;
@@ -22,7 +26,7 @@
     position: relative;
     height: 40vh; //vorläufige Höhe
     margin-bottom: 6.5em;
-    
+  
     &:before {
       content: "";
       position: absolute;
