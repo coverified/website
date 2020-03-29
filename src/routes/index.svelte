@@ -12,7 +12,6 @@
     font-size: 2.25rem;
     font-weight: 700;
     color: var(--color-white);
-    margin-right: 4rem;
     line-height: 48px;
   }
 
@@ -49,6 +48,10 @@
       display: flex;
       align-items: center;
       
+      > h1 {
+        margin-right: 4rem;
+      }
+
       > div {
         > p {
           margin-top: 0;
@@ -138,6 +141,85 @@
     background-color: #fff;
     position: relative;
   }
+
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 8.5rem;
+      
+      > div:not(.info__box) {
+      right: unset;
+      top: 0;
+      
+        > h1 {
+          padding-top: 1.75rem;
+          margin-right: 0;
+        }
+      }
+      > .info__box {
+        right: unset;
+      }
+
+      .desktop__only {
+        display: none;
+      }
+      .wirvsvirus__logo {
+        top: 20%;
+      }
+    
+      .coverified__informationgraphic {
+        width: 58%;
+        padding-top: 14rem;
+        padding-bottom: 7.5rem;
+      }
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    .container {
+      > .info__box {
+        
+      }
+
+      .coverified__informationgraphic {
+        width: 69%;
+      }
+    }  
+  }
+  
+
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.575rem;
+      line-height: 33.6px;
+    }
+
+    .container {
+      > .info__box {
+        
+      }
+      
+      .coverified__informationgraphic {
+        width: 90%;
+        padding-top: 11rem;
+        padding-bottom: 7rem;
+      }
+
+      .wirvsvirus__logo {
+        width: 16rem;
+        top: 18.5%;
+      }
+    }  
+  }
 </style>
 
 <svelte:head>
@@ -153,7 +235,7 @@
     <h1>
       Valid Information about the<br /> Covid-19 Disease Outbreak.
     </h1>
-    <div>
+    <div class="desktop__only">
       <p>Verified Sources</p>
       <p>Only current news</p>
       <p>Good accesability</p>

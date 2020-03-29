@@ -9,7 +9,6 @@
     flex-direction: row;
     max-width: 71.25rem;
     margin: 0 auto;
-    padding: 0 1rem;
     align-items: center;
 
     > a {
@@ -58,9 +57,34 @@
 
   a {
     text-decoration: none;
-    padding: 0.75rem 1.5625rem;
+    padding: 0.75rem 1.5625rem 0.75rem 0;
     display: block;
     line-height: 20px;
+  }
+
+  @media (max-width: 1200px) {
+    nav {
+      max-width: 60rem;
+    }
+  } 
+
+  @media (max-width: 992px) {
+    nav {
+      max-width: 45rem;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    nav {
+      max-width: 33.75rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    nav {
+      max-width: 22.5rem;
+    }
   }
 </style>
 

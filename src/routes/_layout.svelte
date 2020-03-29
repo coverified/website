@@ -27,6 +27,31 @@
     border-bottom: 2px solid #e1e3e6;
     position: relative;
   }
+
+  @media (max-width: 1200px) {
+    main {
+      max-width: 60rem;
+    }
+  } 
+
+  @media (max-width: 992px) {
+    main {
+      max-width: 45rem;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    main {
+      max-width: 33.75rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    main {
+      max-width: 22.5rem;
+    }
+  }
 </style>
 
 <header>
