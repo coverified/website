@@ -54,6 +54,7 @@
       position: relative;
       padding-left: 2.05em;
       font-size: 0.875em;
+      text-decoration: underline !important;
 
       &:before {
         content: "→";

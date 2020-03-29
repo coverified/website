@@ -24,8 +24,9 @@
 
   .container {  
     position: relative;
-    height: 40vh; //vorläufige Höhe
+    height: auto;
     margin-bottom: 6.5em;
+    
   
     &:before {
       content: "";
@@ -44,7 +45,7 @@
     > div:not(.info__box) {
       position: absolute;
       right: 0;
-      top: 44%;
+      top: 53%;
       display: flex;
       align-items: center;
       
@@ -74,8 +75,15 @@
         }
       }
     }
-
-    > img {
+    
+    .coverified__informationgraphic {
+      position: relative;
+      width: 50%;
+      padding-top: 2rem;
+      padding-bottom: .5rem;
+    }
+    
+    .wirvsvirus__logo {
       width: 19rem;
       height: auto;
       position: absolute;
@@ -139,7 +147,8 @@
 
 <h1 class="sr-only">CoVerified</h1>
 <div class="container">
-  <img src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
+  <img class="coverified__informationgraphic" src="coverified-information-graphic.svg" alt="Coverified Information graphic">
+  <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
   <div>
     <h1>
       Valid Information about the<br /> Covid-19 Disease Outbreak.
