@@ -1,13 +1,12 @@
 <script>
   import Button from "../components/Button.svelte";
-  import Article from "../components/Article.svelte";
 </script>
 
 <style type="text/scss">
   :root {
     overflow-x: hidden;
   }
-  
+
   h1 {
     font-size: 2.25rem;
     font-weight: 700;
@@ -21,12 +20,12 @@
     margin: 0 0 1rem 0;
   }
 
-  .container {  
+  .container {
     position: relative;
     height: auto;
     margin-bottom: 6.5em;
-    
-  
+
+
     &:before {
       content: "";
       position: absolute;
@@ -40,14 +39,14 @@
       top: 0;
       transform: translateX(-50%);
     }
-    
+
     > div:not(.info__box) {
       position: absolute;
       right: 0;
       top: 53%;
       display: flex;
       align-items: center;
-      
+
       > h1 {
         margin-right: 4rem;
       }
@@ -60,7 +59,7 @@
           position: relative;
           font-weight: 800;
           padding-left: 1.7rem;
-          
+
           &:before {
             content: "✓";
             position: absolute;
@@ -78,14 +77,14 @@
         }
       }
     }
-    
+
     .coverified__informationgraphic {
       position: relative;
       width: 50%;
       padding-top: 2rem;
       padding-bottom: .5rem;
     }
-    
+
     .wirvsvirus__logo {
       width: 19rem;
       height: auto;
@@ -97,49 +96,28 @@
     p {
       color: var(--color-white);
     }
-    
+
     .info__box {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      padding: 1rem 1.75rem;
       right: 0;
       bottom: 0;
       transform: translateY(50%);
       background-color: var(--color-white);
-      border: 1px solid var(--color-light-grey);
-      box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.11);
-      
-
-      > table {
-        > tr {
-          > td {
-            padding-right: 11px;
-
-          }
-        }
-      }
-
-      > .footnote {
-        font-size: 12px;
-        color: var(--color-dark-grey);
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: .8rem;
-      }
+      border: 2px solid var(--color-light-grey);
+      box-shadow: 0 1px 6px -3px rgba(0,0,0,0.11);
+      display: block;
+      position: absolute;
+      border-radius: .33rem;
+      padding: 1rem 1.75rem;
     }
   }
 
-  .text__color--green {
-    color: var(--color-green);
-  }
-
   .news {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
-    grid-gap: 2rem;
     background-color: #fff;
     position: relative;
+  }
+
+  coverified-articles {
+    --open-padding: 1rem;
   }
 
   @media (max-width: 992px) {
@@ -151,16 +129,17 @@
       display: flex;
       justify-content: center;
       margin-bottom: 8.5rem;
-      
+
       > div:not(.info__box) {
       right: unset;
       top: 0;
-      
+
         > h1 {
           padding-top: 1.75rem;
           margin-right: 0;
         }
       }
+
       > .info__box {
         right: unset;
       }
@@ -171,7 +150,7 @@
       .wirvsvirus__logo {
         top: 20%;
       }
-    
+
       .coverified__informationgraphic {
         width: 58%;
         padding-top: 14rem;
@@ -186,16 +165,12 @@
       font-size: 1.8rem;
     }
     .container {
-      > .info__box {
-        
-      }
-
       .coverified__informationgraphic {
         width: 69%;
       }
-    }  
+    }
   }
-  
+
 
   @media (max-width: 576px) {
     h1 {
@@ -204,10 +179,6 @@
     }
 
     .container {
-      > .info__box {
-        
-      }
-      
       .coverified__informationgraphic {
         width: 90%;
         padding-top: 11rem;
@@ -218,7 +189,7 @@
         width: 16rem;
         top: 18.5%;
       }
-    }  
+    }
   }
 </style>
 
@@ -242,42 +213,11 @@
     </div>
   </div>
   <div class="info__box">
-    <table>
-      <tr>
-        <td>
-          <b>431.337</b>
-        </td>
-        <td>
-          Covid-19 Erkrankte in Deutschland
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <b>92</b>
-        </td>
-        <td>
-          Todesfälle in Deutschland
-        </td>
-      </tr>
-      <tr>
-        <td class="text__color--green">
-          <b>295</b>
-        </td>
-        <td>
-          Genesungen in Deutschland
-        </td>
-      </tr>
-    </table>
-    <p class="footnote">Stand 28. März 2020, Quelle John Hopkins University</p>
+    <coverified-cases></coverified-cases>
   </div>
 </div>
 
 <h2>Current News</h2>
 <div class="news">
-  <Article />
-  <Article />
-  <Article />
-  <Article />
-  <Article />
-  <Article />
+  <coverified-articles></coverified-articles>
 </div>

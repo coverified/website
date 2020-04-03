@@ -15,6 +15,7 @@
     --color-border: #ececec;
     --color-green: #3fb63f;
   }
+
   main {
     position: relative;
     max-width: 71.25rem;
@@ -32,7 +33,7 @@
     main {
       max-width: 60rem;
     }
-  } 
+  }
 
   @media (max-width: 992px) {
     main {
