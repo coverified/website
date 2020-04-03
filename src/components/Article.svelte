@@ -14,9 +14,11 @@
       display: flex;
       align-items: center;
       text-decoration: none;
+      color: var(--color-anthracite);
 
       > h2 {
         font-size: 20px;
+        margin-top: 0;
         font-weight: 700;
         margin-bottom: 0;
         margin-left: .75rem;

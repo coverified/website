@@ -109,38 +109,9 @@
       background-color: var(--color-white);
       border: 1px solid var(--color-light-grey);
       box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.11);
-      
-
-      > table {
-        > tr {
-          > td {
-            padding-right: 11px;
-
-          }
-        }
-      }
-
-      > .footnote {
-        font-size: 12px;
-        color: var(--color-dark-grey);
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: .8rem;
-      }
     }
   }
 
-  .text__color--green {
-    color: var(--color-green);
-  }
-
-  .news {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
-    grid-gap: 2rem;
-    background-color: #fff;
-    position: relative;
-  }
 
   @media (max-width: 992px) {
     h1 {
@@ -186,10 +157,6 @@
       font-size: 1.8rem;
     }
     .container {
-      > .info__box {
-        
-      }
-
       .coverified__informationgraphic {
         width: 69%;
       }
@@ -204,10 +171,6 @@
     }
 
     .container {
-      > .info__box {
-        
-      }
-      
       .coverified__informationgraphic {
         width: 90%;
         padding-top: 11rem;
@@ -225,6 +188,8 @@
 <svelte:head>
   <title>CoVerified</title>
   <meta name="description" content="CoVerified" />
+  <script async src="https://webcomponent.coverified.info/build/articles.js"></script>
+  <script async src="https://webcomponent.coverified.info/build/cases.js"></script>
 </svelte:head>
 
 <h1 class="sr-only">CoVerified</h1>
@@ -242,42 +207,9 @@
     </div>
   </div>
   <div class="info__box">
-    <table>
-      <tr>
-        <td>
-          <b>431.337</b>
-        </td>
-        <td>
-          Covid-19 Erkrankte in Deutschland
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <b>92</b>
-        </td>
-        <td>
-          Todesfälle in Deutschland
-        </td>
-      </tr>
-      <tr>
-        <td class="text__color--green">
-          <b>295</b>
-        </td>
-        <td>
-          Genesungen in Deutschland
-        </td>
-      </tr>
-    </table>
-    <p class="footnote">Stand 28. März 2020, Quelle John Hopkins University</p>
+   <coverified-cases></coverified-cases>
   </div>
 </div>
 
 <h2>Current News</h2>
-<div class="news">
-  <Article />
-  <Article />
-  <Article />
-  <Article />
-  <Article />
-  <Article />
-</div>
+<coverified-articles></coverified-articles>

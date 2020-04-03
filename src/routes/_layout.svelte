@@ -15,12 +15,31 @@
     --color-border: #ececec;
     --color-green: #3fb63f;
   }
+
+  :global(h2) {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  :global(main a) { 
+    font-weight: 700;
+    color: var(--color-primary);
+
+    &:hover {
+      text-decoration: none;
+      color: var(--color-anthracite);
+    }
+  }
+
   main {
     position: relative;
     max-width: 71.25rem;
     background-color: white;
     margin: 0 auto;
   }
+
 
   header {
     background-color: white;
