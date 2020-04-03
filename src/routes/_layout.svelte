@@ -51,7 +51,7 @@
     main {
       max-width: 60rem;
     }
-  } 
+  }
 
   @media (max-width: 992px) {
     main {
