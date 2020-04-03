@@ -1,6 +1,17 @@
+<script>
+  import Header from "../components/Header.svelte";
+</script>
+
+<style type="text/scss">
+
+</style>
+
 <svelte:head>
 	<title>Integration</title>
 </svelte:head>
+
+<Header pageName={'Quellen'} />
+
 
 <h1>
 	Integration

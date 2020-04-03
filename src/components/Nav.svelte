@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     max-width: 71.25rem;
+    height: 3.75rem;
     margin: 0 auto;
     align-items: center;
 
@@ -22,6 +23,10 @@
       &:hover {
         color: #767676;
       }
+
+    &:first-child {
+      padding-left: 0;
+    }
 
       > img {
         width: 2rem;
@@ -52,12 +57,12 @@
     border: 1px solid var(--color-primary);
     border-radius: 5px;
     color: var(--color-white);
-    padding: 0.75rem 2rem;
+    padding: 0.45rem 1.75rem;
   }
 
   a {
     text-decoration: none;
-    padding: 0.75rem 1.5625rem 0.75rem 0;
+    padding: 0.45rem 2.5625rem;    
     display: block;
     line-height: 20px;
   }
@@ -97,17 +102,33 @@
     <li>
       <a
         rel="prefetch"
-        aria-current={segment === 'about' ? 'page' : undefined}
-        href="about">
-        About
+        aria-current={segment === 'integration' ? 'page' : undefined}
+        href="integration">
+        Einbinden
       </a>
     </li>
     <li>
       <a
         rel="prefetch"
-        aria-current={segment === 'integration' ? 'page' : undefined}
-        href="integration">
-        Integration
+        aria-current={segment === 'sources' ? 'page' : undefined}
+        href="sources">
+        Quellen
+      </a>
+    </li>
+    <li>
+      <a
+        rel="prefetch"
+        aria-current={segment === 'about' ? 'page' : undefined}
+        href="about">
+        Information
+      </a>
+    </li>
+    <li>
+      <a
+        rel="prefetch"
+        aria-current={segment === 'contact' ? 'page' : undefined}
+        href="contact">
+        Kontakt
       </a>
     </li>
     <li>
