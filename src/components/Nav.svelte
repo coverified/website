@@ -62,7 +62,7 @@
 
   a {
     text-decoration: none;
-    padding: 0.45rem 2.5625rem;    
+    padding: 0.45rem 2.5625rem;
     display: block;
     line-height: 20px;
   }
@@ -71,7 +71,7 @@
     nav {
       max-width: 60rem;
     }
-  } 
+  }
 
   @media (max-width: 992px) {
     nav {
@@ -105,14 +105,6 @@
         aria-current={segment === 'integration' ? 'page' : undefined}
         href="integration">
         Einbinden
-      </a>
-    </li>
-    <li>
-      <a
-        rel="prefetch"
-        aria-current={segment === 'sources' ? 'page' : undefined}
-        href="sources">
-        Quellen
       </a>
     </li>
     <li>
