@@ -196,8 +196,6 @@
 <svelte:head>
   <title>CoVerified</title>
   <meta name="description" content="CoVerified" />
-  <script async src="https://webcomponent.coverified.info/build/articles.js"></script>
-  <script async src="https://webcomponent.coverified.info/build/cases.js"></script>
 </svelte:head>
 
 <h1 class="sr-only">CoVerified</h1>
