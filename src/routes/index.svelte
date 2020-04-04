@@ -1,44 +1,223 @@
+<script>
+  import Button from "../components/Button.svelte";
+</script>
+
 <style type="text/scss">
-    h1,
-    p {
-        margin: 0 auto;
+  :root {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-white);
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+  }
+
+  .container {
+    position: relative;
+    height: auto;
+    margin-bottom: 6.5em;
+
+
+    &:before {
+      content: "";
+      position: absolute;
+      background: var(--color-primary);
+      display: block;
+      width: 100vw;
+      height: 100%;
+      left: 50%;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      transform: translateX(-50%);
     }
 
-    h1 {
-        font-size: 2.8em;
-        font-weight: 700;
-        margin: 0 0 0.5em 0;
-    }
+    > div:not(.info__box) {
+      position: absolute;
+      right: 0;
+      top: 53%;
+      display: flex;
+      align-items: center;
 
-    img {
-        width: 100%;
-        margin: 0 0 1em 0;
-    }
+      > h1 {
+        margin-right: 4rem;
+      }
 
-    p {
-        margin: 1em auto;
-        max-width: 512px;
-    }
+      > div {
+        > p {
+          margin-top: 0;
+          margin-bottom: .5rem;
+          font-size: .875rem;
+          position: relative;
+          font-weight: 800;
+          padding-left: 1.7rem;
 
-    @media (min-width: 480px) {
-        h1 {
-            font-size: 4em;
+          &:before {
+            content: "✓";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            font-weight: 400;
+            text-align: center;
+            border: 1.8px solid var(--color-white);
+            border-radius: 50%;
+            left: 0;
+            top: 2px;
+            line-height: 1;
+            padding-top: .13em;
+          }
         }
+      }
     }
+
+    .coverified__informationgraphic {
+      position: relative;
+      width: 50%;
+      padding-top: 2rem;
+      padding-bottom: .5rem;
+    }
+
+    .wirvsvirus__logo {
+      width: 19rem;
+      height: auto;
+      position: absolute;
+      right: 0;
+      top: 10%;
+    }
+
+    p {
+      color: var(--color-white);
+    }
+
+    .info__box {
+      right: 0;
+      bottom: 0;
+      transform: translateY(50%);
+      background-color: var(--color-white);
+      border: 2px solid var(--color-light-grey);
+      box-shadow: 0 1px 6px -3px rgba(0,0,0,0.11);
+      display: block;
+      position: absolute;
+      border-radius: .33rem;
+      padding: 1rem 1.75rem;
+    }
+  }
+
+  .news {
+    background-color: #fff;
+    position: relative;
+  }
+
+  coverified-articles {
+    --open-padding: 1rem;
+  }
+
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 8.5rem;
+
+      > div:not(.info__box) {
+      right: unset;
+      top: 0;
+
+        > h1 {
+          padding-top: 1.75rem;
+          margin-right: 0;
+        }
+      }
+
+      > .info__box {
+        right: unset;
+      }
+
+      .desktop__only {
+        display: none;
+      }
+      .wirvsvirus__logo {
+        top: 20%;
+      }
+
+      .coverified__informationgraphic {
+        width: 58%;
+        padding-top: 14rem;
+        padding-bottom: 7.5rem;
+      }
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    .container {
+      .coverified__informationgraphic {
+        width: 69%;
+      }
+    }
+  }
+
+
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.575rem;
+      line-height: 33.6px;
+    }
+
+    .container {
+      .coverified__informationgraphic {
+        width: 90%;
+        padding-top: 11rem;
+        padding-bottom: 7rem;
+      }
+
+      .wirvsvirus__logo {
+        width: 16rem;
+        top: 18.5%;
+      }
+    }
+  }
 </style>
 
 <svelte:head>
-    <title>CoVerified</title>
-    <meta name="description" content="CoVerified"/>
+  <title>CoVerified</title>
+  <meta name="description" content="CoVerified" />
 </svelte:head>
 
 <h1 class="sr-only">CoVerified</h1>
-<img src="cover.jpg" alt="CoVerified" width="2560" height="1440" loading="lazy">
-<p class="box">
-	Verified Data all over the internet. Any page you open. A present public service in times of a crisis. Wouldn’t it
-	be nice to be able to get reliable and verified news on the Covid-19 crisis anytime you want? Proved data,
-	visualised by professionals.<br>
-    We are working on a tool that is going to be implementable on any online offer you access. Your governmental
-    websites, media offers, entertainment. Anyone is going to be able to implement our code into their website to make
-    sure that there is a constant flow of information from the government to the public.
-</p>
+<div class="container">
+  <img class="coverified__informationgraphic" src="coverified-information-graphic.svg" alt="Coverified Information graphic">
+  <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
+  <div>
+    <h1>
+      Valid Information about the<br /> Covid-19 Disease Outbreak.
+    </h1>
+    <div class="desktop__only">
+      <p>Verified Sources</p>
+      <p>Only current news</p>
+      <p>Good accesability</p>
+    </div>
+  </div>
+  <div class="info__box">
+    <coverified-cases></coverified-cases>
+  </div>
+</div>
+
+<h2>Current News</h2>
+<div class="news">
+  <coverified-articles></coverified-articles>
+</div>
