@@ -7,7 +7,7 @@
         max-width: 71.25rem;
         position: relative;
         margin: 7rem auto 0 auto;
-        
+
         &:before {
             content: "";
             position: absolute;
@@ -48,6 +48,20 @@
             }
         }
     }
+
+    .meta-bar {
+        max-width: 71.25rem;
+        margin: 0 auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        > a {
+            margin-left: 1rem;
+        }
+    }
+
     @media (max-width: 1200px) {
         footer {
             max-width: 60rem;
@@ -58,13 +72,13 @@
                 width: 7.375rem;
             }
         }
-    } 
+    }
 
     @media (max-width: 992px) {
         footer {
             max-width: 45rem;
         }
-        
+
         div {
             > img {
                 width: 5.375rem;
@@ -73,7 +87,7 @@
     }
 
 
-  @media (max-width: 768px) {
+    @media (max-width: 768px) {
         footer {
             max-width: 33.75rem;
         }
@@ -86,6 +100,7 @@
         div {
             flex-direction: column;
             justify-content: center;
+
             > img {
                 display: none;
             }
@@ -101,7 +116,7 @@
             }
         }
     }
-    
+
 </style>
 
 <footer>
@@ -109,25 +124,36 @@
         Quellen
     </h3>
     <div>
-        <img  src="bmg-logo.svg" alt="Bundesministerium für Gesundheit Logo">
+        <img src="bmg-logo.svg" alt="Bundesministerium für Gesundheit Logo">
         <p>
             Bundesministerium für Gesundheit
         </p>
-        <img  src="bundesregierung-logo.svg" alt="Bundesregierung Logo">
+        <img src="bundesregierung-logo.svg" alt="Bundesregierung Logo">
         <p>
             Bundesregierung Deutschland
         </p>
-        <img  src="rki-logo.svg" alt="Robert Koch Institut Logo">
+        <img src="rki-logo.svg" alt="Robert Koch Institut Logo">
         <p>
             Robert Koch Institut
         </p>
-        <img  src="charite-logo.svg" alt="Charité Universitätsmedizin Berlin Logo">
+        <img src="charite-logo.svg" alt="Charité Universitätsmedizin Berlin Logo">
         <p>
             Charité Universitätsmedizin Berlin
         </p>
-        <img  src="john-hopkins-logo.svg" alt="John Hopkins Unviversity Logo">
+        <img src="john-hopkins-logo.svg" alt="John Hopkins Unviversity Logo">
         <p>
             John Hopkins Unviversity
         </p>
     </div>
 </footer>
+
+<p class="meta-bar">
+    <span class="copyright">
+        &copy; {new Date().getFullYear()} CoVerified
+    </span>
+    <a href="https://github.com/coverified/" rel="noopener" target="_blank">
+        <svg class="icon icon-github">
+            <use xlink:href="#icon-github"/>
+        </svg>
+    </a>
+</p>
