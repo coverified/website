@@ -47,32 +47,6 @@
             top: 53%;
             display: flex;
             align-items: center;
-
-            > div {
-                > p {
-                    margin-top: 0;
-                    margin-bottom: .5rem;
-                    font-size: .875rem;
-                    position: relative;
-                    font-weight: 800;
-                    padding-left: 1.7rem;
-
-                    &:before {
-                        content: "✓";
-                        position: absolute;
-                        width: 20px;
-                        height: 20px;
-                        font-weight: 400;
-                        text-align: center;
-                        border: 1.8px solid var(--color-white);
-                        border-radius: 50%;
-                        left: 0;
-                        top: 2px;
-                        line-height: 1;
-                        padding-top: .13em;
-                    }
-                }
-            }
         }
 
         .coverified__informationgraphic {
@@ -88,10 +62,6 @@
             position: absolute;
             right: 0;
             top: 10%;
-        }
-
-        p {
-            color: var(--color-white);
         }
 
         .info__box {
@@ -139,10 +109,6 @@
 
             > .info__box {
                 right: unset;
-            }
-
-            .desktop__only {
-                display: none;
             }
 
             .wirvsvirus__logo {

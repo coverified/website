@@ -1,5 +1,7 @@
 <script>
     export let segment;
+
+    let open = false;
 </script>
 
 <style type="text/scss">
@@ -8,7 +10,6 @@
         display: flex;
         flex-direction: row;
         max-width: 71.25rem;
-        height: 3.75rem;
         margin: 0 auto;
         align-items: center;
 
@@ -20,6 +21,8 @@
             font-weight: 700;
             font-size: 1.25rem;
             line-height: 2.25rem;
+            padding-top: .8rem;
+            padding-bottom: .8rem;
 
             &:hover {
                 color: #767676;
@@ -34,6 +37,10 @@
                 height: auto;
                 margin-right: .625rem;
             }
+        }
+
+        button {
+            display: none;
         }
     }
 
@@ -91,6 +98,63 @@
     @media (max-width: 768px) {
         nav {
             max-width: 33.75rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            button {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 2.5rem;
+                height: 2.2rem;
+                position: absolute;
+                right: 0;
+                top: .875rem;
+                appearance: none;
+                border: 0;
+                padding: 0;
+                background: transparent;
+
+                span {
+                    display: block;
+                    width: 2.5rem;
+                    height: 4px;
+                    border-radius: 3px;
+                    background-color: var(--color-dark-grey);
+                }
+
+                &.open {
+                    span {
+                        &:nth-child(2) {
+                            opacity: 0;
+                        }
+
+                        &:nth-child(1) {
+                            transform: translateY(.725rem) rotate(45deg);
+                        }
+
+                        &:nth-child(3) {
+                            transform: translateY(-.725rem) rotate(-45deg);
+                        }
+                    }
+                }
+            }
+
+            ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+
+                &.open {
+                    display: flex;
+                }
+
+                li {
+                    margin-top: .33rem;
+                    margin-bottom: .33rem;
+                }
+            }
         }
     }
 
@@ -107,7 +171,7 @@
         <img src="favicon-32x32.png" alt="CoVerified Logo">
         CoVerified
     </a>
-    <ul>
+    <ul class={open ? 'open' : ''}>
         <li>
             <a class="highlight"
                rel="prefetch"
@@ -135,4 +199,9 @@
                  the blog data when we hover over the link or tap it on a touchscreen -->
         <!--		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>-->
     </ul>
+    <button class={open ? 'open' : ''} on:click={() => {open = !open}}>
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 </nav>
