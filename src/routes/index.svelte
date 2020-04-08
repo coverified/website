@@ -12,7 +12,7 @@
         font-weight: 700;
         color: var(--color-white);
         line-height: 48px;
-        max-width: 640px;
+        max-width: 645px;
     }
 
     h2 {
@@ -44,7 +44,7 @@
         > div:not(.info__box) {
             position: absolute;
             right: 0;
-            top: 53%;
+            bottom: 1rem;
             display: flex;
             align-items: center;
         }
@@ -57,7 +57,7 @@
         }
 
         .wirvsvirus__logo {
-            width: 19rem;
+            width: 26rem;
             height: auto;
             position: absolute;
             right: 0;
@@ -99,12 +99,7 @@
 
             > div:not(.info__box) {
                 right: unset;
-                top: 0;
-
-                > h1 {
-                    padding-top: 1.75rem;
-                    margin-right: 0;
-                }
+                bottom: 4.5rem;
             }
 
             > .info__box {
@@ -112,13 +107,15 @@
             }
 
             .wirvsvirus__logo {
-                top: 20%;
+                left: 0;
+                margin: 0 auto;
+                top: 56%;
+                width: 22rem;
             }
 
             .coverified__informationgraphic {
                 width: 58%;
-                padding-top: 14rem;
-                padding-bottom: 7.5rem;
+                padding-bottom: 18.5rem;
             }
         }
 
@@ -129,8 +126,17 @@
             font-size: 1.8rem;
         }
         .container {
+            > div:not(.info__box) {
+                bottom: 5rem;
+            }
+
             .coverified__informationgraphic {
                 width: 69%;
+                padding-bottom: 21.5rem;
+            }
+
+            .wirvsvirus__logo {
+                top: 48%;
             }
         }
     }
@@ -143,15 +149,26 @@
         }
 
         .container {
+            > div:not(.info__box) {
+                bottom: 6.25rem;
+                padding-left: .5rem;
+                padding-right: .5rem;
+            }
+
+            > .info__box {
+                right: 0;
+            }
+
             .coverified__informationgraphic {
                 width: 90%;
-                padding-top: 11rem;
-                padding-bottom: 7rem;
             }
 
             .wirvsvirus__logo {
                 width: 16rem;
-                top: 18.5%;
+                top: 47%;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
             }
         }
     }
