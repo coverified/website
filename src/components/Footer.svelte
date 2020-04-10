@@ -34,17 +34,10 @@
         > div {
             display: flex;
             justify-content: space-between;
+            padding-bottom: 2rem;
 
             > p {
-                display: none;
                 position: relative;
-            }
-
-            > img {
-                position: relative;
-                width: 9.375rem;
-                padding-top: 2rem;
-                padding-bottom: 3rem;
             }
         }
     }
@@ -66,23 +59,11 @@
         footer {
             max-width: 60rem;
         }
-
-        div {
-            > img {
-                width: 7.375rem;
-            }
-        }
     }
 
     @media (max-width: 992px) {
         footer {
             max-width: 45rem;
-        }
-
-        div {
-            > img {
-                width: 5.375rem;
-            }
         }
     }
 
@@ -101,12 +82,7 @@
             flex-direction: column;
             justify-content: center;
 
-            > img {
-                display: none;
-            }
-
             > p {
-                display: block;
                 margin-top: .5rem;
                 margin-bottom: .5rem;
 
@@ -124,23 +100,18 @@
         Quellen
     </h3>
     <div>
-        <img src="bmg-logo.svg" alt="Bundesministerium für Gesundheit Logo">
         <p>
             Bundesministerium für Gesundheit
         </p>
-        <img src="bundesregierung-logo.svg" alt="Bundesregierung Logo">
         <p>
             Bundesregierung Deutschland
         </p>
-        <img src="rki-logo.svg" alt="Robert Koch Institut Logo">
         <p>
             Robert Koch Institut
         </p>
-        <img src="charite-logo.svg" alt="Charité Universitätsmedizin Berlin Logo">
         <p>
             Charité Universitätsmedizin Berlin
         </p>
-        <img src="john-hopkins-logo.svg" alt="John Hopkins Unviversity Logo">
         <p>
             John Hopkins Unviversity
         </p>
