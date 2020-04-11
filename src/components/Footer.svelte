@@ -113,7 +113,7 @@
             Charité Universitätsmedizin Berlin
         </p>
         <p>
-            John Hopkins Unviversity
+            Johns Hopkins Unviversity
         </p>
     </div>
 </footer>
