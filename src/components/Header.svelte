@@ -5,8 +5,9 @@
 <style type="text/scss">
     header {
         background-color: var(--color-primary);
-        height: 29vh;
+        height: 23vh;
         position: relative;
+        justify-content: center;
         display: flex;
         margin-bottom: 3rem;
         
@@ -34,19 +35,11 @@
         margin-bottom: 1.56rem;
     }
 
-    small {
-        font-size: 1rem;
-        position: absolute;
-        top: 3.125rem;
-        right: 15%;
-        color: var(--color-white);
-    }
-
     .wirvsvirus__logo {
         position: absolute;
-        width: 22rem;
-        bottom: 11%;
-        right: 0;
+        width: 24rem;
+        bottom: 37%;
+        right: 1.125rem;
     }
 
     @media (max-width: 768px) {
@@ -59,14 +52,8 @@
                 top: 0;
             }
 
-            > small {
-                top: 6.125rem;
-                right: auto;
-            }
-
             > .wirvsvirus__logo {
-                bottom: 0;
-                top: 55%;
+                bottom: 1rem;
                 right: auto;
                 width: 20rem;
             }
@@ -80,11 +67,7 @@
     <h1>
         {pageName}
     </h1>
-    <small>
-        Ein Hackathon-Projekt
-    </small>
     <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
-
 </header>
 
 
