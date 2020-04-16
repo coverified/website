@@ -44,7 +44,7 @@
         > div:not(.info__box) {
             position: absolute;
             right: 0;
-            bottom: 1rem;
+            bottom: 5rem;
             display: flex;
             align-items: center;
         }
@@ -150,7 +150,7 @@
 
         .container {
             > div:not(.info__box) {
-                bottom: 6.25rem;
+                bottom: 7rem;
                 padding-left: .5rem;
                 padding-right: .5rem;
             }
