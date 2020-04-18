@@ -1,7 +1,6 @@
 <script>
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
-
   export let segment;
 </script>
 
@@ -10,7 +9,7 @@
     --color-primary: #3753ff;
     --color-light-grey: #ececec;
     --color-dark-grey: #767676;
-    --color-anthracite: #1c1c1c;
+    --color-anthracite: #1d1d1d;
     --color-white: #fff;
     --color-border: #ececec;
     --color-green: #3fb63f;
@@ -21,6 +20,14 @@
     font-weight: 800;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+  }
+
+  :global(a) {
+    color: #333;
+
+    &:hover {
+      color: #333;
+    }
   }
 
   :global(main a) { 
