@@ -29,11 +29,13 @@
             color: var(--color-anthracite);
             font-weight: 700;
             padding-top: 3rem;
+            margin-bottom: 1.5rem;
         }
 
         > div {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
             padding-bottom: 2rem;
 
             > p {
@@ -79,9 +81,6 @@
             max-width: 22.5rem;
         }
         div {
-            flex-direction: column;
-            justify-content: center;
-
             > p {
                 margin-top: .5rem;
                 margin-bottom: .5rem;

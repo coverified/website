@@ -172,19 +172,26 @@
         CoVerified
     </a>
     <ul class={open ? 'open' : ''}>
-        <li>
+        <!-- <li>
             <a class="highlight"
                rel="prefetch"
                aria-current={segment === 'integration' ? 'page' : undefined}
                href="integration">
                 Einbinden
             </a>
+        </li> -->
+        <li>
+            <a rel="prefetch"
+               aria-current={segment === 'news' ? 'page' : undefined}
+               href="news">
+                Covid-19 News
+            </a>
         </li>
         <li>
             <a rel="prefetch"
                aria-current={segment === 'about' ? 'page' : undefined}
                href="about">
-                Information
+                das Projekt
             </a>
         </li>
         <li>

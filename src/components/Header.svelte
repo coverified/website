@@ -5,7 +5,7 @@
 <style type="text/scss">
     header {
         background-color: var(--color-primary);
-        height: 23vh;
+        height: 18vh;
         position: relative;
         justify-content: center;
         display: flex;
@@ -27,17 +27,16 @@
     }
 
     h1 {
-        font-size: 3.375rem;
+        font-size: 2rem;
         position: relative;
         color: var(--color-white);
-        top: 38%;
+        top: 68%;
         left: 1.8%;
-        margin-bottom: 1.56rem;
     }
 
     .wirvsvirus__logo {
         position: absolute;
-        width: 24rem;
+        width: 20rem;
         bottom: 37%;
         right: 1.125rem;
     }

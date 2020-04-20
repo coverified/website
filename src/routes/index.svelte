@@ -1,8 +1,12 @@
 <script>
     import Button from '../components/Button.svelte';
+    import Col from 'sveltestrap/src/Col.svelte';
+    import Row from 'sveltestrap/src/Row.svelte';
+    import Container from 'sveltestrap/src/Container.svelte';
 </script>
 
 <style type="text/scss">
+
     :root {
         overflow-x: hidden;
     }
@@ -16,9 +20,10 @@
     }
 
     h2 {
-        font-size: 2.25rem;
-        font-weight: 700;
-        margin: 0 0 1rem 0;
+        font-size: 1.625rem;
+        color: var(--color-anthracite);
+        font-weight: 800;
+        margin: 0 0 2.5rem 0;
     }
 
     .container {
@@ -78,9 +83,92 @@
         }
     }
 
-    .news {
-        background-color: #fff;
+    .integration__buttons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        width: 3.125rem;
+    }
+
+    .check-symbol {
+        background: var(--color-primary);
+        width: 3.125rem;
+        height: auto;
         position: relative;
+
+        &:before {
+            content: "✓";
+            position: absolute;
+            font-size: 1.75rem;
+            background: var(--color-primary);
+            width: 2.8125rem;
+            height: 2.8125rem;
+            font-weight: 400;
+            text-align: center;
+            border-radius: 50%;
+            left: 0;
+            top: 7px;
+            line-height: 1;
+            padding-top: .5rem;
+            color: var(--color-white);
+        }
+    }
+
+    .background-primary {
+        position: relative;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        margin-top: 6.25rem;
+        margin-bottom: -7rem;
+    
+        &:before {
+            content: "";
+            position: absolute;
+            background: var(--color-primary);
+            display: block;
+            width: 100vw;
+            height: 100%;
+            left: 50%;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            transform: translateX(-50%);
+        }
+
+        
+        h2 {
+           color: var(--color-white);
+        }
+
+        li {
+            color: var(--color-white);
+        }
+    }
+
+    ul.list-style-dash {
+        margin-top: 2.25rem;
+        > li {
+            list-style-position: inside;
+            line-height: 34px;
+            
+            + li {
+                margin-top: 2.1875rem;
+            }
+            
+            // &:before {
+            //     content: '\2014';
+            //     position: absolute;
+            //     margin-left: -20px;
+            // }
+        }
+    }
+
+    .widget-mockup {
+        width: 30rem;
+        max-width: 100%;
     }
 
     coverified-articles {
@@ -116,6 +204,42 @@
             .coverified__informationgraphic {
                 width: 58%;
                 padding-bottom: 18.5rem;
+            }
+        }
+        .integration__buttons {
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;   
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+
+        .check-symbol {
+            background: var(--color-primary);
+            width: 3.125rem;
+            height: auto;
+            position: relative;
+            margin: 0 auto;
+
+            &:before {
+                content: "✓";
+                position: absolute;
+                font-size: 1.75rem;
+                background: var(--color-primary);
+                width: 2.8125rem;
+                height: 2.8125rem;
+                font-weight: 400;
+                text-align: center;
+                border-radius: 50%;
+                top: -57px;
+                line-height: 1;
+                padding-top: .5rem;
+                color: var(--color-white);
+                left: 50%;
             }
         }
 
@@ -170,7 +294,10 @@
                 left: 0;
                 margin: 0 auto;
             }
-        }
+            .check-symbol {
+                margin-top: 2rem;
+            }
+        }   
     }
 </style>
 
@@ -186,8 +313,8 @@
     <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
     <div>
         <h1>
-            Verifizierte Informationen zu Covid19. <br>
-            Überall im Netz, auf einen Klick verfügbar.
+            Mit einem Klick verifizierte <br />
+            Informationen zu COVID-19.
         </h1>
     </div>
     <div class="info__box">
@@ -195,10 +322,139 @@
     </div>
 </div>
 
-<h2>Aktuelle Neuigkeiten</h2>
-<div class="news">
-    <coverified-articles></coverified-articles>
-    <p>
-        Wir arbeiten gerade an unserer Website, daher ist noch nicht alles perfekt, aber zumindest funktionstüchtig!
-    </p>
+<Container class="mt-5 pt-5">
+<Row>
+    <Col sm="auto" lg="6">
+        <h2>
+            So binden Sie den Info-Button in Ihre Website ein.
+        </h2>
+        <p>
+            Helfen Sie und versorgen Ihre Nutzer*innen mit verifizierten Informationen zur aktuellen Covid-19 Situation. Los geht's!
+        </p>
+    </Col>
+    <Col sm="auto" lg="6">
+        <img src="coverified-devices.png" alt="Coverified Devices Mockup">
+    </Col>
+</Row>
+<Row class="mt-5">
+    <Col sm="auto" lg="6">
+        <h2>
+            So gehts! Einfach per JavaScript oder WordPress Plugin einbinden:
+        </h2>
+    </Col>
+    <Col sm="auto" lg="12">
+        <div class="my-5 integration__buttons">
+            <Button href={'https://github.com/coverified/webcomponent#simple-integration'} label={'JavaScript'} target={'_blank'} rel={'noopener'}></Button>
+            <Button href={'https://github.com/coverified/plugin-wordpress'} label={'WordPress-Plugin'} target={'_blank'} rel={'noopener'}></Button>
+        </div>
+    </Col>
+</Row>
+<Row class="mt-5">
+    <Col sm="auto" lg="6">
+        <h2>
+            6 gute Gründe, warum Sie das kostenlose Widget nutzen sollten: 
+        </h2>
+    </Col>
+</Row>
+<Row class="mt-5 justify-content-center">
+    <Col sm="auto" lg="6" class="mb-5 text-center text-lg-left">
+            <Row class="mb-5 flex-column flex-lg-row">
+                <Col lg="2">
+                    <div class="check-symbol"></div>
+                </Col>
+                <Col lg="6">
+                <p>
+                    Mithelfen! Wir wollen zur besseren Information überall im Netz beitragen.
+                </p>
+                </Col>
+            </Row>
+            <Row class="mt-5 mb-4 flex-column flex-lg-row">
+                <Col lg="2">
+                    <div class="check-symbol"></div>
+                </Col>
+                <Col lg="6">
+                    <p>
+                        Richtig informieren! Wir arbeiten proaktiv gegen die Verbreitung von Falschinformationen. Bist du dabei? 
+                    </p>
+                </Col>
+            </Row>
+            <Row class="mt-5 flex-column flex-lg-row">
+                <Col lg="2">
+                    <div class="check-symbol"></div>
+                </Col>
+                <Col lg="6">
+                    <p>
+                        Transparent kommunizieren! Die Besucher*innen Ihrer Website erhalten Informationen aus verifizierten Quellen.
+                    </p>
+                </Col>
+            </Row>
+    </Col>
+    <Col sm="auto" lg="6" class="text-center text-lg-left">
+        <Row class="mb-5 flex-column flex-lg-row">
+            <Col lg="2">
+                <div class="check-symbol"></div>
+            </Col>
+            <Col lg="6" class="justify-content-center">
+                <p >
+                    Wir wollen zur besseren Information der Bevölkerung beitragen.
+                </p>
+            </Col>
+        </Row>
+        <Row class="my-5 flex-column flex-lg-row">
+            <Col lg="2">
+                <div class="check-symbol"></div>
+            </Col>
+            <Col lg="6">
+                <p>
+                    Wir wollen proaktiv gegen die Verbreitung von Falschinformationen arbeiten. 
+                </p>
+            </Col>
+        </Row>
+        <Row class="mt-5 flex-column flex-lg-row">
+            <Col lg="2">
+                <div class="check-symbol"></div>
+            </Col>
+            <Col lg="6">
+                <p>
+                    Der Besucher Ihrer Website kann direkt informiert ….
+                </p>
+            </Col>
+        </Row>
+    </Col>
+</Row>
+<div class="background-primary">
+    <Row class="mt-5">
+        <Col sm="auto" lg="6">
+            <h2>
+                So funktioniert der<br class="d-none d-lg-block"/> Informations-Button<br class="d-none d-lg-block"/>auf Ihrer Website:
+            </h2>
+            <img src="coverified-widget-mockup.png" class="widget-mockup" alt="CoVerified Widget Mockup">
+        </Col>
+        <Col sm="auto" lg="6">
+            <ul class="list-style-dash">
+                <li>
+	                Der CoVerified-Button erscheint immer unten rechts auf Ihrer Website.
+                </li>
+                <li>
+                    Mit einem Klick öffnet sich ein Fenster mit aktuellen Informationen zur Covid-19 Situation.
+                </li>
+                <li>
+ 	                An erster Stelle nennen wir die aktuellen Fallzahlen der John Hopkins University.
+                </li>
+                <li>
+ 	               Darunter folgen die neusten Infos, jeweils aus offiziellen und wissenschaftlich anerkannten Quellen.
+                </li>
+                <li>
+ 	                Die Vorschau der zugehörigen Artikel ist direkt auf die Informationsquelle verlinkt, damit Sie auch den ganzen Artikel durchlesen können.
+                </li>
+                <li>
+                    Barrierefreiheit: Unser Informations-Tool (auf Deutsch Werkzeug) nimmt die voreingestellte Schriftgröße Ihres Browsers an, ist für Screenreading-Assistenten angepasst und wird zukünftig auch mehrsprachig zur Verfügung stehen.
+                </li>
+                <li>
+ 	                Unsere Datenbank besteht aus aktuellen Daten aus den RSS-Feeds offizieller Stellen. Diese Infos werden gebündelt und als News-Vorschau in unserem Widget dargestellt. Klicken Sie auf ein solches Vorschau-Feld, werden Sie direkt zur aktuellen Meldung auf die Seite der jeweiligen Quelle weitergeleitet.
+                </li>
+            </ul>
+        </Col>
+    </Row>
 </div>
+</Container>
