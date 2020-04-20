@@ -11,7 +11,7 @@
 
   header {
     background-color: var(--color-primary);
-    height: 18vh;
+    height: 14.6875rem;
     position: relative;
     justify-content: center;
     display: flex;
@@ -32,14 +32,6 @@
       }
     }
 
-    h1 {
-        font-size: 2rem;
-        position: relative;
-        color: var(--color-white);
-        top: 68%;
-        left: 1.8%;
-    }
-
     .wirvsvirus__logo {
         position: absolute;
         width: 20rem;
@@ -51,12 +43,12 @@
     margin-bottom: 2.5rem;
   }
 
-  h2 {
+  h1 {
     font-size: 2rem;
     color: var(--color-primary);
   }
 
-  h3 {
+  h2 {
     font-size: 1.625rem;
     margin-top: 5.0625rem;
     margin-bottom: .6875rem;  
@@ -77,6 +69,13 @@
     }
   }
 
+  .project-heading {
+    width: 13rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+  }
+
   @media (max-width: 992px) {
     main {
       padding-left: 0;
@@ -87,6 +86,7 @@
     header {
     flex-direction: column;
     align-items: center;
+    height: 16.6875rem;
     justify-content: flex-start;
     
       > h1 {
@@ -94,16 +94,22 @@
       }
 
       > .wirvsvirus__logo {
-          bottom: 1rem;
+          bottom: unset;
+          top: .3125rem;
           right: auto;
           width: 20rem;
       }
     }
+    .project-heading {
+      width: 11rem;
+      top: 7rem;
+      left: unset;
+    }
   }
-
+  
   @media (max-width: 576px) {
     
-    h2 {
+    h1 {
             font-size: 1.575rem;
         }
 
@@ -124,43 +130,40 @@
 </svelte:head>
 
 <header>
-    <h1 class="sr-only">das Projekt</h1>
-    <h1>
-        das Projekt
-    </h1>
     <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
+    <img src="project-header.svg" alt="das Projekt" class="project-heading">
 </header>
 <main>
+  <h1>
+    Ein Projekt des #WirVsVirus Hackathons <br class="d-none d-lg-block"/> der Bundesregierung im März 2020.
+  </h1>
   <h2>
-    Ein Projekt entstanden beim Hackathon<br class="d-none d-lg-block"/> der Bundesregierung im März 2020.
-  </h2>
-  <h3>
     Wir sind ein von der Bundesregierung gefördertes Projekt
-  </h3>
+  </h2>
   <p>
-    Die Idee zu unserem Informations-Tool ist beim #WirvsVirus Hackathon entstanden. Der Hackathon wurde von der Bundesregierung initiiert. Es wurden Lösungen für die aktuelle Covid19-Krise via Internet von neu gebildeten Teams aus interessierten Bürger*innen erarbeitet und programmiert. CoVerified war die Idee unseres Teams. Unser Code-Schnipsel kann in Websites eingebunden werden, um Besucher*innen aktuelle Informationen verifizierter Quellen aus unserer Datenbank bereitzustellen.
+    Die Idee zu unserem Informations-Tool ist beim von der Bundesregierung initiierten #WirVsVirus Hackathon entstanden. Hier wurden Lösungen für die aktuelle Covid-19 Krise entworfen, programmiert und umgesetzt – komplett remote und organisiert in Teams aus engagierten Bürger*innen. CoVerified ist die Idee unseres Teams. Unseren Code können Sie in Ihre Websites einbinden, um Besucher*innen aktuelle Informationen zu Covid-19 bereitzustellen – aus verifizierten Quellen und mit nur einem Klick. So helfen Sie mit, die Verbreitung von Falschmeldungen zu verhindern.
   </p>
   <p>
-    Wir arbeiten stetig weiter an unserem Projekt und freuen uns über Lob, gleich wohl wie Kritik, Feedback, Anregungen oder auch WoMan-Power.
+    Nach dem Hackathon ist vor dem Hackathon: Wir arbeiten weiter an unserem Projekt und freuen uns über Feedback, Anregungen oder auch WoMan-Power. Damit wir zusammen noch besser werden und verlässliche Informationen für alle bereitstellen.
   </p>
   <p>
-    Unser Projekt ist eine Non-Profit Lösung, unser Code wurde in OpenSource geschrieben.
+    Unser Projekt ist eine Non-Profit-Lösung, unser Code wurde in OpenSource geschrieben.
   </p>
   <p>
-    Unsere Projektbeschreibung und die Dokumentation beim #WirvsVirus Hackathon finden Sie hier: 
+    Unsere Projektbeschreibung und die Dokumentation beim #WirVsVirus Hackathon finden Sie hier: 
     <a href="https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget" title="Projektbeschreibung" target=“_blank“ rel=“noopener“>
       Devpost
     </a>
   </p>
-  <h3>
+  <h2>
     Unsere Motivation
-  </h3>
+  </h2>
   <p>
-    Unser Ziel ist es, proaktiv gegen Falschmeldungen zu arbeiten in dem wir ein Tool zur Verfügung stellen, welches Informationen aus seriösen Quellen zieht und in einem Widget bündelt. So schaffen wir es, mit nur einem Tool, umfängliche Informationen zu Covid-19 bereitzustellen. Es werden Informationen aus den einzelnen Bundesländern, medizinische Ratschläge, Erkenntnisse aus der Forschung oder Verhaltensratschläge gebündelt und aktuell zur Verfügung gestellt. Dabei geht es uns vor allem um das Bereitstellen von wissenschaftl. überprüften Fakten in Ausnahmesituationen. So kann das Widget auch zu einem späteren Zeitpunkt auf andere Krisen angepasst werden z. B. bei Naturkatastrophen.
+    Unser Ziel ist es, proaktiv gegen Falschmeldungen zu arbeiten. Daher haben wir das CoVerified Tool entwickelt. Es bringt Informationen aus seriösen Quellen zusammen und bündelt diese in einem Widget. So schaffen wir es, umfänglich zu Covid-19 zu informieren. Im Detail heißt das: Es werden Informationen aus den einzelnen Bundesländern, sowie medizinische Ratschläge, Erkenntnisse aus der Forschung oder Verhaltensratschläge gebündelt und aktuell zur Verfügung gestellt. Dabei geht es uns vor allem um das Bereitstellen von wissenschaftlich überprüften Fakten in Ausnahmesituationen wie der Covid-19 Krise. Es ist allerdings auch möglich, das Widget zu einem späteren Zeitpunkt auf andere Krisen anzupassen, zum Beispiel beim Ausbruch von Naturkatastrophen wie Waldbränden oder Überschwemmungen.
   </p>
-  <h3>
+  <h2>
     So funktioniert es
-  </h3>
+  </h2>
   <p>
     CoVerified sammelt Daten aus verifizierten Quellen im Internet, bündelt diese in einer Datenbank und gibt sie als News-Vorschau über unser Informations-Tool (der Button auf Ihrer Website unten rechts) aus. Es gibt noch kein vergleichbares Angebot, das zentral die wichtigsten, validierten Daten bündelt wie zum Beispiel vom Robert-Koch-Institut, der Bundesregierung und dem Ministerium für Gesundheit. Wir wollen sicher gehen, dass wirklich nur Informationen aus wissenschaftlichen oder staatlichen Quellen genutzt werden.
   </p>

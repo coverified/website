@@ -20,7 +20,7 @@
     }
     .container {
         position: relative;
-        height: 14.625rem;
+        height: 14.6875rem;
         margin-bottom: 6.5em;
         &:before {
             content: "";
@@ -46,6 +46,12 @@
             }
         }
 
+        .coverified__informationgraphic {
+            max-width: 24rem;
+            position: absolute;
+            top: 1.5rem;
+        }
+
         .wirvsvirus__logo {
             width: 20rem;
             height: auto;
@@ -66,6 +72,7 @@
             padding: 1rem 1.75rem;
         }
     }
+
     .news {
         background-color: #fff;
         position: relative;
@@ -76,26 +83,37 @@
     }
 
     @media (max-width: 992px) {
+
         h1 {
             font-size: 2rem;
         }
+
+        
         .container {
             display: flex;
+            height: 25rem;
             justify-content: center;
             margin-bottom: 8.5rem;
+
             > div:not(.info__box) {
                 right: unset;
                 bottom: 4.5rem;
                 top: unset;
             }
+
             > .info__box {
                 right: unset;
             }
+
             .wirvsvirus__logo {
                 left: 0;
                 margin: 0 auto;
-                top: 29%;
+                top: 5px;
                 width: 20rem;
+            }
+
+            .coverified__informationgraphic {
+                top: 7rem;
             }
         }
     }
@@ -107,9 +125,7 @@
             > div:not(.info__box) {
                 bottom: 5rem;
             }
-            .wirvsvirus__logo {
-                top: 27%;
-            }
+            
         }
     }
     @media (max-width: 576px) {
@@ -128,10 +144,11 @@
 
             .wirvsvirus__logo {
                 width: 16rem;
-                top: 22%;
-                right: 0;
-                left: 0;
-                margin: 0 auto;
+            }
+
+            .coverified__informationgraphic {
+                max-width: 22rem;
+                top: 5.75rem;
             }
         }
     }
@@ -144,20 +161,15 @@
 
 <h1 class="sr-only">CoVerified</h1>
 <div class="container">
-    <!-- <img class="coverified__informationgraphic" src="coverified-information-graphic.svg"
-         alt="Coverified Information graphic"> -->
+    <img class="coverified__informationgraphic" src="news-header.svg"
+         alt="Coverified Information graphic"> 
     <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
-    <div>
-        <h1>
-            Covid-19 News
-        </h1>
-    </div>
     <div class="info__box">
         <coverified-cases></coverified-cases>
     </div>
 </div>
 
-<h2>Wir sammeln Informationen von<br class="d-none d-lg-block"/>verifizierten Quellen an einem Ort.</h2>
+<h2>Wir bündeln Informationen von <br class="d-none d-lg-block"/>verifizierten Quellen an einem Ort.</h2>
 <h3>Aktuelle News</h3>
 <div class="news">
     <coverified-articles></coverified-articles>

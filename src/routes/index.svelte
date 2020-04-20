@@ -6,6 +6,7 @@
 </script>
 
 <style type="text/scss">
+
     :root {
         overflow-x: hidden;
     }
@@ -92,6 +93,30 @@
         width: 3.125rem;
     }
 
+    .check-symbol {
+        background: var(--color-primary);
+        width: 3.125rem;
+        height: auto;
+        position: relative;
+
+        &:before {
+            content: "✓";
+            position: absolute;
+            font-size: 1.75rem;
+            background: var(--color-primary);
+            width: 2.8125rem;
+            height: 2.8125rem;
+            font-weight: 400;
+            text-align: center;
+            border-radius: 50%;
+            left: 0;
+            top: 7px;
+            line-height: 1;
+            padding-top: .5rem;
+            color: var(--color-white);
+        }
+    }
+
     .background-primary {
         position: relative;
         padding-top: 7rem;
@@ -129,6 +154,10 @@
             list-style-position: inside;
             line-height: 34px;
             
+            + li {
+                margin-top: 2.1875rem;
+            }
+            
             // &:before {
             //     content: '\2014';
             //     position: absolute;
@@ -137,8 +166,9 @@
         }
     }
 
-    .col-lg-2 {
-        margin-bottom: 10rem;
+    .widget-mockup {
+        width: 30rem;
+        max-width: 100%;
     }
 
     coverified-articles {
@@ -187,6 +217,32 @@
             margin: 0 auto;
             margin-bottom: 2rem;
         }
+
+        .check-symbol {
+            background: var(--color-primary);
+            width: 3.125rem;
+            height: auto;
+            position: relative;
+            margin: 0 auto;
+
+            &:before {
+                content: "✓";
+                position: absolute;
+                font-size: 1.75rem;
+                background: var(--color-primary);
+                width: 2.8125rem;
+                height: 2.8125rem;
+                font-weight: 400;
+                text-align: center;
+                border-radius: 50%;
+                top: -57px;
+                line-height: 1;
+                padding-top: .5rem;
+                color: var(--color-white);
+                left: 50%;
+            }
+        }
+
     }
 
     @media (max-width: 768px) {
@@ -238,7 +294,10 @@
                 left: 0;
                 margin: 0 auto;
             }
-        }
+            .check-symbol {
+                margin-top: 2rem;
+            }
+        }   
     }
 </style>
 
@@ -254,8 +313,8 @@
     <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
     <div>
         <h1>
-            Verifizierte Informationen zu <br />
-            COVID-19 mit einen Klick verfügbar.
+            Mit einem Klick verifizierte <br />
+            Informationen zu COVID-19.
         </h1>
     </div>
     <div class="info__box">
@@ -267,14 +326,14 @@
 <Row>
     <Col sm="auto" lg="6">
         <h2>
-            Unseren Info-Button einfach auf Ihrer Website integrieren.
+            So binden Sie den Info-Button in Ihre Website ein.
         </h2>
         <p>
-            Auch Sie wollen Ihre Kundschaft und Nutzer*innen mit Verifizierten Informationen über die aktuelle Covid19 Situation versorgen?
+            Helfen Sie und versorgen Ihre Nutzer*innen mit verifizierten Informationen zur aktuellen Covid-19 Situation. Los geht's!
         </p>
     </Col>
     <Col sm="auto" lg="6">
-        <!-- TODO IMAGE -->
+        <img src="coverified-devices.png" alt="Coverified Devices Mockup">
     </Col>
 </Row>
 <Row class="mt-5">
@@ -298,67 +357,66 @@
     </Col>
 </Row>
 <Row class="mt-5 justify-content-center">
-    <Col sm="auto" lg="6" class="mb-5">
-            <Row class="mb-5">
-                <Col lg="2" class="justify-content-center">
-                    <img class="logo" src="favicon-32x32.png" alt="CoVerified Logo">
-                </Col>
-                <Col lg="6">
-                <p>
-                    Mithelfen! Wir wollen zur besseren Information der Bevölkerung beitragen.
-                </p>
-                </Col>
-            </Row>
-            <Row class="mt-5 mb-5">
+    <Col sm="auto" lg="6" class="mb-5 text-center text-lg-left">
+            <Row class="mb-5 flex-column flex-lg-row">
                 <Col lg="2">
-                <img class="logo" src="favicon-32x32.png" alt="CoVerified Logo">
+                    <div class="check-symbol"></div>
                 </Col>
                 <Col lg="6">
                 <p>
-                    Richtig informieren! Wir wollen proaktiv gegen die Verbreitung von Falschinformationen arbeiten.
+                    Mithelfen! Wir wollen zur besseren Information überall im Netz beitragen.
                 </p>
                 </Col>
             </Row>
-            <Row class="mt-5">
+            <Row class="mt-5 mb-4 flex-column flex-lg-row">
                 <Col lg="2">
-                <img class="logo" src="favicon-32x32.png" alt="CoVerified Logo">
+                    <div class="check-symbol"></div>
                 </Col>
                 <Col lg="6">
-                <p>
-                    Seriös sein! Der Besucher Ihrer Website wird direkt informiert von verifizierten Quellen (siehe unten).
-                </p>
+                    <p>
+                        Richtig informieren! Wir arbeiten proaktiv gegen die Verbreitung von Falschinformationen. Bist du dabei? 
+                    </p>
                 </Col>
             </Row>
-    
+            <Row class="mt-5 flex-column flex-lg-row">
+                <Col lg="2">
+                    <div class="check-symbol"></div>
+                </Col>
+                <Col lg="6">
+                    <p>
+                        Transparent kommunizieren! Die Besucher*innen Ihrer Website erhalten Informationen aus verifizierten Quellen.
+                    </p>
+                </Col>
+            </Row>
     </Col>
-    <Col sm="auto" lg="6">
-        <Row class="mb-5">
+    <Col sm="auto" lg="6" class="text-center text-lg-left">
+        <Row class="mb-5 flex-column flex-lg-row">
             <Col lg="2">
-                <img class="logo" src="favicon-32x32.png" alt="CoVerified Logo">
+                <div class="check-symbol"></div>
             </Col>
-            <Col lg="6">
-                <p>
+            <Col lg="6" class="justify-content-center">
+                <p >
                     Wir wollen zur besseren Information der Bevölkerung beitragen.
                 </p>
             </Col>
         </Row>
-        <Row class="mt-5 mb-5">
+        <Row class="my-5 flex-column flex-lg-row">
             <Col lg="2">
-                <img class="logo" src="favicon-32x32.png" alt="CoVerified Logo">
+                <div class="check-symbol"></div>
             </Col>
             <Col lg="6">
                 <p>
-                    Wir wollen proaktiv gegen die Verbreitung von Falschinformationen arbeiten.
+                    Wir wollen proaktiv gegen die Verbreitung von Falschinformationen arbeiten. 
                 </p>
             </Col>
         </Row>
-        <Row class="mt-5">
+        <Row class="mt-5 flex-column flex-lg-row">
             <Col lg="2">
-                <img class="logo" src="favicon-32x32.png" alt="CoVerified Logo">
+                <div class="check-symbol"></div>
             </Col>
             <Col lg="6">
                 <p>
-                    Der Besucher Ihrer Website kann direkt informiert...
+                    Der Besucher Ihrer Website kann direkt informiert ….
                 </p>
             </Col>
         </Row>
@@ -370,30 +428,30 @@
             <h2>
                 So funktioniert der<br class="d-none d-lg-block"/> Informations-Button<br class="d-none d-lg-block"/>auf Ihrer Website:
             </h2>
-            <!-- TODO IMAGE -->
+            <img src="coverified-widget-mockup.png" class="widget-mockup" alt="CoVerified Widget Mockup">
         </Col>
         <Col sm="auto" lg="6">
             <ul class="list-style-dash">
                 <li>
-	                Unser CoVerified-Button erscheint immer unten rechts auf der Website und kann geöffnet werden.
+	                Der CoVerified-Button erscheint immer unten rechts auf Ihrer Website.
                 </li>
                 <li>
-                    Mit einem Tipp oder Klick öffnet sich ein Fenster mit aktuellen Informationen zur Covid19-Krise.
+                    Mit einem Klick öffnet sich ein Fenster mit aktuellen Informationen zur Covid-19 Situation.
                 </li>
                 <li>
- 	                An erster Stelle werden die aktuellen Fallzahlen der John Hopkins University gezeigt.
+ 	                An erster Stelle nennen wir die aktuellen Fallzahlen der John Hopkins University.
                 </li>
                 <li>
- 	                Darunter folgen die brandneusten Infos auf, nur von staatlichen oder wissenschaftlich anerkannten Stellen.
+ 	               Darunter folgen die neusten Infos, jeweils aus offiziellen und wissenschaftlich anerkannten Quellen.
                 </li>
                 <li>
- 	                Die Vorschau der zugehörigen Artikel ist direkt auf die Quelle der Information verlinkt, damit Sie sich in Ruhe den ganzen Artikel durchlesen können.
+ 	                Die Vorschau der zugehörigen Artikel ist direkt auf die Informationsquelle verlinkt, damit Sie auch den ganzen Artikel durchlesen können.
                 </li>
                 <li>
- 	                Barrierefreiheit: Unser Informations-Tool (auf Deutsch Werkzeug) nimmt die voreingestellte Schriftgröße des Browsers an, ist für Screenreading-Assistenten angepasst und soll auf lange Sicht auch mehrsprachig Informationen zur Verfügung stellen.
+                    Barrierefreiheit: Unser Informations-Tool (auf Deutsch Werkzeug) nimmt die voreingestellte Schriftgröße Ihres Browsers an, ist für Screenreading-Assistenten angepasst und wird zukünftig auch mehrsprachig zur Verfügung stehen.
                 </li>
                 <li>
- 	                Unsere Datenbank wird gefüttert mit allen aktuellen Daten aus den RSS-Feeds offizieller Stellen. Diese Informationen werden gebündelt und als News-Vorschau in unserem Widget dargestellt. Klickt oder tippt der Nutzer auf ein solches Vorschau-Feld, wird er direkt zur aktuellen Meldung auf die Seite der jeweiligen Quelle weitergeleitet.
+ 	                Unsere Datenbank besteht aus aktuellen Daten aus den RSS-Feeds offizieller Stellen. Diese Infos werden gebündelt und als News-Vorschau in unserem Widget dargestellt. Klicken Sie auf ein solches Vorschau-Feld, werden Sie direkt zur aktuellen Meldung auf die Seite der jeweiligen Quelle weitergeleitet.
                 </li>
             </ul>
         </Col>
