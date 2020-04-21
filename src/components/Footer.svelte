@@ -121,6 +121,17 @@
     <span class="copyright">
         &copy; {new Date().getFullYear()} CoVerified
     </span>
+        
+            <a rel="prefetch"
+                href="impressum">
+                Impressum
+            </a>
+        
+            <a rel="prefetch"
+                href="datenschutz">
+                Datenschutz
+            </a>
+        
     <a href="https://github.com/coverified/" rel="noopener" target="_blank">
         <svg class="icon icon-github">
             <use xlink:href="#icon-github"/>
