@@ -79,6 +79,7 @@
     @media (max-width: 576px) {
         footer {
             max-width: 22.5rem;
+            padding: 0 2rem;
         }
         div {
             > p {
@@ -88,6 +89,11 @@
                 &:last-of-type {
                     margin-bottom: 3rem;
                 }
+            }
+        }
+        .meta-bar {
+            > a:not(:last-child) {
+                font-size: .85rem;
             }
         }
     }
@@ -121,17 +127,15 @@
     <span class="copyright">
         &copy; {new Date().getFullYear()} CoVerified
     </span>
-        
-            <a rel="prefetch"
-                href="impressum">
-                Impressum
-            </a>
-        
-            <a rel="prefetch"
-                href="datenschutz">
-                Datenschutz
-            </a>
-        
+    <a rel="prefetch"
+        href="impressum">
+        Impressum
+    </a>
+
+    <a rel="prefetch"
+        href="datenschutz">
+        Datenschutz
+    </a>
     <a href="https://github.com/coverified/" rel="noopener" target="_blank">
         <svg class="icon icon-github">
             <use xlink:href="#icon-github"/>
