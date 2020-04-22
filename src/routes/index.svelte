@@ -157,12 +157,6 @@
             + li {
                 margin-top: 2.1875rem;
             }
-            
-            // &:before {
-            //     content: '\2014';
-            //     position: absolute;
-            //     margin-left: -20px;
-            // }
         }
     }
 
@@ -173,6 +167,11 @@
 
     coverified-articles {
         --open-padding: 1rem;
+    }
+
+    .empfehlungs_text {
+        font-size: .75rem;
+        font-style: italic;
     }
 
     @media (max-width: 992px) {
@@ -341,12 +340,16 @@
         <h2>
             So gehts! Einfach per JavaScript oder WordPress Plugin einbinden:
         </h2>
+        
     </Col>
     <Col sm="auto" lg="12">
         <div class="my-5 integration__buttons">
             <Button href={'https://github.com/coverified/webcomponent#simple-integration'} label={'JavaScript'} target={'_blank'} rel={'noopener'}></Button>
             <Button href={'https://github.com/coverified/plugin-wordpress'} label={'WordPress-Plugin'} target={'_blank'} rel={'noopener'}></Button>
         </div>
+        <p class="empfehlungs_text">
+            Wir empfehlen Ihnen, bei Verwendung unseres Widgets einen entsprechenden Vermerk in Ihrer Datenschutzerklärung zu hinterlegen. Wir selbst erheben und verarbeiten keinerlei personenbezogene Daten, unser Serviceprovider allerdings Server-Logfiles der IP Adressen. Die Informationen in unserem Widget zeigen auf die Angebote Dritter, auf denen deren Datenschutzerklärungen greifen.
+        </p>
     </Col>
 </Row>
 <Row class="mt-5">
