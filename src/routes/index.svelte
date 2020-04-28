@@ -367,7 +367,7 @@
                 </Col>
                 <Col lg="6">
                 <p>
-                    Mithelfen! Wir wollen zur besseren Information überall im Netz beitragen.
+                    Gemeinsam helfen! Sie tragen dazu bei, dass Menschen im Netz verlässliche Informationen erhalten.
                 </p>
                 </Col>
             </Row>
@@ -377,7 +377,7 @@
                 </Col>
                 <Col lg="6">
                     <p>
-                        Richtig informieren! Wir arbeiten proaktiv gegen die Verbreitung von Falschinformationen. Bist du dabei? 
+                        Richtig informieren! Sie arbeiten proaktiv gegen die Verbreitung von Falschinformationen.
                     </p>
                 </Col>
             </Row>
@@ -387,7 +387,7 @@
                 </Col>
                 <Col lg="6">
                     <p>
-                        Transparent kommunizieren! Die Besucher*innen Ihrer Website erhalten Informationen aus verifizierten Quellen.
+                        Einfach umzusetzen! Nur 1 Zeile JavaScript Code oder das fertige Wordpress Plugin in Ihre Homepage einfügen.
                     </p>
                 </Col>
             </Row>
@@ -399,7 +399,7 @@
             </Col>
             <Col lg="6" class="justify-content-center">
                 <p >
-                    Wir wollen zur besseren Information der Bevölkerung beitragen.
+                    Jetzt informieren! Sie halten die Besucher*innen Ihrer Homepage immer auf dem neuesten Stand zur Coronakrise.
                 </p>
             </Col>
         </Row>
@@ -409,7 +409,7 @@
             </Col>
             <Col lg="6">
                 <p>
-                    Wir wollen proaktiv gegen die Verbreitung von Falschinformationen arbeiten. 
+                    Alle miteinbeziehen! Sie erreichen mit dem Widget alle Menschen, erreichen und haben unser Widget daher barrierefrei und Open Source programmiert.
                 </p>
             </Col>
         </Row>
@@ -419,7 +419,7 @@
             </Col>
             <Col lg="6">
                 <p>
-                    Der Besucher Ihrer Website kann direkt informiert ….
+                    Jetzt handeln! Wir glauben, dass wir alle gemeinsam etwas tun können und der beste Zeitpunkt dafür jetzt ist.
                 </p>
             </Col>
         </Row>
