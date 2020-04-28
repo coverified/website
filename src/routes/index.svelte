@@ -174,6 +174,10 @@
         font-style: italic;
     }
 
+    .set-height {
+        height: 112px;
+    }
+
     @media (max-width: 992px) {
         h1 {
             font-size: 2rem;
