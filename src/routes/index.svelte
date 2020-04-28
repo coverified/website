@@ -409,7 +409,7 @@
             </Col>
             <Col lg="6">
                 <p>
-                    Alle miteinbeziehen! Sie erreichen mit dem Widget alle Menschen, erreichen und haben unser Widget daher barrierefrei und Open Source programmiert.
+                    Alle miteinbeziehen! Das Widget soll möglichst viele Menschen erreichen, daher ist es barrierefrei und Open Source programmiert.
                 </p>
             </Col>
         </Row>
