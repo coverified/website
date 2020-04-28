@@ -264,11 +264,14 @@
         }
     }
 
-
     @media (max-width: 576px) {
         h1 {
             font-size: 1.575rem;
             line-height: 33.6px;
+        }
+
+        .mt-6 {
+            margin-top: 4rem !important;
         }
 
         .container {
@@ -361,7 +364,7 @@
 </Row>
 <Row class="mt-5 justify-content-center">
     <Col sm="auto" lg="6" class="mb-5 text-center text-lg-left">
-            <Row class="mb-5 flex-column flex-lg-row">
+            <div class="mb-5 flex-column flex-lg-row set-height row">
                 <Col lg="2">
                     <div class="check-symbol"></div>
                 </Col>
@@ -370,8 +373,8 @@
                     Gemeinsam helfen! Sie tragen dazu bei, dass Menschen im Netz verlässliche Informationen erhalten.
                 </p>
                 </Col>
-            </Row>
-            <Row class="mt-5 mb-4 flex-column flex-lg-row">
+            </div>
+            <div class="my-5 flex-column flex-lg-row set-height row">
                 <Col lg="2">
                     <div class="check-symbol"></div>
                 </Col>
@@ -380,8 +383,8 @@
                         Richtig informieren! Sie arbeiten proaktiv gegen die Verbreitung von Falschinformationen.
                     </p>
                 </Col>
-            </Row>
-            <Row class="mt-5 flex-column flex-lg-row">
+            </div>
+            <div class="mt-5 flex-column flex-lg-row row set-height">
                 <Col lg="2">
                     <div class="check-symbol"></div>
                 </Col>
@@ -390,10 +393,10 @@
                         Einfach umzusetzen! Nur 1 Zeile JavaScript Code oder das fertige Wordpress Plugin in Ihre Homepage einfügen.
                     </p>
                 </Col>
-            </Row>
+            </div>
     </Col>
     <Col sm="auto" lg="6" class="text-center text-lg-left">
-        <Row class="mb-5 flex-column flex-lg-row">
+        <div class="mb-5 flex-column flex-lg-row row set-height">
             <Col lg="2">
                 <div class="check-symbol"></div>
             </Col>
@@ -402,8 +405,8 @@
                     Jetzt informieren! Sie halten die Besucher*innen Ihrer Homepage immer auf dem neuesten Stand zur Coronakrise.
                 </p>
             </Col>
-        </Row>
-        <Row class="my-5 flex-column flex-lg-row">
+        </div>
+        <div class="my-5 flex-column flex-lg-row set-height row">
             <Col lg="2">
                 <div class="check-symbol"></div>
             </Col>
@@ -412,8 +415,8 @@
                     Alle miteinbeziehen! Das Widget soll möglichst viele Menschen erreichen, daher ist es barrierefrei und Open Source programmiert.
                 </p>
             </Col>
-        </Row>
-        <Row class="mt-5 flex-column flex-lg-row">
+        </div>
+        <div class="mt-5 mt-6 flex-column flex-lg-row set-height row">
             <Col lg="2">
                 <div class="check-symbol"></div>
             </Col>
@@ -422,7 +425,7 @@
                     Jetzt handeln! Wir glauben, dass wir alle gemeinsam etwas tun können und der beste Zeitpunkt dafür jetzt ist.
                 </p>
             </Col>
-        </Row>
+        </div>
     </Col>
 </Row>
 <div class="background-primary">
