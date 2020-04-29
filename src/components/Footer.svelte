@@ -102,7 +102,7 @@
 
 <footer>
     <h3>
-        Quellen
+        Unsere Datenbank bündelt folgende Quellen:
     </h3>
     <div>
         <p>
