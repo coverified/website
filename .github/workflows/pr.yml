@@ -9,8 +9,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: preactjs/compressed-size-action@master
+      - uses: preactjs/compressed-size-action@v2
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           pattern: "{__sapper__/export/**/*.css,__sapper__/export/**/*.js}"
           build-script: "export"
+          strip-hash: "\\.([a-f0-9]{8,10})\\.(?:js|css)"
+          use-check: false
