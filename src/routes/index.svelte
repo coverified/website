@@ -362,7 +362,7 @@
 <Row class="mt-5">
     <Col sm="auto" lg="6">
         <h2>
-            6 gute Gründe, warum Sie das kostenlose Widget nutzen sollten: 
+            6 Gründe für unser kostenloses Widget:
         </h2>
     </Col>
 </Row>
@@ -394,7 +394,7 @@
                 </Col>
                 <Col lg="6">
                     <p>
-                        Einfach umzusetzen! Nur 1 Zeile JavaScript Code oder das fertige Wordpress Plugin in Ihre Homepage einfügen.
+                        Einfach umzusetzen! Nur 1 Zeile JavaScript Code oder das fertige Wordpress Plugin in Ihre Website einfügen.
                     </p>
                 </Col>
             </div>
@@ -406,7 +406,7 @@
             </Col>
             <Col lg="6" class="justify-content-center">
                 <p >
-                    Jetzt informieren! Sie halten die Besucher*innen Ihrer Homepage immer auf dem neuesten Stand zur Coronakrise.
+                    Jetzt informieren! Sie halten die Besucher*innen Ihrer Website immer auf dem neuesten Stand zur Coronakrise.
                 </p>
             </Col>
         </div>
@@ -443,25 +443,25 @@
         <Col sm="auto" lg="6">
             <ul class="list-style-dash">
                 <li>
-	                Der CoVerified-Button erscheint immer unten rechts auf Ihrer Website.
+	                Mit einem Klick auf den Button werden aktuelle Infos zu Covid-19 gebündelt und als News-Vorschau im Widget dargestellt.
                 </li>
                 <li>
-                    Mit einem Klick öffnet sich ein Fenster mit aktuellen Informationen zur Covid-19 Situation.
+                    Der CoVerified-Button erscheint immer unten rechts auf Ihrer Website.
                 </li>
                 <li>
- 	                An erster Stelle nennen wir die aktuellen Fallzahlen der John Hopkins University.
+ 	                Mit einem Klick öffnet sich ein Fenster mit aktuellen Informationen zur Covid-19 Situation.
                 </li>
                 <li>
- 	               Darunter folgen die neusten Infos, jeweils aus offiziellen und wissenschaftlich anerkannten Quellen.
+ 	               An erster Stelle nennen wir die aktuellen Fallzahlen der John Hopkins University.
                 </li>
                 <li>
- 	                Die Vorschau der zugehörigen Artikel ist direkt auf die Informationsquelle verlinkt, damit Sie auch den ganzen Artikel durchlesen können.
+ 	                Darunter folgen die neuesten Infos, jeweils aus offiziellen und wissenschaftlich anerkannten Quellen.
                 </li>
                 <li>
-                    Barrierefreiheit: Unser Informations-Tool (auf Deutsch Werkzeug) nimmt die voreingestellte Schriftgröße Ihres Browsers an, ist für Screenreading-Assistenten angepasst und wird zukünftig auch mehrsprachig zur Verfügung stehen.
+                    Mit Klick auf „Weiterlesen“ rufen Sie jeweils die komplette Nachrichtenmeldung auf.
                 </li>
                 <li>
- 	                Unsere Datenbank besteht aus aktuellen Daten aus den RSS-Feeds offizieller Stellen. Diese Infos werden gebündelt und als News-Vorschau in unserem Widget dargestellt. Klicken Sie auf ein solches Vorschau-Feld, werden Sie direkt zur aktuellen Meldung auf die Seite der jeweiligen Quelle weitergeleitet.
+ 	                Barrierefrei: Das Widget kann auf allen Geräten und Apps uneingeschränkt aufgerufen werden, auch über assistive Technologie wie Screenreader.
                 </li>
             </ul>
         </Col>
