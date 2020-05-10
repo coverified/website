@@ -40,18 +40,15 @@
     }
 
   p {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
-  h1 {
-    font-size: 2rem;
-    color: var(--color-primary);
-  }
-
-  h2 {
+  h2,
+  .h2 {
     font-size: 1.625rem;
     margin-top: 5.0625rem;
     margin-bottom: .6875rem;  
+    font-weight: 800;
   }
 
   div {
@@ -88,11 +85,7 @@
     align-items: center;
     height: 16.6875rem;
     justify-content: flex-start;
-    
-      > h1 {
-          top: 0;
-      }
-
+   
       > .wirvsvirus__logo {
           bottom: unset;
           top: .3125rem;
@@ -108,11 +101,6 @@
   }
   
   @media (max-width: 576px) {
-    
-    h1 {
-            font-size: 1.575rem;
-        }
-
     div {
       flex-direction: column;
       align-items: center;
@@ -134,24 +122,24 @@
     <img src="project-header.svg" alt="das Projekt" class="project-heading">
 </header>
 <main>
-  <h1>
-    Ein Projekt des #WirVsVirus Hackathons <br class="d-none d-lg-block"/> der Bundesregierung im März 2020.
+  <h1 class="h2">
+   Im Hackathon der Bundesregierung geboren
   </h1>
-  <h2>
-    Wir sind ein von der Bundesregierung gefördertes Projekt
-  </h2>
   <p>
-    Die Idee zu unserem Informations-Tool ist beim von der Bundesregierung initiierten #WirVsVirus Hackathon entstanden. Hier wurden Lösungen für die aktuelle Covid-19 Krise entworfen, programmiert und umgesetzt – komplett remote und organisiert in Teams aus engagierten Bürger*innen. CoVerified ist die Idee unseres Teams. Unseren Code können Sie in Ihre Websites einbinden, um Besucher*innen aktuelle Informationen zu Covid-19 bereitzustellen – aus verifizierten Quellen und mit nur einem Klick. So helfen Sie mit, die Verbreitung von Falschmeldungen zu verhindern.
+    Die Idee entstand beim #WirVsVirus Hackathon, der vom 20. bis 22. März 2020 stattfand. Die Bundesregierung rief im Rahmen des Hackathons dazu auf, Lösungen für die Covid-19 Krise zu entwickeln. In remote arbeitenden Teams aus ganz Deutschland wurden Lösungen zu den unterschiedlichsten Problemen der Krise entworfen und bis heute umgesetzt.
   </p>
   <p>
-    Nach dem Hackathon ist vor dem Hackathon: Wir arbeiten weiter an unserem Projekt und freuen uns über Feedback, Anregungen oder auch WoMan-Power. Damit wir zusammen noch besser werden und verlässliche Informationen für alle bereitstellen.
+    <u>Das Problem:</u> Woher bekommt die Bevölkerung zuverlässige, seriöse und aktuelle Informationen in der Coronakrise?
   </p>
   <p>
-    Unser Projekt ist eine Non-Profit-Lösung, unser Code wurde in OpenSource geschrieben.
+    <u>Unsere Lösung:</u> Das CoVerified Widget bietet einen effizienten, zuverlässigen Informationskanal von Regierung und Wissenschaftsinstitutionen zur Bevölkerung.
   </p>
   <p>
-    Unsere Projektbeschreibung und die Dokumentation beim #WirVsVirus Hackathon finden Sie hier: 
-    <a href="https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget" title="Projektbeschreibung" target=“_blank“ rel=“noopener“>
+    <u>Das Ziel:</u> CoVerified auf möglichst vielen Websites zu integrieren, damit so viele Menschen wie möglich die aktuellsten verifizierten Informationen zur Coronakrise erhalten.
+  </p>
+  <p>
+    Das Projekt ist eine Non-Profit-Lösung. Der Code ist Open Source. Die Projektbeschreibung und die Dokumentation beim #WirVsVirus Hackathon finden Sie hier:
+    <a href="https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget" title="Projektbeschreibung" target="_blank" rel="noopener">
       Devpost
     </a>
   </p>
@@ -159,16 +147,22 @@
     Unsere Motivation
   </h2>
   <p>
-    Unser Ziel ist es, proaktiv gegen Falschmeldungen zu arbeiten. Daher haben wir das CoVerified Tool entwickelt. Es bringt Informationen aus seriösen Quellen zusammen und bündelt diese in einem Widget. So schaffen wir es, umfänglich zu Covid-19 zu informieren. Im Detail heißt das: Es werden Informationen aus den einzelnen Bundesländern, sowie medizinische Ratschläge, Erkenntnisse aus der Forschung oder Verhaltensratschläge gebündelt und aktuell zur Verfügung gestellt. Dabei geht es uns vor allem um das Bereitstellen von wissenschaftlich überprüften Fakten in Ausnahmesituationen wie der Covid-19 Krise. Es ist allerdings auch möglich, das Widget zu einem späteren Zeitpunkt auf andere Krisen anzupassen, zum Beispiel beim Ausbruch von Naturkatastrophen wie Waldbränden oder Überschwemmungen.
+    Fakten statt Fake News: Mit CoVerified arbeiten wir und Sie proaktiv gegen Falschmeldungen. Es treibt uns an, einen Beitrag zur besseren Krisenkommunikation zu leisten, von dem möglichst viele Menschen profitieren. Denn wir bewältigen die Krise besser mit wissenschaftlich belegten Daten und Expertentipps. Zusammen mit Ihnen möchten wir erreichen, dass die aktuellsten verifizierten Informationen zu Covid-19 auf jeder Website immer nur einen Klick entfernt sind. Wenn alle mitmachen sind alle informiert!
   </p>
   <h2>
-    So funktioniert es
+    Unsere Vision
   </h2>
   <p>
-    CoVerified sammelt Daten aus verifizierten Quellen im Internet, bündelt diese in einer Datenbank und gibt sie als News-Vorschau über unser Informations-Tool (der Button auf Ihrer Website unten rechts) aus. Es gibt noch kein vergleichbares Angebot, das zentral die wichtigsten, validierten Daten bündelt wie zum Beispiel vom Robert-Koch-Institut, der Bundesregierung und dem Ministerium für Gesundheit. Wir wollen sicher gehen, dass wirklich nur Informationen aus wissenschaftlichen oder staatlichen Quellen genutzt werden.
+    Die Idee von CoVerified ist in der Coronakrise geboren, aber Weiterentwicklung und Umsetzung der Idee nicht auf diese beschränkt. Wir wollen CoVerified auch bei weiteren Krisen, wie z.B. Hochwasser, einsetzen. Denn darin liegt ein großer Vorteil von CoVerified:
   </p>
   <p>
-    Unsere Datenbank wird gefüttert mit allen aktuellen Daten aus den RSS-Feeds offizieller Stellen. Diese Informationen werden als News-Vorschau in unserem Tool dargestellt. Klickt oder tippt der Nutzer auf ein solches Vorschau-Feld, wird er direkt zur aktuellen Meldung auf die Seite der jeweiligen Quelle weitergeleitet.
+    Das Widget lässt sich in Krisensituationen unterschiedlichster Art verwenden. Verified communication &ndash; verifizierte Kommunikation &ndash; ist auch in Zukunft unsere Leitidee in der Krisenbekämpfung. Mit dieser wollen wir Krisensituationen solidarisch und inklusiv bewältigen.
+  </p>
+  <h2>
+    In wie fern verifiziert?
+  </h2>
+  <p>
+    Die Zahlen und Informationen des Widgets zu Covid-19 kommen nicht aus Wirtschaftsunternehmen oder von Medienhäusern. Weder Profitmaximierung noch Verkaufs- und  Klickzahlen sollen die Verlässlichkeit und Richtigkeit von CoVerified beeinträchtigen. Der Unsicherheit und Angst in Krisenzeiten begegnen wir mit einem verlässlichen, stabilen Informationsfluss.
   </p>
 </main>
 
