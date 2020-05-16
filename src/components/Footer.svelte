@@ -1,7 +1,6 @@
 <script>
     import Col from 'sveltestrap/src/Col.svelte';
-    import Row from 'sveltestrap/src/Row.svelte';
-    import Container from 'sveltestrap/src/Container.svelte';
+    import Row from 'sveltestrap/src/Row.svelte';  
 </script>
 
 <style type="text/scss">
