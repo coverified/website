@@ -1,4 +1,6 @@
 <script>
+    import Col from 'sveltestrap/src/Col.svelte';
+    import Row from 'sveltestrap/src/Row.svelte';  
 </script>
 
 <style type="text/scss">
@@ -6,42 +8,37 @@
         height: auto;
         max-width: 71.25rem;
         position: relative;
-        margin: 7rem auto 0 auto;
+        margin: 7rem auto .5rem auto;
+        padding-right: 15px;
+        padding-left: 15px;
 
         &:before {
             content: "";
             position: absolute;
-            background: var(--color-light-grey);
             display: block;
             width: 100vw;
             height: 100%;
+            box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
             left: 50%;
             right: 0;
             bottom: 0;
             top: 0;
             transform: translateX(-50%);
+            z-index: -1;
         }
 
-
-        > h3 {
+        h3 {
             position: relative;
-            font-size: 1.625rem;
-            color: var(--color-anthracite);
-            font-weight: 700;
+            font-size: 1rem;
+            color: var(--color-dark-grey);
+            font-weight: 400;
             padding-top: 3rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
         }
+    }
 
-        > div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-bottom: 2rem;
-
-            > p {
-                position: relative;
-            }
-        }
+    .bundesregierung-logo {
+        width: 19rem;
     }
 
     .meta-bar {
@@ -81,6 +78,11 @@
             max-width: 22.5rem;
             padding: 0 2rem;
         }
+
+        .bundesregierung-logo {
+            width: 16rem;
+        }
+
         div {
             > p {
                 margin-top: .5rem;
@@ -101,26 +103,36 @@
 </style>
 
 <footer>
-    <h3>
-        Unsere Datenbank bündelt folgende Quellen:
-    </h3>
-    <div>
-        <p>
-            Bundesministerium für Gesundheit
-        </p>
-        <p>
-            Bundesregierung Deutschland
-        </p>
-        <p>
-            Robert Koch Institut
-        </p>
-        <p>
-            Charité Universitätsmedizin Berlin
-        </p>
-        <p>
-            Johns Hopkins University
-        </p>
-    </div>
+    <Row>
+        <Col sm="auto" lg="6" class="mb-md-4">
+            <h3>
+                Unterstützt von 
+            </h3>
+            <img class="bundesregierung-logo" src="bundesregierung-logo.svg" alt="Die Bundesregierung">
+        </Col>
+        <Col sm="auto" lg="6" class="mb-md-4">
+        <h3>
+            Unsere Datenbank bündelt folgende Quellen:
+        </h3>
+        <div>
+            <p>
+                Bundesministerium für Gesundheit
+            </p>
+            <p>
+                Bundesregierung Deutschland
+            </p>
+            <p>
+                Robert Koch Institut
+            </p>
+            <p>
+                Charité Universitätsmedizin Berlin
+            </p>
+            <p>
+                Johns Hopkins University
+            </p>
+        </div>
+        </Col>
+    </Row>
 </footer>
 
 <p class="meta-bar">
