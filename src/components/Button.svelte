@@ -10,11 +10,11 @@
   .btn-primary {
     --btn-primary-bg-color: var(--color-primary);
     --btn-primary-text-color: var(--color-white);
-    --btn-primary-padding: 0.75rem 4.6875rem;
+    --btn-primary-padding: 0.75rem 2rem;
     --btn-primary-border-color: var(--color-primary);
     --btn-primary-border-width: 1px;
     --btn-primary-border-style: solid;
-    --btn-primary-border-radius: 5px;
+    --btn-primary-border-radius: 3rem;
     --text-decoration: none;
 
     background-color: var(--btn-primary-bg-color);
@@ -25,12 +25,10 @@
     border-style: var(--btn-primary-border-style);
     border-radius: var(--btn-primary-border-radius);
     text-decoration: var(--text-decoration);
+    width: var(--btn-primary-width);
+    text-align: var(--btn-primary-text-align);
   }
-  @media (max-width: 992px) {
-    a + a {
-      margin-top: 2.5rem;
-    }
-  }
+
   /* .secondary {
     --btn-secondary-bg-color: var(--color-light-secondary);
     --btn-secondary-text-color: (--color-anthracite);
@@ -50,7 +48,7 @@
   }*/
 </style>
 
-<a class="btn-primary" href="{href}" target="{target}" rel="{rel}">
+<a class="btn-primary" href="{href}" target="{target}" rel="{rel}" title="{label}">
   {label}
 </a>
 

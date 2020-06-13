@@ -9,6 +9,8 @@
 
     :root {
         overflow-x: hidden;
+        --btn-primary-width: 15rem;
+        --btn-primary-text-align: center;
     }
 
     h1 {
@@ -85,12 +87,65 @@
 
     .integration__buttons {
         display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        border-radius: 1000rem;
+        height: 10rem;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    .logo {
-        width: 3.125rem;
+    .job {
+        border-radius: 1rem;
+        box-shadow: 0 .75rem 2rem rgba(0, 0, 0, 0.1);
+        height: auto;
+        font-size: .85rem;
+        
+
+        &__heading {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: 2rem 1.5rem;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+
+            > h2 {
+                color: var(--color-white);
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            img {
+                width: 24%;
+            }
+        }
+
+        &__content {
+            padding: 1rem 1.5rem 2rem;
+
+            &--btn {
+                display: flex;
+                justify-content: center;
+                width: 8rem;             
+                margin: 0 auto;
+            }
+
+            &--social-media {
+                display: flex;
+                width: 8.125rem;
+                margin: 0 auto;
+                margin-top: .5rem;
+                cursor: pointer;
+                justify-content: space-around;
+
+
+                img {
+                    width: 1.25rem;
+                }
+            }
+        }
     }
 
     .check-symbol {
@@ -210,9 +265,8 @@
             }
         }
         .integration__buttons {
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;   
+            flex-direction: row;     
+            align-items: center;
         }
 
         .logo {
@@ -245,7 +299,15 @@
                 left: 50%;
             }
         }
+        
+        .job {
+            &__heading {
+                img {
+                    width: 12%;
+                }
+            }
 
+        }
     }
 
     @media (max-width: 768px) {
@@ -261,10 +323,15 @@
                 width: 69%;
                 padding-bottom: 21.5rem;
             }
+        
 
             .wirvsvirus__logo {
                 top: 48%;
             }
+        }
+        
+        .integration__buttons {
+            flex-direction: column;                     
         }
     }
 
@@ -304,6 +371,13 @@
                 margin-top: 2rem;
             }
         }   
+        .job {
+            &__heading {    
+                img {
+                    width: 26%;
+                }
+            }
+        }
     }
 </style>
 
@@ -346,11 +420,8 @@
     <Col sm="auto" lg="6">
         <h2>
             So gehts! Einfach per JavaScript oder WordPress Plugin einbinden:
-        </h2>
-        
-    </Col>
-    <Col sm="auto" lg="12">
-        <div class="my-5 integration__buttons">
+        </h2>    
+        <div class="mt-5 mb-3 integration__buttons">
             <Button href={'https://github.com/coverified/webcomponent#simple-integration'} label={'JavaScript'} target={'_blank'} rel={'noopener'}></Button>
             <Button href={'https://github.com/coverified/plugin-wordpress'} label={'WordPress-Plugin'} target={'_blank'} rel={'noopener'}></Button>
         </div>
@@ -358,8 +429,54 @@
             Wir empfehlen Ihnen, bei Verwendung unseres Widgets einen entsprechenden Vermerk in Ihrer Datenschutzerklärung zu hinterlegen. Wir selbst erheben und verarbeiten keinerlei personenbezogene Daten, unser Serviceprovider allerdings Server-Logfiles der IP Adressen. Die Informationen in unserem Widget zeigen auf die Angebote Dritter, auf denen deren Datenschutzerklärungen greifen.
         </p>
     </Col>
+    <Col sm="auto" lg="4" class="ml-auto">
+        <div class="job my-4 my-lg-0">
+            <div class="job__heading">
+                <Row>
+                    <Col sm="auto" md="12" class="d-flex">
+                        <p>
+                            Wir suchen noch Teamverstärkung:
+                        </p>
+                        <img src="hr-smiley.svg" class="ml-auto" alt="Smiley">
+                    </Col>                    
+                </Row>
+                <h2>
+                    Entwickler*innen<br class="d-none d-lg-block"/> (m/w/d) wanted!
+                </h2>
+            </div>
+            <div class="job__content">
+                <p>
+                    <b>Frontend Developer:</b><br />
+                    Required: (S)CSS, Modern JavaScript & GIT!
+                    Nice to have: Experience with Svelte, Sapper & Netlify
+                </p>
+                <p>
+                    <b>Backend Developer:</b><br />
+                    Required: Python with Flask, GIT, Postgres DB basics & REST API basics!
+                    Nice to have: Docker, Google Cloud Platform
+                </p>
+                <p>
+                    <b>Du hast leider kein Interesse, kennst aber jemanden, der in Frage käme? Teile Gern!</b>
+                </p>
+                <div class="job__content--btn">
+                    <Button href={'mailto:info@coverified.info'} label={'Mail uns!'} target={'_blank'}></Button>
+                </div>
+                <div class="job__content--social-media">
+                    <a href="https://twitter.com/CoVeri_fied" title="CoVerified Twitter" target="_blank" rel="noopener">
+                        <img src="twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="" title="">
+                        <img src="fb.svg" alt="Facebook">
+                    </a>
+                    <a>
+                        <img src="linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </Col>
 </Row>
-<Row class="mt-5">
+<Row class="mt-3">
     <Col sm="auto" lg="6">
         <h2>
             6 Gründe für unser kostenloses Widget:
