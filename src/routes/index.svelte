@@ -130,21 +130,7 @@
                 justify-content: center;
                 width: 8rem;             
                 margin: 0 auto;
-            }
-
-            &--social-media {
-                display: flex;
-                width: 8.125rem;
-                margin: 0 auto;
-                margin-top: .5rem;
-                cursor: pointer;
-                justify-content: space-around;
-
-
-                img {
-                    width: 1.25rem;
-                }
-            }
+            }            
         }
     }
 
@@ -460,18 +446,7 @@
                 </p>
                 <div class="job__content--btn">
                     <Button href={'mailto:info@coverified.info'} label={'Mail uns!'} target={'_blank'}></Button>
-                </div>
-                <div class="job__content--social-media">
-                    <a href="https://twitter.com/CoVeri_fied" title="CoVerified Twitter" target="_blank" rel="noopener">
-                        <img src="twitter.svg" alt="Twitter">
-                    </a>
-                    <a href="" title="">
-                        <img src="fb.svg" alt="Facebook">
-                    </a>
-                    <a>
-                        <img src="linkedin.svg" alt="LinkedIn">
-                    </a>
-                </div>
+                </div>              
             </div>
         </div>
     </Col>
