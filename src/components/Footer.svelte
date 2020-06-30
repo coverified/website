@@ -104,13 +104,19 @@
 
 <footer>
     <Row>
-        <Col sm="auto" lg="6" class="mb-md-4">
+        <Col sm="auto" lg="4" class="mb-md-4">
+            <h3>
+                Gefördert von
+            </h3>
+            <img class="bundesregierung-logo" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung">
+        </Col>
+        <Col sm="auto" lg="4" class="mb-md-4">
             <h3>
                 Unterstützt von 
             </h3>
             <img class="bundesregierung-logo" src="bundesregierung-logo.svg" alt="Die Bundesregierung">
         </Col>
-        <Col sm="auto" lg="6" class="mb-md-4">
+        <Col sm="auto" lg="4" class="mb-md-4">
         <h3>
             Unsere Datenbank bündelt folgende Quellen:
         </h3>
