@@ -38,7 +38,7 @@
     }
 
     .bundesregierung-logo {
-        width: 19rem;
+        width: 15rem;
     }
 
     .meta-bar {
@@ -105,16 +105,10 @@
 <footer>
     <Row>
         <Col sm="auto" lg="4" class="mb-md-4">
-            <h3>
-                Gefördert von
-            </h3>
-            <img class="bundesregierung-logo" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung">
+            <img class="bundesregierung-logo pt-5" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung">
         </Col>
         <Col sm="auto" lg="4" class="mb-md-4">
-            <h3>
-                Unterstützt von 
-            </h3>
-            <img class="bundesregierung-logo" src="bundesregierung-logo.svg" alt="Die Bundesregierung">
+            <img class="bundesregierung-logo pt-5" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung">
         </Col>
         <Col sm="auto" lg="4" class="mb-md-4">
         <h3>
