@@ -42,6 +42,11 @@
         button {
             display: none;
         }
+
+        .logo {
+            width: 120px;
+            height: 28px;
+        }
     }
 
     ul {
@@ -167,9 +172,7 @@
 
 <nav>
     <a href=".">
-        <!--    TODO: change to svg-->
-        <img src="favicon-32x32.png" alt="CoVerified Logo">
-        CoVerified
+        <img  class="logo" src="coverified_logo.svg" alt="CoVerified" width="475" height="111"/>
     </a>
     <ul class={open ? 'open' : ''}>
         <!-- <li>
