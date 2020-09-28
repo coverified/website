@@ -6,13 +6,23 @@
 
 <style type="text/scss">
   :global(:root) {
-    --color-primary: #3753ff;
+    --color-primary: #3a57ff;
     --color-light-grey: #ececec;
     --color-dark-grey: #767676;
+    --color-lighter-grey: #f6f6f6;
     --color-anthracite: #1d1d1d;
     --color-white: #fff;
+    --body-color: #132633;
     --color-border: #ececec;
-    --color-green: #3fb63f;
+    --color-green: #49fea4;
+    overflow-x: hidden;
+  }
+
+  :global(body) {
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+    color: (--body-color);
+    font-family: 'Barlow', sans-serif;
   }
 
   :global(h2) {
@@ -20,6 +30,10 @@
     font-weight: 800;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+  }
+
+  :global(p) {
+    font-family: 'Barlow-light', sans-serif;
   }
 
   :global(a) {
@@ -46,7 +60,6 @@
     background-color: white;
     margin: 0 auto;
   }
-
 
   header {
     background-color: white;

@@ -7,18 +7,18 @@
 </script>
 
 <style type="text/scss">
-  .btn-primary {
+  :global(.btn-primary) {
     --btn-primary-bg-color: var(--color-primary);
     --btn-primary-text-color: var(--color-white);
     --btn-primary-padding: 0.75rem 4.6875rem;
     --btn-primary-border-color: var(--color-primary);
     --btn-primary-border-width: 1px;
     --btn-primary-border-style: solid;
-    --btn-primary-border-radius: 5px;
+    --btn-primary-border-radius: 2rem;
     --text-decoration: none;
 
     background-color: var(--btn-primary-bg-color);
-    color: var(--btn-primary-text-color);
+    color: var(--btn-primary-text-color) !important;
     padding: var(--btn-primary-padding);
     border-color: var(--btn-primary-border-color);
     border-width: var(--btn-primary-border-width);
@@ -26,6 +26,7 @@
     border-radius: var(--btn-primary-border-radius);
     text-decoration: var(--text-decoration);
   }
+
   @media (max-width: 992px) {
     a + a {
       margin-top: 2.5rem;

@@ -37,6 +37,13 @@
                 height: auto;
                 margin-right: .625rem;
             }
+
+            > p {
+                font-size: 1.125rem;
+                font-weight: 300;
+                line-height: normal;
+                margin-bottom: 0;
+            }
         }
 
         button {
@@ -173,6 +180,10 @@
 <nav>
     <a href=".">
         <img  class="logo" src="coverified_logo.svg" alt="CoVerified" width="475" height="111"/>
+        <p>
+            Smart Communication<br />
+            for better-informed People.
+        </p>
     </a>
     <ul class={open ? 'open' : ''}>
         <!-- <li>
