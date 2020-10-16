@@ -12,7 +12,7 @@
     justify-content: center;
     display: flex;
     margin-bottom: 3rem;
-    
+
     &:before {
       content: "";
       position: absolute;
@@ -52,7 +52,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-        
+
       > h1 {
         top: 3.5rem;
         left: unset;
@@ -67,7 +67,7 @@
   }
 
   @media (max-width: 576px) {
- 
+
   }
 </style>
 
@@ -87,7 +87,7 @@
   <b>Angaben gemäß § 5 TMG</b>
 </p>
 <p>
-  Alessa Fetzer, Andrea Nienhaus, Christian Gleitze, Florian Schlittenbauer, Johannes Hiry, Paula Weise, Simon Schweikert, Steven Killian, Verena Hochrein GbR
+  Julia Diehl, Alessa Fetzer, Johannes Hiry, Steven Killian, Maximilian Mayer, Florian Schlittenbauer, Simon Schweikert, Christina Vollnhals, Paula Weise GbR
 </p>
 <p>
   Ludwigstraße 187<br />
@@ -139,7 +139,7 @@
   <b>Quelle:</b>
 </p>
 <p>
-  <a title="e-recht24.de" rel="nofollow" target="_blank" href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a> 
+  <a title="e-recht24.de" rel="nofollow" target="_blank" href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a>
 </p>
 </Col>
 </Row>
