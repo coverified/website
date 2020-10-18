@@ -25,13 +25,13 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
 ### Coding guidelines
 
-- use CSS custom properties for variables
-- use speaking variable names (rather longer and clear than short and meaningless)
-- always use variables for colors
-- always use variables for changing (eg. media queries) or configurable values (component props / css overrides)
-- define local variables on top and global variable on `:root` or `:host`
-- use namespaced variable names:
-  - do:
+- Use CSS custom properties for variables
+- Use speaking variable names (rather longer and clear than short and meaningless)
+- Always use variables for colors
+- Always use variables for changing (eg. media queries) or configurable values (component props / css overrides)
+- Define local variables on top and global variable on `:root` or `:host`
+- Use namespaced variable names:
+  - Do:
     ```css
     :root {
         --color-primary: #ff00ff;
@@ -50,7 +50,7 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
         border-style: var(--btn-border-style);
     }
     ```
-  - don't do:
+  - Don't do:
     ```css
     .btn {
         --primary: #ff00ff;
