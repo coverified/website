@@ -15,12 +15,17 @@
     .mt-120 {
         margin-top: 7.5rem;
     }
+
     .mt-150 {
         margin-top: 9.375rem;
     }
 
     .mb-96 {
         margin-bottom: 6rem;
+    }
+
+    .mb-120 {
+        margin-bottom: 7.5rem;
     }
 
     .bg-primary {
@@ -70,7 +75,7 @@
     .grid-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr min-content;
         grid-gap: 2rem;
     }
 
@@ -187,7 +192,7 @@
     <h2>
         Wika <span class="green">bringt Wissen zu den Menschen</span> - ohne zusätzlichen Aufwand
     </h2>
-    <div class="grid-wrapper">
+    <div class="grid-wrapper mb-5">
         <div class="grid-image">
             <img src="rss-feed.png" alt="Die Situation" class="w-50">
         </div>
@@ -217,13 +222,15 @@
     <h2>
         <span class="green">#digitalpioneers</span>        
     </h2>
-    <p>Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>
+    <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>    
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;"></Button>
     <h2>
         Eine besser informierte Gesellschaft ist Ihnen wichtig?
     </h2>
     <p>
         <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
-    </p>    
-    <Button style="btn-primary" label="Partner:in/Invesotr:in werden"></Button>
+    </p>
+    <div class="mb-120 mt-5">
+        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden"></Button>
+    </div>
 </Container>

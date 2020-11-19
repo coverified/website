@@ -51,13 +51,11 @@
     border-style: var(--btn-secondary-border-style);
     border-radius: var(--btn-secondary-border-radius);
     font-weight: var(--btn-font-weight);
-    text-decoration: var(--text-decoration);
-    transition: all .2s;
+    text-decoration: var(--text-decoration);    
 
     &:active {
       background-color: var(--color-light-grey) !important;
-      border-color: var(--color-light-grey) !important;
-      transform: translate(-25%, -25%);
+      border-color: var(--color-light-grey) !important;      
     }
   }
 
