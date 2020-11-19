@@ -20,6 +20,11 @@
             padding-top: .8rem;
             padding-bottom: .8rem;
 
+            &:hover,
+            &:focus {
+                box-shadow: none;
+            }
+
             &:first-child {
                 padding-left: 0;
             }
@@ -167,7 +172,7 @@
             }        
         }    
         [aria-current] {
-            box-shadow: 0;
+            box-shadow: none;
             background-color: var(--color-primary);
             color: var(--color-white);
             padding: .75rem;
