@@ -12,6 +12,7 @@
     --color-lighter-grey: #f7f8fc;
     --color-light-grey: #f6f6f6;
     --color-anthracite: #1d1d1d;
+    --color-black: #000;
     --color-white: #fff;
     --body-color: #132633;
     --color-border: #ececec;
@@ -24,37 +25,44 @@
     line-height: 1.875rem;
     color: var(--body-color);
     font-family: "Barlow", sans-serif;
+    
   }
 
   :global(h1,
     .h1) {
-        font-size: 2.5rem;
-        font-weight: 400;
-        color: var(--color-primary);
-        margin-bottom: 2.625rem;        
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: var(--color-primary);
+      margin-bottom: 2.625rem;        
     }
 
   :global(h2,
   .h2) {
-      font-size: 2rem;
-      color: var(--color-anthracite);
-      font-weight: 400;
-      margin-top: 7.75rem;
-      margin-bottom: 1.6875rem;
+    font-size: 2rem;
+    color: var(--color-anthracite);
+    font-weight: 400;
+    margin-top: 7.75rem;
+    margin-bottom: 1.6875rem;
   }
 
   :global(h3,
   .h3) {
-      font-size: 1.875rem;
-      margin-bottom: 2.75rem;
-      
-      > span {
-          display: block;
-          font-size: 1.5625rem;
-          font-weight: 500;
-          margin-right: auto;
-      }
-    }    
+    font-size: 1.875rem;
+    margin-bottom: 2.75rem;
+    color: var(--color-primary);
+    
+    > span {
+        display: block;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        margin-right: auto;
+    }
+  }
+
+  :global(.text-black) {
+    color: var(--color-black);
+    font-weight: 600;
+  }
 
   :global(span.green) {
     position: relative;        

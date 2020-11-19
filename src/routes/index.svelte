@@ -6,8 +6,6 @@
 </script>
 
 <style type="text/scss">
-
-
     .mt-150 {
         margin-top: 9.375rem;
     }
