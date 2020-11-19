@@ -6,7 +6,6 @@
 
 <style type="text/scss">
     nav {
-        font-weight: 300;
         display: flex;
         flex-direction: row;
         max-width: 71.25rem;
@@ -18,29 +17,15 @@
             flex-direction: column;
             color: var(--color-primary);
             margin-right: auto;
-            font-weight: 700;
-            font-size: 1.25rem;
-            line-height: 2.25rem;
             padding-top: .8rem;
             padding-bottom: .8rem;
-
-            &:hover {
-                color: #767676;
-            }
 
             &:first-child {
                 padding-left: 0;
             }
 
-            > img {
-                width: 2rem;
-                height: auto;
-                margin-right: .625rem;
-            }
-
             > p {
                 font-size: .75rem;
-                font-weight: 300;
                 line-height: normal;
                 margin-bottom: 0;
             }
@@ -73,26 +58,44 @@
         float: left;
     }
 
-    .highlight {
-        background-color: var(--color-primary);
-        border: 1px solid var(--color-primary);
-        border-radius: 5px;
-        color: var(--color-white);
-        padding: 0.45rem 1.75rem;
-    }
-
     [aria-current] {
-        box-shadow: inset 0 -3px 0 0 var(--color-primary);
-        font-weight: bold;
+        box-shadow: inset 0 -2px 0 0 var(--color-primary);
     }
 
     a {
         text-decoration: none;
-        padding: 0.45rem 1.5625rem;
+        padding: 0.45rem .75rem 1rem .75rem;
         display: block;
         line-height: 20px;
         margin-left: 1rem;
         margin-right: 1rem;
+
+        &:hover,
+        &:focus {
+            box-shadow: inset 0 -2px 0 0 var(--color-primary);
+        }
+    }
+
+    @media (min-width: 992px) {
+        .contact {
+        --btn-primary-bg-color: var(--color-primary);
+        --btn-primary-text-color: var(--color-white);
+        --btn-primary-border-color: var(--color-primary);
+        --btn-primary-border-width: 1px;
+        --btn-primary-border-style: solid;
+        --btn-primary-border-radius: 2rem;
+        --btn-padding: 0.75rem 2.5rem;
+        --text-decoration: none;
+
+        background-color: var(--btn-primary-bg-color);
+        color: var(--btn-primary-text-color) !important;
+        padding: var(--btn-padding);
+        border-color: var(--btn-primary-border-color);
+        border-width: var(--btn-primary-border-width);
+        border-style: var(--btn-primary-border-style);
+        border-radius: var(--btn-primary-border-radius);
+        text-decoration: var(--text-decoration);
+        }
     }
 
     @media (max-width: 1200px) {
@@ -103,14 +106,7 @@
 
     @media (max-width: 992px) {
         nav {
-            max-width: 45rem;
-        }
-    }
-
-
-    @media (max-width: 768px) {
-        nav {
-            max-width: 33.75rem;
+            max-width: 45rem; 
             display: flex;
             flex-direction: column;
             position: relative;
@@ -123,7 +119,8 @@
                 height: 2.2rem;
                 position: absolute;
                 right: 0;
-                top: .875rem;
+                top: 1.25rem;
+                margin-right: 1rem;
                 appearance: none;
                 border: 0;
                 padding: 0;
@@ -167,8 +164,22 @@
                     margin-top: .33rem;
                     margin-bottom: .33rem;
                 }
-            }
-        }
+            }        
+        }    
+        [aria-current] {
+            box-shadow: 0;
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: .75rem;
+            font-weight: 400;
+        }    
+    }
+
+
+    @media (max-width: 768px) {
+        nav {
+            max-width: 33.75rem;
+        }  
     }
 
     @media (max-width: 576px) {
@@ -209,7 +220,7 @@
         </li>
         <li>
             <a rel="prefetch"
-               class="btn-primary"
+               class="contact"
                aria-current={segment === 'contact' ? 'page' : undefined}
                href="contact">
                 Kontakt
