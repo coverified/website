@@ -8,15 +8,17 @@
         height: auto;
         max-width: 71.25rem;
         position: relative;
-        margin: 7rem auto .5rem auto;
+        margin: 1.875rem auto .5rem auto;
         padding-right: 15px;
         padding-left: 15px;        
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.25rem;
 
         &:before {
             content: "";
             position: absolute;
             display: block;
-            background-color: var(--color-lighter-grey);
+            background-color: var(--color-light-grey);
             width: 100vw;
             height: 100%;
             left: 50%;
@@ -93,11 +95,6 @@
                 }
             }
         }
-        .meta-bar {
-            > a:not(:last-child) {
-                font-size: .85rem;
-            }
-        }
     }
 
 </style>
@@ -111,7 +108,7 @@
             <img class="bundesregierung-logo pt-5" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <img class="bundesregierung-logo pt-5" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung">
+            <img class="bundesregierung-logo pt-5" src="wirvsvirus-logo.svg" alt="Wir vs Virus Hackathon">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
         <div>

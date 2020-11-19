@@ -6,53 +6,15 @@
 </script>
 
 <style type="text/scss">
-    h1,
-    .h1 {
-        font-size: 3.125rem;
-        font-weight: 400;
-        color: var(--color-primary);
-        line-height: 48px;
-        margin-bottom: 2.625rem;        
+
+
+    .mt-150 {
+        margin-top: 9.375rem;
     }
 
-    h2,
-    .h2 {
-        font-size: 1.625rem;
-        color: var(--color-anthracite);
-        font-weight: 800;
-        margin-top: 9.875rem;
-        margin-bottom: 1.6875rem;
+    .mt-120 {
+        margin-top: 7.5rem;
     }
-
-    h3,
-    .h3 {
-        font-size: 3.75rem;
-        margin-bottom: 2.75rem;
-        padding-top: 9.375rem;
-        
-        > span {
-            display: block;
-            font-size: 1.5625rem;
-            font-weight: 500;
-            margin-right: auto;
-        }
-    }
-
-    span.green {
-        position: relative;
-        z-index: 100;
-
-        &::before {
-            content: "";
-            background-color: var(--color-green);
-            position: absolute;
-            height: 60%;
-            bottom: -20%;
-            width: 100%;      
-            z-index: -10;      
-        }
-    }
-
     .mt-150 {
         margin-top: 9.375rem;
     }
@@ -82,65 +44,69 @@
             transform: translateX(-50%);            
             z-index: -10;
         }
-    }
 
-    hr {
-        display: inline-block;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 30%;        
-    }
-
-    .circle-1,
-    .circle-2,
-    .circle-3 {
-        position: relative;
-        background-color: var(--color-green);
-        width: 3.75rem;
-        height: 3.75rem;
-        border-radius: 10rem;            
-        font-size: 1.875rem;
-        font-weight: 600;
-        margin: 0 auto;
-    }
-
-    .circle-1 {
         &:after {
-            content: "1";
+            content: "";
             position: absolute;
-            left: 25px;
-            top: 10px;
-        }
-    }
-    .circle-2 {
-        &:after {
-            content: "2";
-            position: absolute;
-            left: 23px;
-            top: 10px;
+            left: 0;
+            right: auto;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            bottom: 0;
+            border-width: 3rem 3rem 0 3rem;
+            border-color: var(--color-primary) transparent transparent transparent;
+            left: 50%;
+            transform: translate(-50%, 100%);
         }
     }
 
-    .circle-3 {
-        &:after {
-            content: "3";
-            position: absolute;
-            left: 23px;
-            top: 10px;
+    .animation {
+        width: 27rem;
+        height: auto;
+        display: block;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    .grid-image {
+        grid-row: 1 / 1;    
+
+        img {
+            width: 60%;
         }
     }
-
-    .mission-bg {
-        text-align: left;
+    
+    .grid-text {
+        grid-row: 2 / 2;
     }
-
-    @media (max-width: 992px) {
+    
+    @media (max-width: 992px) {    
         h1 {
             font-size: 2rem;
         }
 
+        h2 br {
+            display: none;
+        }
+
         button + button {
             margin-top: 2.5rem;
+        }
+
+        .grid-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .animation {
+            width: 100%;
+            height: auto;
         }
        
     }
@@ -150,9 +116,12 @@
     }
 
     @media (max-width: 576px) {
-        h1 {
-            font-size: 1.5rem;
+        h1,
+        .h1 {
+            font-size: 2rem;
         }
+
+        
     }
 </style>
 
@@ -160,112 +129,101 @@
     <title>CoVerified</title>
     <meta name="description" content="CoVerified"/>
 </svelte:head>
-
-<h1 class="sr-only">CoVerified</h1>
 <Container class="mt-5 pt-3 text-center">
-    <h2 class="h1 mt-0">
-        CoVerified wurde mit einem Ziel gegründet:<br />
-        digitale Kommunikation neu zu denken – <br />
-        für eine besser informierte Gesellschaft.
-    </h2>
+    <h1 class="h1 mt-0">
+        #fightingDesinformation – <br />
+        Wir denken digitale Information neu.
+    </h1>
     <p>
-        Was passiert mit einer Gesellschaft, die Fakten nicht mehr akzeptiert?  Vom ersten Tag an haben wir daran geglaubt, dass die Wahrheit zu Verbreiten wichtig ist. Wir haben uns zum Ziel gesetzt, gegen Desinformation zu kämpfen und Wissen zu verbreiten – für eine starke und informierte Gesellschaft.
+         Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
     </p>
     <h2>
-        Mehr Wissen <span class="green">für Alle!</span><br />
-        Wir machen aus verstreuten Infos <span class="green">geballte Wissenspower.</span>
+        Mehr Wissen <span class="green">für alle</span>.        
     </h2>
     <p>
-        Doch was macht eigentlich die Bundesregierung, um Lösungen für diese gesellschaftlichen Herausforderungen zu finden? 
-        Bisher war es mühsam aktuelle Informationen über gesellschaftlich relevante Themen zu finden. Offizielle Informationen sind verstreut auf hunderten von Seiten im Internet. Soziale Medien und andere Seiten sind voll von Desinformation. 
+        Sichere Informationen gebündelt, ansprechend und webweit verfügbar
     </p>
-    <Row>
-        <Col sm="auto" lg="4" class="flex-column">
-            <!-- IMAGE -->
-            Wir bündeln Informationen<br />
-            an einem Ort…
-        </Col>
-        <Col sm="auto" lg="4" class="flex-column">
-            <!-- IMAGE -->
-            …aus vertrauenswürdigen<br />
-            Quellen…
-        </Col>
-        <Col sm="auto" lg="4" class="flex-column">
-            <!-- IMAGE -->
-            …und bereiten sie<br />
-            medial auf.
-        </Col>
-    </Row>
-    <button class="btn-primary mt-150 mb-96">Wie machen wir das?</button>
-    <div class=" bg-primary text-white">
+    <div class="grid-wrapper mt-5">
+        <div class="grid-image">
+            <img src="diesituation.png" alt="Die Situation" class="w-50">
+        </div>
+        <div class="grid-text">
+            <p>
+                <b>Die Situation:</b><br />
+                Verlässliche Informationen sind im Netz verstreut und mühsam zu finden
+            </p>
+        </div>    
+        <div class="grid-image">
+            <img src="unsereloesung.png" alt="Unsere Lösung">                
+        </div>
+        <div class="grid-text">
+            <p>
+                <b>Unsere Lösung:</b><br />
+                Wir bündeln Infos sicherer Quellen in einer zentralen Datenbank und machen sie kompakt, ansprechend und einfach verfügbar
+            </p>
+        </div>
+        <div class="grid-image">
+            <img src="unserevision.png" alt="Unsere Vision">
+        </div>    
+        <div class="grid-text">
+            <p>
+                <b>Unsere Vision:</b><br /> 
+                eine informierte, faktensichere, breite Öffentlichkeit mit mehr Verständnis, Weitsicht und Toleranz
+            </p>
+        </div>    
+    </div>
+    <div class=" bg-primary text-white mt-120">
         <h2 class="text-white mt-0">
-            WiKa - der Wissenskanal für offizielle Informationen
+            Die CoVerified Lösung für mehr Wissen im Netz:
         </h2>
+        <img src="wika-logo.svg" alt="Wika Logo" class="w-25">
         <p>
-            Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung… Diese und viele weitere Themen bewegen ganz Deutschland und werden in unserem Widget gesammelt.<br />
-            <b>Helfen auch Sie mit und werden Sie Teil der Wissens-Bewegung!</b>        
+            Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
         </p>
+        <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
+        <Button style="btn-secondary" label="Demo-Version testen!"></Button>
         <!-- Grafiken -->
     </div>
     <h2>
-        Sie haben eine Website oder einen Blog?<br />
-        <span>
-            Perfekt, denn mehr brauchen Sie nicht! <br />
-            Helfen Sie mit: <span class="green">In 3 einfachen Schritten</span> gegen Desinformation.
-        </span>
+        Wika <span class="green">bringt Wissen zu den Menschen</span> - ohne zusätzlichen Aufwand
     </h2>
-    <Row class="justify-content-center">
-        <Col sm="auto" lg="4" class="flex-column">
-            <div class="circle-1"></div>
-            <!-- Image -->
-            Unser Widget kostenlos<br />
-            herunterladen.
-        </Col>
-        <Col sm="auto" lg="4" class="flex-column">
-            <div class="circle-2"></div>
-            <!-- Image -->
-            Einfach auf Ihrer Website<br />
-            installieren und individuell<br />
-            konfigurieren.
-        </Col>
-        <Col sm="auto" lg="4" class="flex-column">
-            <div class="circle-3"></div>
-            <!-- Image -->
-            Widget auf Ihrer Website<br />
-            veröffentlichen – für eine besser<br />
-            informierte Gesellschaft.
-        </Col>
-    </Row>
-    <!-- GRafik -->
-    <div class="container">
-    <!-- Grau -->
-        <p>
-            <span>„</span>WiKa hat uns geholfen,
-        </p>
+    <div class="grid-wrapper">
+        <div class="grid-image">
+            <img src="rss-feed.png" alt="Die Situation" class="w-50">
+        </div>
+        <div class="grid-text">
+            <p>
+                Wir nutzen bestehende RSS Feeds – somit entsteht <b>kein zusätzlicher redaktioneller Aufwand</b>
+            </p>        
+        </div>        
+        <div class="grid-image align-items-center d-flex justify-content-center">
+            <img src="webeinbindung.png" alt="Unsere Lösung"> 
+        </div>
+        <div class="grid-text">
+            <p>
+                Unser Widget ist webweit einbindbar – Informationen bekommen damit eine <b>enorme Reichweite</b>
+            </p>
+        </div>
+        <div class="grid-image">
+            <img src="nutzerinzentriert.png" alt="Unsere Vision">
+        </div>
+        <div class="grid-text">
+            <p>
+                Unsere Lösung ist <b>nutzer:innen-zentriert</b> entwickelt – somit erreichen wir eine <b>höhere Akzeptanz</b> breiten Bevölkerung
+            </p>
+        </div>
     </div>
+    <Button style="btn-primary" label="Unsere Technologie&nbsp;&#8594;"></Button>
     <h2>
-        Sie finden uns schon ganz gut?<br />
-        Dann <span class="green">unterstützen Sie uns,</span> damit wir noch besser werden.
+        <span class="green">#digitalpioneers</span>        
+    </h2>
+    <p>Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>
+    <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;"></Button>
+    <h2>
+        Eine besser informierte Gesellschaft ist Ihnen wichtig?
     </h2>
     <p>
-        Um die Qualität unseres Services noch besser zu machen,
-        brauchen wir Eure Hilfe! Unterstützt uns jetzt mit einer Spende oder Investition.
-    </p>
-    <Row class="justify-content-center">
-        <Col sm="auto" lg="6">
-            <button class="btn-primary">Mit einer Spende unterstützen</button>
-        </Col>
-        <Col sm="auto" lg="6" class="mt-3 mt-lg-0">
-            <button class="btn-primary">Partner / Investor werden</button>            
-        </Col>
-    </Row>
-    <div class="mission-bg">
-        <!-- Bild als Hintergrund -->
-        <h3 class="text-white">
-            <span>Unsere Mission</span>
-            Mehr Wissen für alle -<br />
-            sicher kompakt relevant
-        </h3>
-        <button class="btn-primary">Wer sind wir und wie wollen wir das schaffen?</button>
-    </div>
+        <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
+    </p>    
+    <Button style="btn-primary" label="Partner:in/Invesotr:in werden"></Button>
 </Container>

@@ -1,169 +1,222 @@
 <script>
-  import Header from "../components/Header.svelte";
-  import List from "../components/List.svelte";
+  import Button from '../components/Button.svelte';
+  import Col from "sveltestrap/src/Col.svelte";
+  import Row from "sveltestrap/src/Row.svelte";
+  import Container from "sveltestrap/src/Container.svelte";
 </script>
 
 <style type="text/scss">
-  main {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  header {
-    background-color: var(--color-primary);
-    height: 14.6875rem;
+  .bg-primary {
     position: relative;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 3rem;
-    
+    background-color: var(--color-primary) !important;
+    z-index: 100;
+    padding-top: 7.5rem;
+    text-align: left;
+    padding-bottom: 7.5rem;
+
     &:before {
-        content: "";
-        position: absolute;
-        background: var(--color-primary);
-        display: block;
-        width: 100vw;
-        height: 100%;
-        left: 50%;
-        right: 0;
-        bottom: 0;
-        top: 0;
-        transform: translateX(-50%);
-      }
-    }
-
-    .wirvsvirus__logo {
-        position: absolute;
-        width: 20rem;
-        bottom: 37%;
-        right: 1.125rem;
-    }
-
-  p {
-    margin-bottom: 2rem;
-  }
-
-  h2,
-  .h2 {
-    font-size: 1.625rem;
-    margin-top: 5.0625rem;
-    margin-bottom: .6875rem;  
-    font-weight: 800;
-  }
-
-  div {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3rem;
-
-    > .coverified__informationgraphic {
-      width: 45%;
+      content: "";
       background-color: var(--color-primary);
-      padding: 1.5rem;
-      margin-right: 2rem;
-      margin-bottom: 1rem;
-      margin-top: 1rem;
+      position: absolute;
+      display: block;
+      width: 100vw;
+      height: 100%;
+      left: 50%;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      transform: translateX(-50%);
+      z-index: -10;
     }
   }
 
-  .project-heading {
-    width: 13rem;
-    position: absolute;
-    top: 2rem;
-    left: 0;
+  .bg-secondary {
+    position: relative;
+    background-color: var(--color-lighter-grey) !important;
+    z-index: 100;
+    margin-top: 7.75rem;
+    padding-top: 5rem;
+    padding-bottom: 4.625rem;
+
+    &:before {
+      content: "";
+      background-color: var(--color-lighter-grey);
+      position: absolute;
+      display: block;
+      width: 100vw;
+      height: 100%;
+      left: 50%;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      transform: translateX(-50%);
+      z-index: -10;
+    }
+  }
+
+  .zitat {
+    font-size: 3rem;
+    line-height: 1.25;    
+  }
+
+  .author {
+    font-weight: bold;
+    margin-top: 1.875rem;
   }
 
   @media (max-width: 992px) {
-    main {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-  @media (max-width: 768px) {
-    header {
-    flex-direction: column;
-    align-items: center;
-    height: 16.6875rem;
-    justify-content: flex-start;
-   
-      > .wirvsvirus__logo {
-          bottom: unset;
-          top: .3125rem;
-          right: auto;
-          width: 20rem;
-      }
-    }
-    .project-heading {
-      width: 11rem;
-      top: 7rem;
-      left: unset;
-    }
+    .zitat {
+      font-size: 2.25rem;
+    } 
   }
   
-  @media (max-width: 576px) {
-    div {
-      flex-direction: column;
-      align-items: center;
-
-      > .coverified__informationgraphic {
-        width: 100%;
-        margin-right: 0rem;
-      }
-    }
-  }
 </style>
 
 <svelte:head>
-	<title>Information</title>
+  <title>Information</title>
 </svelte:head>
-
-<header>
-    <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
-    <img src="project-header.svg" alt="das Projekt" class="project-heading">
-</header>
-<main>
-  <h1 class="h2">
-   Im Hackathon der Bundesregierung geboren
-  </h1>
+<Container class="mt-5 pt-3 text-center">
+  <h1>Wir sind CoVerified</h1>
   <p>
-    Die Idee entstand beim #WirVsVirus Hackathon, der vom 20. bis 22. März 2020 stattfand. Die Bundesregierung rief im Rahmen des Hackathons dazu auf, Lösungen für die Covid-19 Krise zu entwickeln. In remote arbeitenden Teams aus ganz Deutschland wurden Lösungen zu den unterschiedlichsten Problemen der Krise entworfen und bis heute umgesetzt.
+    Ein Wochenende im März war die Geburtsstunde von CoVerified: 3 Entwickler
+    aus Bayern stürzten sich mit knapp 30.000 anderen in den #WirvsVirus
+    Hackathon. Im Kopf die Idee, aktiv gegen Desinformation und die Spaltung
+    der Gesellschaft vorgehen. Das Wochenende endete nicht nur mit neuen
+    Team-Membern und einem funktionsfähigen Prototypen, sondern mit dem
+    unglaublichen Gefühl, Teil einer besonderen Community zu sein und als
+    Zivilgesellschaft an Lösungen aktiv mitwirken zu können.
   </p>
-  <p>
-    <u>Das Problem:</u> Woher bekommt die Bevölkerung zuverlässige, seriöse und aktuelle Informationen in der Coronakrise?
-  </p>
-  <p>
-    <u>Unsere Lösung:</u> Das CoVerified Widget bietet einen effizienten, zuverlässigen Informationskanal von Regierung und Wissenschaftsinstitutionen zur Bevölkerung.
-  </p>
-  <p>
-    <u>Das Ziel:</u> CoVerified auf möglichst vielen Websites zu integrieren, damit so viele Menschen wie möglich die aktuellsten verifizierten Informationen zur Coronakrise erhalten.
-  </p>
-  <p>
-    Das Projekt ist eine Non-Profit-Lösung. Der Code ist Open Source. Die Projektbeschreibung und die Dokumentation beim #WirVsVirus Hackathon finden Sie hier:
-    <a href="https://devpost.com/software/1_039_c_staatlichekommunikation_webinfowidget" title="Projektbeschreibung" target="_blank" rel="noopener">
-      Devpost
-    </a>
-  </p>
-  <h2>
-    Unsere Motivation
+  <div class="bg-primary text-white mt-5">
+    <p class="zitat">
+      „Nach unserer Überzeugung gibt es kein größeres und wirksameres Mittel
+      zu wechselseitiger Bildung als das Zusammenarbeiten.“
+    </p>
+    <p>Johann Wolfgang von Goethe</p>
+  </div>
+  <h2 class="mt-5">
+    <span class="green">Unsere Mission</span>
   </h2>
   <p>
-    Fakten statt Fake News: Mit CoVerified arbeiten wir und Sie proaktiv gegen Falschmeldungen. Es treibt uns an, einen Beitrag zur besseren Krisenkommunikation zu leisten, von dem möglichst viele Menschen profitieren. Denn wir bewältigen die Krise besser mit wissenschaftlich belegten Daten und Expertentipps. Zusammen mit Ihnen möchten wir erreichen, dass die aktuellsten verifizierten Informationen zu Covid-19 auf jeder Website immer nur einen Klick entfernt sind. Wenn alle mitmachen sind alle informiert!
+    CoVerified denkt staatliche Kommunikation neu.
   </p>
+  <Row class="text-left mt-5">
+    <Col sm="auto" lg="4">
+      <p class="text-primary">
+        #Demokratie
+      </p>
+      <p>
+        Wir glauben, dass eine gut
+        informierte Bevölkerung der
+        Schlüssel zu einer funktionierenden
+        Gesellschaft ist und Bildung das
+        Vertrauen in staatliche
+        Entscheidungen fördert.
+        Gesichertes Wissen leicht
+        zugänglich machen und in der
+        Breite der Bevölkerung für
+        Faktensicherheit sorgen, ist das
+        Ziel von Coverified.
+        Denn Wissen fördern und
+        Demokratie stärken sind wichtiger
+        denn je.
+      </p>
+    </Col>
+    <Col sm="auto" lg="4" class="mt-3 mt-md-0">
+      <p class="text-primary">
+        #OpenSocialInnovation
+      </p>
+      <p>
+        Mit der Idee im Kopf und Leidenschaft
+        im Herzen sind wir in den Hackathon
+        #WirvsVirus 2020 gestartet. Seite an
+        Seite mit knapp 150 Projekten haben
+        wir Lösungen für die Probleme im
+        Zuge der COVID-19-Pandemie
+        entwickelt.
+        Wir sind überzeugt, dass Open Social
+        Innovation dem großen
+        Innovationspotential der
+        Zivilgesellschaft die Tür öffnet und
+        gelebte Partizipation wunderbare
+        Lösungen für viele gesellschaftliche
+        Herausforderungen bereithält.
+      </p>
+    </Col>
+    <Col sm="auto" lg="4" class="mt-3 mt-md-0">
+      <p class="text-primary">
+        #Digitalisierung
+      </p>
+      <p>
+        Eine breit informierte Öffentlichkeit
+        erreichen wir, wenn neue digitale
+        Kanäle eine schnelle und
+        niedrigschwellige Information der
+        Bevölkerung ermöglichen. Wir bei
+        CoVerified arbeiten daran, den
+        Herausforderungen unserer Zeit mit
+        innovativen Kommunikationswegen
+        zu begegnen und neue
+        Informationsstandards zu setzen.
+      </p>
+    </Col>
+  </Row>
   <h2>
-    Unsere Vision
+    <span class="green">#digitalpioneers</span>
   </h2>
   <p>
-    Die Idee von CoVerified ist in der Coronakrise geboren, aber Weiterentwicklung und Umsetzung der Idee nicht auf diese beschränkt. Wir wollen CoVerified auch bei weiteren Krisen, wie z.B. Hochwasser, einsetzen. Denn darin liegt ein großer Vorteil von CoVerified:
+    Das ist das interdisziplinäre Team, das mit Herzblut hinter
+    CoVerified steht. 9 Expert:innen, die sich remote gefunden haben,
+    um gemeinsam etwas zu bewirken und Open Social Innovation von
+    der Idee bis zur Umsetzung zu gestalten.
   </p>
-  <p>
-    Das Widget lässt sich in Krisensituationen unterschiedlichster Art verwenden. Verified communication &ndash; verifizierte Kommunikation &ndash; ist auch in Zukunft unsere Leitidee in der Krisenbekämpfung. Mit dieser wollen wir Krisensituationen solidarisch und inklusiv bewältigen.
-  </p>
-  <h2>
-    In wie fern verifiziert?
-  </h2>
-  <p>
-    Die Zahlen und Informationen des Widgets zu Covid-19 kommen nicht aus Wirtschaftsunternehmen oder von Medienhäusern. Weder Profitmaximierung noch Verkaufs- und  Klickzahlen sollen die Verlässlichkeit und Richtigkeit von CoVerified beeinträchtigen. Der Unsicherheit und Angst in Krisenzeiten begegnen wir mit einem verlässlichen, stabilen Informationsfluss.
-  </p>
-</main>
-
-
+  <!-- Bilder einfügen -->
+  <div class="bg-secondary ">
+    <h2 class="mt-0">
+      <span class="green">#Unser Leistungsprofil</span>
+    </h2>
+    <p>
+      Wir begleiten Kommunikationsprojekte von der Idee bis zur Umsetzung
+    </p>
+    <Row class="text-left my-5">
+      <Col sm="auto" lg="3">
+        <p class="text-primary">
+          Software-Entwicklung
+        </p>
+        <p>
+          Von Strategie und Konzeption über Design und Programmierung bis zur Implementierung.
+        </p>
+      </Col>
+      <Col sm="auto" lg="3">
+      <p class="text-primary">
+          Projektmanagement
+        </p>
+        <p>
+          Beratung, Projektleitung und Abstimmung mit allen Beteiligten
+        </p>
+      </Col>
+      <Col sm="auto" lg="3">
+      <p class="text-primary">
+          Marketing & Kommunikation
+        </p>
+        <p>
+          Planung, Gestaltung und Umsetzung von Kommunikations-Maßnahmen z.B. Kampagne
+        </p>
+      </Col>
+      <Col sm="auto" lg="3">
+      <p class="text-primary">
+          Service & Maintainance
+        </p>
+        <p>
+          Betreuung von Einbindung und Betrieb der Kommunikations-Lösungen
+        </p>
+      </Col>
+    </Row>
+    <Button label="Jetzt Kontakt aufnehmen&nbsp;&#8594;" style="btn-primary"></Button>
+  </div>
+  <div class="bg-primary text-center">
+    <h3 class="text-white h1">
+      Werde Teil unserer Mission und folge uns auf Twitter
+    </h3>
+    <Button style="btn-secondary" label="CoVerified auf Twitter folgen"></Button>
+  </div>
+</Container>

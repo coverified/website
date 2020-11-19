@@ -15,7 +15,7 @@
 
         > a {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             color: var(--color-primary);
             margin-right: auto;
             font-weight: 700;
@@ -39,11 +39,12 @@
             }
 
             > p {
-                font-size: 1.125rem;
+                font-size: .75rem;
                 font-weight: 300;
                 line-height: normal;
                 margin-bottom: 0;
             }
+
         }
 
         button {
@@ -51,8 +52,8 @@
         }
 
         .logo {
-            width: 120px;
-            height: 28px;
+            width: 165px;
+            height: auto;
         }
     }
 
@@ -181,44 +182,39 @@
     <a href=".">
         <img  class="logo" src="coverified_logo.svg" alt="CoVerified" width="475" height="111"/>
         <p>
-            Smart Communication<br />
-            for better-informed People.
+            Redefining Communication
         </p>
     </a>
     <ul class={open ? 'open' : ''}>
-        <!-- <li>
-            <a class="highlight"
-               rel="prefetch"
-               aria-current={segment === 'integration' ? 'page' : undefined}
-               href="integration">
-                Einbinden
-            </a>
-        </li> -->
         <li>
             <a rel="prefetch"
-               aria-current={segment === 'news' ? 'page' : undefined}
-               href="news">
-                Covid-19 News
+               aria-current={segment === 'technology' ? 'page' : undefined}
+               href="technology">
+                Technologie
+            </a>
+        </li>
+        <li>
+            <a rel="prefetch"
+               aria-current={segment === 'wika' ? 'page' : undefined}
+               href="wika">
+                Projekt Wika
             </a>
         </li>
         <li>
             <a rel="prefetch"
                aria-current={segment === 'about' ? 'page' : undefined}
                href="about">
-                das Projekt
+                Über CoVerified
             </a>
         </li>
         <li>
             <a rel="prefetch"
+               class="btn-primary"
                aria-current={segment === 'contact' ? 'page' : undefined}
                href="contact">
                 Kontakt
             </a>
         </li>
-
-        <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-                 the blog data when we hover over the link or tap it on a touchscreen -->
-        <!--		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>-->
     </ul>
     <button class={open ? 'open' : ''} on:click={() => {open = !open}}>
         <span></span>
