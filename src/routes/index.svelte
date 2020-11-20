@@ -32,6 +32,10 @@
         z-index: 100;
         padding-top: 7.5rem;
         padding-bottom: 7.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20rem 25rem 25rem;        
+        column-gap: 6.25rem;
 
         &:before {
             content: "";
@@ -64,6 +68,38 @@
         }
     }
 
+    .column--1-3 {
+        grid-column: 1 / -1;
+    }
+
+    .row--2-3 {
+        grid-row : 2 / -1;
+    }
+
+    .column--1 {
+        grid-column: 1 / 1;
+    }
+
+    .column--2 {
+        grid-column: 2 / 2;
+    }
+
+    .column--3 {
+        grid-column: 3 / 3;
+    }
+
+    .row--1 {
+        grid-row: 1 / 1;
+    }
+
+    .row--2 {
+        grid-row: 2 / 2;
+    }
+
+    .row--3 {
+        grid-row: 3 / 3;
+    }
+
     .animation {
         width: 27rem;
         height: auto;
@@ -88,6 +124,14 @@
     .grid-text {
         grid-row: 2 / 2;
     }
+
+    .digitalpioneers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr));
+        grid-template-rows: 1fr;
+        grid-gap: 1rem;
+        margin-bottom: 3rem;        
+    }
     
     @media (max-width: 992px) {    
         h1 {
@@ -111,7 +155,17 @@
             width: 100%;
             height: auto;
         }
-       
+
+        .bg-primary {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+
+            img {
+                width: 30% !important;
+            }
+        }
     }
 
     @media (max-width: 768px) {
@@ -176,16 +230,43 @@
         </div>    
     </div>
     <div class=" bg-primary text-white mt-120">
-        <h2 class="text-white mt-0">
-            Die CoVerified Lösung für mehr Wissen im Netz:
-        </h2>
-        <img src="wika-logo.svg" alt="Wika Logo" class="w-25">
-        <p>
-            Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
-        </p>
-        <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
-        <Button style="btn-secondary" label="Demo-Version testen!"></Button>
-        <!-- Grafiken -->
+        <div class="column--1-3 row--1">
+            <h2 class="text-white mt-0">
+                Die CoVerified Lösung für mehr Wissen im Netz:
+            </h2>
+            <img src="logo-wika.svg" alt="Wika Logo" class="w-25 mb-4">
+            <p class="mb-5 mb-md-0 font-weight-300">
+                Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
+            </p>
+        </div>
+        <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
+            <img src="icon_story.png" alt="Story Elemente" class="w-50 mb-4">
+            <p>
+                Bequemer Einstieg über attraktives Story-Element
+            </p>
+        </div>        
+        <div class="row--3 column--1 d-flex justify-content-center flex-column align-items-center">
+            <img src="icon_themenauswahl.png" alt="Themenauswahl" class="mb-4">
+            <p>
+                Gezieltes Informieren über Auswahl von Themen
+            </p>
+        </div>
+        <div class="column--2 row--2-3">
+            <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
+            <Button style="btn-secondary" label="Demo-Version testen!"></Button>        
+        </div>
+        <div class="row--2 column--3 d-flex justify-content-center flex-column align-items-center mt-5 mt-md-0">
+            <img src="icon_kuratieren.svg" alt="Kuratierte Inhalte" class="mb-4 w-75">
+            <p>
+                Kuratierte Inhalte zu nutzer*innen-zentrierten Fragestellungen
+            </p>
+        </div>
+        <div class="row--3 column--3 d-flex justify-content-center flex-column align-items-center">
+            <img src="icon_trends.svg" alt="Automatische Relevanzsortierung" class="w-50 mb-4">
+            <p>
+                Automatische Relevanz-Sortierung nach Themen-Trends im Netz
+            </p>
+        </div>
     </div>
     <h2>
         Wika <span class="green">bringt Wissen zu den Menschen</span> - ohne zusätzlichen Aufwand
@@ -220,7 +301,18 @@
     <h2>
         <span class="green">#digitalpioneers</span>        
     </h2>
-    <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>    
+    <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>
+    <div class="digitalpioneers">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="baerbel.png" alt="Bärbel">
+    </div>
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;"></Button>
     <h2>
         Eine besser informierte Gesellschaft ist Ihnen wichtig?
