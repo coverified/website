@@ -7,6 +7,7 @@
 <style type="text/scss">
   :global(:root) {
     --color-primary: #3a57ff;
+    --color-wika: #003366;
     --color-light-grey: #ececec;
     --color-dark-grey: #767676;
     --color-lighter-grey: #f7f8fc;
@@ -38,9 +39,9 @@
 
   :global(h2,
   .h2) {
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: var(--color-anthracite);
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 7.75rem;
     margin-bottom: 1.6875rem;
   }
@@ -67,6 +68,10 @@
   :global(span.green) {
     position: relative;        
     background: linear-gradient(#fff 50%, var(--color-green));                
+  }
+
+  :global(.mb-120) {
+    margin-bottom: 7.5rem;
   }
 
   :global(p) {

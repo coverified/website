@@ -22,10 +22,6 @@
         margin-bottom: 6rem;
     }
 
-    .mb-120 {
-        margin-bottom: 7.5rem;
-    }
-
     .bg-primary {
         position: relative;        
         background-color: var(--color-primary) !important;
