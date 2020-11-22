@@ -553,6 +553,6 @@
     <h3 class="text-white h1">
       Werde Teil unserer Mission und folge uns auf Twitter
     </h3>
-    <Button style="btn-secondary" href="https://twitter.com/CoVeri_fied" targer="_blank" rel="noopener" label="CoVerified auf Twitter folgen"></Button>
+    <Button style="btn-secondary" href="https://twitter.com/CoVeri_fied" target="_blank" rel="noopener" label="CoVerified auf Twitter folgen"></Button>
   </div>
 </Container>
