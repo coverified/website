@@ -69,7 +69,7 @@
 
     a {
         text-decoration: none;
-        padding: 0.45rem .75rem 1rem .75rem;
+        padding: .75rem .75rem 1rem .75rem;
         display: block;
         line-height: 20px;
         margin-left: 1rem;
