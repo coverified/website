@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="132px" viewBox="0 0 113 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Technologie" transform="translate(-1189.000000, -2636.000000)" stroke-width="2">
+            <g id="Group-14" transform="translate(1190.000000, 2637.000000)">
+                <ellipse id="Oval" stroke="#3B55F2" cx="66" cy="41.8390805" rx="6" ry="5.97701149"></ellipse>
+                <polyline id="Path-3" stroke="#3B55F2" stroke-linecap="round" points="51 70.2678251 62.3085938 56.7816092 67.8544922 63.5247171"></polyline>
+                <polyline id="Path-4" stroke="#3B55F2" stroke-linecap="round" points="64.5 70.0343481 82.2202148 41.8390805 99.684082 70.0343481"></polyline>
+                <line x1="99" y1="85.9195402" x2="67.5" y2="85.9195402" id="Path-7" stroke="#3B55F2" stroke-linecap="round"></line>
+                <line x1="99.3295898" y1="96.3793103" x2="83.6455078" y2="96.3793103" id="Path-7-Copy" stroke="#3B55F2" stroke-linecap="round"></line>
+                <rect id="Rectangle-Copy-8" stroke="#3B55F2" x="33" y="2.77111667e-13" width="78" height="115.057471" rx="3"></rect>
+                <ellipse id="Oval" stroke="#3B55F2" fill="#3B55F2" cx="32.25" cy="97.8735632" rx="32.25" ry="32.1264368"></ellipse>
+                <polyline id="Path-8" stroke="#FFFFFF" stroke-linecap="round" points="48 83.6781609 41.7718046 114.030285 27 130"></polyline>
+                <polyline id="Path-9" stroke="#FFFFFF" stroke-linecap="round" points="48 82.183908 18.7089639 88.8696807 1.5 104.597701"></polyline>
+                <line x1="30.9703776" y1="86.9024136" x2="45" y2="98.6206897" id="Path-10" stroke="#FFFFFF" fill="#D8D8D8" stroke-linecap="round"></line>
+                <polyline id="Path-11" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="19.5 91.1494253 23.4985787 102.371572 30.6054576 103.583717 30.6054576 110.494077 42 113.563218"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

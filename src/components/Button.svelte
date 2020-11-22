@@ -62,7 +62,7 @@
   @media (max-width: 992px) {
     .btn-primary,
     .btn-secondary {
-      --btn-padding: 0.75rem 1.6875rem;    
+      --btn-padding: 0.75rem 1rem;    
     }
   }
 </style>

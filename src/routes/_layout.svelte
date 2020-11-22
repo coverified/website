@@ -18,6 +18,7 @@
     --body-color: #132633;
     --color-border: #ececec;
     --color-green: #49fea4;
+    --color-brigt-green: #32f99a;
     overflow-x: hidden;
   }
 
@@ -68,6 +69,11 @@
   :global(span.green) {
     position: relative;        
     background: linear-gradient(#fff 50%, var(--color-green));                
+  }
+
+  :global(span.green--light-grey) {
+    position: relative;        
+    background: linear-gradient(var(--color-lighter-grey) 50%, var(--color-green));                
   }
 
   :global(.mb-120) {

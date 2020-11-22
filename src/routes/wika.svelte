@@ -1,22 +1,20 @@
 <script>
   import Button from "../components/Button.svelte";
   import Container from "sveltestrap/src/Container.svelte";
-
-  import { onMount } from "svelte";
+  import { onMount } from 'svelte';
 
   onMount(() => {
-    const faders = document.querySelectorAll(".fade-in");
+    const faders = document.querySelectorAll('.fade-in');
     const appearOptions = {
         threshold: 1,
-        rootMargin: "0px 0px -150px 0px"
+        rootMargin: '0px 0px -150px 0px'
     };
     const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
       entries.forEach(entry => {        
         if (!entry.isIntersecting) {
           return;
         } else {
-          entry.target.classList.add("appear");
-          console.log(entry);
+          entry.target.classList.add('appear');
           appearOnScroll.unobserve(entry.target);
         }
       });
