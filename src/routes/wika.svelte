@@ -316,6 +316,6 @@
         Derzeit arbeiten wir ehrenamtlich daran und freuen uns über Support.
     </p>
     <div class="mb-120 mt-5">
-        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden"></Button>
+        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden" href="/contact"></Button>
     </div>
 </Container>

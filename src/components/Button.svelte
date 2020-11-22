@@ -4,7 +4,7 @@
   let target;
   let style;
   let rel;
-  export { label, href, target, rel, style};  
+  export { label, href, target, rel, style};
 </script>
 
 <style type="text/scss">

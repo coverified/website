@@ -272,47 +272,7 @@
                 z.B. Web-Widget, Browser-Extension, eigene Webseite
             </p>
         </div>
-    </div>
-    <!-- MOBILE
-    <div class="bg-primary d-lg-none">
-    <img src="technologie_gesamt.png" alt="Technologie">
-        <div class="technologie__container mb-5 mt-5">
-            <div data-value="1" class="partial"><p><b>Seriöse Quellen auswählen</b></p></div>
-            <p>
-                Wir nutzen bestehende Infos aus RSS Feeds seriöser Quellen, die wir nach festgelegten transparenten Kriterien auswählen.
-            </p>
-        </div>
-        <div class="technologie__container mb-5">
-            <div data-value="2" class="partial"><p><b>Inhalt thematisch vertaggen</b></p></div>
-            <p>
-                Wir reichern die so gewonnen Daten und Inhalte mit weiteren Meta-Informationen an ohne jedoch den eigentlichen Inhalt zu verändern. Ziel ist es, je nach Fokus und Bedarf relevanten Content nach Themen und Fragestellung automatische selektieren zu können.
-            </p>
-        </div>
-        <div class="technologie__container mb-5">
-            <div data-value="3" class="partial"><p><b>Content-Sprache erkennen</b></p></div>
-            <p>
-                Natural Language Processing (NLP) ergänzt die Beiträge zusätzlich um die jeweilige Sprachinformation. Damit kann auch Mehrsprachigkeit und ein EU-weiter Einsatz gewährleistet werden.
-            </p>
-        </div>
-        <div class="technologie__container mb-5">
-            <div data-value="4" class="partial"><p><b>In Datenbank bündeln</b></p></div>
-            <p>
-                Die gefilterten und aufbereiteten Daten fließen in eine Datenbank, werden dort über unsere API (Schnittstelle) gezielt abgefragt und situativ relevant in die verschiedenen Ausgabeformate ausgespielt.
-            </p>
-        </div>        
-        <div class="technologie__container mb-5">
-            <div data-value="5" class="partial"><p><b>Ausgabe steuern</b></p></div>
-            <p>
-                Über die Verwaltungsoberfläche können Einbinder Positionierung, Quellen und Themen individuell konfigurieren und eigene Fragestellungen, Informationen und News ergänzen. Damit können die Position auf der Webseite und die Inhalte des Widgets an den Kontext der Webseite angepasst und damit für die Endnutzer*innen besonders relevant angeboten werden.
-            </p>        
-        </div>        
-        <div class="technologie__container">
-            <div data-value="6" class="partial"><p><b>Kommunikationskanal</b></p></div>
-            <p>
-                z.B. Web-Widget, Browser-Extension, eigene Webseite
-            </p>
-        </div>
-    </div> -->
+    </div>    
     <div class="bg-secondary">
         <h2 class="mt-0">
             So individualisieren Sie Ihren <span class="green--light-grey">CoVerified-Kommunikationskanal</span>
@@ -352,6 +312,6 @@
         <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
     </p>
     <div class="mb-120 mt-5">
-        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden"></Button>
+        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden" href="/contact"></Button>
     </div>
 </Container>

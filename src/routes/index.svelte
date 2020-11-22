@@ -293,7 +293,7 @@
             </p>
         </div>
     </div>
-    <Button style="btn-primary" label="Unsere Technologie&nbsp;&#8594;"></Button>
+    <Button style="btn-primary" label="Unsere Technologie&nbsp;&#8594;" href="/technology"></Button>
     <h2>
         <span class="green">#digitalpioneers</span>        
     </h2>
@@ -309,7 +309,7 @@
         <img src="baerbel.png" alt="Bärbel">
         <img src="baerbel.png" alt="Bärbel">
     </div>
-    <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;"></Button>
+    <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about"></Button>
     <h2>
         Eine besser informierte Gesellschaft ist Ihnen wichtig?
     </h2>
@@ -317,6 +317,6 @@
         <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
     </p>
     <div class="mb-120 mt-5">
-        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden"></Button>
+        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden" href="/contact"></Button>
     </div>
 </Container>
