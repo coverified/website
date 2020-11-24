@@ -398,14 +398,11 @@ entwickeln wir Open Social Innovation."/>
       <img src="julia_diehl.png" alt="Julia Diehl">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
+          Julia Diehl<br />
+          <span class="overlay__container-popup--title">UX-Designerin</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="https://www.linkedin.com/in/johannes-hiry/" target="_blank" title="linkedIn" rel="noopener">
+          <a href="https://www.linkedin.com/in/julia-diehl-ux-co/" target="_blank" title="linkedIn" rel="noopener">
             <img src="linkedin.svg" alt="linkedIn Logo">
           </a>
         </div>
