@@ -1,93 +1,22 @@
 <script>
-  import Header from "../components/Header.svelte";
-  import Col from 'sveltestrap/src/Col.svelte';
-  import Row from 'sveltestrap/src/Row.svelte';
+  import Container from "sveltestrap/src/Container.svelte";
 </script>
 
 <style type="text/scss">
-  header {
-    background-color: var(--color-primary);
-    height: 14.6875rem;
-    position: relative;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 3rem;
-    
-    &:before {
-      content: "";
-      position: absolute;
-      background: var(--color-primary);
-      display: block;
-      width: 100vw;
-      height: 100%;
-      left: 50%;
-      right: 0;
-      bottom: 0;
-      top: 0;
-      transform: translateX(-50%);
-      }
-  }
-
-  h1 {
-    font-size: 2rem;
-    position: absolute;
-    color: var(--color-white);
-    top: 8rem;
-    left: 10rem;
-  }
-
-  .wirvsvirus__logo {
-    position: absolute;
-    width: 20rem;
-    bottom: 37%;
-    right: 1.125rem;
-  }
-
   p {
     margin-bottom: 2.5rem;
-  }
-
-  @media (max-width: 768px) {
-    header {
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-        
-      > h1 {
-        top: 3.5rem;
-        left: unset;
-      }
-
-      > .wirvsvirus__logo {
-        bottom: 1rem;
-        right: auto;
-        width: 15rem;
-      }
-    }
-  }
-
-  @media (max-width: 576px) {
- 
   }
 </style>
 
 <svelte:head>
 	<title>Impressum</title>
 </svelte:head>
-<header>
-  <h1 class="sr-only">Impressum</h1>
-  <h1>
-      Impressum
-  </h1>
-  <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
-</header>
-<Row>
-  <Col sm="auto" lg="12">
+<Container class="mt-5 pt-3">
+<h1>
+  Impressum
+</h1>
 <p>
-  <b>Angaben gemäß § 5 TMG</b>
-</p>
-<p>
-  Alessa Fetzer, Andrea Nienhaus, Christian Gleitze, Florian Schlittenbauer, Johannes Hiry, Paula Weise, Simon Schweikert, Steven Killian, Verena Hochrein GbR
+  Diehl, Fetzer, Hiry, Kilian, Mayer, Schlittenbauer, Schweikert, Vollnhals, Weise GbR
 </p>
 <p>
   Ludwigstraße 187<br />
@@ -100,7 +29,7 @@
 </p>
 <p>
   Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV<br/>
-  Christian Gleitze, Verena Hochrein
+  Julia Diehl, Carmen Bernhardt
 </p>
 <p>
   <b>EU-Streitschlichtung</b>
@@ -113,8 +42,7 @@
   <b>Verbraucherstreitbeilegung Universalschlichtungsstelle</b>
 </p>
 <p>
-  Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer<br />
-  Verbraucherschlichtungsstelle teilzunehmen.
+  Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 </p>
 <p>
   <b>Haftung für Inhalte</b>
@@ -125,9 +53,7 @@
   <b>Haftung für Links</b>
 </p>
 <p>
-  Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte
-  waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
-  umgehend entfernen.
+  Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 </p>
 <p>
   <b>Urheberrecht</b>
@@ -141,9 +67,7 @@
 <p>
   <a title="e-recht24.de" rel="nofollow" target="_blank" href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a> 
 </p>
-</Col>
-</Row>
-
+</Container>
 
 
 

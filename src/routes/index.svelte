@@ -179,8 +179,10 @@
 </style>
 
 <svelte:head>
-    <title>CoVerified</title>
-    <meta name="description" content="CoVerified"/>
+    <title>Mit CoVerified Digitalisierung gestalten| Wir denken digitale Kommunikation neu</title>
+    <meta name="description" content="Unsere Software-Produkte gestalten Digitalisierung und
+schaffen einen neuen Informationsstandard zur einfachen
+Information der breiten Bevölkerung."/>
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
     <h1 class="h1 mt-0">
@@ -190,6 +192,9 @@
     <p>
          Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
     </p>
+</Container>
+<video class="w-100 h-auto" src="coverified.mp4" preload=”none” autoplay controls></video>        
+<Container class="pt-3 text-center">
     <h2>
         Mehr Wissen <span class="green">für alle</span>.        
     </h2>
@@ -293,21 +298,21 @@
             </p>
         </div>
     </div>
-    <Button style="btn-primary" label="Unsere Technologie&nbsp;&#8594;" href="/technology"></Button>
+    <Button style="btn-primary" label="Unsere Technologie&nbsp;&#8594;" href="/technologie"></Button>
     <h2>
         <span class="green">#digitalpioneers</span>        
     </h2>
     <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>
     <div class="digitalpioneers">
+        <img src="alessa_fetzer.png" alt="Alessa Fetzer">
+        <img src="christina_vollnhals.png" alt="Christina Vollnhals">
+        <img src="florian_schlittenbauer.png" alt="Florian Schlittenbauer">
+        <img src="johannes_hiry.png" alt="Johannes Hiry">
+        <img src="julia_diehl.png" alt="Julia Diehl">
+        <img src="paula_weise.png" alt="Paula Weise">
         <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
-        <img src="baerbel.png" alt="Bärbel">
+        <img src="steven_killian.png" alt="Steven Killian">
+        <img src="carmen_bernhardt.png" alt="Carmen Bernhardt">
     </div>
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about"></Button>
     <h2>

@@ -108,7 +108,7 @@
             <img class="bundesregierung-logo pt-5" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <img class="bundesregierung-logo pt-5" src="wirvsvirus-logo.svg" alt="Wir vs Virus Hackathon">
+            <img class="bundesregierung-logo pt-5" src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
         <div>

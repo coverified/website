@@ -100,7 +100,7 @@
         &--name {
           font-weight: 500;
           position: absolute;
-          top: 2.1875rem;
+          top: 3.1875rem;
           left: 0;
           right: 0;          
         }
@@ -157,13 +157,21 @@
 
           &--name {
             font-size: 1.15rem;
-            top: 1.75rem;
+            top: 2.75rem;
             line-height: 1.5;
           }
 
           &--title,
           &--hashtag {      
             font-size: 1rem;
+          }
+
+          &--links {
+            bottom: 1rem;
+          }
+
+          &--hashtag {
+            display: none;
           }
        }
       }
@@ -206,7 +214,10 @@
 </style>
 
 <svelte:head>
-  <title>Information</title>
+  <title>Das CoVerified-Team aus dem #WirvsVirus Hackathon</title>
+  <meta name="description" content="Digitale Lösungen für die Zivilgesellschaft – Als eines der
+geförderten Projekte aus dem #WirvsVirus Hackathon
+entwickeln wir Open Social Innovation."/>
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
   <h1>Wir sind CoVerified</h1>
@@ -304,203 +315,189 @@
   </p>
   <div class="digitalpioneers">
     <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <img src="alessa_fetzer.png" alt="Alessa Fetzer">
+      <div class="overlay__container-popup">
+        <p class="overlay__container-popup--name">
+          Alessa Fetzer<br />
+          <span class="overlay__container-popup--title">Projektmanagerin</span>
+        </p>
+        <div class="overlay__container-popup--links">
+          <a href="https://www.xing.com/profile/Alessa_Fetzer/" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo">
+          </a>
+          <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener">
+            <img src="linkedin.svg" alt="linkedIn Logo">
+          </a>
+        </div>
+        <!-- <p class="overlay__container-popup--hashtag">
+          #kitesurfass
+        </p> -->
+      </div>
+    </div>  
+    <div class="overlay__container">
+      <img src="christina_vollnhals.png" alt="Christina Vollnhals">
+      <div class="overlay__container-popup">
+        <p class="overlay__container-popup--name">
+          Christina Vollnhals<br />
+          <span class="overlay__container-popup--title">UX-Designerin</span>
+        </p>
+        <div class="overlay__container-popup--links">
+          <a href="https://www.xing.com/profile/Christina_Vollnhals/" target="_blank" title="Xing" rel="noopner">
+            <img src="xing.svg" alt="Xing Logo">
+          </a>
+          <a href="https://www.linkedin.com/in/christina-vollnhals-21b96513b/" target="_blank" title="linkedIn" rel="noopener">
+            <img src="linkedin.svg" alt="linkedIn Logo">
+          </a>
+        </div>
+        <!-- <p class="overlay__container-popup--hashtag">
+          #kitesurfass
+        </p> -->
+      </div>
+    </div>  
+    <div class="overlay__container">
+      <img src="florian_schlittenbauer.png" alt="Florian Schlittenbauer">
+      <div class="overlay__container-popup">
+        <p class="overlay__container-popup--name">
+          Florian Schlittenbauer<br />
+          <span class="overlay__container-popup--title">Webentwickler</span>
+        </p>
+        <div class="overlay__container-popup--links">
+            <a href="https://www.xing.com/profile/Florian_Schlittenbauer/cv" target="_blank" title="Xing" rel="noopner">
+            <img src="xing.svg" alt="Xing Logo">
+          </a>
+          <a href="https://www.linkedin.com/in/schliflo/" target="_blank" title="linkedIn" rel="noopener">
+            <img src="linkedin.svg" alt="linkedIn Logo">
+          </a>
+        </div>
+        <!-- <p class="overlay__container-popup--hashtag">
+          #kitesurfass
+        </p> -->
+      </div>
+    </div>  
+    <div class="overlay__container">
+      <img src="johannes_hiry.png" alt="Johannes Hiry">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Johannes Hiry<br />
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="#">
+          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopner">
             <img src="xing.svg" alt="Xing Logo">
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/johannes-hiry/" target="_blank" title="linkedIn" rel="noopener">
             <img src="linkedin.svg" alt="linkedIn Logo">
           </a>
         </div>
-        <p class="overlay__container-popup--hashtag">
+        <!-- <p class="overlay__container-popup--hashtag">
           #kitesurfass
+        </p> -->
+      </div>
+    </div>  
+    <div class="overlay__container">
+      <img src="julia_diehl.png" alt="Julia Diehl">
+      <div class="overlay__container-popup">
+        <p class="overlay__container-popup--name">
+          Johannes Hiry<br />
+          <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
+        <div class="overlay__container-popup--links">
+          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopner">
+            <img src="xing.svg" alt="Xing Logo">
+          </a>
+          <a href="https://www.linkedin.com/in/johannes-hiry/" target="_blank" title="linkedIn" rel="noopener">
+            <img src="linkedin.svg" alt="linkedIn Logo">
+          </a>
+        </div>
+        <!-- <p class="overlay__container-popup--hashtag">
+          #kitesurfass
+        </p> -->
       </div>
     </div>  
     <div class="overlay__container">
       <img src="baerbel.png" alt="Bärbel" class="turn ">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
+          Bärbel<br />
+          <span class="overlay__container-popup--title">Beeing a Good Girl</span>
+        </p>
+        <p class="overlay__container-popup--hashtag">
+          #bestdog
+        </p>
+      </div>
+    </div>  
+    <div class="overlay__container">
+      <img src="paula_weise.png" alt="Paula Weise">
+      <div class="overlay__container-popup">
+        <p class="overlay__container-popup--name">
+          Paula Weise<br />
+          <span class="overlay__container-popup--title">Designerin</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="#">
+          <a href="https://www.xing.com/profile/Paula_Weise4/cv" target="_blank" title="Xing" rel="noopner">
             <img src="xing.svg" alt="Xing Logo">
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/paula-weise-b979091a2/" target="_blank" title="linkedIn" rel="noopener">
             <img src="linkedin.svg" alt="linkedIn Logo">
           </a>
         </div>
-        <p class="overlay__container-popup--hashtag">
+        <!-- <p class="overlay__container-popup--hashtag">
           #kitesurfass
-        </p>
+        </p> -->
       </div>
     </div>  
     <div class="overlay__container">
       <img src="baerbel.png" alt="Bärbel" class="turn ">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
+          Simon Phumin<br />Schweikert<br />
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="#">
+          <a href="https://www.xing.com/profile/SimonPhumin_Schweikert/cv" target="_blank" title="Xing" rel="noopner">
             <img src="xing.svg" alt="Xing Logo">
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/simonschweikert/" target="_blank" title="linkedIn" rel="noopener">
             <img src="linkedin.svg" alt="linkedIn Logo">
           </a>
         </div>
-        <p class="overlay__container-popup--hashtag">
+        <!-- <p class="overlay__container-popup--hashtag">
           #kitesurfass
-        </p>
+        </p> -->
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <img src="steven_killian.png" alt="Steven Killian">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
+          Steven Killian<br />
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="#">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/steven-killian-224b65199/" target="_blank" title="linkedIn" rel="noopener">
             <img src="linkedin.svg" alt="linkedIn Logo">
           </a>
         </div>
-        <p class="overlay__container-popup--hashtag">
+        <!-- <p class="overlay__container-popup--hashtag">
           #kitesurfass
-        </p>
+        </p> -->
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <img src="carmen_bernhardt.png" alt="Carmen Bernhardt">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
+          Carmen Bernhardt<br />
+          <span class="overlay__container-popup--title">Kommunikation</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="#">
+          <a href="https://www.xing.com/profile/Carmen_Bernhardt/cv" target="_blank" title="Xing" rel="noopner">
             <img src="xing.svg" alt="Xing Logo">
           </a>
-          <a href="#">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
         </div>
-        <p class="overlay__container-popup--hashtag">
+        <!-- <p class="overlay__container-popup--hashtag">
           #kitesurfass
-        </p>
-      </div>
-    </div>  
-    <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
-      <div class="overlay__container-popup">
-        <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
-        </p>
-        <div class="overlay__container-popup--links">
-          <a href="#">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="#">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
-        </div>
-        <p class="overlay__container-popup--hashtag">
-          #kitesurfass
-        </p>
-      </div>
-    </div>  
-    <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
-      <div class="overlay__container-popup">
-        <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
-        </p>
-        <div class="overlay__container-popup--links">
-          <a href="#">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="#">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
-        </div>
-        <p class="overlay__container-popup--hashtag">
-          #kitesurfass
-        </p>
-      </div>
-    </div>  
-    <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
-      <div class="overlay__container-popup">
-        <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
-        </p>
-        <div class="overlay__container-popup--links">
-          <a href="#">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="#">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
-        </div>
-        <p class="overlay__container-popup--hashtag">
-          #kitesurfass
-        </p>
-      </div>
-    </div>  
-    <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
-      <div class="overlay__container-popup">
-        <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
-        </p>
-        <div class="overlay__container-popup--links">
-          <a href="#">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="#">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
-        </div>
-        <p class="overlay__container-popup--hashtag">
-          #kitesurfass
-        </p>
-      </div>
-    </div>  
-    <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
-      <div class="overlay__container-popup">
-        <p class="overlay__container-popup--name">
-          Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
-        </p>
-        <div class="overlay__container-popup--links">
-          <a href="#">
-            <img src="xing.svg" alt="Xing Logo">
-          </a>
-          <a href="#">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
-        </div>
-        <p class="overlay__container-popup--hashtag">
-          #kitesurfass
-        </p>
+        </p> -->
       </div>
     </div>  
     

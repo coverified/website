@@ -204,15 +204,15 @@
     <ul class={open ? 'open' : ''}>
         <li>
             <a rel="prefetch"
-               aria-current={segment === 'technology' ? 'page' : undefined}
-               href="technology">
+               aria-current={segment === 'technologie' ? 'page' : undefined}
+               href="technologie">
                 Technologie
             </a>
         </li>
         <li>
             <a rel="prefetch"
-               aria-current={segment === 'wika' ? 'page' : undefined}
-               href="wika">
+               aria-current={segment === 'produkte' ? 'page' : undefined}
+               href="produkte">
                 Projekt Wika
             </a>
         </li>

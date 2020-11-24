@@ -1,5 +1,4 @@
-<script>
-  import Header from "../components/Header.svelte";
+<script>  
   import Col from "sveltestrap/src/Col.svelte";
   import Row from "sveltestrap/src/Row.svelte";
   import Container from "sveltestrap/src/Container.svelte";
@@ -56,6 +55,10 @@
     margin-top: 5rem;
   }
 
+  .mb-lg-80 {
+    margin-bottom: 5rem;
+  }
+
   form {
     font-size: 1.25rem;        
     
@@ -91,11 +94,17 @@
     form {
       margin-top: 4rem;
     }
+
+    .mb-lg-80 {
+      margin-bottom: 2rem;
+    }
   }
 </style>
 
 <svelte:head>
-  <title>Kontakt</title>
+  <title>CoVerified kennenlernen?</title>
+  <meta name="description" content="CoVerified – Redefining Communication. Gemeinsam
+gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
 </svelte:head>
 <Container>
   <h1 class="text-center mt-80">Wir freuen uns auf Ihre Nachricht</h1>
@@ -106,7 +115,7 @@
           Sie haben Interesse an einer Zusammenarbeit oder möchten mehr über
           CoVerified erfahren? Schreiben Sie uns oder rufen Sie uns an.
         </p>
-        <p class="text-muted">
+        <p class="text-muted mb-lg-80">
           CoVerified – Diehl, Fetzer, Hiry, Kilian, Mayer, Schlittenbauer,
           Schweikert, Vollnhals, Weise GbR
           <br />
@@ -116,19 +125,23 @@
           <br />
           63067 Offenbach am Main
         </p>
-        <Row>
-          <Col sm="auto" lg="4" />
+        <Row class="d-flex align-items-center justify-content-center">
+          <Col xs="8" sm="5" lg="4">
+            <img src="alessa_fetzer.png" alt="Alessa Fetzer" class="mb-3 mb-md-0">
+          </Col>
           <Col sm="auto" lg="8">
-            <p class="mb-0 text-black mt-80">Anpsrechpartnerin</p>
-            <p class="h3 my-2 text-black">Alessa Fetzer</p>
-            <a
-              href="mailto:info@coverified.de"
-              class="mb-2 d-block font-weight-light h3">
-              info@coverified.de
-            </a>
-            <a href="+49+17632789572" class="font-weight-light h3">
-              +49 176 32789572
-            </a>
+            <div class="mx-auto d-flex flex-column">
+              <p class="mb-0 text-black">Anpsrechpartnerin</p>
+              <p class="h3 my-2 text-black">Alessa Fetzer</p>
+              <a
+                href="mailto:info@coverified.de"
+                class="mb-2 d-block font-weight-light h3">
+                info@coverified.de
+              </a>
+              <a href="+49+17632789572" class="font-weight-light h3 mb-0">
+                +49 176 32789572
+              </a>
+            </div>
           </Col>
         </Row>
       </Col>
