@@ -240,29 +240,29 @@ Information der breiten Bevölkerung."/>
                 Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
             </p>
         </div>
-        <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
+        <div class="row--2 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center">
             <img src="icon_story.png" alt="Story Elemente" class="w-50 mb-4">
             <p>
                 Bequemer Einstieg über attraktives Story-Element
             </p>
         </div>        
-        <div class="row--3 column--1 d-flex justify-content-center flex-column align-items-center">
+        <div class="row--3 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center mt-5 mb-lg-0">
             <img src="icon_themenauswahl.png" alt="Themenauswahl" class="mb-4">
             <p>
                 Gezieltes Informieren über Auswahl von Themen
             </p>
         </div>
-        <div class="column--2 row--2-3">
+        <div class="column--2 row--2-3 order-3 order-lg-2">
             <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
             <Button style="btn-secondary" label="Demo-Version testen!"></Button>        
         </div>
-        <div class="row--2 column--3 d-flex justify-content-center flex-column align-items-center mt-5 mt-md-0">
+        <div class="row--2 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0">
             <img src="icon_kuratieren.svg" alt="Kuratierte Inhalte" class="mb-4 w-75">
             <p>
                 Kuratierte Inhalte zu nutzer*innen-zentrierten Fragestellungen
             </p>
         </div>
-        <div class="row--3 column--3 d-flex justify-content-center flex-column align-items-center">
+        <div class="row--3 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center">
             <img src="icon_trends.svg" alt="Automatische Relevanzsortierung" class="w-50 mb-4">
             <p>
                 Automatische Relevanz-Sortierung nach Themen-Trends im Netz
