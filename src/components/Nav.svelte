@@ -11,6 +11,27 @@
         max-width: 71.25rem;
         margin: 0 auto;
         align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--color-white);
+        z-index: 1000;
+
+        &:before {
+            content: "";
+            background-color: var(--color-white);
+            position: absolute;
+            display: block;
+            width: 100vw;
+            height: 100%;
+            left: 50%;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            transform: translateX(-50%);            
+            z-index: -10;
+        }
 
         > a {
             display: flex;
@@ -114,7 +135,6 @@
             max-width: 45rem; 
             display: flex;
             flex-direction: column;
-            position: relative;
 
             button {
                 display: flex;
@@ -196,10 +216,7 @@
 
 <nav>
     <a href=".">
-        <img  class="logo" src="coverified_logo.svg" alt="CoVerified" width="475" height="111"/>
-        <p>
-            Redefining Communication
-        </p>
+        <img  class="logo" src="coverified-logo-claim.png" alt="CoVerified" width="475" height="111"/>        
     </a>
     <ul class={open ? 'open' : ''}>
         <li>

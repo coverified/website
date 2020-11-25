@@ -7,7 +7,7 @@
         const faders = document.querySelectorAll('.fade-in');
         const appearOptions = {
             threshold: 0,
-            rootMargin: '0px 0px -600px 0px'
+            rootMargin: '0px 0px -300px 0px'
         };
         const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
         entries.forEach(entry => {
@@ -36,7 +36,7 @@
         padding-bottom: 7.5rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 17.5rem 20rem 20rem 38rem 15rem;        
+        grid-template-rows: 12rem 17.5rem 20rem 20rem 38rem 15rem;        
         color: var(--color-white);
 
         &:before {
@@ -57,6 +57,13 @@
         img {
             grid-column: 1 / 1;
             max-width: 70%;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: var(--color-white);
+            grid-column: 1 / -1 ;
+            margin-bottom: 3.25rem;
         }
     
         .technologie__container {
@@ -116,7 +123,8 @@
 
     .grid-wrapper {
         display: grid;
-        grid-template-columns: repeat(4 1fr);
+        grid-template-columns: 12.5rem 12.5rem 12.5rem;
+        justify-content: center;
         grid-template-rows: 5rem min-content;
         column-gap: 9rem;
         row-gap: 3.75rem;
@@ -145,10 +153,6 @@
     }
     .column--3 {
         grid-column: 3 / 3;
-    }
-
-    .column--4 {
-        grid-column: 4 / 4;
     }
   
     .bg-secondary {
@@ -203,17 +207,26 @@
                 margin-bottom: 3rem;
             }
         }
-                
+
+
+        .mt--4 {
+            margin-top: 3rem;
+        }
+
         .grid-wrapper {
             display: flex;
             flex-direction: column;
             row-gap: 1rem;
             
             img {
-                width: 40% !important;
+                width: 30% !important;
                 display: flex;
                 margin: 0 auto;
-            }        
+            }
+
+            .w-mobile-50 {
+                width: 50%;
+            }
         }
     }
 </style>
@@ -226,23 +239,27 @@ Quellen und wirkt so Infodemie entgegen." />
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
     <h1>
-        Die CoVerified Technologie –<br />
-        macht aus verstreuten Informationen geballte Wissenspower
+        Raus aus der Infodemie<br />
+        CoVerified macht aus verstreuten Informationen geballe Wissenpower
     </h1>
     <!-- Desktop -->
     <div class="bg-primary">
-        <img src="technologie_quellen.svg" alt="Quellen" class="fade-in">
-        <div class="technologie__container fade-in align-self-end">
+        <h2 class="text-center">
+            Raus aus der Infodemie<br />
+            CoVerified macht aus verstreuten Informationen geballe Wissenpower
+        </h2>
+        <img src="technologie_quellen.svg" alt="Quellen">
+        <div class="technologie__container align-self-end">
             <div data-value="1" class="partial"><p><b>Seriöse Quellen auswählen</b></p></div>
             <p>
                 Wir nutzen bestehende Infos aus RSS Feeds seriöser Quellen, die wir nach festgelegten transparenten Kriterien auswählen.
             </p>
         </div>
-        <img src="technologie_themenauswahl.svg" alt="Themenauswahl" class="fade-in">
-        <div class="technologie__container fade-in align-self-end">
+        <img src="technologie_themenauswahl.svg" alt="Themenauswahl">
+        <div class="technologie__container align-self-end">
             <div data-value="2" class="partial"><p><b>Inhalt thematisch vertaggen</b></p></div>
             <p>
-                Wir reichern die so gewonnen Daten und Inhalte mit weiteren Meta-Informationen an ohne jedoch den eigentlichen Inhalt zu verändern. Ziel ist es, je nach Fokus und Bedarf relevanten Content nach Themen und Fragestellung automatische selektieren zu können.
+                Wir reichern die so gewonnen Daten und Inhalte mit weiteren Meta-Informationen an, ohne den eigentlichen Inhalt zu verändern. Ziel ist es, je nach Fokus und Bedarf relevanten Content nach Themen und Fragestellung automatisch zu selektieren.
             </p>
         </div>
         <img src="technologie_spracherkennung.svg" alt="Spracherkennung" class="fade-in">
@@ -263,7 +280,7 @@ Quellen und wirkt so Infodemie entgegen." />
             <div class="technologie__container fade-in">
                 <div data-value="5" class="partial"><p><b>Ausgabe steuern</b></p></div>
                 <p>
-                    Über die Verwaltungsoberfläche können Einbinder Positionierung, Quellen und Themen individuell konfigurieren und eigene Fragestellungen, Informationen und News ergänzen. Damit können die Position auf der Webseite und die Inhalte des Widgets an den Kontext der Webseite angepasst und damit für die Endnutzer*innen besonders relevant angeboten werden.
+                    Über die Verwaltungsoberfläche können Einbinder Positionierung, Quellen und Themen individuell konfigurieren und eigene Fragestellungen, Informationen und News ergänzen. Damit können die Position auf der Webseite und die Inhalte des Widgets an den Kontext der Webseite angepasst und damit für die Endnutzer:innen besonders relevant angeboten werden.
                 </p>
             </div>
         </div>
@@ -271,13 +288,13 @@ Quellen und wirkt so Infodemie entgegen." />
         <div class="technologie__container fade-in">
             <div data-value="6" class="partial"><p><b>Kommunikationskanal</b></p></div>
             <p>
-                z.B. Web-Widget, Browser-Extension, eigene Webseite
+                Abschließend wird der gewünschte Kommunikationskanal gewählt, über den die sicheren Informationen ausgespielt werden sollen, z.B. Web-Widget, Browser-Extension, eigene Webseite
             </p>
         </div>
     </div>    
     <div class="bg-secondary">
         <h2 class="mt-0">
-            So individualisieren Sie Ihren <span class="green--light-grey">CoVerified-Kommunikationskanal</span>
+            <span class="green--light-grey">Maßgeschneiderte Einbindung</span>
         </h2>
         <div class="grid-wrapper">
             <div class="grid-image row--1 column--1">
@@ -287,21 +304,15 @@ Quellen und wirkt so Infodemie entgegen." />
                 Themen- und Quellen-Fokus der Informationen konfigurieren
             </div>
             <div class="grid-image column--2 row--1 mt-4 mt-md-0">
-                <img src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" class="w-75">
+                <img src="icon_kuratieren_von_inhalten.svg" alt="Kuratieren von Inhalten" class="w-mobile-50">
             </div>
             <div class="grid-text column--2 row--2">
-                Eigene Inhalte erstellen
-            </div>
-            <div class="grid-image column--3 row--1 mt-4 mt-md-0">
-                <img src="icon_kuratieren_von_inhalten.svg" alt="Kuratieren von Inhalten">
-            </div>
-            <div class="grid-text column--3 row--2">
                 Inhalte nach Fragestellungen kuratieren
             </div>
-            <div class="grid-image column--4 row--1 mt-4 mt-md-0">
-                <img src="" alt="">
+            <div class="grid-image column--3 row--1 mt-4 mt-md-0">
+                <img src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" class="w-50">
             </div>
-            <div class="grid-text column--4 row--2">
+            <div class="grid-text column--3 row--2">
                 Visuelle Darstellung des Kanals individualisieren
             </div>
         </div>
@@ -314,6 +325,6 @@ Quellen und wirkt so Infodemie entgegen." />
         <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
     </p>
     <div class="mb-120 mt-5">
-        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden" href="/contact"></Button>
+        <Button style="btn-primary mb-5" label="Partner:in/Investor:in werden" href="/contact"></Button>
     </div>
 </Container>

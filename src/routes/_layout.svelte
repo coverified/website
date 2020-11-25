@@ -27,7 +27,7 @@
     line-height: 1.875rem;
     color: var(--body-color);
     font-family: "Barlow", sans-serif;
-    
+    padding-top: 4.89375rem;
   }
 
   :global(h1,

@@ -131,7 +131,7 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
           </Col>
           <Col sm="auto" lg="8">
             <div class="mx-auto d-flex flex-column">
-              <p class="mb-0 text-black">Anpsrechpartnerin</p>
+              <p class="mb-0 text-black">Ansprechpartnerin</p>
               <p class="h3 my-2 text-black">Alessa Fetzer</p>
               <a
                 href="mailto:info@coverified.de"

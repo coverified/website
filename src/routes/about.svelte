@@ -220,7 +220,10 @@ geförderten Projekte aus dem #WirvsVirus Hackathon
 entwickeln wir Open Social Innovation."/>
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
-  <h1>Wir sind CoVerified</h1>
+  <h1>
+    #WirvsVirus<br />
+    Wir sind CoVerified    
+  </h1>
   <p>
     Ein Wochenende im März war die Geburtsstunde von CoVerified: 3 Entwickler
     aus Bayern stürzten sich mit knapp 30.000 anderen in den #WirvsVirus
@@ -241,7 +244,7 @@ entwickeln wir Open Social Innovation."/>
     <span class="green">Unsere Mission</span>
   </h2>
   <p>
-    CoVerified denkt staatliche Kommunikation neu.
+    CoVerified denkt institutionelle Kommunikation neu und entwickelt digitale Lösungen für die Zivilgesellschaft
   </p>
   <Row class="text-left mt-5">
     <Col sm="auto" lg="4">
@@ -416,7 +419,7 @@ entwickeln wir Open Social Innovation."/>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Bärbel<br />
-          <span class="overlay__container-popup--title">Beeing a Good Girl</span>
+          <span class="overlay__container-popup--title">Being a Good Girl</span>
         </p>
         <p class="overlay__container-popup--hashtag">
           #bestdog
@@ -501,7 +504,7 @@ entwickeln wir Open Social Innovation."/>
   </div>
   <div class="bg-secondary">
     <h2 class="mt-0">
-      <span class="green--light-grey">#Unser Leistungsprofil</span>
+      <span class="green--light-grey">Unser Leistungsprofil</span>
     </h2>
     <p>
       Wir begleiten Kommunikationsprojekte von der Idee bis zur Umsetzung

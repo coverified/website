@@ -186,20 +186,20 @@ Information der breiten Bevölkerung."/>
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
     <h1 class="h1 mt-0">
-        #fightingDesinformation – <br />
-        Wir denken digitale Information neu.
+        Mit CoVerified Digitalisierung gestalten<br />
+        Wir denken digitale Kommunikation neu
     </h1>
     <p>
-         Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
+        Unsere Software-Produkte gestalten Digitalisierung und schaffen einen neuen Informationsstandard zur einfachen Information der breiten Bevölkerung. Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
     </p>
 </Container>
-<video class="w-100 h-auto" src="coverified.mp4" preload=”none” autoplay controls></video>        
+<video class="w-100 h-auto" src="coverified-video.mp4" preload=”none” autoplay></video>        
 <Container class="pt-3 text-center">
     <h2>
         Mehr Wissen <span class="green">für alle</span>.        
     </h2>
     <p>
-        Sichere Informationen gebündelt, ansprechend und webweit verfügbar
+        Wir gestalten digitale Produkte, die sichere Informationen bündeln und einfach zugänglich machen.
     </p>
     <div class="grid-wrapper mt-5">
         <div class="grid-image">
@@ -217,7 +217,7 @@ Information der breiten Bevölkerung."/>
         <div class="grid-text">
             <p>
                 <b>Unsere Lösung:</b><br />
-                Wir bündeln Infos sicherer Quellen in einer zentralen Datenbank und machen sie kompakt, ansprechend und einfach verfügbar
+                Wir bündeln das Wissen aus sicheren Quellen und stellen es über neue digitale Kanäle zur Verfügung
             </p>
         </div>
         <div class="grid-image">
@@ -226,7 +226,7 @@ Information der breiten Bevölkerung."/>
         <div class="grid-text">
             <p>
                 <b>Unsere Vision:</b><br /> 
-                eine informierte, faktensichere, breite Öffentlichkeit mit mehr Verständnis, Weitsicht und Toleranz
+                eine informierte, faktensichere, Öffentlichkeit mit mehr Verständnis, Weitsicht und Toleranz
             </p>
         </div>    
     </div>
@@ -237,13 +237,13 @@ Information der breiten Bevölkerung."/>
             </h2>
             <img src="logo-wika.svg" alt="Wika Logo" class="w-25 mb-4">
             <p class="mb-5 mb-md-0 font-weight-300">
-                Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
+                Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Unser Web-Widget Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
             </p>
         </div>
         <div class="row--2 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center">
             <img src="icon_story.png" alt="Story Elemente" class="w-50 mb-4">
             <p>
-                Bequemer Einstieg über attraktives Story-Element
+                Bequemer Einstieg über Stories zu aktuell relevanten Informationen
             </p>
         </div>        
         <div class="row--3 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center mt-5 mb-lg-0">
@@ -294,15 +294,15 @@ Information der breiten Bevölkerung."/>
         </div>
         <div class="grid-text">
             <p>
-                Unsere Lösung ist <b>nutzer:innen-zentriert</b> entwickelt – somit erreichen wir eine <b>höhere Akzeptanz</b> breiten Bevölkerung
+                Unsere Lösung ist <b>nutzer:innen-zentriert</b> entwickelt – somit erreichen wir eine <b>höhere Akzeptanz</b>
             </p>
         </div>
     </div>
-    <Button style="btn-primary" label="Unsere Technologie&nbsp;&#8594;" href="/technologie"></Button>
+    <Button style="btn-primary" label="Zur Funktionsweise&nbsp;&#8594;" href="/technologie"></Button>
     <h2>
         <span class="green">#digitalpioneers</span>        
     </h2>
-    <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Open Social Innovation</p>
+    <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Digitalisierung und Open Social Innovation.</p>
     <div class="digitalpioneers">
         <img src="alessa_fetzer.png" alt="Alessa Fetzer">
         <img src="christina_vollnhals.png" alt="Christina Vollnhals">
@@ -322,6 +322,6 @@ Information der breiten Bevölkerung."/>
         <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
     </p>
     <div class="mb-120 mt-5">
-        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden" href="/contact"></Button>
+        <Button style="btn-primary mb-5" label="Partner:in/Investor:in werden" href="/contact"></Button>
     </div>
 </Container>

@@ -31,7 +31,6 @@
     .grid-wrapper,
     .grid-wrapper-mirrored {
         display: grid;
-        margin-top: 7.75rem;
         text-align: left;
     }
 
@@ -43,6 +42,7 @@
     .grid-wrapper-mirrored {
         grid-template-columns: 1fr 32rem;
         grid-gap: 9.375rem;
+        margin-top: 7.75rem;
     }
 
     .fade-in {
@@ -63,21 +63,6 @@
     
     .mt--40 {
         margin-top: -2.5rem;
-    }
-
-    button {
-        cursor: default;
-        font-size: 1rem;
-        padding: 0.5rem 1.5rem;
-        border-radius: 2rem;
-        margin-bottom: 1rem;
-        margin-right: .625rem;
-        border: none;
-
-        &:focus,
-        &:active {
-            outline: none;
-        }
     }
 
     .wika--color {
@@ -204,24 +189,23 @@ Informationen zu gesellschaftsrelevanten Themen auf
 Knopfdruck webweit verfügbar."/>
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
-  <h1>Wika – Der Wissenskanal für offizielle Informationen</h1>
+  <h1>Wika –  Das Web-Widget gegen Desinformation</h1>
   <p>
-    Wika nutzt die CoVerified-Technologie als Web-Widget.
-    <br />
-    Der Infobutton macht gebündelte, sichere Informationen einfach
-    <br />
-    und schnell auf jeder Webseite verfügbar.
+    Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.
   </p>
 </Container>
 <img src="wika-header.jpg" alt="WiKa" />
 <Container class="text-center">
+  <h2 class="mb-5">
+    Die Wika-Features im Überblick
+  </h2>
   <div class="grid-wrapper">
     <div>
-      <h2 class="mt-0">
+      <h3 class="h2 mt-0">
         Bequemer Einstieg über
         <br />
         <span class="green">über aktuelle Stories</span>
-      </h2>
+      </h3>
       <p>
         So erhalten Nutzer:innen die wichtigsten Meldungen angenehm aufbereitet
         auf den ersten Blick. Von hier braucht es nur einen Fingertipp, um
@@ -229,7 +213,7 @@ Knopfdruck webweit verfügbar."/>
         entdecken.
       </p>
       <p>
-        <b>Vorteile für Einbinder:</b>
+        <b>Optionen bei Einbindung:</b>
       </p>
       <ul>
         <li>Priorisierung ausgewählter Stories</li>
@@ -237,7 +221,7 @@ Knopfdruck webweit verfügbar."/>
       </ul>
     </div>
     <div>
-      <img src="themen_kachel_1.png" alt="Kacheln" />
+      <img src="story-element.png" alt="Story Element" />
     </div>
   </div>
   <div class="grid-wrapper-mirrored">
@@ -258,29 +242,26 @@ Knopfdruck webweit verfügbar."/>
         Widget gesammelt und per Klick ausgegeben.
       </p>
       <p>
-        <b>Vorteile für Einbinder:</b>
+        <b>Optionen bei Einbindung:</b>
       </p>
       <ul>
         <li>Auswahl von Themen passend zum Kontext der eigenen Webseite</li>
         <li>Eigene Themen und Fragestellungen ergänzen</li>
       </ul>
-      <button class="wika--color">Coronavirus &ndash; Überblick</button>
-      <button>#Plastik</button>
-      <button>#Umwelt</button>
-      <button>#Europa</button>
-      <button>#Wahlkampf</button>
-      <button>#Digitalisierung</button>
-      <button class="empty"></button>
+      <img src="themen_chips.svg">
     </div>
     </div>
     <div class="bg-wika">
-        <h2 class="row--1 col--1-4 mt-md-0 text-white">
+        <h2 class="row--1 col--1-4 mt-lg-0 text-white">
             Die 4 Wika-Wissenskategorien
         </h2>
+        <p class="pt-lg-5 mb-4 row--1 col--1-4">
+          Schnell und gezielt navigieren - Wika bietet für jeden Informationsbedarf den passenden Inhalt.
+        </p>
         <img src="chat_bubble_outline.svg" alt="Staatus" class="row--2 col--1">
         <p class="row--3 col--1">
             <b>Staatus</b><br/>
-            staatliche Meldungen aus den Ministerien, aktuelle Beschlüsse und Diskussionen (bestehende RSS Feeds)
+            staatliche Meldungen aus den Ministerien, aktuelle Beschlüsse und Diskussionen
         </p>
         <img src="school.svg" alt="Basiswissen" class="row--2 col--2">    
         <p class="col--2 row--3">
@@ -299,13 +280,13 @@ Knopfdruck webweit verfügbar."/>
         </p>
     </div>
     <h2>
-        Informationen verlässlicher Quellen transparent dargestellt
+        Transparent gegen Desinformation
     </h2>
     <p>
         Wir legen Wert auf unverfälschte Informationen aus erster Hand. Unsere Quellen werden nach festgelegten, transparenten Kriterien ausgewählt, beleuchtet und bei jedem Inhalt verlinkt.
     </p>
     <p>
-        <b>Vorteile für Einbinder:</b>
+        <b>Optionen bei Einbindung:</b>
     </p>
     <p>
         Priorisierung von Quellen passend zum Kontext der eigenen Webseite
@@ -318,6 +299,6 @@ Knopfdruck webweit verfügbar."/>
         Derzeit arbeiten wir ehrenamtlich daran und freuen uns über Support.
     </p>
     <div class="mb-120 mt-5">
-        <Button style="btn-primary mb-5" label="Partner:in/Invesotr:in werden" href="/contact"></Button>
+        <Button style="btn-primary mb-5" label="Partner:in/Investor:in werden" href="/contact"></Button>
     </div>
 </Container>
