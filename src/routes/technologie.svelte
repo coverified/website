@@ -113,11 +113,7 @@
     :global(.appear) {
         opacity: 1 !important;
     }
-
-    .mb-80 {
-        margin-bottom: 5rem;
-    }
-
+    
     .mt--4 {
         margin-top: -4rem;
     }

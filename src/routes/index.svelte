@@ -6,20 +6,8 @@
 </script>
 
 <style type="text/scss">
-    .mt-150 {
-        margin-top: 9.375rem;
-    }
-
     .mt-72 {
         margin-top: 4.5rem;
-    }
-
-    .mt-150 {
-        margin-top: 9.375rem;
-    }
-
-    .mb-96 {
-        margin-bottom: 6rem;
     }
 
     .bg-primary {
@@ -132,14 +120,6 @@
     @media (max-width: 992px) {    
         h1 {
             font-size: 2rem;
-        }
-
-        h2 br {
-            display: none;
-        }
-
-        button + button {
-            margin-top: 2.5rem;
         }
 
         .grid-wrapper {

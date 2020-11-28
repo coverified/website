@@ -49,13 +49,6 @@
             &:first-child {
                 padding-left: 0;
             }
-
-            > p {
-                font-size: .75rem;
-                line-height: normal;
-                margin-bottom: 0;
-            }
-
         }
 
         button {

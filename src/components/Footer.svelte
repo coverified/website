@@ -28,15 +28,6 @@
             transform: translateX(-50%);
             z-index: -1;
         }
-
-        h3 {
-            position: relative;
-            font-size: 1rem;
-            color: var(--color-dark-grey);
-            font-weight: 400;
-            padding-top: 3rem;
-            margin-bottom: 2.5rem;
-        }
     }
 
     .bundesregierung-logo {
@@ -84,19 +75,7 @@
         .bundesregierung-logo {
             width: 16rem;
         }
-
-        div {
-            > p {
-                margin-top: .5rem;
-                margin-bottom: .5rem;
-
-                &:last-of-type {
-                    margin-bottom: 3rem;
-                }
-            }
-        }
     }
-
 </style>
 
 <footer>

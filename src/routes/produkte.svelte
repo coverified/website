@@ -65,19 +65,6 @@
         margin-top: -2.5rem;
     }
 
-    .wika--color {
-        background-color: var(--color-wika);
-        color: var(--color-white);
-    }
-
-    .empty {
-        height: 3.125rem;
-        width: 11.875rem;
-        border: 1px solid var(--color-dark-grey);
-        border-style: dotted;
-        background-color: transparent;
-    }
-
     .bg-wika {
         position: relative;
         background-color: var(--color-wika);
@@ -175,10 +162,6 @@
         .bg-wika {
             padding-top: 0;
         }
-
-        .empty {
-            transform: translate(0, .6875rem);
-        }
     }
 </style>
 
@@ -247,7 +230,7 @@ Knopfdruck webweit verfügbar."/>
         <li>Auswahl von Themen passend zum Kontext der eigenen Webseite</li>
         <li>Eigene Themen und Fragestellungen ergänzen</li>
       </ul>
-      <img src="themen_chips.svg">
+      <img src="themen_chips.svg" alt="Themen Buttons">
     </div>
     </div>
     <div class="bg-wika">
