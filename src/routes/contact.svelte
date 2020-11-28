@@ -146,6 +146,12 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
         </Row>
       </Col>
       <Col sm="12" lg="6">
+        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+          <input type="text" name="name" placeholder="Name*" required/>
+          <input type="firma" name="firma" placeholder="Firma"/>
+          <input type="text" name="betreff" placeholder="Betreff"/>
+          <textarea name="message" placeholder="Ihre Nachricht*" required/>
+        </form>
         <form
           name="contact"
           method="POST"
@@ -154,6 +160,7 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
           <p class="d-none">
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
           </p>
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <label>
               Name<sup>*</sup>
