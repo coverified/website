@@ -6,36 +6,25 @@
 </script>
 
 <style type="text/scss">
-
-    :root {
-        overflow-x: hidden;
+    .mt-72 {
+        margin-top: 4.5rem;
     }
 
-    h1 {
-        font-size: 2.25rem;
-        font-weight: 700;
-        color: var(--color-white);
-        line-height: 48px;
-        max-width: 645px;
-    }
-
-    h2 {
-        font-size: 1.625rem;
-        color: var(--color-anthracite);
-        font-weight: 800;
-        margin: 0 0 2.5rem 0;
-    }
-
-    .container {
-        position: relative;
-        height: auto;
-        margin-bottom: 6.5em;
-
+    .bg-primary {
+        position: relative;        
+        background-color: var(--color-primary) !important;
+        z-index: 100;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20rem 25rem 25rem;        
+        column-gap: 6.25rem;
 
         &:before {
             content: "";
+            background-color: var(--color-primary);
             position: absolute;
-            background: var(--color-primary);
             display: block;
             width: 100vw;
             height: 100%;
@@ -43,428 +32,275 @@
             right: 0;
             bottom: 0;
             top: 0;
-            transform: translateX(-50%);
+            transform: translateX(-50%);            
+            z-index: -10;
         }
 
-        > div:not(.info__box) {
+        &:after {
+            content: "";
             position: absolute;
-            right: 0;
-            bottom: 5rem;
-            display: flex;
-            align-items: center;
-        }
-
-        .coverified__informationgraphic {
-            position: relative;
-            width: 50%;
-            padding-top: 2rem;
-            padding-bottom: .5rem;
-        }
-
-        .wirvsvirus__logo {
-            width: 26rem;
-            height: auto;
-            position: absolute;
-            right: 0;
-            top: 10%;
-        }
-
-        .info__box {
-            right: 0;
-            bottom: 0;
-            transform: translateY(50%);
-            background-color: var(--color-white);
-            border: 2px solid var(--color-light-grey);
-            box-shadow: 0 1px 6px -3px rgba(0, 0, 0, 0.11);
-            display: block;
-            position: absolute;
-            border-radius: .33rem;
-            padding: 1rem 1.75rem;
-        }
-    }
-
-    .integration__buttons {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .logo {
-        width: 3.125rem;
-    }
-
-    .check-symbol {
-        background: var(--color-primary);
-        width: 3.125rem;
-        height: auto;
-        position: relative;
-
-        &:before {
-            content: "✓";
-            position: absolute;
-            font-size: 1.75rem;
-            background: var(--color-primary);
-            width: 2.8125rem;
-            height: 2.8125rem;
-            font-weight: 400;
-            text-align: center;
-            border-radius: 50%;
             left: 0;
-            top: 7px;
-            line-height: 1;
-            padding-top: .5rem;
-            color: var(--color-white);
-        }
-    }
-
-    .background-primary {
-        position: relative;
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-        margin-top: 6.25rem;
-        margin-bottom: -7rem;
-    
-        &:before {
-            content: "";
-            position: absolute;
-            background: var(--color-primary);
-            display: block;
-            width: 100vw;
-            height: 100%;
-            left: 50%;
-            right: 0;
+            right: auto;
+            width: 0;
+            height: 0;
+            border-style: solid;
             bottom: 0;
-            top: 0;
-            transform: translateX(-50%);
-        }
-
-        
-        h2 {
-           color: var(--color-white);
-        }
-
-        li {
-            color: var(--color-white);
+            border-width: 3rem 3rem 0 3rem;
+            border-color: var(--color-primary) transparent transparent transparent;
+            left: 50%;
+            transform: translate(-50%, 100%);
         }
     }
 
-    ul.list-style-dash {
-        margin-top: 2.25rem;
-        > li {
-            list-style-position: inside;
-            line-height: 34px;
-            
-            + li {
-                margin-top: 2.1875rem;
-            }
+    .column--1-3 {
+        grid-column: 1 / -1;
+    }
+
+    .row--2-3 {
+        grid-row : 2 / -1;
+    }
+
+    .column--1 {
+        grid-column: 1 / 1;
+    }
+
+    .column--2 {
+        grid-column: 2 / 2;
+    }
+
+    .column--3 {
+        grid-column: 3 / 3;
+    }
+
+    .row--1 {
+        grid-row: 1 / 1;
+    }
+
+    .row--2 {
+        grid-row: 2 / 2;
+    }
+
+    .row--3 {
+        grid-row: 3 / 3;
+    }
+
+    .animation {
+        width: 27rem;
+        height: auto;
+        display: block;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr min-content;
+        grid-gap: 2rem;
+    }
+
+    .grid-image {
+        grid-row: 1 / 1;    
+
+        img {
+            width: 60%;
         }
     }
-
-    .widget-mockup {
-        width: 30rem;
-        max-width: 100%;
+    
+    .grid-text {
+        grid-row: 2 / 2;
     }
 
-    coverified-articles {
-        --open-padding: 1rem;
+    .digitalpioneers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr));
+        grid-template-rows: 1fr;
+        grid-gap: 1rem;
+        margin-bottom: 3rem;        
     }
-
-    .empfehlungs_text {
-        font-size: .75rem;
-        font-style: italic;
-    }
-
-    .set-height {
-        height: 112px;
-    }
-
-    @media (max-width: 992px) {
+    
+    @media (max-width: 992px) {    
         h1 {
             font-size: 2rem;
         }
 
-        .container {
+        .grid-wrapper {
             display: flex;
-            justify-content: center;
-            margin-bottom: 8.5rem;
-
-            > div:not(.info__box) {
-                right: unset;
-                bottom: 4.5rem;
-            }
-
-            > .info__box {
-                right: unset;
-            }
-
-            .wirvsvirus__logo {
-                left: 0;
-                margin: 0 auto;
-                top: 56%;
-                width: 22rem;
-            }
-
-            .coverified__informationgraphic {
-                width: 58%;
-                padding-bottom: 18.5rem;
-            }
-        }
-        .integration__buttons {
             flex-direction: column;
-            justify-content: center;
-            align-content: center;   
         }
 
-        .logo {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 2rem;
-        }
-
-        .check-symbol {
-            background: var(--color-primary);
-            width: 3.125rem;
+        .animation {
+            width: 100%;
             height: auto;
-            position: relative;
-            margin: 0 auto;
+        }
 
-            &:before {
-                content: "✓";
-                position: absolute;
-                font-size: 1.75rem;
-                background: var(--color-primary);
-                width: 2.8125rem;
-                height: 2.8125rem;
-                font-weight: 400;
-                text-align: center;
-                border-radius: 50%;
-                top: -57px;
-                line-height: 1;
-                padding-top: .5rem;
-                color: var(--color-white);
-                left: 50%;
+        .bg-primary {
+            display: flex;
+            flex-direction: column;
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+
+            img {
+                width: 30% !important;
             }
         }
-
     }
 
     @media (max-width: 768px) {
-        h1 {
-            font-size: 1.8rem;
-        }
-        .container {
-            > div:not(.info__box) {
-                bottom: 5rem;
-            }
 
-            .coverified__informationgraphic {
-                width: 69%;
-                padding-bottom: 21.5rem;
-            }
-
-            .wirvsvirus__logo {
-                top: 48%;
-            }
-        }
     }
 
     @media (max-width: 576px) {
-        h1 {
-            font-size: 1.575rem;
-            line-height: 33.6px;
+        h1,
+        .h1 {
+            font-size: 2rem;
         }
 
-        .mt-6 {
-            margin-top: 4rem !important;
-        }
-
-        .container {
-            > div:not(.info__box) {
-                bottom: 7rem;
-                padding-left: .5rem;
-                padding-right: .5rem;
-            }
-
-            > .info__box {
-                right: 0;
-            }
-
-            .coverified__informationgraphic {
-                width: 90%;
-            }
-
-            .wirvsvirus__logo {
-                width: 16rem;
-                top: 47%;
-                right: 0;
-                left: 0;
-                margin: 0 auto;
-            }
-            .check-symbol {
-                margin-top: 2rem;
-            }
-        }   
+        
     }
 </style>
 
 <svelte:head>
-    <title>CoVerified</title>
-    <meta name="description" content="CoVerified"/>
+    <title>Mit CoVerified Digitalisierung gestalten| Wir denken digitale Kommunikation neu</title>
+    <meta name="description" content="Unsere Software-Produkte gestalten Digitalisierung und
+schaffen einen neuen Informationsstandard zur einfachen
+Information der breiten Bevölkerung."/>
 </svelte:head>
-
-<h1 class="sr-only">CoVerified</h1>
-<div class="container">
-    <img class="coverified__informationgraphic" src="coverified-information-graphic.svg"
-         alt="Coverified Information graphic">
-    <img class="wirvsvirus__logo" src="wirvsvirus-weiss.svg" alt="Wir vs Virus Projekt">
-    <div>
-        <h1>
-            Mit einem Klick verifizierte <br />
-            Informationen zu COVID-19.
-        </h1>
+<Container class="mt-5 pt-3 text-center">
+    <h1 class="h1 mt-0">
+        Mit CoVerified Digitalisierung gestalten<br />
+        &ndash; Wir denken digitale Kommunikation neu &ndash;
+    </h1>
+    <p>
+        Unsere Software-Produkte gestalten Digitalisierung und schaffen einen neuen Informationsstandard zur einfachen Information der breiten Bevölkerung. Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
+    </p>
+</Container>
+<video class="w-100 h-auto mt-5 mb-3" src="coverified-video.mp4" preload=”none” autoplay></video>        
+<Container class="pt-3 text-center">
+    <h2 class="mt-5">
+        Mehr Wissen <span class="green">für alle</span>.        
+    </h2>
+    <p>
+        Wir gestalten digitale Produkte, die sichere Informationen bündeln und einfach zugänglich machen.
+    </p>
+    <div class="grid-wrapper mt-5">
+        <div class="grid-image">
+            <img src="diesituation.png" alt="Die Situation" class="w-50">
+        </div>
+        <div class="grid-text">
+            <p>
+                <b>Die Situation:</b><br />
+                Verlässliche Informationen sind im Netz verstreut und mühsam zu finden
+            </p>
+        </div>    
+        <div class="grid-image">
+            <img src="unsereloesung.png" alt="Unsere Lösung">                
+        </div>
+        <div class="grid-text">
+            <p>
+                <b>Unsere Lösung:</b><br />
+                Wir bündeln das Wissen aus sicheren Quellen und stellen es über neue digitale Kanäle zur Verfügung
+            </p>
+        </div>
+        <div class="grid-image">
+            <img src="unserevision.png" alt="Unsere Vision">
+        </div>    
+        <div class="grid-text">
+            <p>
+                <b>Unsere Vision:</b><br /> 
+                eine informierte, faktensichere, Öffentlichkeit mit mehr Verständnis, Weitsicht und Toleranz
+            </p>
+        </div>    
     </div>
-    <div class="info__box">
-        <coverified-cases></coverified-cases>
-    </div>
-</div>
-
-<Container class="mt-5 pt-5">
-<Row>
-    <Col sm="auto" lg="6">
-        <h2>
-            So binden Sie den Info-Button in Ihre Website ein.
-        </h2>
-        <p>
-            Helfen Sie und versorgen Ihre Nutzer*innen mit verifizierten Informationen zur aktuellen Covid-19 Situation. Los geht's!
-        </p>
-    </Col>
-    <Col sm="auto" lg="6">
-        <img src="coverified-devices.png" alt="Coverified Devices Mockup">
-    </Col>
-</Row>
-<Row class="mt-5">
-    <Col sm="auto" lg="6">
-        <h2>
-            So gehts! Einfach per JavaScript oder WordPress Plugin einbinden:
-        </h2>
-        
-    </Col>
-    <Col sm="auto" lg="12">
-        <div class="my-5 integration__buttons">
-            <Button href={'https://github.com/coverified/webcomponent#simple-integration'} label={'JavaScript'} target={'_blank'} rel={'noopener'}></Button>
-            <Button href={'https://github.com/coverified/plugin-wordpress'} label={'WordPress-Plugin'} target={'_blank'} rel={'noopener'}></Button>
-        </div>
-        <p class="empfehlungs_text">
-            Wir empfehlen Ihnen, bei Verwendung unseres Widgets einen entsprechenden Vermerk in Ihrer Datenschutzerklärung zu hinterlegen. Wir selbst erheben und verarbeiten keinerlei personenbezogene Daten, unser Serviceprovider allerdings Server-Logfiles der IP Adressen. Die Informationen in unserem Widget zeigen auf die Angebote Dritter, auf denen deren Datenschutzerklärungen greifen.
-        </p>
-    </Col>
-</Row>
-<Row class="mt-5">
-    <Col sm="auto" lg="6">
-        <h2>
-            6 Gründe für unser kostenloses Widget:
-        </h2>
-    </Col>
-</Row>
-<Row class="mt-5 justify-content-center">
-    <Col sm="auto" lg="6" class="mb-5 text-center text-lg-left">
-            <div class="mb-5 flex-column flex-lg-row set-height row">
-                <Col lg="2">
-                    <div class="check-symbol"></div>
-                </Col>
-                <Col lg="6">
-                <p>
-                    Gemeinsam helfen! Sie tragen dazu bei, dass Menschen im Netz verlässliche Informationen erhalten.
-                </p>
-                </Col>
-            </div>
-            <div class="my-5 flex-column flex-lg-row set-height row">
-                <Col lg="2">
-                    <div class="check-symbol"></div>
-                </Col>
-                <Col lg="6">
-                    <p>
-                        Richtig informieren! Sie arbeiten proaktiv gegen die Verbreitung von Falschinformationen.
-                    </p>
-                </Col>
-            </div>
-            <div class="mt-5 flex-column flex-lg-row row set-height">
-                <Col lg="2">
-                    <div class="check-symbol"></div>
-                </Col>
-                <Col lg="6">
-                    <p>
-                        Einfach umzusetzen! Nur 1 Zeile JavaScript Code oder das fertige Wordpress Plugin in Ihre Website einfügen.
-                    </p>
-                </Col>
-            </div>
-    </Col>
-    <Col sm="auto" lg="6" class="text-center text-lg-left">
-        <div class="mb-5 flex-column flex-lg-row row set-height">
-            <Col lg="2">
-                <div class="check-symbol"></div>
-            </Col>
-            <Col lg="6" class="justify-content-center">
-                <p >
-                    Jetzt informieren! Sie halten die Besucher*innen Ihrer Website immer auf dem neuesten Stand zur Coronakrise.
-                </p>
-            </Col>
-        </div>
-        <div class="my-5 flex-column flex-lg-row set-height row">
-            <Col lg="2">
-                <div class="check-symbol"></div>
-            </Col>
-            <Col lg="6">
-                <p>
-                    Alle miteinbeziehen! Das Widget soll möglichst viele Menschen erreichen, daher ist es barrierefrei und Open Source programmiert.
-                </p>
-            </Col>
-        </div>
-        <div class="mt-5 mt-6 flex-column flex-lg-row set-height row">
-            <Col lg="2">
-                <div class="check-symbol"></div>
-            </Col>
-            <Col lg="6">
-                <p>
-                    Jetzt handeln! Wir glauben, dass wir alle gemeinsam etwas tun können und der beste Zeitpunkt dafür jetzt ist.
-                </p>
-            </Col>
-        </div>
-    </Col>
-</Row>
-<div class="background-primary">
-    <Row class="mt-5">
-        <Col sm="auto" lg="6">
-            <h2>
-                So funktioniert der<br class="d-none d-lg-block"/> Informations-Button<br class="d-none d-lg-block"/>auf Ihrer Website:
+    <div class=" bg-primary text-white mt-72">
+        <div class="column--1-3 row--1">
+            <h2 class="text-white mt-0">
+                Die CoVerified Lösung für mehr Wissen im Netz:
             </h2>
-            <img src="coverified-widget-mockup.png" class="widget-mockup" alt="CoVerified Widget Mockup">
-        </Col>
-        <Col sm="auto" lg="6">
-            <ul class="list-style-dash">
-                <li>
-	                Mit einem Klick auf den Button werden aktuelle Infos zu Covid-19 gebündelt und als News-Vorschau im Widget dargestellt.
-                </li>
-                <li>
-                    Der CoVerified-Button erscheint immer unten rechts auf Ihrer Website.
-                </li>
-                <li>
- 	                Mit einem Klick öffnet sich ein Fenster mit aktuellen Informationen zur Covid-19 Situation.
-                </li>
-                <li>
- 	               An erster Stelle nennen wir die aktuellen Fallzahlen der John Hopkins University.
-                </li>
-                <li>
- 	                Darunter folgen die neuesten Infos, jeweils aus offiziellen und wissenschaftlich anerkannten Quellen.
-                </li>
-                <li>
-                    Mit Klick auf „Weiterlesen“ rufen Sie jeweils die komplette Nachrichtenmeldung auf.
-                </li>
-                <li>
- 	                Barrierefrei: Das Widget kann auf allen Geräten und Apps uneingeschränkt aufgerufen werden, auch über assistive Technologie wie Screenreader.
-                </li>
-            </ul>
-        </Col>
-    </Row>
-</div>
+            <img src="logo-wika.svg" alt="Wika Logo" class="w-25 mb-4">
+            <p class="mb-5 mb-md-0 font-weight-300">
+                Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Unser Web-Widget Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
+            </p>
+        </div>
+        <div class="row--2 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center">
+            <img src="icon_story.png" alt="Story Elemente" class="w-50 mb-4">
+            <p>
+                Bequemer Einstieg über Stories zu aktuell relevanten Informationen
+            </p>
+        </div>        
+        <div class="row--3 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center mt-5 mb-lg-0">
+            <img src="icon_themenauswahl.png" alt="Themenauswahl" class="mb-4">
+            <p>
+                Gezieltes Informieren über Auswahl von Themen
+            </p>
+        </div>
+        <div class="column--2 row--2-3 order-3 order-lg-2">
+            <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
+        </div>
+        <div class="row--2 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0">
+            <img src="icon_kuratieren.svg" alt="Kuratierte Inhalte" class="mb-4 w-75">
+            <p>
+                Kuratierte Inhalte zu nutzer*innen-zentrierten Fragestellungen
+            </p>
+        </div>
+        <div class="row--3 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center">
+            <img src="icon_trends.svg" alt="Automatische Relevanzsortierung" class="w-50 mb-4">
+            <p>
+                Automatische Relevanz-Sortierung nach Themen-Trends im Netz
+            </p>
+        </div>
+    </div>
+    <h2>
+        Wika <span class="green">bringt Wissen zu den Menschen</span> - ohne zusätzlichen Aufwand
+    </h2>
+    <div class="grid-wrapper mb-5">
+        <div class="grid-image">
+            <img src="rss-feed.png" alt="Die Situation" class="w-50">
+        </div>
+        <div class="grid-text">
+            <p>
+                Wir nutzen bestehende RSS Feeds – somit entsteht <b>kein zusätzlicher redaktioneller Aufwand</b>
+            </p>        
+        </div>        
+        <div class="grid-image align-items-center d-flex justify-content-center">
+            <img src="webeinbindung.png" alt="Unsere Lösung"> 
+        </div>
+        <div class="grid-text">
+            <p>
+                Unser Widget ist webweit einbindbar – Informationen bekommen damit eine <b>enorme Reichweite</b>
+            </p>
+        </div>
+        <div class="grid-image">
+            <img src="nutzerinzentriert.png" alt="Unsere Vision">
+        </div>
+        <div class="grid-text">
+            <p>
+                Unsere Lösung ist <b>nutzer:innen-zentriert</b> entwickelt – somit erreichen wir eine <b>höhere Akzeptanz</b>
+            </p>
+        </div>
+    </div>
+    <Button style="btn-primary" label="Zur Funktionsweise&nbsp;&#8594;" href="/technologie"></Button>
+    <h2>
+        <span class="green">#digitalpioneers</span>        
+    </h2>
+    <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Digitalisierung und Open Social Innovation.</p>
+    <div class="digitalpioneers">
+        <img src="alessa_fetzer.png" alt="Alessa Fetzer">
+        <img src="christina_vollnhals.png" alt="Christina Vollnhals">
+        <img src="florian_schlittenbauer.png" alt="Florian Schlittenbauer">
+        <img src="johannes_hiry.png" alt="Johannes Hiry">
+        <img src="julia_diehl.png" alt="Julia Diehl">
+        <img src="paula_weise.png" alt="Paula Weise">
+        <img src="baerbel.png" alt="Bärbel">
+        <img src="steven_killian.png" alt="Steven Killian">
+        <img src="carmen_bernhardt.png" alt="Carmen Bernhardt">
+    </div>
+    <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about"></Button>
+    <h2>
+        Eine besser informierte Gesellschaft ist Ihnen wichtig?
+    </h2>
+    <p>
+        <span class="green">Dann unterstützen Sie unser Projekt</span> und werden Sie Teil der Wissens-Bewegung.
+    </p>
+    <div class="mb-120 mt-5">
+        <Button style="btn-primary mb-5" label="Partner:in/Investor:in werden" href="/contact"></Button>
+    </div>
 </Container>

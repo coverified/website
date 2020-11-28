@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="80px" viewBox="0 0 120 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Startseite-Copy-5" transform="translate(-1332.000000, -3231.000000)">
+            <g id="Group-14" transform="translate(1333.000000, 3232.000000)">
+                <polygon id="Path-16" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="0 0 0 61.0136907 20.3063772 61.0136907 20.3063772 78 40.8598948 61.0136907 87 61.0136907 87 0"></polygon>
+                <line x1="9.80436288" y1="11.6607143" x2="75.8043629" y2="11.6607143" id="Line-2-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></line>
+                <line x1="9.80436288" y1="23.6607143" x2="43.8043629" y2="24" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></line>
+                <polygon id="Path-17" fill="#3B55F2" points="81 34.4953457 91.3172058 23 95 38.6602394 81 47"></polygon>
+                <g id="Group-5" transform="translate(57.000000, 0.000000)" stroke="#33FF99" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <polyline id="Path-14" points="0 46.5878906 17.6304825 22.0625 30.9495916 37.4375 49.6304825 7.95433343"></polyline>
+                    <polyline id="Path-15" transform="translate(45.630482, 14.500000) rotate(-328.000000) translate(-45.630482, -14.500000) " points="33.6304825 23 45.6304825 6 57.6304825 23"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

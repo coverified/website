@@ -8,17 +8,19 @@
         height: auto;
         max-width: 71.25rem;
         position: relative;
-        margin: 7rem auto .5rem auto;
+        margin: 1.875rem auto .5rem auto;
         padding-right: 15px;
-        padding-left: 15px;
+        padding-left: 15px;        
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.25rem;
 
         &:before {
             content: "";
             position: absolute;
             display: block;
+            background-color: var(--color-light-grey);
             width: 100vw;
             height: 100%;
-            box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
             left: 50%;
             right: 0;
             bottom: 0;
@@ -26,34 +28,25 @@
             transform: translateX(-50%);
             z-index: -1;
         }
-
-        h3 {
-            position: relative;
-            font-size: 1rem;
-            color: var(--color-dark-grey);
-            font-weight: 400;
-            padding-top: 3rem;
-            margin-bottom: 2.5rem;
-        }
     }
 
     .bundesregierung-logo {
-        width: 15rem;
+        width: 12rem;
     }
 
-    .meta-bar {
-        max-width: 71.25rem;
-        margin: 0 auto;
-        padding: 1rem;
+    div {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-        > a {
-            margin-left: 1rem;
+        flex-direction: column;        
+        align-items: flex-end;
+        padding-top: 3rem;
+        margin-left: auto;
+        width:fit-content; 
+    
+        > span {
+            margin-top: 2.375rem;
         }
     }
-
+    
     @media (max-width: 1200px) {
         footer {
             max-width: 60rem;
@@ -82,75 +75,35 @@
         .bundesregierung-logo {
             width: 16rem;
         }
-
-        div {
-            > p {
-                margin-top: .5rem;
-                margin-bottom: .5rem;
-
-                &:last-of-type {
-                    margin-bottom: 3rem;
-                }
-            }
-        }
-        .meta-bar {
-            > a:not(:last-child) {
-                font-size: .85rem;
-            }
-        }
     }
-
 </style>
 
 <footer>
     <Row>
-        <Col sm="auto" lg="4" class="mb-md-4">
+        <Col sm="auto" lg="3" class="mb-md-4">
             <img class="bundesregierung-logo pt-5" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung">
         </Col>
-        <Col sm="auto" lg="4" class="mb-md-4">
+        <Col sm="auto" lg="3" class="mb-md-4">
             <img class="bundesregierung-logo pt-5" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung">
         </Col>
-        <Col sm="auto" lg="4" class="mb-md-4">
-        <h3>
-            Unsere Datenbank bündelt folgende Quellen:
-        </h3>
+        <Col sm="auto" lg="3" class="mb-md-4">
+            <img class="bundesregierung-logo pt-5" src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon">
+        </Col>
+        <Col sm="auto" lg="3" class="mb-md-4">
         <div>
-            <p>
-                Bundesministerium für Gesundheit
-            </p>
-            <p>
-                Bundesregierung Deutschland
-            </p>
-            <p>
-                Robert Koch Institut
-            </p>
-            <p>
-                Charité Universitätsmedizin Berlin
-            </p>
-            <p>
-                Johns Hopkins University
-            </p>
+            <a rel="prefetch"
+                href="impressum">
+                Impressum
+            </a>
+
+            <a rel="prefetch"
+                href="datenschutz">
+                Datenschutz
+            </a>
+            <span class="copyright">
+                &copy; {new Date().getFullYear()} CoVerified
+            </span>
         </div>
         </Col>
     </Row>
 </footer>
-
-<p class="meta-bar">
-    <span class="copyright">
-        &copy; {new Date().getFullYear()} CoVerified
-    </span>
-    <a rel="prefetch"
-        href="impressum">
-        Impressum
-    </a>
-
-    <a rel="prefetch"
-        href="datenschutz">
-        Datenschutz
-    </a>
-    <a href="https://github.com/coverified/" rel="noopener" target="_blank">
-        <svg class="icon icon-github">
-            <use xlink:href="#icon-github"/>
-        </svg>
-    </a>
-</p>

@@ -6,20 +6,86 @@
 
 <style type="text/scss">
   :global(:root) {
-    --color-primary: #3753ff;
+    --color-primary: #3a57ff;
+    --color-wika: #003366;
     --color-light-grey: #ececec;
     --color-dark-grey: #767676;
+    --color-lighter-grey: #f7f8fc;
+    --color-light-grey: #f6f6f6;
     --color-anthracite: #1d1d1d;
+    --color-black: #000;
     --color-white: #fff;
+    --body-color: #132633;
     --color-border: #ececec;
-    --color-green: #3fb63f;
+    --color-green: #49fea4;
+    --color-brigt-green: #32f99a;
+    overflow-x: hidden;
   }
 
-  :global(h2) {
-    font-size: 2rem;
-    font-weight: 800;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+  :global(body) {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--body-color);
+    font-family: "Barlow", sans-serif;
+    padding-top: 4.89375rem;
+  }
+
+  :global(h1,
+    .h1) {
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: var(--color-primary);
+      margin-bottom: 2.625rem;        
+    }
+
+  :global(h2,
+  .h2) {
+    font-size: 2.25rem;
+    color: var(--color-anthracite);
+    font-weight: 600;
+    margin-top: 7.75rem;
+    margin-bottom: 1.6875rem;
+  }
+
+  :global(h3,
+  .h3) {
+    font-size: 1.875rem;
+    margin-bottom: 2.75rem;
+    color: var(--color-primary);
+    
+    > span {
+        display: block;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        margin-right: auto;
+    }
+  }
+
+  :global(.text-black) {
+    color: var(--color-black);
+    font-weight: 600;
+  }
+
+  :global(span.green) {
+    position: relative;        
+    background: linear-gradient(#fff 50%, var(--color-green));                
+  }
+
+  :global(span.green--light-grey) {
+    position: relative;        
+    background: linear-gradient(var(--color-lighter-grey) 50%, var(--color-green));                
+  }
+
+  :global(.mb-120) {
+    margin-bottom: 7.5rem;
+  }
+
+  :global(p) {
+    font-weight: 300;
+  }
+
+  :global(b,strong) {
+    font-weight: bold;
   }
 
   :global(a) {
@@ -30,52 +96,13 @@
     }
   }
 
-  :global(main a) { 
+  :global(main a) {
     font-weight: 700;
     color: var(--color-primary);
 
     &:hover {
       text-decoration: none;
       color: var(--color-anthracite);
-    }
-  }
-
-  main {
-    position: relative;
-    max-width: 71.25rem;
-    background-color: white;
-    margin: 0 auto;
-  }
-
-
-  header {
-    background-color: white;
-    border-bottom: 2px solid #e1e3e6;
-    position: relative;
-  }
-
-  @media (max-width: 1200px) {
-    main {
-      max-width: 60rem;
-    }
-  }
-
-  @media (max-width: 992px) {
-    main {
-      max-width: 45rem;
-    }
-  }
-
-
-  @media (max-width: 768px) {
-    main {
-      max-width: 33.75rem;
-    }
-  }
-
-  @media (max-width: 576px) {
-    main {
-      max-width: 22.5rem;
     }
   }
 </style>

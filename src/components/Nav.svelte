@@ -6,36 +6,48 @@
 
 <style type="text/scss">
     nav {
-        font-weight: 300;
         display: flex;
         flex-direction: row;
         max-width: 71.25rem;
         margin: 0 auto;
         align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--color-white);
+        z-index: 1000;
+
+        &:before {
+            content: "";
+            background-color: var(--color-white);
+            position: absolute;
+            display: block;
+            width: 100vw;
+            height: 100%;
+            left: 50%;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            transform: translateX(-50%);            
+            z-index: -10;
+        }
 
         > a {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             color: var(--color-primary);
             margin-right: auto;
-            font-weight: 700;
-            font-size: 1.25rem;
-            line-height: 2.25rem;
             padding-top: .8rem;
             padding-bottom: .8rem;
 
-            &:hover {
-                color: #767676;
+            &:hover,
+            &:focus {
+                box-shadow: none;
             }
 
             &:first-child {
                 padding-left: 0;
-            }
-
-            > img {
-                width: 2rem;
-                height: auto;
-                margin-right: .625rem;
             }
         }
 
@@ -44,8 +56,8 @@
         }
 
         .logo {
-            width: 120px;
-            height: 28px;
+            width: 165px;
+            height: auto;
         }
     }
 
@@ -65,26 +77,44 @@
         float: left;
     }
 
-    .highlight {
-        background-color: var(--color-primary);
-        border: 1px solid var(--color-primary);
-        border-radius: 5px;
-        color: var(--color-white);
-        padding: 0.45rem 1.75rem;
-    }
-
     [aria-current] {
-        box-shadow: inset 0 -3px 0 0 var(--color-primary);
-        font-weight: bold;
+        box-shadow: inset 0 -2px 0 0 var(--color-primary);
     }
 
     a {
         text-decoration: none;
-        padding: 0.45rem 1.5625rem;
+        padding: .75rem .75rem 1rem .75rem;
         display: block;
         line-height: 20px;
         margin-left: 1rem;
         margin-right: 1rem;
+
+        &:hover,
+        &:focus {
+            box-shadow: inset 0 -2px 0 0 var(--color-primary);
+        }
+    }
+
+    @media (min-width: 992px) {
+        .contact {
+        --btn-primary-bg-color: var(--color-primary);
+        --btn-primary-text-color: var(--color-white);
+        --btn-primary-border-color: var(--color-primary);
+        --btn-primary-border-width: 1px;
+        --btn-primary-border-style: solid;
+        --btn-primary-border-radius: 2rem;
+        --btn-padding: 0.75rem 2.5rem;
+        --text-decoration: none;
+
+        background-color: var(--btn-primary-bg-color);
+        color: var(--btn-primary-text-color) !important;
+        padding: var(--btn-padding);
+        border-color: var(--btn-primary-border-color);
+        border-width: var(--btn-primary-border-width);
+        border-style: var(--btn-primary-border-style);
+        border-radius: var(--btn-primary-border-radius);
+        text-decoration: var(--text-decoration);
+        }
     }
 
     @media (max-width: 1200px) {
@@ -95,17 +125,9 @@
 
     @media (max-width: 992px) {
         nav {
-            max-width: 45rem;
-        }
-    }
-
-
-    @media (max-width: 768px) {
-        nav {
-            max-width: 33.75rem;
+            max-width: 45rem; 
             display: flex;
             flex-direction: column;
-            position: relative;
 
             button {
                 display: flex;
@@ -115,7 +137,8 @@
                 height: 2.2rem;
                 position: absolute;
                 right: 0;
-                top: .875rem;
+                top: 1.25rem;
+                margin-right: 1rem;
                 appearance: none;
                 border: 0;
                 padding: 0;
@@ -159,8 +182,22 @@
                     margin-top: .33rem;
                     margin-bottom: .33rem;
                 }
-            }
-        }
+            }        
+        }    
+        [aria-current] {
+            box-shadow: none;
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            padding: .75rem;
+            font-weight: 400;
+        }    
+    }
+
+
+    @media (max-width: 768px) {
+        nav {
+            max-width: 33.75rem;
+        }  
     }
 
     @media (max-width: 576px) {
@@ -172,42 +209,38 @@
 
 <nav>
     <a href=".">
-        <img  class="logo" src="coverified_logo.svg" alt="CoVerified" width="475" height="111"/>
+        <img  class="logo" src="coverified-logo-claim.png" alt="CoVerified" width="475" height="111"/>        
     </a>
     <ul class={open ? 'open' : ''}>
-        <!-- <li>
-            <a class="highlight"
-               rel="prefetch"
-               aria-current={segment === 'integration' ? 'page' : undefined}
-               href="integration">
-                Einbinden
-            </a>
-        </li> -->
         <li>
             <a rel="prefetch"
-               aria-current={segment === 'news' ? 'page' : undefined}
-               href="news">
-                Covid-19 News
+               aria-current={segment === 'technologie' ? 'page' : undefined}
+               href="technologie">
+                Technologie
+            </a>
+        </li>
+        <li>
+            <a rel="prefetch"
+               aria-current={segment === 'produkte' ? 'page' : undefined}
+               href="produkte">
+                Projekt Wika
             </a>
         </li>
         <li>
             <a rel="prefetch"
                aria-current={segment === 'about' ? 'page' : undefined}
                href="about">
-                das Projekt
+                Über CoVerified
             </a>
         </li>
         <li>
             <a rel="prefetch"
+               class="contact"
                aria-current={segment === 'contact' ? 'page' : undefined}
                href="contact">
                 Kontakt
             </a>
         </li>
-
-        <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-                 the blog data when we hover over the link or tap it on a touchscreen -->
-        <!--		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>-->
     </ul>
     <button class={open ? 'open' : ''} on:click={() => {open = !open}}>
         <span></span>
