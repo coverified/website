@@ -254,7 +254,6 @@ Information der breiten Bevölkerung."/>
         </div>
         <div class="column--2 row--2-3 order-3 order-lg-2">
             <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
-            <Button style="btn-secondary" label="Demo-Version testen!"></Button>        
         </div>
         <div class="row--2 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0">
             <img src="icon_kuratieren.svg" alt="Kuratierte Inhalte" class="mb-4 w-75">
