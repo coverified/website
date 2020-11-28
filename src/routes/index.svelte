@@ -10,8 +10,8 @@
         margin-top: 9.375rem;
     }
 
-    .mt-120 {
-        margin-top: 7.5rem;
+    .mt-72 {
+        margin-top: 4.5rem;
     }
 
     .mt-150 {
@@ -26,8 +26,8 @@
         position: relative;        
         background-color: var(--color-primary) !important;
         z-index: 100;
-        padding-top: 7.5rem;
-        padding-bottom: 7.5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 20rem 25rem 25rem;        
@@ -187,15 +187,15 @@ Information der breiten Bevölkerung."/>
 <Container class="mt-5 pt-3 text-center">
     <h1 class="h1 mt-0">
         Mit CoVerified Digitalisierung gestalten<br />
-        Wir denken digitale Kommunikation neu
+        &ndash; Wir denken digitale Kommunikation neu &ndash;
     </h1>
     <p>
         Unsere Software-Produkte gestalten Digitalisierung und schaffen einen neuen Informationsstandard zur einfachen Information der breiten Bevölkerung. Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
     </p>
 </Container>
-<video class="w-100 h-auto" src="coverified-video.mp4" preload=”none” autoplay></video>        
+<video class="w-100 h-auto mt-5 mb-3" src="coverified-video.mp4" preload=”none” autoplay></video>        
 <Container class="pt-3 text-center">
-    <h2>
+    <h2 class="mt-5">
         Mehr Wissen <span class="green">für alle</span>.        
     </h2>
     <p>
@@ -230,7 +230,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>    
     </div>
-    <div class=" bg-primary text-white mt-120">
+    <div class=" bg-primary text-white mt-72">
         <div class="column--1-3 row--1">
             <h2 class="text-white mt-0">
                 Die CoVerified Lösung für mehr Wissen im Netz:

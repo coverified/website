@@ -188,23 +188,23 @@
 Informationen zu gesellschaftsrelevanten Themen auf
 Knopfdruck webweit verfügbar."/>
 </svelte:head>
-<Container class="mt-5 pt-3 text-center">
+<Container class="mt-5 pt-3 text-center mb-3">
   <h1>Wika –  Das Web-Widget gegen Desinformation</h1>
   <p>
     Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.
   </p>
 </Container>
-<img src="wika-header.jpg" alt="WiKa" />
+<img src="wika-header.jpg" alt="WiKa" class="mt-5"/>
 <Container class="text-center">
   <h2 class="mb-5">
-    Die Wika-Features im Überblick
+    <span class="green">Die Wika-Features im Überblick</span>
   </h2>
   <div class="grid-wrapper">
     <div>
       <h3 class="h2 mt-0">
-        Bequemer Einstieg über
+        Bequemer Einstieg
         <br />
-        <span class="green">über aktuelle Stories</span>
+        über aktuelle Stories
       </h3>
       <p>
         So erhalten Nutzer:innen die wichtigsten Meldungen angenehm aufbereitet
@@ -233,8 +233,7 @@ Knopfdruck webweit verfügbar."/>
     </div>
     <div>
       <h2 class="mt-0">
-        <span class="green">Gesellschaftlich relevante Themen</span>
-        übersichtlich gebündelt
+        Gesellschaftlich relevante Themen übersichtlich gebündelt
       </h2>
       <p>
         Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung… Diese und
@@ -280,7 +279,7 @@ Knopfdruck webweit verfügbar."/>
         </p>
     </div>
     <h2>
-        Transparent gegen Desinformation
+        <span class="green">Transparent gegen Desinformation</span>
     </h2>
     <p>
         Wir legen Wert auf unverfälschte Informationen aus erster Hand. Unsere Quellen werden nach festgelegten, transparenten Kriterien ausgewählt, beleuchtet und bei jedem Inhalt verlinkt.

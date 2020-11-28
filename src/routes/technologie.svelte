@@ -31,13 +31,14 @@
         position: relative;
         background-color: var(--color-primary) !important;
         z-index: 100;
-        padding-top: 7.5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         text-align: left;
-        padding-bottom: 7.5rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 12rem 17.5rem 20rem 20rem 38rem 15rem;        
+        grid-template-rows: 6rem 17.5rem 20rem 20rem 38rem 15rem;        
         color: var(--color-white);
+        margin-top: 4rem;
 
         &:before {
             content: "";
@@ -239,14 +240,14 @@ Quellen und wirkt so Infodemie entgegen." />
 </svelte:head>
 <Container class="mt-5 pt-3 text-center">
     <h1>
-        Raus aus der Infodemie<br />
-        CoVerified macht aus verstreuten Informationen geballe Wissenpower
+        CoVerified macht Informationen aus sicheren Quellen zentral verfügbar
     </h1>
-    <!-- Desktop -->
+    <p>
+        Das im Rahmen des #WirvsVirus Hackathon entwickelte CoVerified-Prinzip bündelt Informationen aus sicheren Quellen und macht sie über neue digitale Kanäle abrufbar.
+    </p>
     <div class="bg-primary">
-        <h2 class="text-center">
-            Raus aus der Infodemie<br />
-            CoVerified macht aus verstreuten Informationen geballe Wissenpower
+        <h2>
+            Das CoVerified-Prinzip Schritt-für-Schritt erklärt:
         </h2>
         <img src="technologie_quellen.svg" alt="Quellen">
         <div class="technologie__container align-self-end">

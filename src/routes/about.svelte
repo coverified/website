@@ -12,9 +12,9 @@
     position: relative;
     background-color: var(--color-primary) !important;
     z-index: 100;
-    padding-top: 7.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     text-align: left;
-    padding-bottom: 7.5rem;
 
     &:before {
       content: "";
@@ -141,6 +141,26 @@
         z-index: -10;
       }  
     }    
+  }
+
+  @media (min-width: 770px) {
+    .center-row {      
+      &--2 {
+        grid-column: 2 / 2;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .center-row {
+      &--1 {
+        grid-column: 2 / 2; 
+      }
+      
+      &--2 {
+        grid-column: 3 / 3;
+      }
+    }
   }
 
   @media (max-width: 992px) {
@@ -413,17 +433,22 @@ entwickeln wir Open Social Innovation."/>
           #kitesurfass
         </p> -->
       </div>
-    </div>  
+    </div>
     <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <img src="steven_killian.png" alt="Steven Killian">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
-          Bärbel<br />
-          <span class="overlay__container-popup--title">Being a Good Girl</span>
+          Steven Killian<br />
+          <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
-        <p class="overlay__container-popup--hashtag">
-          #bestdog
-        </p>
+        <div class="overlay__container-popup--links">
+          <a href="https://www.linkedin.com/in/steven-killian-224b65199/" target="_blank" title="linkedIn" rel="noopener">
+            <img src="linkedin.svg" alt="linkedIn Logo">
+          </a>
+        </div>
+        <!-- <p class="overlay__container-popup--hashtag">
+          #kitesurfass
+        </p> -->
       </div>
     </div>  
     <div class="overlay__container">
@@ -447,7 +472,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <img src="simon_phumin_schweikert.png" alt="Simon Phumin Schweikert" class="turn">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Simon Phumin<br />Schweikert<br />
@@ -466,24 +491,7 @@ entwickeln wir Open Social Innovation."/>
         </p> -->
       </div>
     </div>  
-    <div class="overlay__container">
-      <img src="steven_killian.png" alt="Steven Killian">
-      <div class="overlay__container-popup">
-        <p class="overlay__container-popup--name">
-          Steven Killian<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
-        </p>
-        <div class="overlay__container-popup--links">
-          <a href="https://www.linkedin.com/in/steven-killian-224b65199/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
-          </a>
-        </div>
-        <!-- <p class="overlay__container-popup--hashtag">
-          #kitesurfass
-        </p> -->
-      </div>
-    </div>  
-    <div class="overlay__container">
+    <div class="overlay__container center-row--1">
       <img src="carmen_bernhardt.png" alt="Carmen Bernhardt">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
@@ -499,8 +507,19 @@ entwickeln wir Open Social Innovation."/>
           #kitesurfass
         </p> -->
       </div>
-    </div>  
-    
+    </div>
+    <div class="overlay__container center-row--2">
+      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <div class="overlay__container-popup">
+        <p class="overlay__container-popup--name">
+          Bärbel<br />
+          <span class="overlay__container-popup--title">Being a Good Girl</span>
+        </p>
+        <p class="overlay__container-popup--hashtag">
+          #bestdog
+        </p>
+      </div>
+    </div> 
   </div>
   <div class="bg-secondary">
     <h2 class="mt-0">
