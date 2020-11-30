@@ -109,7 +109,7 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
 <Container>
   <h1 class="text-center mt-80">Wir freuen uns auf Ihre Nachricht</h1>
   <div class="bg-secondary">
-    <Row>
+    <Row class="align-items-center">
       <Col sm="auto" lg="6">
         <p class="text-black">
           Sie haben Interesse an einer Zusammenarbeit oder möchten mehr über
@@ -124,7 +124,9 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
           Ludwigstr. 187
           <br />
           63067 Offenbach am Main
-        </p>
+        </p>      
+      </Col>
+      <Col sm="auto" lg="6">
         <Row class="d-flex align-items-center justify-content-center">
           <Col xs="8" sm="5" lg="4">
             <img src="alessa_fetzer.png" alt="Alessa Fetzer" class="mb-3 mb-md-0">
@@ -134,61 +136,16 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
               <p class="mb-0 text-black">Ansprechpartnerin</p>
               <p class="h3 my-2 text-black">Alessa Fetzer</p>
               <a
-                href="mailto:info@coverified.de"
+                href="mailto:info@coverified.de?subject=Interesse%20an%20zusammenarbeit"
                 class="mb-2 d-block font-weight-light h3">
                 info@coverified.de
               </a>
-              <a href="+49+17632789572" class="font-weight-light h3 mb-0">
+              <a href="tel:+4917632789572" class="font-weight-light h3 mb-0">
                 +49 176 32789572
               </a>
             </div>
           </Col>
         </Row>
-      </Col>
-      <Col sm="12" lg="6">
-        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-          <input type="text" name="name" placeholder="Name*" required/>
-          <input type="firma" name="firma" placeholder="Firma"/>
-          <input type="text" name="betreff" placeholder="Betreff"/>
-          <textarea name="message" placeholder="Ihre Nachricht*" required/>
-        </form>
-        <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field">
-          <p class="d-none">
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-          </p>
-          <input type="hidden" name="form-name" value="contact" />
-          <div>
-            <label>
-              Name<sup>*</sup>
-            </label>
-            <input type="text" name="name" placeholder="Name*" required/>
-          </div>
-          <div>
-            <label>
-              Firma
-            </label>
-              <input type="firma" name="firma" placeholder="Firma"/>
-          </div>
-          <div>
-            <label>
-              Betreff
-            </label>
-              <input type="text" name="betreff" placeholder="Betreff"/>
-          </div>
-          <div>
-            <label>
-              Ihre Nachricht<sup>*</sup>
-            </label>
-              <textarea name="message" placeholder="Ihre Nachricht*" required/>
-          </div>
-          <div>
-            <button class="btn-primary" type="submit">Absenden</button>
-          </div>
-        </form>
       </Col>
     </Row>
   </div>
