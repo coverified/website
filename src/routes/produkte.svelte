@@ -1,6 +1,7 @@
 <script>
   import Button from "../components/Button.svelte";
   import Container from "sveltestrap/src/Container.svelte";
+  import Image from "../components/Image.svelte";
   import { onMount } from 'svelte';
 
   onMount(() => {
@@ -177,7 +178,7 @@ Knopfdruck webweit verfügbar."/>
     Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.
   </p>
 </Container>
-<img src="wika-header.jpg" alt="WiKa" class="mt-5"/>
+<Image imgSrc="wika-header.jpg" imgSrcTiny="wika-header-lazy.jpg"/>
 <Container class="text-center">
   <h2 class="mb-5">
     <span class="green">Die Wika-Features im Überblick</span>
