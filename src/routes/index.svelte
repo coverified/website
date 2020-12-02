@@ -173,7 +173,7 @@ Information der breiten Bevölkerung."/>
         Unsere Software-Produkte gestalten Digitalisierung und schaffen einen neuen Informationsstandard zur einfachen Information der breiten Bevölkerung. Denn eine gut informierte Gesellschaft ist die Basis einer starken Demokratie.
     </p>
 </Container>
-<video class="w-100 h-auto mt-5 mb-3" src="coverified-video.mp4" preload=”none” autoplay></video>        
+<video class="w-100 h-auto mt-5 mb-3" src="coverified-video.mp4" preload=”none” muted autoplay></video>        
 <Container class="pt-3 text-center">
     <h2 class="mt-5">
         Mehr Wissen <span class="green">für alle</span>.        
