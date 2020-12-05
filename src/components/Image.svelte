@@ -1,49 +1,29 @@
 <script>
-  import VisibilityGuard from "./VisibilityGuard.svelte";
-  import { fade } from "svelte/transition";
+  import { onMount } from 'svelte';
+  
+  export let src;
+  export let alt;
+  export let additionalClass;
 
-  export let imgSrc = "#";
-  export let imgSrcTiny = imgSrc;
-  export let imgAlt = "Image";
+  let loaded = false
+  let thisImage
 
-  let isAbsolute = false;
-  let isStatic = false;
-
-  function setPosToAbsolute() {
-    isAbsolute = true;
-    isStatic = false;
-  }
-  function setPosToStatic() {
-    isAbsolute = false;
-    isStatic = true;
-  }
+  onMount(() => {
+    thisImage.onload = () => {
+      loaded = true
+    }
+  });
 </script>
 
-<style>
-  .isAbsolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .isStatic {
-    position: static;
+<style type="text/scss">
+  img {    
+    opacity: 0;
+    transition: opacity 1200ms ease-out;
+
+    &.loaded {
+      opacity: 1;
+    }
   }
 </style>
 
-<VisibilityGuard let:hasBeenVisible>
-  {#if hasBeenVisible}
-    <img
-      in:fade
-      class:isAbsolute
-      class:isStatic
-      src={imgSrc}
-      alt={imgAlt} />
-  {:else}
-    <img
-      out:fade
-      on:outrostart={setPosToAbsolute}
-      on:outroend={setPosToStatic}
-      src={imgSrcTiny}
-      alt={imgAlt} />
-  {/if}
-</VisibilityGuard>
+<img {src} {alt} class:loaded bind:this={thisImage} />

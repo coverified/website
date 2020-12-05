@@ -1,10 +1,12 @@
 <script>
   import Button from "../components/Button.svelte";
   import Container from "sveltestrap/src/Container.svelte";
-  import Image from "../components/Image.svelte";
+  import ImageLoader from '../components/ImageLoader.svelte';
+  import PlaceholderImage from "../components/PlaceholderImage.svelte";
   import { onMount } from 'svelte';
 
   onMount(() => {
+    
     const faders = document.querySelectorAll('.fade-in');
     const appearOptions = {
         threshold: 1,
@@ -80,7 +82,7 @@
         color: var(--color-white);
         margin-top: 6.25rem;
 
-        img {
+        .image {
             width: 23%;
             display: flex;
             margin: 0 auto;
@@ -178,7 +180,12 @@ Knopfdruck webweit verfügbar."/>
     Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.
   </p>
 </Container>
-<Image imgSrc="wika-header.jpg" imgSrcTiny="wika-header-lazy.jpg"/>
+<PlaceholderImage
+    url="wika-header.jpg"    
+    alt="Wika"
+    placeholder="wika-header-lazy.jpg"
+>
+</PlaceholderImage>
 <Container class="text-center">
   <h2 class="mb-5">
     <span class="green">Die Wika-Features im Überblick</span>
@@ -205,11 +212,11 @@ Knopfdruck webweit verfügbar."/>
       </ul>
     </div>
     <div>
-      <img src="story-element.png" alt="Story Element" />
+      <ImageLoader src="story-element.png" alt="Our image"></ImageLoader>
     </div>
   </div>
   <div class="grid-wrapper-mirrored">
-    <div class="kacheln-wrapper">
+    <div class="kacheln-wrapper">      
       <img src="themen_kachel_1.png" alt="WiKa Themenkachel" class="fade-in" />
       <img src="themen_kachel_2.png" alt="WiKa Themenkachel" class="fade-in" />
       <img src="themen_kachel_3.png" alt="WiKa Themenkachel" class="fade-in mt--40" />
@@ -231,7 +238,7 @@ Knopfdruck webweit verfügbar."/>
         <li>Auswahl von Themen passend zum Kontext der eigenen Webseite</li>
         <li>Eigene Themen und Fragestellungen ergänzen</li>
       </ul>
-      <img src="themen_chips.svg" alt="Themen Buttons">
+      <ImageLoader src="themen_chips.svg" alt="Our image"></ImageLoader>
     </div>
     </div>
     <div class="bg-wika">
@@ -240,23 +247,31 @@ Knopfdruck webweit verfügbar."/>
         </h2>
         <p class="pt-lg-5 mb-4 row--1 col--1-4">
           Schnell und gezielt navigieren - Wika bietet für jeden Informationsbedarf den passenden Inhalt.
-        </p>
-        <img src="chat_bubble_outline.svg" alt="Staatus" class="row--2 col--1">
+        </p>    
+        <div class="row--2 col--1 image">
+          <ImageLoader src="chat_bubble_outline.svg" alt="Staatus"></ImageLoader>
+        </div>
         <p class="row--3 col--1">
             <b>Staatus</b><br/>
             staatliche Meldungen aus den Ministerien, aktuelle Beschlüsse und Diskussionen
         </p>
-        <img src="school.svg" alt="Basiswissen" class="row--2 col--2">    
+        <div class="row--2 col--2 image">
+          <ImageLoader src="school.svg" alt="Basiswissen"></ImageLoader>
+        </div>
         <p class="col--2 row--3">
-            <b>Basiswissen</b><br/>
-            Grundlagen zu gesellschaftsrelevanten Themen
+          <b>Basiswissen</b><br/>
+          Grundlagen zu gesellschaftsrelevanten Themen
         </p>
-        <img src="favorite_border.svg" alt="Engagement" class="row--2 col--3">
+        <div class="row--2 col--3 image">
+          <ImageLoader src="favorite_border.svg" alt="Engagement"></ImageLoader>
+        </div>
         <p class="row--3 col--3">
-            <b>Engagement</b><br/>
-            Ausgewählte Initiativen werden vorgestellt, um selbst aktiv zu werden
+          <b>Engagement</b><br/>
+          Ausgewählte Initiativen werden vorgestellt, um selbst aktiv zu werden
         </p>
-        <img src="help_outline.svg" alt="Nachgefragt" class="row--2 col--4">
+        <div class="row--2 col--4 image">
+          <ImageLoader src="help_outline.svg" alt="Nachgefragt"></ImageLoader>
+        </div>        
         <p class="row--3 col--4">
             <b>Nachgefragt</b><br />
             Antworten auf die drängendsten Fragen der Bürger*innen
