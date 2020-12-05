@@ -184,6 +184,8 @@ Knopfdruck webweit verfügbar."/>
     url="wika-header.jpg"    
     alt="Wika"
     placeholder="wika-header-lazy.jpg"
+    width="2500"
+    height="1572"
 >
 </PlaceholderImage>
 <Container class="text-center">
@@ -212,15 +214,15 @@ Knopfdruck webweit verfügbar."/>
       </ul>
     </div>
     <div>
-      <ImageLoader src="story-element.png" alt="Our image"></ImageLoader>
+      <ImageLoader src="story-element.png" width="1120" height="1318" alt="Our image"></ImageLoader>
     </div>
   </div>
   <div class="grid-wrapper-mirrored">
     <div class="kacheln-wrapper">      
-      <img src="themen_kachel_1.png" alt="WiKa Themenkachel" class="fade-in" />
-      <img src="themen_kachel_2.png" alt="WiKa Themenkachel" class="fade-in" />
-      <img src="themen_kachel_3.png" alt="WiKa Themenkachel" class="fade-in mt--40" />
-      <img src="themen_kachel_4.png" alt="WiKa Themenkachel" class="fade-in" />
+      <img src="themen_kachel_1.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="614" />
+      <img src="themen_kachel_2.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="690" />
+      <img src="themen_kachel_3.png" alt="WiKa Themenkachel" class="fade-in mt--40" width="436" height="722" />
+      <img src="themen_kachel_4.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="702" />
     </div>
     <div>
       <h2 class="mt-0">
@@ -238,7 +240,7 @@ Knopfdruck webweit verfügbar."/>
         <li>Auswahl von Themen passend zum Kontext der eigenen Webseite</li>
         <li>Eigene Themen und Fragestellungen ergänzen</li>
       </ul>
-      <ImageLoader src="themen_chips.svg" alt="Our image"></ImageLoader>
+      <ImageLoader src="themen_chips.svg" width="300" height="72" alt="Our image"></ImageLoader>
     </div>
     </div>
     <div class="bg-wika">
@@ -249,28 +251,28 @@ Knopfdruck webweit verfügbar."/>
           Schnell und gezielt navigieren - Wika bietet für jeden Informationsbedarf den passenden Inhalt.
         </p>    
         <div class="row--2 col--1 image">
-          <ImageLoader src="chat_bubble_outline.svg" alt="Staatus"></ImageLoader>
+          <ImageLoader src="chat_bubble_outline.svg" width="154" height="150" alt="Staatus"></ImageLoader>
         </div>
         <p class="row--3 col--1">
             <b>Staatus</b><br/>
             staatliche Meldungen aus den Ministerien, aktuelle Beschlüsse und Diskussionen
         </p>
         <div class="row--2 col--2 image">
-          <ImageLoader src="school.svg" alt="Basiswissen"></ImageLoader>
+          <ImageLoader src="school.svg" width="186" height="150" alt="Basiswissen"></ImageLoader>
         </div>
         <p class="col--2 row--3">
           <b>Basiswissen</b><br/>
           Grundlagen zu gesellschaftsrelevanten Themen
         </p>
         <div class="row--2 col--3 image">
-          <ImageLoader src="favorite_border.svg" alt="Engagement"></ImageLoader>
+          <ImageLoader src="favorite_border.svg" width="165" height="150" alt="Engagement"></ImageLoader>
         </div>
         <p class="row--3 col--3">
           <b>Engagement</b><br/>
           Ausgewählte Initiativen werden vorgestellt, um selbst aktiv zu werden
         </p>
         <div class="row--2 col--4 image">
-          <ImageLoader src="help_outline.svg" alt="Nachgefragt"></ImageLoader>
+          <ImageLoader src="help_outline.svg" width="154" height="150" alt="Nachgefragt"></ImageLoader>
         </div>        
         <p class="row--3 col--4">
             <b>Nachgefragt</b><br />

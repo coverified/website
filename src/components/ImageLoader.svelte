@@ -4,11 +4,13 @@
 
     export let src;   
     export let alt;
+    export let width;
+    export let height;
     
 </script>
 
 <IntersectionObserver once={true} let:intersecting={intersecting}>
     {#if intersecting}
-        <Image {alt} {src} />
+        <Image {alt} {src} {width} {height} />
     {/if}
 </IntersectionObserver>

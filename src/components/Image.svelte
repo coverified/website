@@ -3,6 +3,8 @@
   
   export let src;
   export let alt;
+  export let width;
+  export let height;
 
   let loaded = false
   let thisImage
@@ -15,7 +17,7 @@
 </script>
 
 <style type="text/scss">
-  img {    
+  img {
     opacity: 0;
     transition: opacity 1200ms ease-out;
 
@@ -25,4 +27,4 @@
   }
 </style>
 
-<img {src} {alt} class:loaded bind:this={thisImage} />
+<img {src} {alt} class:loaded bind:this={thisImage} {width} {height} />

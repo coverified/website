@@ -83,17 +83,17 @@
     <Row>
         <Col sm="auto" lg="3" class="mb-md-4">
             <div class="bundesregierung-logo pt-5">
-                <ImageLoader src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung"></ImageLoader>
+                <ImageLoader src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung" width="290" height="207"></ImageLoader>
             </div>
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
             <div class="bundesregierung-logo pt-5">
-                <ImageLoader src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung"></ImageLoader>
+                <ImageLoader src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung" width="261" height="202"></ImageLoader>
             </div>
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
             <div class="bundesregierung-logo pt-5">
-                <ImageLoader src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon"></ImageLoader>
+                <ImageLoader src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon" width="1182" height="868"></ImageLoader>
             </div>
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">

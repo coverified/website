@@ -180,7 +180,7 @@ Information der breiten Bevölkerung."/>
     </p>
     <div class="grid-wrapper mt-5">
         <div class="grid-image w-50">
-            <ImageLoader src="diesituation.png" alt="Die Situation"></ImageLoader>
+            <ImageLoader src="diesituation.png" alt="Die Situation" width="254" height="307"></ImageLoader>
         </div>
         <div class="grid-text">
             <p>
@@ -189,7 +189,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>    
         <div class="grid-image">
-            <ImageLoader src="unsereloesung.png" alt="Unsere Lösung"></ImageLoader>
+            <ImageLoader src="unsereloesung.png" alt="Unsere Lösung" width="316" height="307"></ImageLoader>
         </div>
         <div class="grid-text">
             <p>
@@ -198,7 +198,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>
         <div class="grid-image">
-            <ImageLoader src="unserevision.png" alt="Unsere Vision"></ImageLoader>
+            <ImageLoader src="unserevision.png" alt="Unsere Vision" width="297" height="307"></ImageLoader>
         </div>    
         <div class="grid-text">
             <p>
@@ -213,7 +213,7 @@ Information der breiten Bevölkerung."/>
                 Die CoVerified Lösung für mehr Wissen im Netz:
             </h2>
             <div class="w-25 mb-4 mx-auto">
-                <ImageLoader src="logo-wika.svg" alt="Wika Logo"></ImageLoader>
+                <ImageLoader src="logo-wika.svg" alt="Wika Logo" width="284" height="112"></ImageLoader>
             </div>
             <p class="mb-5 mb-md-0 font-weight-300">
                 Corona, Klimaschutz, Zuwanderung, Pflege, Digitalisierung... diese und viele weitere Themen bewegen ganz Deutschland. Aber wo kann man verlässliche Informationen dazu finden? Unser Web-Widget Wika bündelt unverfälschte Meldungen aus erster Hand und macht sie bequem und ansprechend webweit verfügbar.    
@@ -221,7 +221,7 @@ Information der breiten Bevölkerung."/>
         </div>
         <div class="row--2 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center">
             <div class="w-50 mb-4">
-                <ImageLoader src="icon_story.png" alt="Story Elemente"></ImageLoader>
+                <ImageLoader src="icon_story.png" alt="Story Elemente" width="109" height="146"></ImageLoader>
             </div>
             <p>
                 Bequemer Einstieg über Stories zu aktuell relevanten Informationen
@@ -229,7 +229,7 @@ Information der breiten Bevölkerung."/>
         </div>        
         <div class="row--3 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center mt-5 mb-lg-0">
             <div class="mb-4">
-                <ImageLoader src="icon_themenauswahl.png" alt="Themenauswahl"></ImageLoader>
+                <ImageLoader src="icon_themenauswahl.png" alt="Themenauswahl" width="302" height="105"></ImageLoader>
             </div>
             <p>
                 Gezieltes Informieren über Auswahl von Themen
@@ -240,7 +240,7 @@ Information der breiten Bevölkerung."/>
         </div>
         <div class="row--2 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0">
             <div class="mb-4 w-75">
-                <ImageLoader src="icon_kuratieren.svg" alt="Kuratierte Inhalte"></ImageLoader>
+                <ImageLoader src="icon_kuratieren.svg" alt="Kuratierte Inhalte" width="151" height="96"></ImageLoader>
             </div>
             <p>
                 Kuratierte Inhalte zu nutzer*innen-zentrierten Fragestellungen
@@ -248,7 +248,7 @@ Information der breiten Bevölkerung."/>
         </div>
         <div class="row--3 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center">
             <div class="w-50 mb-4">
-                <ImageLoader src="icon_trends.svg" alt="Automatische Relevanzsortierung"></ImageLoader>
+                <ImageLoader src="icon_trends.svg" alt="Automatische Relevanzsortierung" width="120" height="80"></ImageLoader>
             </div>
             <p>
                 Automatische Relevanz-Sortierung nach Themen-Trends im Netz
@@ -260,7 +260,7 @@ Information der breiten Bevölkerung."/>
     </h2>
     <div class="grid-wrapper mb-5">
         <div class="grid-image w-50">
-            <ImageLoader src="rss-feed.png" alt="Die Situation"></ImageLoader>
+            <ImageLoader src="rss-feed.png" alt="Die Situation" width="137" height="170"></ImageLoader>
         </div>
         <div class="grid-text">
             <p>
@@ -268,7 +268,7 @@ Information der breiten Bevölkerung."/>
             </p>        
         </div>        
         <div class="grid-image my-auto">
-            <ImageLoader src="webeinbindung.png" alt="Unsere Lösung"></ImageLoader>
+            <ImageLoader src="webeinbindung.png" alt="Unsere Lösung" width="265" height="182"></ImageLoader>
         </div>
         <div class="grid-text">
             <p>
@@ -276,7 +276,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>
         <div class="grid-image">
-            <ImageLoader src="nutzerinzentriert.png" alt="Unsere Vision"></ImageLoader>
+            <ImageLoader src="nutzerinzentriert.png" alt="Unsere Vision" width="200" height="210"></ImageLoader>
         </div>
         <div class="grid-text">
             <p>
@@ -290,15 +290,15 @@ Information der breiten Bevölkerung."/>
     </h2>
     <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Digitalisierung und Open Social Innovation.</p>
     <div class="digitalpioneers">
-        <ImageLoader src="alessa_fetzer.png" alt="Alessa Fetzer"></ImageLoader>
-        <ImageLoader src="christina_vollnhals.png" alt="Christina Vollnhals"></ImageLoader>
-        <ImageLoader src="florian_schlittenbauer.png" alt="Florian Schlittenbauer"></ImageLoader>
-        <ImageLoader src="johannes_hiry.png" alt="Johannes Hiry"></ImageLoader>
-        <ImageLoader src="julia_diehl.png" alt="Julia Diehl"></ImageLoader>
-        <ImageLoader src="paula_weise.png" alt="Paula Weise"></ImageLoader>
-        <ImageLoader src="steven_killian.png" alt="Steven Killian"></ImageLoader>
-        <ImageLoader src="carmen_bernhardt.png" alt="Carmen Bernhardt"></ImageLoader>
-        <ImageLoader src="baerbel.png" alt="Bärbel"></ImageLoader>
+        <ImageLoader src="alessa_fetzer.png" alt="Alessa Fetzer" width="625" height="625"></ImageLoader>
+        <ImageLoader src="christina_vollnhals.png" alt="Christina Vollnhals" width="625" height="625"></ImageLoader>
+        <ImageLoader src="florian_schlittenbauer.png" alt="Florian Schlittenbauer" width="625" height="625"></ImageLoader>
+        <ImageLoader src="johannes_hiry.png" alt="Johannes Hiry" width="625" height="625"></ImageLoader>
+        <ImageLoader src="julia_diehl.png" alt="Julia Diehl" width="625" height="625"></ImageLoader>
+        <ImageLoader src="paula_weise.png" alt="Paula Weise" width="625" height="625"></ImageLoader>
+        <ImageLoader src="steven_killian.png" alt="Steven Killian" width="625" height="625"></ImageLoader>
+        <ImageLoader src="carmen_bernhardt.png" alt="Carmen Bernhardt" width="625" height="625"></ImageLoader>
+        <ImageLoader src="baerbel.png" alt="Bärbel" width="833" height="833"></ImageLoader>
     </div>
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about"></Button>
     <h2>
