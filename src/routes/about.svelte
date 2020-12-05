@@ -350,7 +350,7 @@ entwickeln wir Open Social Innovation."/>
           <a href="https://www.xing.com/profile/Alessa_Fetzer/" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
-          <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener">
+          <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener" >
             <img src="linkedin.svg" alt="linkedIn Logo">
           </a>
         </div>
@@ -367,7 +367,7 @@ entwickeln wir Open Social Innovation."/>
           <span class="overlay__container-popup--title">UX-Designerin</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Christina_Vollnhals/" target="_blank" title="Xing" rel="noopner">
+          <a href="https://www.xing.com/profile/Christina_Vollnhals/" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
           <a href="https://www.linkedin.com/in/christina-vollnhals-21b96513b/" target="_blank" title="linkedIn" rel="noopener">
@@ -387,7 +387,7 @@ entwickeln wir Open Social Innovation."/>
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-            <a href="https://www.xing.com/profile/Florian_Schlittenbauer/cv" target="_blank" title="Xing" rel="noopner">
+            <a href="https://www.xing.com/profile/Florian_Schlittenbauer/cv" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
           <a href="https://www.linkedin.com/in/schliflo/" target="_blank" title="linkedIn" rel="noopener">
@@ -407,7 +407,7 @@ entwickeln wir Open Social Innovation."/>
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopner">
+          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
           <a href="https://www.linkedin.com/in/johannes-hiry/" target="_blank" title="linkedIn" rel="noopener">
@@ -461,7 +461,7 @@ entwickeln wir Open Social Innovation."/>
           <span class="overlay__container-popup--title">Designerin</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Paula_Weise4/cv" target="_blank" title="Xing" rel="noopner">
+          <a href="https://www.xing.com/profile/Paula_Weise4/cv" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
           <a href="https://www.linkedin.com/in/paula-weise-b979091a2/" target="_blank" title="linkedIn" rel="noopener">
@@ -481,7 +481,7 @@ entwickeln wir Open Social Innovation."/>
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/SimonPhumin_Schweikert/cv" target="_blank" title="Xing" rel="noopner">
+          <a href="https://www.xing.com/profile/SimonPhumin_Schweikert/cv" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
           <a href="https://www.linkedin.com/in/simonschweikert/" target="_blank" title="linkedIn" rel="noopener">
@@ -501,7 +501,7 @@ entwickeln wir Open Social Innovation."/>
           <span class="overlay__container-popup--title">Kommunikation</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Carmen_Bernhardt/cv" target="_blank" title="Xing" rel="noopner">
+          <a href="https://www.xing.com/profile/Carmen_Bernhardt/cv" target="_blank" title="Xing" rel="noopener">
             <img src="xing.svg" alt="Xing Logo">
           </a>
         </div>
