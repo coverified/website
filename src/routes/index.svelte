@@ -111,7 +111,7 @@
         grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr));
         grid-template-rows: 1fr;
         grid-gap: 1rem;
-        margin-bottom: 3rem;        
+        margin-bottom: 3rem;
     }
     
     @media (max-width: 992px) {    
@@ -149,9 +149,16 @@
         h1,
         .h1 {
             font-size: 2rem;
-        }
+        }        
+    }
 
-        
+    @media (min-width: 1600px) {
+        video {
+            width: auto !important;
+            max-width: 100%;
+            display: flex;
+            margin: 0 auto;
+        }
     }
 </style>
 

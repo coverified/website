@@ -19,7 +19,7 @@
 <style type="text/scss">
   img {
     opacity: 0;
-    transition: opacity 1200ms ease-out;
+    transition: opacity .5s ease-out;
 
     &.loaded {
       opacity: 1;
