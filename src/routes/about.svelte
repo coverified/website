@@ -3,7 +3,7 @@
   import Col from "sveltestrap/src/Col.svelte";
   import Row from "sveltestrap/src/Row.svelte";
   import Container from "sveltestrap/src/Container.svelte";
-  import { onMount } from "svelte";
+  import ImageLoader from '../components/ImageLoader.svelte';
 
 </script>
 
@@ -33,9 +33,11 @@
 
     &--twitter {
       padding-top: 5.4375rem;
-      img {
-        width: 5%;
-      }
+    }
+
+    .twitter-logo {
+      width: 5%;
+      margin: 0 auto;
     }
   }
 
@@ -203,7 +205,7 @@
 
     .bg-primary {
       &--twitter {
-        img {
+        &--logo {
           width: 10%;
         }
       }
@@ -224,7 +226,7 @@
 
     .bg-primary {
       &--twitter {
-        img {
+        &--logo {
           width: 15%;
         }
       }
@@ -338,7 +340,7 @@ entwickeln wir Open Social Innovation."/>
   </p>
   <div class="digitalpioneers">
     <div class="overlay__container">
-      <img src="alessa_fetzer.png" alt="Alessa Fetzer">
+      <ImageLoader src="alessa_fetzer.png" alt="Alessa Fetzer"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Alessa Fetzer<br />
@@ -358,7 +360,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="christina_vollnhals.png" alt="Christina Vollnhals">
+      <ImageLoader src="christina_vollnhals.png" alt="Christina Vollnhals"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Christina Vollnhals<br />
@@ -378,7 +380,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="florian_schlittenbauer.png" alt="Florian Schlittenbauer">
+      <ImageLoader src="florian_schlittenbauer.png" alt="Florian Schlittenbauer"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Florian Schlittenbauer<br />
@@ -398,7 +400,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="johannes_hiry.png" alt="Johannes Hiry">
+      <ImageLoader src="johannes_hiry.png" alt="Johannes Hiry"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Johannes Hiry<br />
@@ -417,8 +419,8 @@ entwickeln wir Open Social Innovation."/>
         </p> -->
       </div>
     </div>  
-    <div class="overlay__container">
-      <img src="julia_diehl.png" alt="Julia Diehl">
+    <div class="overlay__container">      
+      <ImageLoader src="julia_diehl.png" alt="Julia Diehl"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Julia Diehl<br />
@@ -435,7 +437,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>
     <div class="overlay__container">
-      <img src="steven_killian.png" alt="Steven Killian">
+      <ImageLoader src="steven_killian.png" alt="Steven Killian"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Steven Killian<br />
@@ -452,7 +454,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="paula_weise.png" alt="Paula Weise">
+      <ImageLoader src="paula_weise.png" alt="Paula Weise"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Paula Weise<br />
@@ -471,8 +473,8 @@ entwickeln wir Open Social Innovation."/>
         </p> -->
       </div>
     </div>  
-    <div class="overlay__container">
-      <img src="simon_phumin_schweikert.png" alt="Simon Phumin Schweikert" class="turn">
+    <div class="overlay__container">      
+      <ImageLoader src="simon_phumin_schweikert.png" alt="Simon Phumin Schweikert"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Simon Phumin<br />Schweikert<br />
@@ -492,7 +494,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container center-row--1">
-      <img src="carmen_bernhardt.png" alt="Carmen Bernhardt">
+      <ImageLoader src="carmen_bernhardt.png" alt="Carmen Bernhardt"></ImageLoader>      
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Carmen Bernhardt<br />
@@ -509,7 +511,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>
     <div class="overlay__container center-row--2">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <ImageLoader src="baerbel.png" alt="Bärbel"></ImageLoader>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Bärbel<br />
@@ -565,7 +567,9 @@ entwickeln wir Open Social Innovation."/>
     <Button label="Jetzt Kontakt aufnehmen&nbsp;&#8594;" href="/contact" style="btn-primary"></Button>
   </div>
   <div class="bg-primary bg-primary--twitter text-center">
-    <img src="twitter.svg" alt="twitter logo">
+    <div class="twitter-logo">  
+      <ImageLoader src="twitter.svg" alt="twitter logo"></ImageLoader>    
+    </div>
     <h3 class="text-white h1">
       Werde Teil unserer Mission und folge uns auf Twitter
     </h3>

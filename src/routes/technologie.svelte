@@ -1,7 +1,10 @@
 <script>
   import Button from "../components/Button.svelte";
   import Container from "sveltestrap/src/Container.svelte";
+  import ImageLoader from '../components/ImageLoader.svelte';
   import { onMount } from 'svelte';
+
+
 
   onMount(() => {
         const faders = document.querySelectorAll('.fade-in');
@@ -128,8 +131,9 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
 
-        img {
+        .image {
             max-width: 100%;
+            margin: 0 auto;
         }
     }
 
@@ -215,10 +219,9 @@
             flex-direction: column;
             row-gap: 1rem;
             
-            img {
+            .image {
                 width: 30% !important;
                 display: flex;
-                margin: 0 auto;
             }
 
             .w-mobile-50 {
@@ -295,19 +298,25 @@ Quellen und wirkt so Infodemie entgegen." />
         </h2>
         <div class="grid-wrapper">
             <div class="grid-image row--1 column--1">
-                <img src="icon_konfiguration_infoausgabe.svg" alt="Konfiguration der Info-Ausgabe" class="w-50">
+                <div class="w-50 image">
+                    <ImageLoader src="icon_konfiguration_infoausgabe.svg" alt="Konfiguration der Info-Ausgabe"></ImageLoader>                    
+                </div>
             </div>
             <div class="grid-text column--1 row--2">
                 Themen- und Quellen-Fokus der Informationen konfigurieren
             </div>
             <div class="grid-image column--2 row--1 mt-4 mt-md-0">
-                <img src="icon_kuratieren_von_inhalten.svg" alt="Kuratieren von Inhalten" class="w-mobile-50">
+                <div class="w-mobile-50 image">
+                    <ImageLoader src="icon_kuratieren_von_inhalten.svg" alt="Konfiguration der Info-Ausgabe"></ImageLoader>                    
+                </div>
             </div>
             <div class="grid-text column--2 row--2">
                 Inhalte nach Fragestellungen kuratieren
             </div>
             <div class="grid-image column--3 row--1 mt-4 mt-md-0">
-                <img src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" class="w-50">
+                <div class="w-50 image">
+                    <ImageLoader src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen"></ImageLoader>                    
+                </div>                
             </div>
             <div class="grid-text column--3 row--2">
                 Visuelle Darstellung des Kanals individualisieren

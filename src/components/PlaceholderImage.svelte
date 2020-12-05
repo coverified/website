@@ -4,7 +4,7 @@
   export let url = '';
   export let additionalClass = '';
   export let placeholder = '';
-  export let alt = 'image';
+  export let alt = 'Image';
   export let imageWidth = '100%';
   export let imageHeight = '100%';
   export let styling = '';
@@ -28,6 +28,7 @@
 </script> 
 
 <img src="" alt="{alt}" bind:this={image} style="display: none;" class="{additionalClass}" />
+
 {#if !loaded}
   <img src="{placeholder}" alt="{alt}" class="{additionalClass}"/>
 {/if}  
