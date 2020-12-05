@@ -3,7 +3,6 @@
   
   export let src;
   export let alt;
-  export let additionalClass;
 
   let loaded = false
   let thisImage
