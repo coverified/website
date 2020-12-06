@@ -175,6 +175,15 @@
         margin-top: 4.735rem;
       }
     }
+
+    @media (min-width: 2000px) {
+      .wika-header {
+        max-width: 100%;
+        width: auto;
+        display: flex;
+        margin: 0 auto;
+      }
+    }
 </style>
 
 <svelte:head>
@@ -195,9 +204,12 @@ Knopfdruck webweit verfügbar."/>
      sizes="(max-width: 600px) 600px,
             (max-width: 1200px) 1200px,
             2000px"
-     src="wika-header-1200.jpg"
-     alt="Wika">
-  <Container class="text-center">
+     src="wika-header-2000.jpg"
+     alt="Wika"
+     width="2000" height="1258"
+     class="wika-header"
+>
+<Container class="text-center">
   <h2 class="mb-5 h2">
     <span class="green">Die Wika-Features im Überblick</span>
   </h2>
