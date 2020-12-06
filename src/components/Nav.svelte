@@ -209,7 +209,7 @@
 
 <nav>
     <a href=".">
-        <img  class="logo" src="coverified-logo-claim.png" alt="CoVerified" width="475" height="111"/>        
+        <img  class="logo" src="coverified-logo-claim.svg" alt="CoVerified" width="300" height="139"/>        
     </a>
     <ul class={open ? 'open' : ''}>
         <li>

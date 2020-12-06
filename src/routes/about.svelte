@@ -337,7 +337,7 @@ entwickeln wir Open Social Innovation."/>
   </p>
   <div class="digitalpioneers">
     <div class="overlay__container">
-      <img loading="lazy" src="alessa_fetzer.png" alt="Alessa Fetzer" width="625" height="625">
+      <img loading="lazy" src="alessa_fetzer.jpg" alt="Alessa Fetzer" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Alessa Fetzer<br />
@@ -357,7 +357,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img loading="lazy" src="christina_vollnhals.png" alt="Christina Vollnhals" width="625" height="625">
+      <img loading="lazy" src="christina_vollnhals.jpg" alt="Christina Vollnhals" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Christina Vollnhals<br />
@@ -377,7 +377,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img loading="lazy" src="florian_schlittenbauer.png" alt="Florian Schlittenbauer" width="625" height="625">
+      <img loading="lazy" src="florian_schlittenbauer.jpg" alt="Florian Schlittenbauer" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Florian Schlittenbauer<br />
@@ -397,7 +397,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img loading="lazy" src="johannes_hiry.png" alt="Johannes Hiry" width="625" height="625">
+      <img loading="lazy" src="johannes_hiry.jpg" alt="Johannes Hiry" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Johannes Hiry<br />
@@ -417,7 +417,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">      
-      <img loading="lazy" src="julia_diehl.png" alt="Julia Diehl" width="625" height="625">
+      <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Julia Diehl<br />
@@ -434,7 +434,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>
     <div class="overlay__container">
-      <img loading="lazy" src="steven_killian.png" alt="Steven Killian" width="625" height="625">
+      <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Steven Killian<br />
@@ -451,7 +451,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img loading="lazy" src="paula_weise.png" alt="Paula Weise" width="625" height="625">
+      <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Paula Weise<br />
@@ -471,7 +471,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">      
-      <img loading="lazy" src="simon_phumin_schweikert.png" alt="Simon Phumin Schweikert" width="625" height="625">
+      <img loading="lazy" src="simon_phumin_schweikert.jpg" alt="Simon Phumin Schweikert" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Simon Phumin<br />Schweikert<br />
@@ -491,7 +491,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container center-row--1">
-      <img loading="lazy" src="carmen_bernhardt.png" alt="Carmen Bernhardt" width="625" height="625">      
+      <img loading="lazy" src="carmen_bernhardt.jpg" alt="Carmen Bernhardt" width="625" height="625">      
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Carmen Bernhardt<br />
@@ -508,7 +508,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>
     <div class="overlay__container center-row--2">
-      <img src="baerbel.png" loading="lazy" alt="Bärbel" width="833" height="833">
+      <img src="baerbel.jpg" loading="lazy" alt="Bärbel" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Bärbel<br />

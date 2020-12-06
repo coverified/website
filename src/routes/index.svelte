@@ -286,15 +286,15 @@ Information der breiten Bevölkerung."/>
     </h2>
     <p class="mb-5">Hinter CoVerified stehen 9 Expert:innen mit Leidenschaft für Digitalisierung und Open Social Innovation.</p>
     <div class="digitalpioneers">
-        <img loading="lazy" src="alessa_fetzer.png" alt="Alessa Fetzer" width="625" height="625">
-        <img loading="lazy" src="christina_vollnhals.png" alt="Christina Vollnhals" width="625" height="625">
-        <img loading="lazy" src="florian_schlittenbauer.png" alt="Florian Schlittenbauer" width="625" height="625">
-        <img loading="lazy" src="johannes_hiry.png" alt="Johannes Hiry" width="625" height="625">
-        <img loading="lazy" src="julia_diehl.png" alt="Julia Diehl" width="625" height="625">
-        <img loading="lazy" src="paula_weise.png" alt="Paula Weise" width="625" height="625">
-        <img loading="lazy" src="steven_killian.png" alt="Steven Killian" width="625" height="625">
-        <img loading="lazy" src="carmen_bernhardt.png" alt="Carmen Bernhardt" width="625" height="625">
-        <img loading="lazy" src="baerbel.png" alt="Bärbel" width="833" height="833">
+        <img loading="lazy" src="alessa_fetzer.jpg" alt="Alessa Fetzer" width="625" height="625">
+        <img loading="lazy" src="christina_vollnhals.jpg" alt="Christina Vollnhals" width="625" height="625">
+        <img loading="lazy" src="florian_schlittenbauer.jpg" alt="Florian Schlittenbauer" width="625" height="625">
+        <img loading="lazy" src="johannes_hiry.jpg" alt="Johannes Hiry" width="625" height="625">
+        <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625">
+        <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625">
+        <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625">
+        <img loading="lazy" src="carmen_bernhardt.jpg" alt="Carmen Bernhardt" width="625" height="625">
+        <img loading="lazy" src="baerbel.jpg" alt="Bärbel" width="625" height="625">
     </div>
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about"></Button>
     <h2>
