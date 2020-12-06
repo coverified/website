@@ -209,27 +209,30 @@
 
 <nav>
     <a href=".">
-        <img  class="logo" src="coverified-logo-claim.png" alt="CoVerified" width="475" height="111"/>        
+        <img  class="logo" src="coverified-logo-claim.svg" alt="CoVerified" width="300" height="139"/>        
     </a>
     <ul class={open ? 'open' : ''}>
         <li>
             <a rel="prefetch"
                aria-current={segment === 'technologie' ? 'page' : undefined}
-               href="technologie">
+               href="technologie"
+               on:click={() => {open = !open}}>
                 Technologie
             </a>
         </li>
         <li>
             <a rel="prefetch"
                aria-current={segment === 'produkte' ? 'page' : undefined}
-               href="produkte">
+               href="produkte"
+               on:click={() => {open = !open}}>
                 Projekt Wika
             </a>
         </li>
         <li>
             <a rel="prefetch"
                aria-current={segment === 'about' ? 'page' : undefined}
-               href="about">
+               href="about"
+               on:click={() => {open = !open}}>
                 Über CoVerified
             </a>
         </li>
@@ -237,12 +240,13 @@
             <a rel="prefetch"
                class="contact"
                aria-current={segment === 'contact' ? 'page' : undefined}
-               href="contact">
+               href="contact"
+               on:click={() => {open = !open}}>
                 Kontakt
             </a>
         </li>
     </ul>
-    <button class={open ? 'open' : ''} on:click={() => {open = !open}}>
+    <button aria-label="Navigation" class={open ? 'open' : ''} on:click={() => {open = !open}}>
         <span></span>
         <span></span>
         <span></span>

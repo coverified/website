@@ -3,6 +3,8 @@
   import Container from "sveltestrap/src/Container.svelte";
   import { onMount } from 'svelte';
 
+
+
   onMount(() => {
         const faders = document.querySelectorAll('.fade-in');
         const appearOptions = {
@@ -128,8 +130,9 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
 
-        img {
+        .image {
             max-width: 100%;
+            margin: 0 auto;
         }
     }
 
@@ -215,10 +218,9 @@
             flex-direction: column;
             row-gap: 1rem;
             
-            img {
+            .image {
                 width: 30% !important;
                 display: flex;
-                margin: 0 auto;
             }
 
             .w-mobile-50 {
@@ -245,28 +247,28 @@ Quellen und wirkt so Infodemie entgegen." />
         <h2>
             Das CoVerified-Prinzip Schritt-für-Schritt erklärt:
         </h2>
-        <img src="technologie_quellen.svg" alt="Quellen">
+        <img src="technologie_quellen.svg" alt="Quellen" width="296" height="205">
         <div class="technologie__container align-self-end">
             <div data-value="1" class="partial"><p><b>Seriöse Quellen auswählen</b></p></div>
             <p>
                 Wir nutzen bestehende Infos aus RSS Feeds seriöser Quellen, die wir nach festgelegten transparenten Kriterien auswählen.
             </p>
         </div>
-        <img src="technologie_themenauswahl.svg" alt="Themenauswahl">
+        <img src="technologie_themenauswahl.svg" alt="Themenauswahl" width="238" height="142">
         <div class="technologie__container align-self-end">
             <div data-value="2" class="partial"><p><b>Inhalt thematisch vertaggen</b></p></div>
             <p>
                 Wir reichern die so gewonnen Daten und Inhalte mit weiteren Meta-Informationen an, ohne den eigentlichen Inhalt zu verändern. Ziel ist es, je nach Fokus und Bedarf relevanten Content nach Themen und Fragestellung automatisch zu selektieren.
             </p>
         </div>
-        <img src="technologie_spracherkennung.svg" alt="Spracherkennung" class="fade-in">
+        <img src="technologie_spracherkennung.svg" alt="Spracherkennung" width="186" height="132" class="fade-in">
         <div class="technologie__container fade-in align-self-end">
             <div data-value="3" class="partial"><p><b>Content-Sprache erkennen</b></p></div>
             <p>
                 Natural Language Processing (NLP) ergänzt die Beiträge zusätzlich um die jeweilige Sprachinformation. Damit kann auch Mehrsprachigkeit und ein EU-weiter Einsatz gewährleistet werden.
             </p>
         </div>
-        <img src="technologie_datenbank.svg" alt="Datenbank" class="fade-in">
+        <img src="technologie_datenbank.svg" alt="Datenbank" class="fade-in" width="182" height="215" loading="lazy">
         <div class="align-self-center">
             <div class="technologie__container fade-in mb-5">
                 <div data-value="4" class="partial"><p><b>In Datenbank bündeln</b></p></div>
@@ -281,7 +283,7 @@ Quellen und wirkt so Infodemie entgegen." />
                 </p>
             </div>
         </div>
-        <img src="technologie_wissenskanal.svg" alt="Wissenskanal" class="fade-in mt--4">
+        <img src="technologie_wissenskanal.svg" alt="Wissenskanal" class="fade-in mt--4" width="222" height="138" c>
         <div class="technologie__container fade-in">
             <div data-value="6" class="partial"><p><b>Kommunikationskanal</b></p></div>
             <p>
@@ -295,19 +297,25 @@ Quellen und wirkt so Infodemie entgegen." />
         </h2>
         <div class="grid-wrapper">
             <div class="grid-image row--1 column--1">
-                <img src="icon_konfiguration_infoausgabe.svg" alt="Konfiguration der Info-Ausgabe" class="w-50">
+                <div class="w-50 image">
+                    <img loading="lazy" src="icon_konfiguration_infoausgabe.svg" alt="Konfiguration der Info-Ausgabe" width="108" height="127">
+                </div>
             </div>
             <div class="grid-text column--1 row--2">
                 Themen- und Quellen-Fokus der Informationen konfigurieren
             </div>
             <div class="grid-image column--2 row--1 mt-4 mt-md-0">
-                <img src="icon_kuratieren_von_inhalten.svg" alt="Kuratieren von Inhalten" class="w-mobile-50">
+                <div class="w-mobile-50 image">
+                    <img loading="lazy" src="icon_kuratieren_von_inhalten.svg" alt="Konfiguration der Info-Ausgabe" width="170" height="108">         
+                </div>
             </div>
             <div class="grid-text column--2 row--2">
                 Inhalte nach Fragestellungen kuratieren
             </div>
             <div class="grid-image column--3 row--1 mt-4 mt-md-0">
-                <img src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" class="w-50">
+                <div class="w-50 image">
+                    <img loading="lazy" src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" width="113" height="132">  
+                </div>                
             </div>
             <div class="grid-text column--3 row--2">
                 Visuelle Darstellung des Kanals individualisieren

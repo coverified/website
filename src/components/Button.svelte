@@ -11,9 +11,15 @@
 
   .btn-primary,
   .btn-secondary {
+    display: inline-block;
     --btn-padding: 0.75rem 4.6875rem;
     --btn-font-weight: 300;
     --text-decoration: none;
+    transition: transform .2s;
+
+    &:active {
+      transform: translate(0, 2px);
+    }
   }
 
   .btn-primary {
@@ -55,7 +61,7 @@
 
     &:active {
       background-color: var(--color-light-grey) !important;
-      border-color: var(--color-light-grey) !important;      
+      border-color: var(--color-light-grey) !important;
     }
   }
 

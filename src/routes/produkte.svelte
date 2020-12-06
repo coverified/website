@@ -4,6 +4,7 @@
   import { onMount } from 'svelte';
 
   onMount(() => {
+    
     const faders = document.querySelectorAll('.fade-in');
     const appearOptions = {
         threshold: 1,
@@ -79,7 +80,7 @@
         color: var(--color-white);
         margin-top: 6.25rem;
 
-        img {
+        .image {
             width: 23%;
             display: flex;
             margin: 0 auto;
@@ -163,6 +164,25 @@
             padding-top: 0;
         }
     }
+
+    @media (max-width: 768px) {
+      .fade-in {
+        opacity: 1;
+      }
+
+      .h2 {
+        margin-top: 4.735rem;
+      }
+    }
+
+    @media (min-width: 2000px) {
+      .wika-header {
+        max-width: 100%;
+        width: auto;
+        display: flex;
+        margin: 0 auto;
+      }
+    }
 </style>
 
 <svelte:head>
@@ -177,9 +197,19 @@ Knopfdruck webweit verfügbar."/>
     Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.
   </p>
 </Container>
-<img src="wika-header.jpg" alt="WiKa" class="mt-5"/>
+<img srcset="wika-header-600.jpg 600w,
+             wika-header-1200.jpg 1200w,
+             wika-header-2000.jpg"
+     sizes="(max-width: 600px) 600px,
+            (max-width: 1200px) 1200px,
+            2000px"
+     src="wika-header-2000.jpg"
+     alt="Wika"
+     width="2000" height="1258"
+     class="wika-header"
+>
 <Container class="text-center">
-  <h2 class="mb-5">
+  <h2 class="mb-5 h2">
     <span class="green">Die Wika-Features im Überblick</span>
   </h2>
   <div class="grid-wrapper">
@@ -204,15 +234,15 @@ Knopfdruck webweit verfügbar."/>
       </ul>
     </div>
     <div>
-      <img src="story-element.png" alt="Story Element" />
+      <img loading="lazy" src="story-element.png" width="1120" height="1318" alt="Our image">
     </div>
   </div>
   <div class="grid-wrapper-mirrored">
     <div class="kacheln-wrapper">
-      <img src="themen_kachel_1.png" alt="WiKa Themenkachel" class="fade-in" />
-      <img src="themen_kachel_2.png" alt="WiKa Themenkachel" class="fade-in" />
-      <img src="themen_kachel_3.png" alt="WiKa Themenkachel" class="fade-in mt--40" />
-      <img src="themen_kachel_4.png" alt="WiKa Themenkachel" class="fade-in" />
+      <img src="themen_kachel_1.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="614" />
+      <img src="themen_kachel_2.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="690" />
+      <img src="themen_kachel_3.png" alt="WiKa Themenkachel" class="fade-in mt--40" width="436" height="722" />
+      <img src="themen_kachel_4.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="702" />
     </div>
     <div>
       <h2 class="mt-0">
@@ -230,7 +260,7 @@ Knopfdruck webweit verfügbar."/>
         <li>Auswahl von Themen passend zum Kontext der eigenen Webseite</li>
         <li>Eigene Themen und Fragestellungen ergänzen</li>
       </ul>
-      <img src="themen_chips.svg" alt="Themen Buttons">
+      <img loading="lazy" src="themen_chips.svg" width="300" height="72" alt="Our image">
     </div>
     </div>
     <div class="bg-wika">
@@ -239,29 +269,37 @@ Knopfdruck webweit verfügbar."/>
         </h2>
         <p class="pt-lg-5 mb-4 row--1 col--1-4">
           Schnell und gezielt navigieren - Wika bietet für jeden Informationsbedarf den passenden Inhalt.
-        </p>
-        <img src="chat_bubble_outline.svg" alt="Staatus" class="row--2 col--1">
+        </p>    
+        <div class="row--2 col--1 image">
+          <img loading="lazy" src="chat_bubble_outline.svg" width="154" height="150" alt="Staatus">
+        </div>
         <p class="row--3 col--1">
             <b>Staatus</b><br/>
             staatliche Meldungen aus den Ministerien, aktuelle Beschlüsse und Diskussionen
         </p>
-        <img src="school.svg" alt="Basiswissen" class="row--2 col--2">    
+        <div class="row--2 col--2 image">
+          <img loading="lazy" src="school.svg" width="186" height="150" alt="Basiswissen">
+        </div>
         <p class="col--2 row--3">
-            <b>Basiswissen</b><br/>
-            Grundlagen zu gesellschaftsrelevanten Themen
+          <b>Basiswissen</b><br/>
+          Grundlagen zu gesellschaftsrelevanten Themen
         </p>
-        <img src="favorite_border.svg" alt="Engagement" class="row--2 col--3">
+        <div class="row--2 col--3 image">
+          <img loading="lazy" src="favorite_border.svg" width="165" height="150" alt="Engagement">
+        </div>
         <p class="row--3 col--3">
-            <b>Engagement</b><br/>
-            Ausgewählte Initiativen werden vorgestellt, um selbst aktiv zu werden
+          <b>Engagement</b><br/>
+          Ausgewählte Initiativen werden vorgestellt, um selbst aktiv zu werden
         </p>
-        <img src="help_outline.svg" alt="Nachgefragt" class="row--2 col--4">
+        <div class="row--2 col--4 image">
+          <img loading="lazy" src="help_outline.svg" width="154" height="150" alt="Nachgefragt">
+        </div>        
         <p class="row--3 col--4">
             <b>Nachgefragt</b><br />
             Antworten auf die drängendsten Fragen der Bürger*innen
         </p>
     </div>
-    <h2>
+    <h2 class="h2">
         <span class="green">Transparent gegen Desinformation</span>
     </h2>
     <p>

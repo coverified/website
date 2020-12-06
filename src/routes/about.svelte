@@ -3,8 +3,6 @@
   import Col from "sveltestrap/src/Col.svelte";
   import Row from "sveltestrap/src/Row.svelte";
   import Container from "sveltestrap/src/Container.svelte";
-  import { onMount } from "svelte";
-
 </script>
 
 <style type="text/scss">
@@ -33,9 +31,12 @@
 
     &--twitter {
       padding-top: 5.4375rem;
-      img {
-        width: 5%;
-      }
+    }
+
+    .twitter-logo {
+      width: 5%;
+      margin: 0 auto;
+      padding-bottom: .5rem;
     }
   }
 
@@ -202,10 +203,8 @@
     }
 
     .bg-primary {
-      &--twitter {
-        img {
-          width: 10%;
-        }
+      .twitter-logo {
+        width: 15%;
       }
     }
   }
@@ -224,7 +223,7 @@
 
     .bg-primary {
       &--twitter {
-        img {
+        &--logo {
           width: 15%;
         }
       }
@@ -338,7 +337,7 @@ entwickeln wir Open Social Innovation."/>
   </p>
   <div class="digitalpioneers">
     <div class="overlay__container">
-      <img src="alessa_fetzer.png" alt="Alessa Fetzer">
+      <img loading="lazy" src="alessa_fetzer.jpg" alt="Alessa Fetzer" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Alessa Fetzer<br />
@@ -346,10 +345,10 @@ entwickeln wir Open Social Innovation."/>
         </p>
         <div class="overlay__container-popup--links">
           <a href="https://www.xing.com/profile/Alessa_Fetzer/" target="_blank" title="Xing" rel="noopener">
-            <img src="xing.svg" alt="Xing Logo">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
-          <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+          <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener" >
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -358,18 +357,18 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="christina_vollnhals.png" alt="Christina Vollnhals">
+      <img loading="lazy" src="christina_vollnhals.jpg" alt="Christina Vollnhals" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Christina Vollnhals<br />
           <span class="overlay__container-popup--title">UX-Designerin</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Christina_Vollnhals/" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
+          <a href="https://www.xing.com/profile/Christina_Vollnhals/" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
           <a href="https://www.linkedin.com/in/christina-vollnhals-21b96513b/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -378,18 +377,18 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="florian_schlittenbauer.png" alt="Florian Schlittenbauer">
+      <img loading="lazy" src="florian_schlittenbauer.jpg" alt="Florian Schlittenbauer" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Florian Schlittenbauer<br />
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-            <a href="https://www.xing.com/profile/Florian_Schlittenbauer/cv" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
+            <a href="https://www.xing.com/profile/Florian_Schlittenbauer/cv" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
           <a href="https://www.linkedin.com/in/schliflo/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -398,18 +397,18 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="johannes_hiry.png" alt="Johannes Hiry">
+      <img loading="lazy" src="johannes_hiry.jpg" alt="Johannes Hiry" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Johannes Hiry<br />
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
+          <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
           <a href="https://www.linkedin.com/in/johannes-hiry/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -417,8 +416,8 @@ entwickeln wir Open Social Innovation."/>
         </p> -->
       </div>
     </div>  
-    <div class="overlay__container">
-      <img src="julia_diehl.png" alt="Julia Diehl">
+    <div class="overlay__container">      
+      <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Julia Diehl<br />
@@ -426,7 +425,7 @@ entwickeln wir Open Social Innovation."/>
         </p>
         <div class="overlay__container-popup--links">
           <a href="https://www.linkedin.com/in/julia-diehl-ux-co/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -435,7 +434,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>
     <div class="overlay__container">
-      <img src="steven_killian.png" alt="Steven Killian">
+      <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Steven Killian<br />
@@ -443,7 +442,7 @@ entwickeln wir Open Social Innovation."/>
         </p>
         <div class="overlay__container-popup--links">
           <a href="https://www.linkedin.com/in/steven-killian-224b65199/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -452,18 +451,18 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container">
-      <img src="paula_weise.png" alt="Paula Weise">
+      <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Paula Weise<br />
           <span class="overlay__container-popup--title">Designerin</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Paula_Weise4/cv" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
+          <a href="https://www.xing.com/profile/Paula_Weise4/cv" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
           <a href="https://www.linkedin.com/in/paula-weise-b979091a2/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -471,19 +470,19 @@ entwickeln wir Open Social Innovation."/>
         </p> -->
       </div>
     </div>  
-    <div class="overlay__container">
-      <img src="simon_phumin_schweikert.png" alt="Simon Phumin Schweikert" class="turn">
+    <div class="overlay__container">      
+      <img loading="lazy" src="simon_phumin_schweikert.jpg" alt="Simon Phumin Schweikert" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Simon Phumin<br />Schweikert<br />
           <span class="overlay__container-popup--title">Webentwickler</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/SimonPhumin_Schweikert/cv" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
+          <a href="https://www.xing.com/profile/SimonPhumin_Schweikert/cv" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
           <a href="https://www.linkedin.com/in/simonschweikert/" target="_blank" title="linkedIn" rel="noopener">
-            <img src="linkedin.svg" alt="linkedIn Logo">
+            <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -492,15 +491,15 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>  
     <div class="overlay__container center-row--1">
-      <img src="carmen_bernhardt.png" alt="Carmen Bernhardt">
+      <img loading="lazy" src="carmen_bernhardt.jpg" alt="Carmen Bernhardt" width="625" height="625">      
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Carmen Bernhardt<br />
           <span class="overlay__container-popup--title">Kommunikation</span>
         </p>
         <div class="overlay__container-popup--links">
-          <a href="https://www.xing.com/profile/Carmen_Bernhardt/cv" target="_blank" title="Xing" rel="noopner">
-            <img src="xing.svg" alt="Xing Logo">
+          <a href="https://www.xing.com/profile/Carmen_Bernhardt/cv" target="_blank" title="Xing" rel="noopener">
+            <img src="xing.svg" alt="Xing Logo" loading="lazy">
           </a>
         </div>
         <!-- <p class="overlay__container-popup--hashtag">
@@ -509,7 +508,7 @@ entwickeln wir Open Social Innovation."/>
       </div>
     </div>
     <div class="overlay__container center-row--2">
-      <img src="baerbel.png" alt="Bärbel" class="turn ">
+      <img src="baerbel.jpg" loading="lazy" alt="Bärbel" width="625" height="625">
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Bärbel<br />
@@ -565,7 +564,7 @@ entwickeln wir Open Social Innovation."/>
     <Button label="Jetzt Kontakt aufnehmen&nbsp;&#8594;" href="/contact" style="btn-primary"></Button>
   </div>
   <div class="bg-primary bg-primary--twitter text-center">
-    <img src="twitter.svg" alt="twitter logo">
+    <img loading="lazy" src="twitter.svg" alt="twitter logo" width="61" height="51" class="twitter-logo">
     <h3 class="text-white h1">
       Werde Teil unserer Mission und folge uns auf Twitter
     </h3>

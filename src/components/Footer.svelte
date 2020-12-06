@@ -12,8 +12,9 @@
         padding-right: 15px;
         padding-left: 15px;        
         font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 300;
         font-size: 1.25rem;
-
+        
         &:before {
             content: "";
             position: absolute;
@@ -41,6 +42,10 @@
         padding-top: 3rem;
         margin-left: auto;
         width:fit-content; 
+
+        a {
+            font-weight: 300;
+        }
     
         > span {
             margin-top: 2.375rem;
@@ -81,13 +86,13 @@
 <footer>
     <Row>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <img class="bundesregierung-logo pt-5" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung">
+            <img loading="lazy" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung" width="290" height="207" class="bundesregierung-logo pt-5">            
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <img class="bundesregierung-logo pt-5" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung">
+            <img loading="lazy" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung" width="261" height="202" class="bundesregierung-logo pt-5">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <img class="bundesregierung-logo pt-5" src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon">
+            <img loading="lazy" src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon" width="1182" height="868" class="bundesregierung-logo pt-5">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
         <div>

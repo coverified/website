@@ -5,6 +5,52 @@
 </script>
 
 <style type="text/scss">
+    @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/fonts/Barlow/Barlow-Light.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/Barlow/Barlow-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/fonts/Barlow/Barlow-Medium.ttf') format('truetype');    
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/Barlow/Barlow-SemiBold.ttf') format('truetype');    
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/Barlow/Barlow-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/fonts/BarlowCondensed/BarlowCondensed-Light.ttf') format('truetype');    
+  }
   :global(:root) {
     --color-primary: #3a57ff;
     --color-wika: #003366;
@@ -26,7 +72,7 @@
     font-size: 1.25rem;
     line-height: 1.875rem;
     color: var(--body-color);
-    font-family: "Barlow", sans-serif;
+    font-family: 'Barlow', sans-serif;
     padding-top: 4.89375rem;
   }
 
