@@ -246,7 +246,7 @@
             </a>
         </li>
     </ul>
-    <button class={open ? 'open' : ''} on:click={() => {open = !open}}>
+    <button aria-label="Navigation" class={open ? 'open' : ''} on:click={() => {open = !open}}>
         <span></span>
         <span></span>
         <span></span>
