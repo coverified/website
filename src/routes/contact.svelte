@@ -129,7 +129,7 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
       <Col sm="auto" lg="6">
         <Row class="d-flex align-items-center justify-content-center">
           <Col xs="8" sm="5" lg="4">
-            <img src="alessa_fetzer.png" alt="Alessa Fetzer" class="mb-3 mb-md-0" width="625" height="625">
+            <img src="alessa_fetzer.jpg" alt="Alessa Fetzer" class="mb-3 mb-md-0" width="625" height="625">
           </Col>
           <Col sm="auto" lg="8">
             <div class="mx-auto d-flex flex-column">
