@@ -38,6 +38,7 @@
     .twitter-logo {
       width: 5%;
       margin: 0 auto;
+      padding-bottom: .5rem;
     }
   }
 
@@ -204,10 +205,8 @@
     }
 
     .bg-primary {
-      &--twitter {
-        &--logo {
-          width: 10%;
-        }
+      .twitter-logo {
+        width: 15%;
       }
     }
   }

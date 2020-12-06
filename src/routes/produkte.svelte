@@ -166,6 +166,12 @@
             padding-top: 0;
         }
     }
+
+    @media (max-width: 768px) {
+      .fade-in {
+        opacity: 1;
+      }
+    }
 </style>
 
 <svelte:head>
@@ -218,7 +224,7 @@ Knopfdruck webweit verfügbar."/>
     </div>
   </div>
   <div class="grid-wrapper-mirrored">
-    <div class="kacheln-wrapper">      
+    <div class="kacheln-wrapper">
       <img src="themen_kachel_1.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="614" />
       <img src="themen_kachel_2.png" alt="WiKa Themenkachel" class="fade-in" width="436" height="690" />
       <img src="themen_kachel_3.png" alt="WiKa Themenkachel" class="fade-in mt--40" width="436" height="722" />

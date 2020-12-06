@@ -49,6 +49,10 @@
             left: 50%;
             transform: translate(-50%, 100%);
         }
+
+        .logo-wika {
+            width: 25%;
+        }
     }
 
     .column--1-3 {
@@ -135,8 +139,12 @@
             padding-top: 3.5rem;
             padding-bottom: 3.5rem;
 
-            img {
+            .image {
                 width: 30% !important;
+
+                &--50 {
+                    width: 50%;
+                }
             }
         }
     }
@@ -219,7 +227,7 @@ Information der breiten Bevölkerung."/>
             <h2 class="text-white mt-0">
                 Die CoVerified Lösung für mehr Wissen im Netz:
             </h2>
-            <div class="w-25 mb-4 mx-auto">
+            <div class="logo-wika mb-4 mx-auto">
                 <ImageLoader src="logo-wika.svg" alt="Wika Logo" width="284" height="112"></ImageLoader>
             </div>
             <p class="mb-5 mb-md-0 font-weight-300">
@@ -227,7 +235,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>
         <div class="row--2 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center">
-            <div class="w-50 mb-4">
+            <div class="w-50 image mb-4">
                 <ImageLoader src="icon_story.png" alt="Story Elemente" width="109" height="146"></ImageLoader>
             </div>
             <p>
@@ -235,7 +243,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>        
         <div class="row--3 column--1 order-1 order-lg-1 d-flex justify-content-center flex-column align-items-center mt-5 mb-lg-0">
-            <div class="mb-4">
+            <div class="mb-4 image--50">
                 <ImageLoader src="icon_themenauswahl.png" alt="Themenauswahl" width="302" height="105"></ImageLoader>
             </div>
             <p>
@@ -246,7 +254,7 @@ Information der breiten Bevölkerung."/>
             <video class="animation mx-auto my-5" src="widgetanimation.mov" preload=”none” controls></video>        
         </div>
         <div class="row--2 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0">
-            <div class="mb-4 w-75">
+            <div class="mb-4 image w-75">
                 <ImageLoader src="icon_kuratieren.svg" alt="Kuratierte Inhalte" width="151" height="96"></ImageLoader>
             </div>
             <p>
@@ -254,7 +262,7 @@ Information der breiten Bevölkerung."/>
             </p>
         </div>
         <div class="row--3 column--3 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center">
-            <div class="w-50 mb-4">
+            <div class="w-50 image mb-4">
                 <ImageLoader src="icon_trends.svg" alt="Automatische Relevanzsortierung" width="120" height="80"></ImageLoader>
             </div>
             <p>
