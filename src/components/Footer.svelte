@@ -1,7 +1,6 @@
 <script>
     import Col from 'sveltestrap/src/Col.svelte';
     import Row from 'sveltestrap/src/Row.svelte';  
-    import ImageLoader from '../components/ImageLoader.svelte';
 </script>
 
 <style type="text/scss">
@@ -87,19 +86,13 @@
 <footer>
     <Row>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <div class="bundesregierung-logo pt-5">
-                <ImageLoader src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung" width="290" height="207"></ImageLoader>
-            </div>
+            <img loading="lazy" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung" width="290" height="207" class="bundesregierung-logo pt-5">            
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <div class="bundesregierung-logo pt-5">
-                <ImageLoader src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung" width="261" height="202"></ImageLoader>
-            </div>
+            <img loading="lazy" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung" width="261" height="202" class="bundesregierung-logo pt-5">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
-            <div class="bundesregierung-logo pt-5">
-                <ImageLoader src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon" width="1182" height="868"></ImageLoader>
-            </div>
+            <img loading="lazy" src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon" width="1182" height="868" class="bundesregierung-logo pt-5">
         </Col>
         <Col sm="auto" lg="3" class="mb-md-4">
         <div>

@@ -1,7 +1,6 @@
 <script>
   import Button from "../components/Button.svelte";
   import Container from "sveltestrap/src/Container.svelte";
-  import ImageLoader from '../components/ImageLoader.svelte';
   import { onMount } from 'svelte';
 
 
@@ -269,7 +268,7 @@ Quellen und wirkt so Infodemie entgegen." />
                 Natural Language Processing (NLP) ergänzt die Beiträge zusätzlich um die jeweilige Sprachinformation. Damit kann auch Mehrsprachigkeit und ein EU-weiter Einsatz gewährleistet werden.
             </p>
         </div>
-        <img src="technologie_datenbank.svg" alt="Datenbank" class="fade-in" width="182" height="215">
+        <img src="technologie_datenbank.svg" alt="Datenbank" class="fade-in" width="182" height="215" loading="lazy">
         <div class="align-self-center">
             <div class="technologie__container fade-in mb-5">
                 <div data-value="4" class="partial"><p><b>In Datenbank bündeln</b></p></div>
@@ -284,7 +283,7 @@ Quellen und wirkt so Infodemie entgegen." />
                 </p>
             </div>
         </div>
-        <img src="technologie_wissenskanal.svg" alt="Wissenskanal" class="fade-in mt--4" width="222" height="138">
+        <img src="technologie_wissenskanal.svg" alt="Wissenskanal" class="fade-in mt--4" width="222" height="138" c>
         <div class="technologie__container fade-in">
             <div data-value="6" class="partial"><p><b>Kommunikationskanal</b></p></div>
             <p>
@@ -299,7 +298,7 @@ Quellen und wirkt so Infodemie entgegen." />
         <div class="grid-wrapper">
             <div class="grid-image row--1 column--1">
                 <div class="w-50 image">
-                    <ImageLoader src="icon_konfiguration_infoausgabe.svg" alt="Konfiguration der Info-Ausgabe" width="108" height="127"></ImageLoader>
+                    <img loading="lazy" src="icon_konfiguration_infoausgabe.svg" alt="Konfiguration der Info-Ausgabe" width="108" height="127">
                 </div>
             </div>
             <div class="grid-text column--1 row--2">
@@ -307,7 +306,7 @@ Quellen und wirkt so Infodemie entgegen." />
             </div>
             <div class="grid-image column--2 row--1 mt-4 mt-md-0">
                 <div class="w-mobile-50 image">
-                    <ImageLoader src="icon_kuratieren_von_inhalten.svg" alt="Konfiguration der Info-Ausgabe" width="170" height="108"></ImageLoader>         
+                    <img loading="lazy" src="icon_kuratieren_von_inhalten.svg" alt="Konfiguration der Info-Ausgabe" width="170" height="108">         
                 </div>
             </div>
             <div class="grid-text column--2 row--2">
@@ -315,7 +314,7 @@ Quellen und wirkt so Infodemie entgegen." />
             </div>
             <div class="grid-image column--3 row--1 mt-4 mt-md-0">
                 <div class="w-50 image">
-                    <ImageLoader src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" width="113" height="132"></ImageLoader>  
+                    <img loading="lazy" src="icon_invididuelle_inhalte.svg" alt="Eigene Inhalte erstellen" width="113" height="132">  
                 </div>                
             </div>
             <div class="grid-text column--3 row--2">
