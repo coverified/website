@@ -14,7 +14,7 @@
         padding-left: 15px;        
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 1.25rem;
-
+        
         &:before {
             content: "";
             position: absolute;
