@@ -189,14 +189,14 @@ Knopfdruck webweit verfügbar."/>
     Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.
   </p>
 </Container>
-<PlaceholderImage
-    url="wika-header.jpg"    
-    alt="Wika"
-    placeholder=".jpg"
-    width="2500"
-    height="1572"
->
-</PlaceholderImage>
+<img srcset="wika-header-600.jpg 600w,
+             wika-header-1200.jpg 1200w,
+             wika-header-2000.jpg"
+     sizes="(max-width: 600px) 600px,
+            (max-width: 1200px) 1200px,
+            2000px"
+     src="wika-header-1200.jpg"
+     alt="Wika">
   <Container class="text-center">
   <h2 class="mb-5 h2">
     <span class="green">Die Wika-Features im Überblick</span>
