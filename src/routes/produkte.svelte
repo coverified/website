@@ -1,7 +1,6 @@
 <script>
   import Button from "../components/Button.svelte";
   import Container from "sveltestrap/src/Container.svelte";
-  import PlaceholderImage from "../components/PlaceholderImage.svelte";
   import { onMount } from 'svelte';
 
   onMount(() => {
