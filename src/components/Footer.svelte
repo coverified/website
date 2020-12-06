@@ -13,6 +13,7 @@
         padding-right: 15px;
         padding-left: 15px;        
         font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 300;
         font-size: 1.25rem;
         
         &:before {
@@ -42,6 +43,10 @@
         padding-top: 3rem;
         margin-left: auto;
         width:fit-content; 
+
+        a {
+            font-weight: 300;
+        }
     
         > span {
             margin-top: 2.375rem;

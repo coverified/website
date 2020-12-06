@@ -47,9 +47,9 @@
   @font-face {
     font-family: 'Barlow Condensed';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-display: swap;
-    src: url('/fonts/BarlowCondensed/BarlowCondensed-Medium.ttf') format('truetype');    
+    src: url('/fonts/BarlowCondensed/BarlowCondensed-Light.ttf') format('truetype');    
   }
   :global(:root) {
     --color-primary: #3a57ff;
