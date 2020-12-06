@@ -171,6 +171,10 @@
       .fade-in {
         opacity: 1;
       }
+
+      .h2 {
+        margin-top: 4.735rem;
+      }
     }
 </style>
 
@@ -195,7 +199,7 @@ Knopfdruck webweit verfügbar."/>
 >
 </PlaceholderImage>
 <Container class="text-center">
-  <h2 class="mb-5">
+  <h2 class="mb-5 h2">
     <span class="green">Die Wika-Features im Überblick</span>
   </h2>
   <div class="grid-wrapper">
@@ -285,7 +289,7 @@ Knopfdruck webweit verfügbar."/>
             Antworten auf die drängendsten Fragen der Bürger*innen
         </p>
     </div>
-    <h2>
+    <h2 class="h2">
         <span class="green">Transparent gegen Desinformation</span>
     </h2>
     <p>
