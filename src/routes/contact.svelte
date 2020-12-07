@@ -59,31 +59,6 @@
     margin-bottom: 5rem;
   }
 
-  form {
-    font-size: 1.25rem;        
-    
-    label {
-      display: none;
-    }
-
-    div {
-      margin-bottom: 1.25rem;
-    }
-    
-    input {
-      width: 100%;
-      height: 4rem;
-      padding-left: 1.625rem;
-    }
-
-    textarea {
-      width: 100%;
-      height: 14.75rem;
-      padding-left: 1.625rem;
-      padding-top: .75rem;
-    }
-  }
-
   @media (min-width: 992px) {
     .bg-secondary {
       margin-bottom: 16rem;
@@ -91,10 +66,6 @@
   }
 
   @media (max-width: 992px) {
-    form {
-      margin-top: 4rem;
-    }
-
     .mb-lg-80 {
       margin-bottom: 2rem;
     }
@@ -129,7 +100,7 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
       <Col sm="auto" lg="6">
         <Row class="d-flex align-items-center justify-content-center">
           <Col xs="8" sm="5" lg="4">
-            <img src="alessa_fetzer.jpg" alt="Alessa Fetzer" class="mb-3 mb-md-0" width="625" height="625">
+            <img src="alessa_fetzer.png" alt="Alessa Fetzer" class="mb-3 mb-md-0" width="625" height="625">
           </Col>
           <Col sm="auto" lg="8">
             <div class="mx-auto d-flex flex-column">
