@@ -129,6 +129,11 @@
             display: flex;
             flex-direction: column;
 
+            > a {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
             button {
                 display: flex;
                 flex-direction: column;
