@@ -175,6 +175,15 @@
       }
     }
 
+    @media (max-width: 524px) {
+      .kacheln-wrapper {
+        img:nth-child(2) {
+          margin-bottom: 2.5rem;
+        }
+      }
+    }
+
+
     @media (min-width: 2000px) {
       .wika-header {
         max-width: 100%;
@@ -191,7 +200,7 @@
 Informationen zu gesellschaftsrelevanten Themen auf
 Knopfdruck webweit verfügbar."/>
 </svelte:head>
-<Container class="mt-5 pt-3 text-center mb-3">
+<Container class="mt-0 mt-md-5 pt-3 text-center mb-3">
   <h1>Wika –  Das Web-Widget gegen Desinformation</h1>
   <p>
     Gemeinsam gegen Desinformation – Wika nutzt das CoVerified-Prinzip und macht sichere Informationen zu gesellschaftsrelevanten Themen auf Knopfdruck auf jeder Website verfügbar.

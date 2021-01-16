@@ -230,7 +230,7 @@
 geförderten Projekte aus dem #WirvsVirus Hackathon
 entwickeln wir Open Social Innovation."/>
 </svelte:head>
-<Container class="mt-5 pt-3 text-center">
+<Container class="mt-0 mt-md-5  pt-3 text-center">
   <h1>
     #WirvsVirus<br />
     Wir sind CoVerified    

@@ -11,7 +11,7 @@
 <svelte:head>
 	<title>Impressum</title>
 </svelte:head>
-<Container class="mt-5 pt-3">
+<Container class="mt-0 mt-md-5 pt-3">
 <h1>
   Impressum
 </h1>

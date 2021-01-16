@@ -179,7 +179,7 @@
 schaffen einen neuen Informationsstandard zur einfachen
 Information der breiten Bevölkerung."/>
 </svelte:head>
-<Container class="mt-5 pt-3 text-center">
+<Container class="mt-0 mt-md-5  pt-3 text-center">
     <h1 class="h1 mt-0">
         Mit CoVerified Digitalisierung gestalten<br />
         &ndash; Wir denken digitale Kommunikation neu &ndash;

@@ -236,7 +236,7 @@
 Tool-Chain bündelt sichere Informationen aus seriösen
 Quellen und wirkt so Infodemie entgegen." />
 </svelte:head>
-<Container class="mt-5 pt-3 text-center">
+<Container class="mt-0 mt-md-5 pt-3 text-center">
     <h1>
         CoVerified macht Informationen aus sicheren Quellen zentral verfügbar
     </h1>
