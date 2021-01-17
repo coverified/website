@@ -98,13 +98,6 @@
     font-size: 1.875rem;
     margin-bottom: 2.75rem;
     color: var(--color-primary);
-    
-    > span {
-        display: block;
-        font-size: 1.5625rem;
-        font-weight: 500;
-        margin-right: auto;
-    }
   }
 
   :global(.text-black) {
