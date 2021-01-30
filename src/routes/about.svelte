@@ -393,7 +393,7 @@ entwickeln wir Open Social Innovation."/>
       <div class="overlay__container-popup">
         <p class="overlay__container-popup--name">
           Johannes Hiry<br />
-          <span class="overlay__container-popup--title">Webentwickler</span>
+          <span class="overlay__container-popup--title">Backend-Softwareingenieur</span>
         </p>
         <div class="overlay__container-popup--links">
           <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopener">
