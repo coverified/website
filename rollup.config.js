@@ -35,6 +35,7 @@ export default {
 						plugins: [require('autoprefixer')()]
 					}
 				}),
+				emitCss: true,
 				compilerOptions: {
 					dev,
 					hydratable: true,
