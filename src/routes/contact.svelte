@@ -107,9 +107,9 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
               <p class="mb-0 text-black">Ansprechpartnerin</p>
               <p class="h3 my-2 text-black">Alessa Fetzer</p>
               <a
-                href="mailto:info@coverified.de?subject=Interesse%20an%20zusammenarbeit"
+                href="mailto:info@coverified.info?subject=Interesse%20an%20zusammenarbeit"
                 class="mb-2 d-block font-weight-light h3">
-                info@coverified.de
+                info@coverified.info
               </a>
               <a href="tel:+4917632789572" class="font-weight-light h3 mb-0">
                 +49 176 32789572
