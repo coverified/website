@@ -119,6 +119,12 @@
 
     @media (max-width: 1200px) {
         nav {
+            max-width: 60rem;
+        }
+    }
+
+    @media (max-width: 992px) {
+        nav {
             max-width: 45rem; 
             display: flex;
             flex-direction: column;
