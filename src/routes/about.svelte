@@ -40,6 +40,17 @@
     }
   }
 
+  .einbinder {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+
+    img {
+      margin-top: 2.5rem;
+      width: 25rem;
+      height: auto;
+    }
+  }
+
   .bg-secondary {
     position: relative;
     background-color: var(--color-lighter-grey) !important;
@@ -213,6 +224,16 @@
     .digitalpioneers {
       grid-template-columns: repeat(auto-fit, 14rem);
     }
+
+    .einbinder {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
   }
 
   @media (max-width: 524px) {
@@ -554,6 +575,14 @@ entwickeln wir Open Social Innovation."/>
       </Col>
     </Row>
     <Button label="Jetzt Kontakt aufnehmen&nbsp;&#8594;" href="/contact" style="btn-primary"></Button>
+  </div>
+  <div class="einbinder">
+    <h2 class="mt-0">
+      <span class="green">Einbinder unseres kostenlosem Widget</span>
+    </h2>
+      <a href="https://notfallmg.de/de" title="Stadt Mönchengladbach" rel="noopener" targer="_blank">
+        <img loading="lazy" src="stadt_moenchengladbach_logo.png" alt="Stadt Mönchengladbach Logo" width="400">
+      </a>
   </div>
   <div class="bg-primary bg-primary--twitter text-center">
     <img loading="lazy" src="twitter.svg" alt="twitter logo" width="61" height="51" class="twitter-logo">

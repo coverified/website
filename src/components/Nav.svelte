@@ -250,6 +250,14 @@
                 Kontakt
             </a>
         </li>
+        <li>
+            <a rel="noopener"
+                target="_blank"
+                href="https://github.com/coverified"
+            >
+                GitHub
+          </a>
+        </li>
     </ul>
     <button aria-label="Navigation" class={open ? 'open' : ''} on:click={() => {open = !open}}>
         <span></span>
