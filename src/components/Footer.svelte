@@ -105,6 +105,12 @@
                 href="datenschutz">
                 Datenschutz
             </a>
+            <a rel="noopener"
+                target="_blank"
+                href="https://github.com/coverified"
+            >
+                GitHub
+            </a>
             <span class="copyright">
                 &copy; {new Date().getFullYear()} CoVerified
             </span>
