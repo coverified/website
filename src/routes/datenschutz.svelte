@@ -6,6 +6,10 @@
   p {
     margin-bottom: 2.5rem;
   }
+
+  h1 {
+    font-size: 2.25rem;
+  }
 </style>
 
 <svelte:head>
@@ -19,13 +23,13 @@
     <b>Allgemeines</b>
   </p>
   <p>
-    Die Einhaltung der Datenschutzgesetze ist für die Diehl, Fetzer, Hiry, Kilian, Mayer, Schlittenbauer, Schweikert, Vollnhals, Weise GbR nicht nur gesetzliche Pflicht, sondern auch ein wichtiger Vertrauensfaktor. Mit den nachfolgenden Datenschutzbestimmungen möchten wir Sie deshalb transparent über Art, Umfang und Zweck der von Ihnen erhobenen und verarbeiteten personenbezogenen Daten innerhalb dieses Internetauftritts sowie Ihre Rechte informieren.
+    Die Einhaltung der Datenschutzgesetze ist für die CoVerified GmbH nicht nur gesetzliche Pflicht, sondern auch ein wichtiger Vertrauensfaktor. Mit den nachfolgenden Datenschutzbestimmungen möchten wir Sie deshalb transparent über Art, Umfang und Zweck der von Ihnen erhobenen und verarbeiteten personenbezogenen Daten innerhalb dieses Internetauftritts sowie Ihre Rechte informieren.
   </p>
   <p>
     <b>Verantwortlichkeit für die Datenverarbeitung</b>
   </p>
   <p>
-    Die Diehl, Fetzer, Hiry, Kilian, Mayer, Schlittenbauer, Schweikert, Vollnhals, Weise GbR, c/o Schwarzraum,Ludwigstraße 187 in 63067 Offenbauch (Im Folgenden: „Wir“) ist als Betreiber der Webseite www.coverified.info, Verantwortlicher gem. Art. 4 Nr. 7 der EU-Datenschutz-Grundverordnung (DSGVO). Bei Fragen können Sie sich an info@coverified.info wenden.
+    Die CoVerified GmbH, Universität des Saarlandes Starterzentrum, Gebäude A1 1, 66123 Saarbrücken (Im Folgenden: „Wir“) ist als Betreiber der Webseite www.coverified.info, Verantwortlicher gem. Art. 4 Nr. 7 der EU-Datenschutz-Grundverordnung (DSGVO). Bei Fragen können Sie sich an info@coverified.info wenden.
   </p>
   <p>
     <b>Datenschutzbeauftragter</b>
@@ -175,7 +179,7 @@
     Wir nutzen den CDN-Dienst „Cloudfront“ von Amazon Web Services. Die Firma Amazon Web Services EMEA SARL („AWS EU“), 38 Avenue John F. Kennedy, L-1855 Luxemburg, ist die Verantwortliche für personenbezogene Daten, die über die Angebote von „Amazon Web Services“ erhoben und verarbeitet werden. AWS EU ist die autorisierte Vertreterin der Amazon Web Services Inc. („AWS US“), 410 Terry Avenue North, Seattle WA 98109, United States. 
   </p>
   <p>
-    Die Firma AWS US erfüllt die Anforderungen des „EU-US-Privacy-Shield“ (zu deutsch: EU-US-Datenschutzschild). Das Privacy-Shield-Abkommen regelt den Schutz personenbezogener Daten, die aus einem Mitgliedsstaat der Europäischen Union in die USA übertragen werden. Es stellt sicher, dass die übertragenen Daten dort ebenfalls einem der Europäischen Union vergleichbaren Datenschutzniveau unterliegen. Die Liste zertifizierter Unternehmen können Sie hier abrufen:<a title="https://www.privacyshield.gov/list" href="https://www.privacyshield.gov/list" rel="noopener" target="_blank">https://www.privacyshield.gov/list</a>. 
+    Die Firma AWS US erfüllt die Anforderungen des „EU-US-Privacy-Shield“ (zu deutsch: EU-US-Datenschutzschild). Das Privacy-Shield-Abkommen regelt den Schutz personenbezogener Daten, die aus einem Mitgliedsstaat der Europäischen Union in die USA übertragen werden. Es stellt sicher, dass die übertragenen Daten dort ebenfalls einem der Europäischen Union vergleichbaren Datenschutzniveau unterliegen. Die Liste zertifizierter Unternehmen können Sie hier abrufen: <a title="https://www.privacyshield.gov/list" href="https://www.privacyshield.gov/list" rel="noopener" target="_blank">https://www.privacyshield.gov/list</a>. 
   </p>
   <p>
     Durch die Nutzung der Dienste werden Daten an AWS EU und unter Umständen von AWS EU an AWS US übermittelt. Der Amazon-Konzern kann die übermittelten Daten verarbeiten, um anonymisierte Nutzerprofile für statistische Zwecke zu erstellen. Auf diese Datenverarbeitung haben wir grundsätzlich keinen Einfluss. Verantwortlich für diese Datenverarbeitung ist daher AWS EU.

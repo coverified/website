@@ -16,20 +16,33 @@
   Impressum
 </h1>
 <p>
-  Diehl, Fetzer, Hiry, Kilian, Mayer, Schlittenbauer, Schweikert, Vollnhals, Weise GbR
+  <b>Angaben gemäß § 5 TMG:</b>
 </p>
 <p>
-  Ludwigstraße 187<br />
-  c/o Schwarzraum<br />
-  63067 Offenbach
+  CoVerified GmbH 
 </p>
 <p>
-  Telefon: +49 (0)176 32789572<br />
-  E-Mail: <a href= "mailto:info@coverified.info" title="CoVerified E-Mail">info@coverified.info</a>
+  Universität des Saarlandes Starterzentrum<br />
+  Gebäude A1 1<br />
+  66123 Saarbrücken
 </p>
 <p>
-  Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV<br/>
-  Julia Diehl, Carmen Bernhardt
+  E-Mail: <a href= "mailto:info@coverified.info" title="CoVerified E-Mail">info@coverified.info</a><br />
+  Web: <a href="www.coverified.info" title="CoVerified.info" rel="noopener" targer="_blank">www.coverified.info</a>
+</p>
+<p>
+  Registergericht: Amtsgericht Saarbrücken<br />
+  Registernummer: HRB 107551<br />
+  Umsatzsteuer-Identifikationsnummer nach § 27a UStG: folgt
+</p>
+<p>
+  <b>Vertreten durch:</b><br />
+  Florian Schlittenbauer, Julia Isabel Diehl, Alessa Fetzer
+</p>
+<p>
+  <b>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</b><br/>
+  Julia Diehl, Carmen Bernhardt<br />
+  CoVerified GmbH, Universität des Saarlandes Starterzentrum, Gebäude A1 1, 66123 Saarbrücken
 </p>
 <p>
   <b>EU-Streitschlichtung</b>
