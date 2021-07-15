@@ -87,14 +87,13 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
           CoVerified erfahren? Schreiben Sie uns oder rufen Sie uns an.
         </p>
         <p class="text-muted mb-lg-80">
-          CoVerified – Diehl, Fetzer, Hiry, Kilian, Mayer, Schlittenbauer,
-          Schweikert, Vollnhals, Weise GbR
+          CoVerified GmbH
           <br />
-          c/o Schwarzraum
+          Universität des Saarlandes Starterzentrum
           <br />
-          Ludwigstr. 187
+          Gebäude A1 1
           <br />
-          63067 Offenbach am Main
+          66123 Saarbrücken
         </p>      
       </Col>
       <Col sm="auto" lg="6">
@@ -110,9 +109,6 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
                 href="mailto:info@coverified.info?subject=Interesse%20an%20zusammenarbeit"
                 class="mb-2 d-block font-weight-light h3">
                 info@coverified.info
-              </a>
-              <a href="tel:+4917632789572" class="font-weight-light h3 mb-0">
-                +49 176 32789572
               </a>
             </div>
           </Col>
