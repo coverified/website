@@ -84,7 +84,7 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
       <Col sm="auto" lg="6">
         <p class="text-black">
           Sie haben Interesse an einer Zusammenarbeit oder möchten mehr über
-          CoVerified erfahren? Schreiben Sie uns oder rufen Sie uns an.
+          CoVerified erfahren? Schreiben Sie uns an.
         </p>
         <p class="text-muted mb-lg-80">
           CoVerified GmbH
