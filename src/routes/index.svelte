@@ -137,8 +137,8 @@ Information der breiten Bevölkerung."
                 einem Ort zur Verfügung zu stellt und damit eine zentrale Anlaufstelle für Interessierte aus Verwaltung
                 und Bevölkerung schafft.
             </p>
-            <Button style="btn-secondary mt-5" label="Die neue Suche testen &#8594;" href="#" />
-            <Button style="btn-primary--border mt-4" label="Download Presseinformationen &#8594;" href="#" />
+            <Button style="btn-secondary mt-5" label="Die neue Suche testen &#8594;" href="https://www.bundesregierung.de/NetzwerkDA" target="_blank" rel="noopener" />
+            <Button style="btn-primary--border mt-4" label="Download Presseinformationen &#8594;" href="pressekit.pdf" target="_blank" />
         </div>
     </div>
     <h2>
