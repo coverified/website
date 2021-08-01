@@ -219,18 +219,10 @@
     <ul class={open ? 'open' : ''}>
         <li>
             <a rel="prefetch"
-               aria-current={segment === 'technologie' ? 'page' : undefined}
-               href="technologie"
+               aria-current={segment === 'home' ? 'page' : undefined}
+               href="."
                on:click={() => {open = !open}}>
-                Technologie
-            </a>
-        </li>
-        <li>
-            <a rel="prefetch"
-               aria-current={segment === 'produkte' ? 'page' : undefined}
-               href="produkte"
-               on:click={() => {open = !open}}>
-                Projekt Wika
+                Home
             </a>
         </li>
         <li>

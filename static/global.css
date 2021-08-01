@@ -41,12 +41,6 @@ a {
 	border: 0;
 }
 
-img {
-	display: inline-block;
-	width: 100%;
-	height: auto;
-}
-
 .aspect--16by9 {
 	position: relative;
 	padding-top: 56.25%;
