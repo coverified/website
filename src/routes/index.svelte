@@ -13,7 +13,7 @@ Information der breiten Bevölkerung."
     />
 </svelte:head>
 <Container class="mt-0 mt-md-5  pt-3 text-center">
-    <h1 class="h1 mt-0">Good bye Desinformation &ndasH; hello CoVerified</h1>
+    <h1 class="h1 mt-0">Good bye Desinformation &mdash; hello CoVerified</h1>
     <p>
         Wir machen Informationen im öffentlichen Sektor einfach verfügbar. Für effizientere Verwaltungsprozesse, besser
         informierte Menschen und eine starke Gesellschaft.
@@ -70,7 +70,7 @@ Information der breiten Bevölkerung."
     </div>
     <div class="social__impact">
         <h2>
-            <span class="green">Social Impact</span> durch digitale Innovationen
+            <span class="green--light-grey">Social Impact</span> durch digitale Innovationen
         </h2>
         <p>
             Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, funktionsfähiges Design und
@@ -437,10 +437,6 @@ Information der breiten Bevölkerung."
             flex-direction: column;
             padding-top: 3.5rem;
             padding-bottom: 3.5rem;
-
-            .image {
-                width: 30% !important;
-            }
         }
 
         .grid {

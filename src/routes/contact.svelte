@@ -51,6 +51,11 @@
     text-decoration: var(--text-decoration);
   }
 
+  img {
+    height: auto;
+    width: 100%;
+  }
+
   .mt-80 {
     margin-top: 5rem;
   }
