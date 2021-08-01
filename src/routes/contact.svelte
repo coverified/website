@@ -94,9 +94,9 @@ gestalten wir Digitalisierung. Jetzt Kontakt aufnehmen." />
         <p class="text-muted mb-lg-80">
           CoVerified GmbH
           <br />
-          Universität des Saarlandes Starterzentrum
+          Universität des Saarlandes
           <br />
-          Gebäude A1 1
+          Starterzentrum Gebäude A1 1
           <br />
           66123 Saarbrücken
         </p>      

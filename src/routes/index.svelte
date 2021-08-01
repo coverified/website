@@ -46,7 +46,7 @@ Information der breiten Bevölkerung."
         />
         <div class="grid-text">
             <p>
-                <b>Die Situation:</b><br />
+                <b>Die Situation</b><br />
                 Informationen sind oft verstreut und mühsam zu recherchieren. Das frustriert Bürger:innen, lähmt Behörden
                 und erschwert eine effiziente Zusammenarbeit.
             </p>
@@ -54,7 +54,7 @@ Information der breiten Bevölkerung."
         <img class="grid-image" loading="lazy" src="loesung.png" alt="Unsere Lösung" width="316" height="307" />
         <div class="grid-text">
             <p>
-                <b>Unsere Lösung:</b><br />
+                <b>Unsere Lösung</b><br />
                 Wir bündeln relevante Informationen aus verschiedenen Quellen und machen sie dank künstlicher Intelligenz
                 zentral verfügbar und einfach abrufbar.
             </p>
@@ -62,7 +62,7 @@ Information der breiten Bevölkerung."
         <img class="grid-image" loading="lazy" src="vision.png" alt="Unsere Vision" width="297" height="307" />
         <div class="grid-text">
             <p>
-                <b>Unsere Vision:</b><br />
+                <b>Unsere Vision</b><br />
                 Neue digitale Kanäle für bedürfnisgerechte Inhalte, die eine informierte, faktensichere Öffentlichkeit schaffen
                 und Prozesse im öffentlichen Sektor optimieren.
             </p>
@@ -118,11 +118,11 @@ Information der breiten Bevölkerung."
         </div>
         <img loading="lazy" src="coverified-tech.svg" alt="Technology" class="coverified-tech" />
     </div>
-    <div class=" bg-primary text-white mt-72">
+    <div class=" bg-primary text-white">
         <div class="column--1-2 row--1">
             <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
             <p class="mb-5 mb-md-0 font-weight-300">
-                CoVerified realisiert in Zusammenarbeit mit der Staatsministerin für Digitalisierung und der init AG das
+                CoVerified realisiert in Zusammenarbeit mit der Staatsministerin für Digitalisierung und der &#93;init&#91; AG das
                 Pilotprojekt „Netzwerk für digitale Aufklärung“.
             </p>
         </div>
@@ -151,7 +151,7 @@ Information der breiten Bevölkerung."
         </figure>
         <div class="grid-content">
             <p>
-                <b>KI gestützt</b><br />
+                <b>KI-gestützt</b><br />
                 Unsere Datenaggregierung, die kontextsensitive Inhaltsanalyse und das metrikbasierte Ranking agieren KI-gestützt.
             </p>
         </div>
@@ -260,6 +260,7 @@ Information der breiten Bevölkerung."
         grid-template-rows: 12rem 25rem;
         column-gap: 6.25rem;
 
+
         &:before {
             content: '';
             background-color: var(--color-primary);
@@ -307,6 +308,11 @@ Information der breiten Bevölkerung."
 
     .grid-text {
         grid-row: 2 / 2;
+
+        b {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
     }
 
     .grid {
@@ -328,6 +334,11 @@ Information der breiten Bevölkerung."
 
     .grid-content {
         grid-row: 2 / 3;
+
+        b {
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
     }
 
     figure img {
@@ -377,6 +388,7 @@ Information der breiten Bevölkerung."
     .social__impact {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 8rem;
         background-color: var(--color-light-grey);
         position: relative;
         margin-top: 7.5rem;

@@ -48,6 +48,11 @@
     border-radius: var(--btn-primary-border-radius);
     font-weight: var(--btn-font-weight);
     text-decoration: var(--text-decoration);
+
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-primary) !important;
+    }
   }
 
   .btn-secondary {
@@ -72,6 +77,11 @@
       background-color: var(--color-light-grey) !important;
       border-color: var(--color-light-grey) !important;
     }
+
+    &:hover {
+      background-color: var(--color-primary);
+      color: var(--color-white) !important;
+    }
   }
 
   .btn-primary--border {
@@ -91,6 +101,11 @@
     border-radius: var(--btn-primary-border-radius);
     font-weight: var(--btn-font-weight);
     text-decoration: var(--text-decoration);
+
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-primary) !important;
+    }
   }
 
   @media (max-width: 992px) {

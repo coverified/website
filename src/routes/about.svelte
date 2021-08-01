@@ -74,7 +74,7 @@ entwickeln wir Open Social Innovation."
         <span class="green">#digitalpioneers</span>
     </h2>
     <p>
-        Das ist das interdisziplinäre Team, das mit Herzblut hinter CoVerified steht. 9 Expert:innen, die sich remote
+        Das ist das interdisziplinäre Team, das mit Herzblut hinter CoVerified steht. 8 Expert:innen, die sich remote
         gefunden haben, um gemeinsam etwas zu bewirken und Open Social Innovation von der Idee bis zur Umsetzung zu
         gestalten.
     </p>
@@ -249,6 +249,14 @@ entwickeln wir Open Social Innovation."
                     >
                         <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
                     </a>
+                    <a
+                        href="https://www.linkedin.com/in/carmenbernhardt/"
+                        target="_blank"
+                        title="linkedIn"
+                        rel="noopener"
+                    >
+                      <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                  </a>
                 </div>
             </div>
         </div>

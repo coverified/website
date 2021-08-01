@@ -83,7 +83,7 @@
 </style>
 
 <footer>
-    <p class="pt-3">Unterstüzt durch:</p>
+    <p class="pt-3">Unterstützt durch:</p>
     <Row>        
         <Col sm="auto" lg="4" class="mb-md-4">
             <img loading="lazy" src="logo-accelerator.png" alt="Saarland Accelerator" width="261" height="202" class="pt-3">
