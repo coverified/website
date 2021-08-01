@@ -8,12 +8,12 @@
         height: auto;
         max-width: 71.25rem;
         position: relative;
-        margin: 1.875rem auto .5rem auto;
+        margin: 7.5rem auto .5rem auto;
         padding-right: 15px;
         padding-left: 15px;        
         font-family: 'Barlow Condensed', sans-serif;
         font-weight: 300;
-        font-size: 1.25rem;
+        font-size: 1.25rem;        
         
         &:before {
             content: "";
@@ -31,15 +31,14 @@
         }
     }
 
-    .bundesregierung-logo {
-        width: 12rem;
+    img {
+        height: auto;
     }
 
     div {
         display: flex;
         flex-direction: column;        
         align-items: flex-end;
-        padding-top: 3rem;
         margin-left: auto;
         width:fit-content; 
 
@@ -77,24 +76,22 @@
             padding: 0 2rem;
         }
 
-        .bundesregierung-logo {
-            width: 16rem;
+        div {
+            margin-top: 3rem;
         }
     }
 </style>
 
 <footer>
-    <Row>
-        <Col sm="auto" lg="3" class="mb-md-4">
-            <img loading="lazy" src="bmbf-logo.svg" alt="Bundesministerium für Bildung und Forschung" width="290" height="207" class="bundesregierung-logo pt-5">            
+    <p class="pt-3">Unterstützt durch:</p>
+    <Row>        
+        <Col sm="auto" lg="4" class="mb-md-4">
+            <img loading="lazy" src="logo-accelerator.png" alt="Saarland Accelerator" width="261" height="202" class="pt-3">
         </Col>
-        <Col sm="auto" lg="3" class="mb-md-4">
-            <img loading="lazy" src="unterstuetzt-von-bundesregierung.svg" alt="Die Bundesregierung" width="261" height="202" class="bundesregierung-logo pt-5">
+        <Col sm="auto" lg="4" class="mb-md-4">
+            <img loading="lazy" src="logo-kwt.png" alt="KWT" width="290" height="207" class="pt-3">
         </Col>
-        <Col sm="auto" lg="3" class="mb-md-4">
-            <img loading="lazy" src="wirvsvirus-logo.png" alt="Wir vs Virus Hackathon" width="1182" height="868" class="bundesregierung-logo pt-5">
-        </Col>
-        <Col sm="auto" lg="3" class="mb-md-4">
+        <Col sm="auto" lg="4" class="mb-md-4 pt-0">
         <div>
             <a rel="prefetch"
                 href="impressum">

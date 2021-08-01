@@ -10,9 +10,9 @@
 <style type="text/scss">
 
   .btn-primary,
+  .btn-primary--border,
   .btn-secondary {
     display: inline-block;
-    --btn-padding: 0.75rem 4.6875rem;
     --btn-font-weight: 300;
     --text-decoration: none;
     transition: transform .2s;
@@ -20,6 +20,15 @@
     &:active {
       transform: translate(0, 2px);
     }
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    --btn-padding: 0.75rem 4.6875rem;
+  }
+
+  .btn-primary--border {
+    --btn-padding: 0.75rem 3.6875rem;
   }
 
   .btn-primary {
@@ -39,6 +48,11 @@
     border-radius: var(--btn-primary-border-radius);
     font-weight: var(--btn-font-weight);
     text-decoration: var(--text-decoration);
+
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-primary) !important;
+    }
   }
 
   .btn-secondary {
@@ -62,6 +76,35 @@
     &:active {
       background-color: var(--color-light-grey) !important;
       border-color: var(--color-light-grey) !important;
+    }
+
+    &:hover {
+      background-color: var(--color-primary);
+      color: var(--color-white) !important;
+    }
+  }
+
+  .btn-primary--border {
+    --btn-primary-bg-color: var(--color-primary);
+    --btn-primary-text-color: var(--color-white);
+    --btn-primary-border-color: var(--color-white);
+    --btn-primary-border-width: 1px;
+    --btn-primary-border-style: solid;
+    --btn-primary-border-radius: 2rem;
+    
+    background-color: var(--btn-primary-bg-color);
+    color: var(--btn-primary-text-color) !important;
+    padding: var(--btn-padding);
+    border-color: var(--btn-primary-border-color);
+    border-width: var(--btn-primary-border-width);
+    border-style: var(--btn-primary-border-style);
+    border-radius: var(--btn-primary-border-radius);
+    font-weight: var(--btn-font-weight);
+    text-decoration: var(--text-decoration);
+
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-primary) !important;
     }
   }
 

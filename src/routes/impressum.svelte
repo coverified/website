@@ -19,11 +19,9 @@
   <b>Angaben gemäß § 5 TMG:</b>
 </p>
 <p>
-  CoVerified GmbH 
-</p>
-<p>
-  Universität des Saarlandes Starterzentrum<br />
-  Gebäude A1 1<br />
+  CoVerified GmbH <br />
+  Universität des Saarlandes<br />
+  Starterzentrum Gebäude A1 1<br />
   66123 Saarbrücken
 </p>
 <p>

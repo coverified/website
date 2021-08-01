@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "compression": "^1.7.4",
-    "polka": "next",
+    "polka": "^1.0.0-next.15",
     "sirv": "^1.0.0",
     "sveltestrap": "^3.3.3"
   },
