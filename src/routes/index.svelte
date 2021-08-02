@@ -117,7 +117,30 @@ Information der breiten Bevölkerung."
             </div>
         </div>
         <img loading="lazy" src="coverified-tech.svg" alt="Technology" class="coverified-tech" />
-    </div>   
+    </div>
+    <div class=" bg-primary text-white">
+        <div class="column--1-2 row--1">
+            <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
+            <p class="mb-5 mb-md-0 font-weight-300">
+                CoVerified realisiert in Zusammenarbeit mit der Staatsministerin für Digitalisierung und der &#93;init&#91; AG das
+                Pilotprojekt „Netzwerk für digitale Aufklärung“.
+            </p>
+        </div>
+        <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
+            <img loading="lazy" src="coverified-pilotprojekt.jpg" alt="Pilotprojekt" class="w-100">
+        </div>
+        <div
+            class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
+        >
+            <p>
+                Ergebnis ist eine neue Suchmaschine, die vorhandene Informationen der Regierungsbehörden erstmalig an
+                einem Ort zur Verfügung zu stellt und damit eine zentrale Anlaufstelle für Interessierte aus Verwaltung
+                und Bevölkerung schafft.
+            </p>
+            <Button style="btn-secondary mt-5" label="Die neue Suche testen &#8594;" href="https://www.bundesregierung.de/NetzwerkDA" target="_blank" rel="noopener" />
+            <Button style="btn-primary--border mt-4" label="Download Presseinformationen &#8594;" href="pressekit.pdf" target="_blank" />
+        </div>
+    </div>
     <h2>
         Darum <span class="green">CoVerified</span>
     </h2>
