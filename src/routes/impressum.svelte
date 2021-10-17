@@ -38,7 +38,7 @@
   Florian Schlittenbauer, Julia Isabel Diehl, Alessa Fetzer
 </p>
 <p>
-  <b>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</b><br/>
+  <b>Inhaltlich verantwortlich i. S. d. § 18 Abs. 2 MStV</b><br/>
   Julia Diehl, Carmen Bernhardt<br />
   CoVerified GmbH, Universität des Saarlandes Starterzentrum, Gebäude A1 1, 66123 Saarbrücken
 </p>
