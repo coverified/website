@@ -14,7 +14,7 @@ schaffen mehr Wert."
 <Container class="mt-0 mt-md-5  pt-3 text-center">
     <h1 class="h1 mt-0">Mehr digitale Power für alle.</h1>
     <p>
-        Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen. 
+        Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen.
 Für effizientere Prozesse, besser informierte Menschen und eine starke Gesellschaft.
 Los geht’s!
     </p>
@@ -32,7 +32,7 @@ Los geht’s!
         Lasst uns die Welt <span class="green">besser besser</span> machen!
     </h2>
     <p>
-        Effizienter arbeiten, schneller finden, besser verstehen – wir machen das Leben leichter für alle, 
+        Effizienter arbeiten, schneller finden, besser verstehen – wir machen das Leben leichter für alle,
         die in und mit Regierungen, Verwaltungen, Institutionen und Unternehmen arbeiten und kommunizieren. Damit MEHR WERT entsteht.
     </p>
     <div class="grid-wrapper mt-5">
@@ -47,8 +47,8 @@ Los geht’s!
         <div class="grid-text">
             <p>
                 <b>Die Situation</b><br />
-                Informationen sind oft verstreut, kompliziert und unübersichtlich. Prozesse veraltet und ineffizient. 
-                Das digitale Potenzial bleibt ungenutzt. Das erschwert die Kommunikation mit Bürger:innen und Mitarbeitenden, 
+                Informationen sind oft verstreut, kompliziert und unübersichtlich. Prozesse veraltet und ineffizient.
+                Das digitale Potenzial bleibt ungenutzt. Das erschwert die Kommunikation mit Bürger:innen und Mitarbeitenden,
                 raubt Zeit und bremst Innovationskraft. Frustrierend für alle!
             </p>
         </div>
@@ -56,8 +56,8 @@ Los geht’s!
         <div class="grid-text">
             <p>
                 <b>Die Lösungen</b><br />
-                Wir gehen zusammen auf die Reise. Ob experimenteller Prototyp, inspirierendes Pilot-Projekt oder umfassender System-Change – 
-                wir analysieren gemeinsam den genauen Bedarf und kreieren iterativ und agil zusammen die passende innovative Digital-Lösung. 
+                Wir gehen zusammen auf die Reise. Ob experimenteller Prototyp, inspirierendes Pilot-Projekt oder umfassender System-Change –
+                wir analysieren gemeinsam den genauen Bedarf und kreieren iterativ und agil zusammen die passende innovative Digital-Lösung.
                 Und das ist manchmal etwas ganz anderes, als am Anfang gedacht.
             </p>
         </div>
@@ -65,8 +65,8 @@ Los geht’s!
         <div class="grid-text">
             <p>
                 <b>Unsere Vision</b><br />
-                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse. 
-                Agile, wertschätzende Zusammenarbeit. Und mit unseren Kompetenzen die Digitalisierung so zu gestalten, 
+                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse.
+                Agile, wertschätzende Zusammenarbeit. Und mit unseren Kompetenzen die Digitalisierung so zu gestalten,
                 dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
             </p>
         </div>
@@ -75,8 +75,8 @@ Los geht’s!
         <div class="column--1-2 row--1">
             <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
             <p class="mb-5 mb-md-0 font-weight-300">
-                Im Auftrag der Energiewende! CoVerified entwickelt die Kommunikationskampagne “DA/RE – da steckt mehr dahinter” 
-                für TransnetBW und macht damit "Redispatch" für alle erlebbar. 
+                Im Auftrag der Energiewende! CoVerified entwickelt die Kommunikationskampagne “DA/RE – da steckt mehr dahinter”
+                für TransnetBW und macht damit "Redispatch" für alle erlebbar.
             </p>
         </div>
         <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
@@ -87,7 +87,7 @@ Los geht’s!
         >
             <p>
                 Komplexe Themen einfach erklärt mit interaktiver Webseite, griffigen Anzeigenmotiven und sogar einem eigenen Game.
-                Unter dem Motto "#DAREKannDas Kannst du das auch?" können User versuchen, einen fiktiven Leitungs-Engpass zu regeln 
+                Unter dem Motto "#DAREKannDas Kannst du das auch?" können User versuchen, einen fiktiven Leitungs-Engpass zu regeln
                 und dabei mehr über Stromnetzsicherheit, Redispatch (Stromausgleich) und die Unterstützung von DA/RE lernen.
             </p>
             <Button style="btn-secondary mt-5" label="Zur DA/RE Kampagnenseite &#8594;" href="https://www.dare-plattform.de/erleben" target="_blank" rel="noopener" />
@@ -98,8 +98,8 @@ Los geht’s!
             <span class="green--light-grey">Social Impact</span> durch digitale Innovationen
         </h2>
         <p>
-            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge Leidenschaft für Open Social Innovation. 
-            Wir lieben es, wenn wir mit #DigitalThinking und unserem #FullStackService #GoodTech entwickeln. 
+            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge Leidenschaft für Open Social Innovation.
+            Wir lieben es, wenn wir mit #DigitalThinking und unserem #FullStackService #GoodTech entwickeln.
             Und wenn wir dann noch als #DigitalisierungsVorreiter:innen echten #Mehrwert erzeugen, jubelt unser #Tech4Good Herz.
         </p>
         <div>
@@ -115,18 +115,19 @@ Los geht’s!
             </figure>
         </div>
     </div>
-    <Container class="pt-3 text-center">
+</Container>
+<Container class="pt-3 text-center">
     <h2 class="mt-5">
         Let's <span class="green">co-create</span> !
     </h2>
     <p>
-        Wir greifen das Abstrakte, formulieren eine Herausforderung und kümmern uns dann gemeinsam um die Lösung. 
+        Wir greifen das Abstrakte, formulieren eine Herausforderung und kümmern uns dann gemeinsam um die Lösung.
         Wir beflügeln da, wo Sie uns brauchen. Punktuell oder rundherum.
     </p>
       <div class="termin__box">
         <h2>Digitalisierungsbedarf? Los geht's!</h2>
         <p>
-            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche? 
+            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche?
             Gern schauen wir uns den konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
         </p>
         <Button
