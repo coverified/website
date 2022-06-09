@@ -65,8 +65,9 @@ Los geht’s!
         <div class="grid-text">
             <p>
                 <b>Unsere Vision</b><br />
-                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse.
-                Agile, wertschätzende Zusammenarbeit. Und mit unseren Kompetenzen die Digitalisierung so zu gestalten,
+                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse. 
+                Agile, wertschätzende Zusammenarbeit. Den Boden bereiten für neue Mindsets. 
+                Und mit unseren Kompetenzen die Digitalisierung so gestalten, 
                 dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
             </p>
         </div>
@@ -86,9 +87,10 @@ Los geht’s!
             class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
         >
             <p>
-                Komplexe Themen einfach erklärt mit interaktiver Webseite, griffigen Anzeigenmotiven und sogar einem eigenen Game.
-                Unter dem Motto "#DAREKannDas Kannst du das auch?" können User versuchen, einen fiktiven Leitungs-Engpass zu regeln
-                und dabei mehr über Stromnetzsicherheit, Redispatch (Stromausgleich) und die Unterstützung von DA/RE lernen.
+                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex. 
+                We make it easy: Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game 
+                können User unterhaltsam verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten 
+                und wie die IT Plattform “DA/RE” sie dabei unterstützt.
             </p>
             <Button style="btn-secondary mt-5" label="Zur DA/RE Kampagnenseite &#8594;" href="https://www.dare-plattform.de/erleben" target="_blank" rel="noopener" />
         </div>
@@ -99,7 +101,7 @@ Los geht’s!
         </h2>
         <p>
             Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge Leidenschaft für Open Social Innovation.
-            Wir lieben es, wenn wir mit #DigitalThinking und unserem #FullStackService #GoodTech entwickeln.
+            Wir lieben es, wenn wir mit #RapidPrototyping, #DigitalThinking und unserem #FullStackService #GoodTech entwickeln.
             Und wenn wir dann noch als #DigitalisierungsVorreiter:innen echten #Mehrwert erzeugen, jubelt unser #Tech4Good Herz.
         </p>
         <div>
@@ -121,13 +123,56 @@ Los geht’s!
         Let's <span class="green">co-create</span> !
     </h2>
     <p>
-        Wir greifen das Abstrakte, formulieren eine Herausforderung und kümmern uns dann gemeinsam um die Lösung.
+        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen. 
+        Das beginnt schon beim Ausgraben von Innovations-Potenzial und zieht sich durch alle Stadien des Projekts. 
         Wir beflügeln da, wo Sie uns brauchen. Punktuell oder rundherum.
     </p>
-      <div class="termin__box">
+    <div class="grid">
+        <div class="grid-content">
+            <p>
+                <b>Analyse</b><br />
+                Wo genau liegt eigentlich das Problem? Wo steckt Potential? Wir finden es gemeinsam mit Ihnen und den Nutzenden heraus.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Vision & Konzept</b><br />
+                Welche Lösung bringt für alle den größten Wert? Jetzt lassen wir Insights, Anforderungen, Ideen und KnowHow verschmelzen.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Iterative Umsetzung</b><br />
+                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin. 
+                Unterwegs neue Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle Stakeholder im Blick.  
+            </p>
+        </div>
+    </div>
+    <div class="grid mt-0 mt-lg-4 pt-lg-3">
+        <div class="grid-content">
+            <p>
+                <b>Implementierung & Training</b><br />
+                Alles passt und geht an den Start? We take care. Um die Software, um das Produkt aber auch um die, die damit arbeiten sollen.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Maintenance</b><br />
+                Alles im Lot auf dem Boot – auch wenns während der Fahrt mal etwas stürmig wird.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Marketing & Kommunikation</b><br />
+                Hallo Welt, das Baby ist da! Von interner bis externer Kommunikation sorgen wir fürs passende Roll- & ShoutOut.
+            </p>
+        </div>
+    </div>  
+    <div class="termin__box">
         <h2>Digitalisierungsbedarf? Los geht's!</h2>
         <p>
-            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche?
+            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche? 
+            Oder einfach Lust auf ein inspirierendes Projekt, das frischen digitalen Wind und echten Mehrwert mitbringt?
             Gern schauen wir uns den konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
         </p>
         <Button
