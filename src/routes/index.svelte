@@ -19,14 +19,15 @@ Für effizientere Prozesse, besser informierte Menschen und eine starke Gesellsc
 Los geht’s!
     </p>
 </Container>
-<video
-    class="w-100 h-auto mt-5 mb-3 coverified-video"
-    src="coverified-video.mp4"
-    preload="”none”"
-    muted
-    autoplay
-    playsinline
-/>
+<div class="coverified-hero mt-5 mb-3">
+    <img
+            loading="eager"
+            src="headerbild-coverified-digital-power.jpg"
+            alt="CoVerified digital power"
+            width="2500"
+            height="1249"
+    />
+</div>
 <Container class="pt-3 text-center">
     <h2 class="mt-5">
         Lasst uns die Welt <span class="green">besser besser</span> machen!
@@ -65,14 +66,14 @@ Los geht’s!
         <div class="grid-text">
             <p>
                 <b>Unsere Vision</b><br />
-                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse. 
-                Agile, wertschätzende Zusammenarbeit. Den Boden bereiten für neue Mindsets. 
-                Und mit unseren Kompetenzen die Digitalisierung so gestalten, 
+                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse.
+                Agile, wertschätzende Zusammenarbeit. Den Boden bereiten für neue Mindsets.
+                Und mit unseren Kompetenzen die Digitalisierung so gestalten,
                 dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
             </p>
         </div>
     </div>
-      <div class=" bg-primary text-white">
+    <div class="mt-5 bg-primary text-white">
         <div class="column--1-2 row--1">
             <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
             <p class="mb-5 mb-md-0 font-weight-300">
@@ -87,9 +88,9 @@ Los geht’s!
             class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
         >
             <p>
-                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex. 
-                We make it easy: Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game 
-                können User unterhaltsam verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten 
+                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex.
+                We make it easy: Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game
+                können User unterhaltsam verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten
                 und wie die IT Plattform “DA/RE” sie dabei unterstützt.
             </p>
             <Button style="btn-secondary mt-5" label="Zur DA/RE Kampagnenseite &#8594;" href="https://www.dare-plattform.de/erleben" target="_blank" rel="noopener" />
@@ -101,21 +102,9 @@ Los geht’s!
         </h2>
         <p>
             Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge Leidenschaft für Open Social Innovation.
-            Wir lieben es, wenn wir mit #RapidPrototyping, #DigitalThinking und unserem #FullStackService #GoodTech entwickeln.
-            Und wenn wir dann noch als #DigitalisierungsVorreiter:innen echten #Mehrwert erzeugen, jubelt unser #Tech4Good Herz.
+            Wir lieben es, wenn wir mit <b>#RapidPrototyping</b>, <b>#DigitalThinking</b> und unserem <b>#FullStackService</b> <b>#GoodTech</b> entwickeln.
+            Und wenn wir dann noch als <b>#DigitalisierungsVorreiter:innen</b> echten <b>#Mehrwert</b> erzeugen, jubelt unser <b>#Tech4Good</b> Herz.
         </p>
-        <div>
-            <figure class="grid-image">
-                <img loading="lazy" src="coverified-technologie.svg" alt="WeMakeItWork" width="120" height="120" />
-                <figcaption>#WeMakeItWork</figcaption>
-            </figure>
-        </div>
-        <div>
-            <figure class="grid-image">
-                <img loading="lazy" src="digitalthinking.svg" alt="DigitalThinking" width="120" height="120" />
-                <figcaption>#DigitalThinking</figcaption>
-            </figure>
-        </div>
     </div>
 </Container>
 <Container class="pt-3 text-center">
@@ -123,10 +112,18 @@ Los geht’s!
         Let's <span class="green">co-create</span> !
     </h2>
     <p>
-        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen. 
-        Das beginnt schon beim Ausgraben von Innovations-Potenzial und zieht sich durch alle Stadien des Projekts. 
+        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen.
+        Das beginnt schon beim Ausgraben von Innovations-Potenzial und zieht sich durch alle Stadien des Projekts.
         Wir beflügeln da, wo Sie uns brauchen. Punktuell oder rundherum.
     </p>
+    <img
+            loading="lazy"
+            src="cocreation-illustration.svg"
+            alt="Co-Creation"
+            width="714"
+            height="450"
+            class="img-fluid mx-auto mb-n5"
+    />
     <div class="grid">
         <div class="grid-content">
             <p>
@@ -143,8 +140,8 @@ Los geht’s!
         <div class="grid-content">
             <p>
                 <b>Iterative Umsetzung</b><br />
-                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin. 
-                Unterwegs neue Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle Stakeholder im Blick.  
+                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin.
+                Unterwegs neue Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle Stakeholder im Blick.
             </p>
         </div>
     </div>
@@ -167,11 +164,11 @@ Los geht’s!
                 Hallo Welt, das Baby ist da! Von interner bis externer Kommunikation sorgen wir fürs passende Roll- & ShoutOut.
             </p>
         </div>
-    </div>  
+    </div>
     <div class="termin__box">
         <h2>Digitalisierungsbedarf? Los geht's!</h2>
         <p>
-            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche? 
+            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche?
             Oder einfach Lust auf ein inspirierendes Projekt, das frischen digitalen Wind und echten Mehrwert mitbringt?
             Gern schauen wir uns den konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
         </p>
@@ -272,6 +269,21 @@ Los geht’s!
 </Container>
 
 <style type="text/scss">
+    .coverified-hero {
+        height: 30vh;
+        max-height: 650px;
+        position: relative;
+
+        > img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
     .mt-72 {
         margin-top: 4.5rem;
     }
@@ -418,7 +430,6 @@ Los geht’s!
         column-gap: 8rem;
         background-color: var(--color-light-grey);
         position: relative;
-        margin-top: 7.5rem;
         padding-bottom: 3.125rem;
 
         &:before {
@@ -507,15 +518,6 @@ Los geht’s!
             h2 {
                 margin-top: 3rem;
             }
-        }
-    }
-
-    @media (min-width: 1600px) {
-        .coverified-video {
-            width: auto !important;
-            max-width: 100%;
-            display: flex;
-            margin: 0 auto;
         }
     }
 </style>
