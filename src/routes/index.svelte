@@ -82,7 +82,7 @@ Los geht’s!
             </p>
         </div>
         <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
-            <img loading="lazy" src="coverified-pilotprojekt.jpg" alt="Pilotprojekt" class="w-100">
+            <img loading="lazy" src="game-ipad.jpg" alt="DA/RE Game on iPad" class="w-100">
         </div>
         <div
             class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
