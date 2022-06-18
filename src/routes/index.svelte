@@ -239,7 +239,6 @@ Information der breiten Bevölkerung."
         <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625" />
         <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625" />
         <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625" />
-        <img loading="lazy" src="carmen_bernhardt.jpg" alt="Carmen Bernhardt" width="625" height="625" />
     </div>
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about" />
 </Container>

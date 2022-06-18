@@ -178,7 +178,7 @@ entwickeln wir Open Social Innovation."
             <div class="overlay__container-popup">
                 <p class="overlay__container-popup--name">
                     Julia Diehl<br />
-                    <span class="overlay__container-popup--title">UX-Designerin</span>
+                    <span class="overlay__container-popup--title">UX-Designerin / Marketing & Kommunikation</span>
                 </p>
                 <div class="overlay__container-popup--links">
                     <a
@@ -230,33 +230,6 @@ entwickeln wir Open Social Innovation."
                     >
                         <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
                     </a>
-                </div>
-            </div>
-        </div>
-        <div class="overlay__container">
-            <img loading="lazy" src="carmen_bernhardt.jpg" alt="Carmen Bernhardt" width="625" height="625" />
-            <div class="overlay__container-popup">
-                <p class="overlay__container-popup--name">
-                    Carmen Bernhardt<br />
-                    <span class="overlay__container-popup--title">Kommunikation</span>
-                </p>
-                <div class="overlay__container-popup--links">
-                    <a
-                        href="https://www.xing.com/profile/Carmen_Bernhardt/cv"
-                        target="_blank"
-                        title="Xing"
-                        rel="noopener"
-                    >
-                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/carmenbernhardt/"
-                        target="_blank"
-                        title="linkedIn"
-                        rel="noopener"
-                    >
-                      <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
-                  </a>
                 </div>
             </div>
         </div>
