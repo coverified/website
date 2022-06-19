@@ -8,32 +8,33 @@
     <meta
         name="description"
         content="Unsere Software-Produkte gestalten Digitalisierung und
-schaffen einen neuen Informationsstandard zur einfachen
-Information der breiten Bevölkerung."
+schaffen mehr Wert."
     />
 </svelte:head>
 <Container class="mt-0 mt-md-5  pt-3 text-center">
-    <h1 class="h1 mt-0">Good bye Desinformation &mdash; hello CoVerified</h1>
+    <h1 class="h1 mt-0">Mehr digitale Power für alle.</h1>
     <p>
-        Wir machen Informationen im öffentlichen Sektor einfach verfügbar. Für effizientere Verwaltungsprozesse, besser
-        informierte Menschen und eine starke Gesellschaft.
+        Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen.
+Für effizientere Prozesse, besser informierte Menschen und eine starke Gesellschaft.
+Los geht’s!
     </p>
 </Container>
-<video
-    class="w-100 h-auto mt-5 mb-3 coverified-video"
-    src="coverified-video.mp4"
-    preload="”none”"
-    muted
-    autoplay
-    playsinline
-/>
+<div class="coverified-hero mt-5 mb-3">
+    <img
+            loading="eager"
+            src="headerbild-coverified-digital-power.jpg"
+            alt="CoVerified digital power"
+            width="2500"
+            height="1249"
+    />
+</div>
 <Container class="pt-3 text-center">
     <h2 class="mt-5">
-        Mehr Wissen <span class="green">für alle</span>.
+        Lasst uns die Welt <span class="green">besser besser</span> machen!
     </h2>
     <p>
-        CoVerified entwickelt KI-gestützte Software-Lösungen, die Informationsprozesse für Regierung, Verwaltung und
-        Institutionen vereinfachen und relevanten Content auf Knopfdruck verfügbar machen.
+        Effizienter arbeiten, schneller finden, besser verstehen – wir machen das Leben leichter für alle,
+        die in und mit Regierungen, Verwaltungen, Institutionen und Unternehmen arbeiten und kommunizieren. Damit MEHR WERT entsteht.
     </p>
     <div class="grid-wrapper mt-5">
         <img
@@ -47,25 +48,52 @@ Information der breiten Bevölkerung."
         <div class="grid-text">
             <p>
                 <b>Die Situation</b><br />
-                Informationen sind oft verstreut und mühsam zu recherchieren. Das frustriert Bürger:innen, lähmt Behörden
-                und erschwert eine effiziente Zusammenarbeit.
+                Informationen sind oft verstreut, kompliziert und unübersichtlich. Prozesse veraltet und ineffizient.
+                Das digitale Potenzial bleibt ungenutzt. Das erschwert die Kommunikation mit Bürger:innen und Mitarbeitenden,
+                raubt Zeit und bremst Innovationskraft. Frustrierend für alle!
             </p>
         </div>
         <img class="grid-image" loading="lazy" src="loesung.png" alt="Unsere Lösung" width="316" height="307" />
         <div class="grid-text">
             <p>
-                <b>Unsere Lösung</b><br />
-                Wir bündeln relevante Informationen aus verschiedenen Quellen und machen sie dank künstlicher Intelligenz
-                zentral verfügbar und einfach abrufbar.
+                <b>Die Lösungen</b><br />
+                Wir gehen zusammen auf die Reise. Ob experimenteller Prototyp, inspirierendes Pilot-Projekt oder umfassender System-Change –
+                wir analysieren gemeinsam den genauen Bedarf und kreieren iterativ und agil zusammen die passende innovative Digital-Lösung.
+                Und das ist manchmal etwas ganz anderes, als am Anfang gedacht.
             </p>
         </div>
         <img class="grid-image" loading="lazy" src="vision.png" alt="Unsere Vision" width="297" height="307" />
         <div class="grid-text">
             <p>
                 <b>Unsere Vision</b><br />
-                Neue digitale Kanäle für bedürfnisgerechte Inhalte, die eine informierte, faktensichere Öffentlichkeit schaffen
-                und Prozesse im öffentlichen Sektor optimieren.
+                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse.
+                Agile, wertschätzende Zusammenarbeit. Den Boden bereiten für neue Mindsets.
+                Und mit unseren Kompetenzen die Digitalisierung so gestalten,
+                dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
             </p>
+        </div>
+    </div>
+    <div class="mt-5 bg-primary text-white">
+        <div class="column--1-2 row--1">
+            <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
+            <p class="mb-5 mb-md-0 font-weight-300">
+                Im Auftrag der Energiewende! CoVerified entwickelt die Kommunikationskampagne “DA/RE – da steckt mehr dahinter”
+                für TransnetBW und macht damit "Redispatch" für alle erlebbar.
+            </p>
+        </div>
+        <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
+            <img loading="lazy" src="game-ipad.jpeg" alt="DA/RE Game on iPad" class="w-100">
+        </div>
+        <div
+            class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
+        >
+            <p>
+                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex.
+                We make it easy: Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game
+                können User unterhaltsam verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten
+                und wie die IT Plattform “DA/RE” sie dabei unterstützt.
+            </p>
+            <Button style="btn-secondary mt-5" label="Zur DA/RE Kampagnenseite &#8594;" href="https://www.dare-plattform.de/erleben" target="_blank" rel="noopener" />
         </div>
     </div>
     <div class="social__impact">
@@ -73,86 +101,96 @@ Information der breiten Bevölkerung."
             <span class="green--light-grey">Social Impact</span> durch digitale Innovationen
         </h2>
         <p>
-            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, funktionsfähiges Design und
-            jede Menge Leidenschaft für Open Social Innovation.
+            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge Leidenschaft für Open Social Innovation.
+            Wir lieben es, wenn wir mit <b>#RapidPrototyping</b>, <b>#DigitalThinking</b> und unserem <b>#FullStackService</b> <b>#GoodTech</b> entwickeln.
+            Und wenn wir dann noch als <b>#DigitalisierungsVorreiter:innen</b> echten <b>#Mehrwert</b> erzeugen, jubelt unser <b>#Tech4Good</b> Herz.
         </p>
-        <div>
-            <figure class="grid-image">
-                <img loading="lazy" src="coverified-technologie.svg" alt="WeMakeItWork" width="120" height="120" />
-                <figcaption>#WeMakeItWork</figcaption>
-            </figure>
-            <div class="grid-content">
-                <p>
-                    <b>Die CoVerified Technologie</b><br />
-                    Unsere Software-Produkte sammeln und bündeln relevante Informationen festgelegter Datenquellen automatisiert.
-                    KI-gestützt analysiert und durch kontextsensitive Inhaltsanalyse mit Attributen angereichert, lassen
-                    sich die so gewonnenen Daten anschließend filtern und auswerten. Die so aufbereiteten Inhalte werden
-                    in unserer Datenbank gebündelt, von der aus sie anschließend per API an definierte Ausgabekanäle verteilt
-                    werden.
-                </p>
-                <p>
-                    Unsere Produkte entwickeln wir dabei immer mit Blick auf High-Performance, Barrierefreiheit und
-                    Datensicherheit.
-                </p>
-            </div>
-        </div>
-        <div>
-            <figure class="grid-image">
-                <img loading="lazy" src="digitalthinking.svg" alt="DigitalThinking" width="120" height="120" />
-                <figcaption>#DigitalThinking</figcaption>
-            </figure>
-            <div class="grid-content">
-                <p>
-                    <b>Fokus auf den Nutzenden</b><br />
-                    Heute bestimmen User, ob eine Anwendung erfolgreich ist. Die User Experience, das Erlebnis des Nutzenden
-                    in der Interaktion mit dem Produkt, ist daher ein wichtiger Baustein unserer Produktentwicklung. Entscheidende
-                    Entwicklungen der Internetnutzung wie Mobile First fließen bei CoVerified somit stetig in die Konzeption
-                    der Software-Lösungen ein.
-                </p>
-                <p>
-                    Für eine intuitive Bedienung und gelungene User Experience erarbeiten wir projektbezogen passende
-                    Elemente. So sorgen übersichtliche Dashboards für effizientere Verwaltungsprozesse oder bringen
-                    integrierte Story-Elemente Bürger:innen mehr Freude beim Informieren.
-                </p>
-            </div>
-        </div>
-        <img loading="lazy" src="coverified-tech.svg" alt="Technology" class="coverified-tech" />
     </div>
-    <div class=" bg-primary text-white">
-        <div class="column--1-2 row--1">
-            <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
-            <p class="mb-5 mb-md-0 font-weight-300">
-                CoVerified realisiert in Zusammenarbeit mit der Staatsministerin für Digitalisierung und der &#93;init&#91; AG das
-                Pilotprojekt „Netzwerk für digitale Aufklärung“.
-            </p>
-        </div>
-        <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
-            <img loading="lazy" src="coverified-pilotprojekt.jpg" alt="Pilotprojekt" class="w-100">
-        </div>
-        <div
-            class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
-        >
+</Container>
+<Container class="pt-3 text-center">
+    <h2 class="mt-5">
+        Let's <span class="green">co-create</span> !
+    </h2>
+    <p>
+        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen.
+        Das beginnt schon beim Ausgraben von Innovations-Potenzial und zieht sich durch alle Stadien des Projekts.
+        Wir beflügeln da, wo Sie uns brauchen. Punktuell oder rundherum.
+    </p>
+    <img
+            loading="lazy"
+            src="cocreation-illustration.svg"
+            alt="Co-Creation"
+            width="714"
+            height="450"
+            class="img-fluid mx-auto mb-n5"
+    />
+    <div class="grid">
+        <div class="grid-content">
             <p>
-                Ergebnis ist eine neue Suchmaschine, die vorhandene Informationen der Regierungsbehörden erstmalig an
-                einem Ort zur Verfügung zu stellt und damit eine zentrale Anlaufstelle für Interessierte aus Verwaltung
-                und Bevölkerung schafft.
+                <b>Analyse</b><br />
+                Wo genau liegt eigentlich das Problem? Wo steckt Potential? Wir finden es gemeinsam mit Ihnen und den Nutzenden heraus.
             </p>
-            <Button style="btn-secondary mt-5" label="Die neue Suche testen &#8594;" href="https://www.bundesregierung.de/NetzwerkDA" target="_blank" rel="noopener" />
-            <Button style="btn-primary--border mt-4" label="Download Presseinformationen &#8594;" href="pressekit.pdf" target="_blank" />
         </div>
+        <div class="grid-content">
+            <p>
+                <b>Vision & Konzept</b><br />
+                Welche Lösung bringt für alle den größten Wert? Jetzt lassen wir Insights, Anforderungen, Ideen und KnowHow verschmelzen.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Iterative Umsetzung</b><br />
+                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin.
+                Unterwegs neue Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle Stakeholder im Blick.
+            </p>
+        </div>
+    </div>
+    <div class="grid mt-0 mt-lg-4 pt-lg-3">
+        <div class="grid-content">
+            <p>
+                <b>Implementierung & Training</b><br />
+                Alles passt und geht an den Start? We take care. Um die Software, um das Produkt aber auch um die, die damit arbeiten sollen.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Maintenance</b><br />
+                Alles im Lot auf dem Boot – auch wenns während der Fahrt mal etwas stürmig wird.
+            </p>
+        </div>
+        <div class="grid-content">
+            <p>
+                <b>Marketing & Kommunikation</b><br />
+                Hallo Welt, das Baby ist da! Von interner bis externer Kommunikation sorgen wir fürs passende Roll- & ShoutOut.
+            </p>
+        </div>
+    </div>
+    <div class="termin__box">
+        <h2>Digitalisierungsbedarf? Los geht's!</h2>
+        <p>
+            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche?
+            Oder einfach Lust auf ein inspirierendes Projekt, das frischen digitalen Wind und echten Mehrwert mitbringt?
+            Gern schauen wir uns den konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
+        </p>
+        <Button
+            style="btn-secondary mt-5"
+            label="Termin vereinbaren"
+            href="mailto:info@coverified.info?subject=Interesse%20an%20zusammenarbeit"
+        />
     </div>
     <h2>
         Darum <span class="green">CoVerified</span>
     </h2>
     <div class="grid">
         <figure class="grid-image">
-            <img loading="lazy" src="ki.png" alt="TrustInTech" width="120" height="120" />
-            <figcaption>#TrustInTech</figcaption>
+            <img loading="lazy" src="opensource.png" alt="OpenSocialInnovation" width="120" height="120" />
+            <figcaption>#OpenSocialInnovation</figcaption>
         </figure>
         <div class="grid-content">
             <p>
-                <b>KI-gestützt</b><br />
-                Unsere Datenaggregierung, die kontextsensitive Inhaltsanalyse und das metrikbasierte Ranking agieren KI-gestützt.
+                <b>Public money, public code!</b><br />
+                Wir entwickeln Software-Lösungen für die Gesellschaft und sind überzeugt, dass Zusammenarbeit Innovationen
+                fördert und die Qualität steigert.
             </p>
         </div>
         <figure class="grid-image">
@@ -167,14 +205,13 @@ Information der breiten Bevölkerung."
             </p>
         </div>
         <figure class="grid-image">
-            <img loading="lazy" src="opensource.png" alt="OpenSocialInnovation" width="120" height="120" />
-            <figcaption>#OpenSocialInnovation</figcaption>
+            <img loading="lazy" src="ki.png" alt="TrustInTech" width="120" height="120" />
+            <figcaption>#TrustInTech</figcaption>
         </figure>
         <div class="grid-content">
             <p>
-                <b>Public money, public code!</b><br />
-                Wir entwickeln Software-Lösungen für die Gesellschaft und sind überzeugt, dass Zusammenarbeit Innovationen
-                fördert und die Qualität steigert.
+                <b>KI-gestützt</b><br />
+                Unsere Datenaggregierung, die kontextsensitive Inhaltsanalyse und das metrikbasierte Ranking agieren KI-gestützt.
             </p>
         </div>
     </div>
@@ -211,18 +248,6 @@ Information der breiten Bevölkerung."
             </p>
         </div>
     </div>
-    <div class="termin__box">
-        <h2>Schneller an die relevanten Informationen</h2>
-        <p>
-            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche? Gern schauen wir uns Ihren
-            konkreten Bedarf an. Nutzen Sie unser kostenfreies Beratungsgespräch.
-        </p>
-        <Button
-            style="btn-secondary mt-5"
-            label="Termin vereinbaren"
-            href="mailto:info@coverified.info?subject=Interesse%20an%20zusammenarbeit"
-        />
-    </div>
     <h2>
         <span class="green">#digitalpioneers</span>
     </h2>
@@ -239,12 +264,26 @@ Information der breiten Bevölkerung."
         <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625" />
         <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625" />
         <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625" />
-        <img loading="lazy" src="carmen_bernhardt.jpg" alt="Carmen Bernhardt" width="625" height="625" />
     </div>
     <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about" />
 </Container>
 
 <style type="text/scss">
+    .coverified-hero {
+        height: 30vh;
+        max-height: 650px;
+        position: relative;
+
+        > img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
     .mt-72 {
         margin-top: 4.5rem;
     }
@@ -391,7 +430,6 @@ Information der breiten Bevölkerung."
         column-gap: 8rem;
         background-color: var(--color-light-grey);
         position: relative;
-        margin-top: 7.5rem;
         padding-bottom: 3.125rem;
 
         &:before {
@@ -480,15 +518,6 @@ Information der breiten Bevölkerung."
             h2 {
                 margin-top: 3rem;
             }
-        }
-    }
-
-    @media (min-width: 1600px) {
-        .coverified-video {
-            width: auto !important;
-            max-width: 100%;
-            display: flex;
-            margin: 0 auto;
         }
     }
 </style>
