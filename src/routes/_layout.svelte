@@ -144,6 +144,12 @@
       color: var(--color-anthracite);
     }
   }
+
+  @media (max-width: 768px) {
+    :global(h2, .h2) {
+      font-size: 1.875rem;
+      }
+    }
 </style>
 
 <header>

@@ -7,25 +7,23 @@
     <title>Mit CoVerified Digitalisierung gestalten| Wir denken digitale Kommunikation neu</title>
     <meta
         name="description"
-        content="Unsere Software-Produkte gestalten Digitalisierung und
-schaffen mehr Wert."
+        content="Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen."
     />
 </svelte:head>
 <Container class="mt-0 mt-md-5  pt-3 text-center">
     <h1 class="h1 mt-0">Mehr digitale Power für alle.</h1>
     <p>
-        Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen.
-Für effizientere Prozesse, besser informierte Menschen und eine starke Gesellschaft.
-Los geht’s!
+        Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen. Für
+        effizientere Prozesse, besser informierte Menschen und eine starke Gesellschaft. Los geht’s!
     </p>
 </Container>
 <div class="coverified-hero mt-5 mb-3">
     <img
-            loading="eager"
-            src="headerbild-coverified-digital-power.jpg"
-            alt="CoVerified digital power"
-            width="2500"
-            height="1249"
+        loading="eager"
+        src="headerbild-coverified-digital-power.jpg"
+        alt="CoVerified digital power"
+        width="2500"
+        height="2000"
     />
 </div>
 <Container class="pt-3 text-center">
@@ -33,23 +31,17 @@ Los geht’s!
         Lasst uns die Welt <span class="green">besser besser</span> machen!
     </h2>
     <p>
-        Effizienter arbeiten, schneller finden, besser verstehen – wir machen das Leben leichter für alle,
-        die in und mit Regierungen, Verwaltungen, Institutionen und Unternehmen arbeiten und kommunizieren. Damit MEHR WERT entsteht.
+        Effizienter arbeiten, schneller finden, besser verstehen – wir machen das Leben leichter für alle, die in und
+        mit Regierungen, Verwaltungen, Institutionen und Unternehmen arbeiten und kommunizieren. Damit MEHR WERT
+        entsteht.
     </p>
     <div class="grid-wrapper mt-5">
-        <img
-            loading="lazy"
-            src="situation.png"
-            alt="Die Situation"
-            width="316"
-            height="307"
-            class="grid-image w-50"
-        />
+        <img loading="lazy" src="situation.png" alt="Die Situation" width="316" height="307" class="grid-image w-50" />
         <div class="grid-text">
             <p>
                 <b>Die Situation</b><br />
-                Informationen sind oft verstreut, kompliziert und unübersichtlich. Prozesse veraltet und ineffizient.
-                Das digitale Potenzial bleibt ungenutzt. Das erschwert die Kommunikation mit Bürger:innen und Mitarbeitenden,
+                Informationen sind oft verstreut, kompliziert und unübersichtlich. Prozesse veraltet und ineffizient. Das
+                digitale Potenzial bleibt ungenutzt. Das erschwert die Kommunikation mit Bürger:innen und Mitarbeitenden,
                 raubt Zeit und bremst Innovationskraft. Frustrierend für alle!
             </p>
         </div>
@@ -57,19 +49,18 @@ Los geht’s!
         <div class="grid-text">
             <p>
                 <b>Die Lösungen</b><br />
-                Wir gehen zusammen auf die Reise. Ob experimenteller Prototyp, inspirierendes Pilot-Projekt oder umfassender System-Change –
-                wir analysieren gemeinsam den genauen Bedarf und kreieren iterativ und agil zusammen die passende innovative Digital-Lösung.
-                Und das ist manchmal etwas ganz anderes, als am Anfang gedacht.
+                Wir gehen zusammen auf die Reise. Ob experimenteller Prototyp, inspirierendes Pilot-Projekt oder umfassender
+                System-Change – wir analysieren gemeinsam den genauen Bedarf und kreieren iterativ und agil zusammen die
+                passende innovative Digital-Lösung. Und das ist manchmal etwas ganz anderes, als am Anfang gedacht.
             </p>
         </div>
         <img class="grid-image" loading="lazy" src="vision.png" alt="Unsere Vision" width="297" height="307" />
         <div class="grid-text">
             <p>
                 <b>Unsere Vision</b><br />
-                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse.
-                Agile, wertschätzende Zusammenarbeit. Den Boden bereiten für neue Mindsets.
-                Und mit unseren Kompetenzen die Digitalisierung so gestalten,
-                dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
+                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse. Agile, wertschätzende
+                Zusammenarbeit. Den Boden bereiten für neue Mindsets. Und mit unseren Kompetenzen die Digitalisierung so
+                gestalten, dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
             </p>
         </div>
     </div>
@@ -77,23 +68,29 @@ Los geht’s!
         <div class="column--1-2 row--1">
             <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
             <p class="mb-5 mb-md-0 font-weight-300">
-                Im Auftrag der Energiewende! CoVerified entwickelt die Kommunikationskampagne “DA/RE – da steckt mehr dahinter”
-                für TransnetBW und macht damit "Redispatch" für alle erlebbar.
+                Im Auftrag der Energiewende! CoVerified entwickelt die Kommunikationskampagne “DA/RE – da steckt mehr
+                dahinter” für TransnetBW und macht damit "Redispatch" für alle erlebbar.
             </p>
         </div>
         <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
-            <img loading="lazy" src="game-ipad.jpeg" alt="DA/RE Game on iPad" class="w-100">
+            <img loading="lazy" src="game-ipad.jpeg" alt="DA/RE Game on iPad" class="w-100" />
         </div>
         <div
             class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
         >
             <p>
-                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex.
-                We make it easy: Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game
-                können User unterhaltsam verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten
-                und wie die IT Plattform “DA/RE” sie dabei unterstützt.
+                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex. We make it easy:
+                Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game können User unterhaltsam
+                verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten und wie die IT Plattform “DA/RE”
+                sie dabei unterstützt.
             </p>
-            <Button style="btn-secondary mt-5" label="Zur DA/RE Kampagnenseite &#8594;" href="https://www.dare-plattform.de/erleben" target="_blank" rel="noopener" />
+            <Button
+                style="btn-secondary mt-5"
+                label="Zur DA/RE Kampagnenseite &#8594;"
+                href="https://www.dare-plattform.de/erleben"
+                target="_blank"
+                rel="noopener"
+            />
         </div>
     </div>
     <div class="social__impact">
@@ -101,9 +98,12 @@ Los geht’s!
             <span class="green--light-grey">Social Impact</span> durch digitale Innovationen
         </h2>
         <p>
-            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge Leidenschaft für Open Social Innovation.
-            Wir lieben es, wenn wir mit <b>#RapidPrototyping</b>, <b>#DigitalThinking</b> und unserem <b>#FullStackService</b> <b>#GoodTech</b> entwickeln.
-            Und wenn wir dann noch als <b>#DigitalisierungsVorreiter:innen</b> echten <b>#Mehrwert</b> erzeugen, jubelt unser <b>#Tech4Good</b> Herz.
+            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge
+            Leidenschaft für Open Social Innovation. Wir lieben es, wenn wir mit <b>#RapidPrototyping</b>,
+            <b>#DigitalThinking</b>
+            und unserem <b>#FullStackService</b> <b>#GoodTech</b> entwickeln. Und wenn wir dann noch als
+            <b>#DigitalisierungsVorreiter:innen</b>
+            echten <b>#Mehrwert</b> erzeugen, jubelt unser <b>#Tech4Good</b> Herz.
         </p>
     </div>
 </Container>
@@ -112,36 +112,39 @@ Los geht’s!
         Let's <span class="green">co-create</span> !
     </h2>
     <p>
-        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen.
-        Das beginnt schon beim Ausgraben von Innovations-Potenzial und zieht sich durch alle Stadien des Projekts.
-        Wir beflügeln da, wo Sie uns brauchen. Punktuell oder rundherum.
+        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen. Das beginnt schon beim Ausgraben von
+        Innovations-Potenzial und zieht sich durch alle Stadien des Projekts. Wir beflügeln da, wo Sie uns brauchen.
+        Punktuell oder rundherum.
     </p>
     <img
-            loading="lazy"
-            src="cocreation-illustration.svg"
-            alt="Co-Creation"
-            width="714"
-            height="450"
-            class="img-fluid mx-auto mb-n5"
+        loading="lazy"
+        src="cocreation-illustration.svg"
+        alt="Co-Creation"
+        width="714"
+        height="450"
+        class="img-fluid mx-auto mb-n5"
     />
     <div class="grid">
         <div class="grid-content">
             <p>
                 <b>Analyse</b><br />
-                Wo genau liegt eigentlich das Problem? Wo steckt Potential? Wir finden es gemeinsam mit Ihnen und den Nutzenden heraus.
+                Wo genau liegt eigentlich das Problem? Wo steckt Potential? Wir finden es gemeinsam mit Ihnen und den Nutzenden
+                heraus.
             </p>
         </div>
         <div class="grid-content">
             <p>
                 <b>Vision & Konzept</b><br />
-                Welche Lösung bringt für alle den größten Wert? Jetzt lassen wir Insights, Anforderungen, Ideen und KnowHow verschmelzen.
+                Welche Lösung bringt für alle den größten Wert? Jetzt lassen wir Insights, Anforderungen, Ideen und KnowHow
+                verschmelzen.
             </p>
         </div>
         <div class="grid-content">
             <p>
                 <b>Iterative Umsetzung</b><br />
-                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin.
-                Unterwegs neue Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle Stakeholder im Blick.
+                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin. Unterwegs neue
+                Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle
+                Stakeholder im Blick.
             </p>
         </div>
     </div>
@@ -149,7 +152,8 @@ Los geht’s!
         <div class="grid-content">
             <p>
                 <b>Implementierung & Training</b><br />
-                Alles passt und geht an den Start? We take care. Um die Software, um das Produkt aber auch um die, die damit arbeiten sollen.
+                Alles passt und geht an den Start? We take care. Um die Software, um das Produkt aber auch um die, die damit
+                arbeiten sollen.
             </p>
         </div>
         <div class="grid-content">
@@ -168,9 +172,9 @@ Los geht’s!
     <div class="termin__box">
         <h2>Digitalisierungsbedarf? Los geht's!</h2>
         <p>
-            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche?
-            Oder einfach Lust auf ein inspirierendes Projekt, das frischen digitalen Wind und echten Mehrwert mitbringt?
-            Gern schauen wir uns den konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
+            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche? Oder einfach Lust auf ein
+            inspirierendes Projekt, das frischen digitalen Wind und echten Mehrwert mitbringt? Gern schauen wir uns den
+            konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
         </p>
         <Button
             style="btn-secondary mt-5"
@@ -281,6 +285,7 @@ Los geht’s!
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: 50% 45%;
         }
     }
 
@@ -298,7 +303,6 @@ Los geht’s!
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 12rem 25rem;
         column-gap: 6.25rem;
-
 
         &:before {
             content: '';
@@ -501,8 +505,12 @@ Los geht’s!
     }
 
     @media (max-width: 768px) {
+        h2 {
+            font-size: 1.875rem;
+        }
+
         .termin__box {
-            padding: 2.5rem 3.375rem;
+            padding: 2.5rem 1rem;
         }
     }
 
@@ -517,6 +525,18 @@ Los geht’s!
 
             h2 {
                 margin-top: 3rem;
+            }
+        }
+    }
+
+    @media (min-width: 2100px) {
+        .coverified-hero {
+            > img {
+                max-width: 2100px;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                object-position: 50% 43%;
             }
         }
     }
