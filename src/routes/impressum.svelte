@@ -25,7 +25,7 @@
   66123 Saarbrücken
 </p>
 <p>
-  E-Mail: <a href= "mailto:info@coverified.info" title="CoVerified E-Mail">info@coverified.info</a><br />
+  E-Mail: <a href="mailto:info@coverified.info" title="CoVerified E-Mail">info@coverified.info</a><br />
   Web: <a href="www.coverified.info" title="CoVerified.info" rel="noopener" targer="_blank">www.coverified.info</a>
 </p>
 <p>
