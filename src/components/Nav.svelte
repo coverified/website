@@ -11,6 +11,7 @@
         max-width: 71.25rem;
         margin: 0 auto;
         align-items: center;
+        justify-content: end;
         position: fixed;
         top: 0;
         left: 0;
@@ -37,7 +38,6 @@
             display: flex;
             flex-direction: column;
             color: var(--color-primary);
-            margin-right: auto;
             padding-top: .8rem;
             padding-bottom: .8rem;
 
@@ -213,39 +213,7 @@
 </style>
 
 <nav>
-    <a href=".">
+    <a href="." class="ml-auto">
         <img  class="logo" src="coverified-logo-claim.svg" alt="CoVerified" width="360" height="165"/>
     </a>
-    <ul class={open ? 'open' : ''}>
-        <li>
-            <a rel="prefetch"
-               aria-current={segment === 'home' ? 'page' : undefined}
-               href="."
-               on:click={() => {open = !open}}>
-                Home
-            </a>
-        </li>
-        <li>
-            <a rel="prefetch"
-               aria-current={segment === 'about' ? 'page' : undefined}
-               href="about"
-               on:click={() => {open = !open}}>
-                Über CoVerified
-            </a>
-        </li>
-        <li>
-            <a rel="prefetch"
-               class="contact"
-               aria-current={segment === 'contact' ? 'page' : undefined}
-               href="contact"
-               on:click={() => {open = !open}}>
-                Kontakt
-            </a>
-        </li>
-    </ul>
-    <button aria-label="Navigation" class={open ? 'open' : ''} on:click={() => {open = !open}}>
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
 </nav>

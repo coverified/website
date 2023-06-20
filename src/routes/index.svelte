@@ -10,266 +10,180 @@
         content="Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen."
     />
 </svelte:head>
-<Container class="mt-0 mt-md-5  pt-3 text-center">
-    <h1 class="h1 mt-0">Mehr digitale Power für alle.</h1>
+<Container class="mt-0 mt-md-5  pt-3">
+    <h1 class="h1 mt-0">Desinformation vorzubeugen und damit Demokratie zu stärken, bleibt weiterhin wichtig.</h1>
+    <p>Aber vorerst ohne uns als CoVerified.</p>
+    <p>Ende 2022 haben wir beschlossen, unser Projekt als CoVerified zu beenden.</p>
     <p>
-        Mit den besten Werkzeugen der Digitalisierung entwickeln wir gemeimsam innovative Software-Lösungen. Für
-        effizientere Prozesse, besser informierte Menschen und eine starke Gesellschaft. Los geht’s!
+        Seit dem Beginn unserer gemeinsamen Reise während der Corona-Pandemie haben wir uns kontinuierlich
+        weiterentwickelt, sind gemeinsam gewachsen und haben eine Reihe spannender Projekte umsetzen dürfen.
     </p>
-</Container>
-<div class="coverified-hero mt-5 mb-3">
-    <img
-        loading="eager"
-        src="headerbild-coverified-digital-power.jpg"
-        alt="CoVerified digital power"
-        width="2500"
-        height="2000"
-    />
-</div>
-<Container class="pt-3 text-center">
-    <h2 class="mt-5">
-        Lasst uns die Welt <span class="green">besser besser</span> machen!
-    </h2>
     <p>
-        Effizienter arbeiten, schneller finden, besser verstehen – wir machen das Leben leichter für alle, die in und
-        mit Regierungen, Verwaltungen, Institutionen und Unternehmen arbeiten und kommunizieren. Damit MEHR WERT
-        entsteht.
+        Nach mehr als 2 Jahren intensiver und schöner Zusammenarbeit sind wir jedoch an einen Punkt gekommen, an dem die
+        individuellen Lebenssituationen und Vorstellungen nicht mehr zur Idee von CoVerified gepasst haben. Wir haben
+        uns deshalb gemeinsam für die Beendigung unserer Unternehmung entschieden.
     </p>
-    <div class="grid-wrapper mt-5">
-        <img loading="lazy" src="situation.png" alt="Die Situation" width="316" height="307" class="grid-image w-50" />
-        <div class="grid-text">
-            <p>
-                <b>Die Situation</b><br />
-                Informationen sind oft verstreut, kompliziert und unübersichtlich. Prozesse veraltet und ineffizient. Das
-                digitale Potenzial bleibt ungenutzt. Das erschwert die Kommunikation mit Bürger:innen und Mitarbeitenden,
-                raubt Zeit und bremst Innovationskraft. Frustrierend für alle!
-            </p>
-        </div>
-        <img class="grid-image" loading="lazy" src="loesung.png" alt="Unsere Lösung" width="316" height="307" />
-        <div class="grid-text">
-            <p>
-                <b>Die Lösungen</b><br />
-                Wir gehen zusammen auf die Reise. Ob experimenteller Prototyp, inspirierendes Pilot-Projekt oder umfassender
-                System-Change – wir analysieren gemeinsam den genauen Bedarf und kreieren iterativ und agil zusammen die
-                passende innovative Digital-Lösung. Und das ist manchmal etwas ganz anderes, als am Anfang gedacht.
-            </p>
-        </div>
-        <img class="grid-image" loading="lazy" src="vision.png" alt="Unsere Vision" width="297" height="307" />
-        <div class="grid-text">
-            <p>
-                <b>Unsere Vision</b><br />
-                Neue digitale Kanäle und Formate. Userzentrierte Inhalte und effizientere Prozesse. Agile, wertschätzende
-                Zusammenarbeit. Den Boden bereiten für neue Mindsets. Und mit unseren Kompetenzen die Digitalisierung so
-                gestalten, dass sie uns allen als Treiber positiver Veränderung für Gesellschaft und Wirtschaft dient.
-            </p>
-        </div>
-    </div>
-    <div class="mt-5 bg-primary text-white">
-        <div class="column--1-2 row--1">
-            <h2 class="text-white mt-0">Aktuelles bei CoVerified</h2>
-            <p class="mb-5 mb-md-0 font-weight-300">
-                Im Auftrag der Energiewende! CoVerified entwickelt die Kommunikationskampagne “DA/RE – da steckt mehr
-                dahinter” für TransnetBW und macht damit "Redispatch" für alle erlebbar.
-            </p>
-        </div>
-        <div class="row--2 column--1 d-flex justify-content-center flex-column align-items-center">
-            <img loading="lazy" src="game-ipad.jpeg" alt="DA/RE Game on iPad" class="w-100" />
-        </div>
-        <div
-            class="row--2 column--2 order-2 order-lg-3 d-flex justify-content-center flex-column align-items-center my-5 my-lg-0"
-        >
-            <p>
-                Redispatch – also Stromausgleich im Zeitalter erneuerbarer Energien ist hochkomplex. We make it easy:
-                Dank interaktiver Webseite, griffigen Anzeigenmotiven und spannendem Game können User unterhaltsam
-                verstehen und erleben, was Netzbetreibende im Hintergrund alles leisten und wie die IT Plattform “DA/RE”
-                sie dabei unterstützt.
-            </p>
-            <Button
-                style="btn-secondary mt-5"
-                label="Zur DA/RE Kampagnenseite &#8594;"
-                href="https://www.dare-plattform.de/erleben"
-                target="_blank"
-                rel="noopener"
-            />
-        </div>
-    </div>
-    <div class="social__impact">
-        <h2>
-            <span class="green--light-grey">Social Impact</span> durch digitale Innovationen
-        </h2>
-        <p>
-            Bei uns trifft anspruchsvolle Technologie auf ausgeklügelte User-Experience, kreatives Design und jede Menge
-            Leidenschaft für Open Social Innovation. Wir lieben es, wenn wir mit <b>#RapidPrototyping</b>,
-            <b>#DigitalThinking</b>
-            und unserem <b>#FullStackService</b> <b>#GoodTech</b> entwickeln. Und wenn wir dann noch als
-            <b>#DigitalisierungsVorreiter:innen</b>
-            echten <b>#Mehrwert</b> erzeugen, jubelt unser <b>#Tech4Good</b> Herz.
-        </p>
-    </div>
-</Container>
-<Container class="pt-3 text-center">
-    <h2 class="mt-5">
-        Let's <span class="green">co-create</span> !
-    </h2>
     <p>
-        Wir sind überzeugt, dass die besten Ergebnisse gemeinsam entstehen. Das beginnt schon beim Ausgraben von
-        Innovations-Potenzial und zieht sich durch alle Stadien des Projekts. Wir beflügeln da, wo Sie uns brauchen.
-        Punktuell oder rundherum.
+        Das heißt nicht, dass wir von der Bildfläche verschwinden - im Gegenteil. Wir alle sind weiterhin in
+        unterschiedlichen Konstellationen individuell und in verschiedenen Unternehmen unterwegs.
     </p>
-    <img
-        loading="lazy"
-        src="cocreation-illustration.svg"
-        alt="Co-Creation"
-        width="714"
-        height="450"
-        class="img-fluid mx-auto mb-n5"
-    />
-    <div class="grid">
-        <div class="grid-content">
-            <p>
-                <b>Analyse</b><br />
-                Wo genau liegt eigentlich das Problem? Wo steckt Potential? Wir finden es gemeinsam mit Ihnen und den Nutzenden
-                heraus.
-            </p>
-        </div>
-        <div class="grid-content">
-            <p>
-                <b>Vision & Konzept</b><br />
-                Welche Lösung bringt für alle den größten Wert? Jetzt lassen wir Insights, Anforderungen, Ideen und KnowHow
-                verschmelzen.
-            </p>
-        </div>
-        <div class="grid-content">
-            <p>
-                <b>Iterative Umsetzung</b><br />
-                Innovative Technologie trifft ausgeklügelte UX und kreative UI – und Sie sind mittendrin. Unterwegs neue
-                Anforderungen entdeckt? Gemeinsam passen wir den Prototyp so lange an, bis alles passt und haben dabei alle
-                Stakeholder im Blick.
-            </p>
-        </div>
-    </div>
-    <div class="grid mt-0 mt-lg-4 pt-lg-3">
-        <div class="grid-content">
-            <p>
-                <b>Implementierung & Training</b><br />
-                Alles passt und geht an den Start? We take care. Um die Software, um das Produkt aber auch um die, die damit
-                arbeiten sollen.
-            </p>
-        </div>
-        <div class="grid-content">
-            <p>
-                <b>Maintenance</b><br />
-                Alles im Lot auf dem Boot – auch wenns während der Fahrt mal etwas stürmig wird.
-            </p>
-        </div>
-        <div class="grid-content">
-            <p>
-                <b>Marketing & Kommunikation</b><br />
-                Hallo Welt, das Baby ist da! Von interner bis externer Kommunikation sorgen wir fürs passende Roll- & ShoutOut.
-            </p>
-        </div>
-    </div>
-    <div class="termin__box">
-        <h2>Digitalisierungsbedarf? Los geht's!</h2>
-        <p>
-            Ineffiziente Arbeitsprozesse? Mühsame Kommunikation? Stundenlange Recherche? Oder einfach Lust auf ein
-            inspirierendes Projekt, das frischen digitalen Wind und echten Mehrwert mitbringt? Gern schauen wir uns den
-            konkreten Bedarf an. Dafür gibt’s unser kostenfreies Beratungsgespräch.
-        </p>
-        <Button
-            style="btn-secondary mt-5"
-            label="Termin vereinbaren"
-            href="mailto:info@coverified.info?subject=Interesse%20an%20zusammenarbeit"
-        />
-    </div>
-    <h2>
-        Darum <span class="green">CoVerified</span>
-    </h2>
-    <div class="grid">
-        <figure class="grid-image">
-            <img loading="lazy" src="opensource.png" alt="OpenSocialInnovation" width="120" height="120" />
-            <figcaption>#OpenSocialInnovation</figcaption>
-        </figure>
-        <div class="grid-content">
-            <p>
-                <b>Public money, public code!</b><br />
-                Wir entwickeln Software-Lösungen für die Gesellschaft und sind überzeugt, dass Zusammenarbeit Innovationen
-                fördert und die Qualität steigert.
-            </p>
-        </div>
-        <figure class="grid-image">
-            <img loading="lazy" src="dsvgo.png" alt="CyberSicher" width="120" height="120" />
-            <figcaption>#CyberSicher</figcaption>
-        </figure>
-        <div class="grid-content">
-            <p>
-                <b>DSGVO- konform</b><br />
-                Datensicherheit hat bei uns Vorrang: Wir verzichten auf alles, was möglich ist, verarbeiten notwendige Daten
-                von Nutzenden DSVGO-konform und hosten unsere Services in Deutschland.
-            </p>
-        </div>
-        <figure class="grid-image">
-            <img loading="lazy" src="ki.png" alt="TrustInTech" width="120" height="120" />
-            <figcaption>#TrustInTech</figcaption>
-        </figure>
-        <div class="grid-content">
-            <p>
-                <b>KI-gestützt</b><br />
-                Unsere Datenaggregierung, die kontextsensitive Inhaltsanalyse und das metrikbasierte Ranking agieren KI-gestützt.
-            </p>
-        </div>
-    </div>
-    <div class="grid mt-0 mt-lg-4 pt-lg-3">
-        <figure class="grid-image">
-            <img loading="lazy" src="diversity.png" alt="Diversity" width="120" height="120" />
-            <figcaption>#Diversity</figcaption>
-        </figure>
-        <div class="grid-content">
-            <p>
-                <b>Barrierefrei</b><br />
-                Barrierefreiheit und Möglichkeiten zur Mehrsprachigkeit gehören für uns zu jeder guten digitalen Lösung dazu.
-            </p>
-        </div>
-        <figure class="grid-image">
-            <img loading="lazy" src="mobilefirst.png" alt="UsersFirst" width="120" height="120" />
-            <figcaption>#UsersFirst</figcaption>
-        </figure>
-        <div class="grid-content">
-            <p>
-                <b>Mobile First</b><br />
-                Desktop oder Mobil? Unser Design ist responsiv und bietet damit für jedes Device die optimale User Experience.
-            </p>
-        </div>
-        <figure class="grid-image">
-            <img loading="lazy" src="digitalisierung.png" alt="DigitalisierungGestalten" width="120" height="120" />
-            <figcaption>#DigitalisierungGestalten</figcaption>
-        </figure>
-        <div class="grid-content">
-            <p>
-                <b>Full Stack - Full Service</b><br />
-                Neben dem kompletten Software-Produkt mit Backend und Frontend liefern wir auf Wunsch individuelle Beratungsleistungen:
-                Projektleitung, Marketing, Trainings, Support.
-            </p>
-        </div>
-    </div>
-    <h2>
-        <span class="green">#digitalpioneers</span>
-    </h2>
-    <p class="mb-5">
-        CoVerified denkt Information und Kommunikation neu. Entstanden 2020 aus dem #WirvsVirus-Hackathon der
-        Bundesregierung arbeiten wir interdiziplinär an digitalen GovTech-Lösungen. Dabei punkten wir als agiles Team
-        mit langjähriger Erfahrung in der Kommunikationsbranche und Softwareentwicklung.
-    </p>
+    <p>Wir freuen uns deshalb weiterhin über Rückfragen, Anfragen und den aktiven Austausch.</p>
     <div class="digitalpioneers">
-        <img loading="lazy" src="alessa_fetzer.jpg" alt="Alessa Fetzer" width="625" height="625" />
-        <img loading="lazy" src="christina_vollnhals.jpg" alt="Christina Vollnhals" width="625" height="625" />
-        <img loading="lazy" src="florian_schlittenbauer.jpg" alt="Florian Schlittenbauer" width="625" height="625" />
-        <img loading="lazy" src="johannes_hiry.jpg" alt="Johannes Hiry" width="625" height="625" />
-        <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625" />
-        <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625" />
-        <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625" />
+        <div class="overlay__container">
+            <img loading="lazy" src="alessa_fetzer.jpg" alt="Alessa Fetzer" width="625" height="625" />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Alessa Fetzer<br />
+                    <span class="overlay__container-popup--title">Projektmanagerin</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a href="https://www.xing.com/profile/Alessa_Fetzer/" target="_blank" title="Xing" rel="noopener">
+                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener">
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay__container">
+            <img loading="lazy" src="christina_vollnhals.jpg" alt="Christina Vollnhals" width="625" height="625" />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Christina Vollnhals<br />
+                    <span class="overlay__container-popup--title">UX-Designerin</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a
+                        href="https://www.xing.com/profile/Christina_Vollnhals/"
+                        target="_blank"
+                        title="Xing"
+                        rel="noopener"
+                    >
+                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/christina-vollnhals-21b96513b/"
+                        target="_blank"
+                        title="linkedIn"
+                        rel="noopener"
+                    >
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay__container">
+            <img
+                loading="lazy"
+                src="florian_schlittenbauer.jpg"
+                alt="Florian Schlittenbauer"
+                width="625"
+                height="625"
+            />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Florian Schlittenbauer<br />
+                    <span class="overlay__container-popup--title">Webentwickler</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a
+                        href="https://www.xing.com/profile/Florian_Schlittenbauer/cv"
+                        target="_blank"
+                        title="Xing"
+                        rel="noopener"
+                    >
+                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/schliflo/" target="_blank" title="linkedIn" rel="noopener">
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay__container">
+            <img loading="lazy" src="johannes_hiry.jpg" alt="Johannes Hiry" width="625" height="625" />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Johannes Hiry<br />
+                    <span class="overlay__container-popup--title">Gesellschafter</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a href="https://www.xing.com/profile/Johannes_Hiry/cv" target="_blank" title="Xing" rel="noopener">
+                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/johannes-hiry/"
+                        target="_blank"
+                        title="linkedIn"
+                        rel="noopener"
+                    >
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay__container">
+            <img loading="lazy" src="julia_diehl.jpg" alt="Julia Diehl" width="625" height="625" />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Julia Diehl<br />
+                    <span class="overlay__container-popup--title">UX-Designerin / Marketing & Kommunikation</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a
+                        href="https://www.linkedin.com/in/julia-diehl-ux-co/"
+                        target="_blank"
+                        title="linkedIn"
+                        rel="noopener"
+                    >
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay__container">
+            <img loading="lazy" src="steven_killian.jpg" alt="Steven Killian" width="625" height="625" />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Steven Killian<br />
+                    <span class="overlay__container-popup--title">Webentwickler</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a
+                        href="https://www.linkedin.com/in/steven-killian-224b65199/"
+                        target="_blank"
+                        title="linkedIn"
+                        rel="noopener"
+                    >
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay__container">
+            <img loading="lazy" src="paula_weise.jpg" alt="Paula Weise" width="625" height="625" />
+            <div class="overlay__container-popup">
+                <p class="overlay__container-popup--name">
+                    Paula Weise<br />
+                    <span class="overlay__container-popup--title">Designerin</span>
+                </p>
+                <div class="overlay__container-popup--links">
+                    <a href="https://www.xing.com/profile/Paula_Weise4/cv" target="_blank" title="Xing" rel="noopener">
+                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/paula-weise-b979091a2/"
+                        target="_blank"
+                        title="linkedIn"
+                        rel="noopener"
+                    >
+                        <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <Button style="btn-primary" label="CoVerified kennenlernen&nbsp;&#8594;" href="/about" />
 </Container>
 
 <style type="text/scss">
@@ -471,6 +385,160 @@
         }
     }
 
+    .digitalpioneers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 16rem);
+        justify-content: center;
+        grid-template-rows: 1fr;
+        grid-gap: 1.5rem;
+        z-index: 1;
+
+        .overlay__container {
+            position: relative;
+
+            &-popup {
+                &--links {
+                    display: flex;
+                    justify-content: center;
+                    position: absolute;
+                    bottom: 3.1875rem;
+                    left: 0;
+                    right: 0;
+
+                    a {
+                        img {
+                            width: 60%;
+                        }
+                    }
+                }
+                img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    z-index: -10;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 770px) {
+    }
+
+    @media (min-width: 992px) {
+        .digitalpioneers {
+            .overlay__container {
+                position: relative;
+
+                &:hover .overlay__container-popup {
+                    opacity: 0.8;
+                }
+
+                &-popup {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    opacity: 0;
+                    transition: 0.25s ease-in;
+                    background-color: var(--color-primary);
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10rem;
+                    color: var(--color-white);
+
+                    &--name {
+                        font-weight: 500;
+                        position: absolute;
+                        text-align: center;
+                        top: 3.1875rem;
+                        left: 0;
+                        right: 0;
+                    }
+
+                    &--title {
+                        font-weight: 300;
+                        font-size: 1.15rem;
+                    }
+
+                    &--links {
+                        display: flex;
+                        justify-content: center;
+                        position: absolute;
+                        bottom: 3.1875rem;
+                        left: 0;
+                        right: 0;
+
+                        a {
+                            img {
+                                width: 60%;
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    z-index: -10;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .zitat {
+            font-size: 2.25rem;
+        }
+
+        .digitalpioneers {
+            grid-template-columns: repeat(auto-fit, 12rem);
+
+            .overlay__container {
+                &-popup {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10rem;
+
+                    &--name {
+                        font-size: 1.15rem;
+                        top: 0.25rem;
+                        line-height: 1.25;
+                        text-align: center;
+                        position: relative;
+                    }
+
+                    &--title {
+                        font-size: 1rem;
+                        position: relative;
+                    }
+
+                    &--links {
+                        position: relative;
+                        bottom: 0.25rem;
+
+                        a {
+                            img {
+                                filter: brightness(0.65);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bg-secondary {
+            margin-top: 1.75rem;
+        }
+
+        .bg-primary {
+            .twitter-logo {
+                width: 15%;
+            }
+        }
+    }
+
     @media (max-width: 992px) {
         h1 {
             font-size: 2rem;
@@ -512,6 +580,10 @@
         .termin__box {
             padding: 2.5rem 1rem;
         }
+
+        .digitalpioneers {
+            grid-template-columns: repeat(auto-fit, 14rem);
+        }
     }
 
     @media (max-width: 576px) {
@@ -526,6 +598,13 @@
             h2 {
                 margin-top: 3rem;
             }
+        }
+    }
+
+    @media (max-width: 524px) {
+        .digitalpioneers {
+            grid-template-columns: repeat(auto-fit, 10rem);
+            justify-content: center;
         }
     }
 

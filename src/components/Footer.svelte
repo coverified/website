@@ -70,38 +70,7 @@
 <footer>
     <Row class="pt-5 pb-4">
         <Col sm="12" md="8" class="d-flex flex-row align-items-end mb-5 mb-lg-0">
-            <a rel="noopener"
-               class="mt-3 mr-3"
-               target="_blank"
-               href="https://www.linkedin.com/company/coverified-startup/"
-            >
-                <Icon icon="linkedin" />
-                <span class="sr-only">CoVerified auf LinkedIn</span>
-            </a>
-            <a rel="noopener"
-               class="mt-3 mr-3"
-               target="_blank"
-               href="https://mobile.twitter.com/CoVeri_fied"
-            >
-                <Icon icon="twitter" />
-                <span class="sr-only">CoVerified auf Twitter</span>
-            </a>
-            <a rel="noopener"
-               class="mt-3 mr-3"
-               target="_blank"
-               href="https://github.com/coverified"
-            >
-                <Icon icon="github" />
-                <span class="sr-only">CoVerified auf GitHub</span>
-            </a>
-            <a rel="noopener"
-               class="mt-3 mr-3"
-               target="_blank"
-               href="mailto:info@coverified.info"
-            >
-                <Icon icon="mail" />
-                <span class="sr-only">Mail an CoVerified</span>
-            </a>
+        
         </Col>
         <Col sm="12" md="4" class="d-flex flex-column align-items-end">
             <a rel="prefetch"
