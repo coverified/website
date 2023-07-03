@@ -12,11 +12,11 @@
 </svelte:head>
 <Container class="mt-0 mt-md-5  pt-3">
     <h1 class="h1 mt-0">Desinformation vorzubeugen und damit Demokratie zu stärken, bleibt weiterhin wichtig.</h1>
-    <p>Aber vorerst ohne uns als CoVerified.</p>
+    <p><sup>*</sup>Aber vorerst ohne uns als CoVerified.</p>
     <p>Ende 2022 haben wir beschlossen, unser Projekt als CoVerified zu beenden.</p>
     <p>
-        Seit dem Beginn unserer gemeinsamen Reise während der Corona-Pandemie haben wir uns kontinuierlich
-        weiterentwickelt, sind gemeinsam gewachsen und haben eine Reihe spannender Projekte umsetzen dürfen.
+        Seit dem Beginn unserer gemeinsamen Reise haben wir uns kontinuierlich weiterentwickelt, sind gemeinsam
+        gewachsen und haben eine Reihe spannender Projekte umgesetzt.
     </p>
     <p>
         Nach mehr als 2 Jahren intensiver und schöner Zusammenarbeit sind wir jedoch an einen Punkt gekommen, an dem die
@@ -24,10 +24,10 @@
         uns deshalb gemeinsam für die Beendigung unserer Unternehmung entschieden.
     </p>
     <p>
-        Das heißt nicht, dass wir von der Bildfläche verschwinden - im Gegenteil. Wir alle sind weiterhin in
-        unterschiedlichen Konstellationen individuell und in verschiedenen Unternehmen unterwegs.
+        Das heißt nicht, dass wir von der Bildfläche verschwinden - im Gegenteil. Wir sind weiterhin in
+        unterschiedlichen Konstellationen und in verschiedenen Unternehmen unterwegs.
     </p>
-    <p>Wir freuen uns deshalb weiterhin über Rückfragen, Anfragen und den aktiven Austausch.</p>
+    <p>Wir freuen uns deshalb weiterhin über Rückfragen, Anfragen und den aktiven Austausch.<sup>*</sup></p>
     <div class="digitalpioneers">
         <div class="overlay__container">
             <img loading="lazy" src="alessa_fetzer.jpg" alt="Alessa Fetzer" width="625" height="625" />
@@ -37,9 +37,6 @@
                     <span class="overlay__container-popup--title">Projektmanagerin</span>
                 </p>
                 <div class="overlay__container-popup--links">
-                    <a href="https://www.xing.com/profile/Alessa_Fetzer/" target="_blank" title="Xing" rel="noopener">
-                        <img src="xing.svg" alt="Xing Logo" loading="lazy" width="35" height="39" />
-                    </a>
                     <a href="https://www.linkedin.com/in/alessafetzer/" target="_blank" title="linkedIn" rel="noopener">
                         <img src="linkedin.svg" alt="linkedIn Logo" loading="lazy" width="35" height="39" />
                     </a>
